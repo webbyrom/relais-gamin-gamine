@@ -1,0 +1,1029 @@
+.kidsworld_l_boxed { margin:0 auto; overflow: visible; }
+
+#kidsworld_main_container { width:100%; position: relative; z-index: 2; }
+.kidsworld_container { position: relative; margin:0 auto; }
+.kidsworld_main_container_wrap { margin:0 auto; }
+
+.kidsworld_main_container { display:block; margin:0 auto; width:auto; position: relative;  }
+
+.kidsworld_site_content a { text-decoration: none; }
+
+/***************************************************************
+* List Style *
+****************************************************************/
+.kidsworld_container ul { list-style: disc outside none; }
+.kidsworld_container li { margin-left: 1em; padding: 3px 0px; }
+
+.sidebar ul,.footer ul { list-style: none; margin: 0; }
+.sidebar ul li { margin:0; padding: 3px 0px; display: block; line-height: normal; }
+
+/***************************************************************
+* TOP BAR  *
+****************************************************************/
+
+.kidsworld_topbar { display:block;  min-height: 20px; padding:7px 0; line-height: 30px;  border-bottom:1px solid rgba(0,0,0,0.05); margin-bottom: -1px; }
+.kidsworld_topbar_left { float:left; }
+.kidsworld_topbar_right { float:right; }
+.kidsworld_topbar a { text-decoration: none; }
+
+.kidsworld_topbar ul, .kidsworld_topbar ul li { display: inline-block; padding:0; margin:0 0 0 10px; list-style: none; min-width: auto; }
+ul.kidsworld_topbar_left,.kidsworld_topbar ul.kidsworld_topbar_left li { margin:0 15px 0 0; }
+
+/***************************************************************
+* HEADER  / MENU  *
+****************************************************************/
+
+ul.kidsworld-menu-setting-msg { float:left; padding:0; margin:0; line-height: 148px; }
+ul.kidsworld-menu-setting-msg li { list-style: none; font-size: 90%; padding:0; margin:0; }
+
+.kidsworld_header_container { position: relative; }
+
+.kidsworld_logo_menu_header { position: relative; display: block; width:100%; }
+
+.kidsworld_no_boxed.kidsworld_fw_header #kidsworld_header .kidsworld_container,
+.kidsworld_no_boxed.kidsworld_fw_header #kidsworld_topbar .kidsworld_container { width:98%; max-width: none; }
+
+/* ============================================= */
+
+.kidsworld_header { display: block; position: relative; }
+.kidsworld_logo { position: relative; float:left; }
+.kidsworld_main_nav { float:right; display: block; position: relative; }
+.kidsworld_thickborder { position: relative; overflow: hidden; width:100%; height:5px; display: block;margin-bottom: -5px; }
+span.kidsworld_header_thick_border { height:5px; width:100%; right:-70%; top:0; display: inline-block; position: absolute; }
+
+nav.kidsworld-top-menu { float:left; }
+ul.kidsworld_top_nav { padding:0; margin:0; float:left; z-index: 5; }
+ul.kidsworld_top_nav > li { display: inline-block; margin:0; float:left; padding:0; min-width: 125px; text-align: center; }
+ul.kidsworld_top_nav > li > a { text-decoration: none; padding:0; position: relative;display: block; margin:0 0 28px 0; }
+ul.kidsworld_top_nav > li > a > span { display: block; position: relative; text-align: center; clear:both; padding: 33px 15px 0px 15px; line-height: 14px;  }
+
+ul.kidsworld_top_nav > li > a > span > i { display: block; position: relative; height:47px; width:47px; border-radius: 50%; text-align: center; line-height: 48px; font-size: 20px; padding:0; margin:0 auto 20px; z-index: 4; }
+ul.kidsworld_top_nav > li > a > span > i:after { content:''; display: block; position: absolute; width:53px; height:53px; border-radius: 50%; background:transparent; z-index: -1; left:0; top:0; opacity: 0.5; margin:-3px 0 0 -3px; opacity: 1; }
+
+ul.kidsworld_top_nav > li:hover > a > span > i { font-size: 22px;  }
+ul.kidsworld_top_nav > li > ul li i { margin-right: 5px; }
+
+ul.kidsworld_top_nav > li > a > span:before { position: absolute; width:100%; height:5px; top:0; left:0; display: block; content:''; z-index: 10; }
+ul.kidsworld_top_nav > li > a > span:after { content:''; position: absolute;  right:0; width:2px; height:14px; display: block; line-height: 14px; bottom:0px; margin:0; }
+ul.kidsworld_top_nav > li.kidsworld_m_active > a:before { content:''; position: absolute; top:0; margin-left: -11px; left:50%; width: 0; height: 0; border-left: 11px solid transparent; border-right: 11px solid transparent; }
+
+ul.kidsworld_top_nav li { position: relative; list-style: none; }
+ul.kidsworld_top_nav li a { text-decoration: none; }
+
+ul.kidsworld_top_nav.kidsworld_no_menu_icon > li > a { margin:0; }
+ul.kidsworld_top_nav.kidsworld_no_menu_icon > li > a > span { padding:0 15px; line-height: 148px; }
+ul.kidsworld_top_nav.kidsworld_no_menu_icon > li > a > span:after { margin-top: 67px; bottom:auto; top:0; }
+
+/*Dropdown*/
+
+ul.kidsworld_top_nav li ul { position: absolute; width:200px; top:30px; left:50%; padding:0; margin:0; line-height: 20px; visibility: hidden; opacity: 0; display: none; z-index: 6; box-shadow:0px 0px 3px 0px rgba(0, 0, 0, 0.15); border-radius: 5px; margin-left: -100px; }
+ul.kidsworld_top_nav li.kidsworld_menu_hover > ul { visibility: visible; }
+ul.kidsworld_top_nav li ul ul { left:100%; margin-left: 0px; margin-top: -1px; }
+
+ul.kidsworld_top_nav li ul li:first-child { border-radius: 5px 5px 0 0; }
+ul.kidsworld_top_nav li ul li:last-child { border-radius: 0 0 5px 5px; }
+
+ul.kidsworld_top_nav li:hover > ul { -moz-transition: opacity .3s ease-in-out; -webkit-transition: opacity .3s ease-in-out; transition: opacity .3s ease-in-out; }
+ul.kidsworld_top_nav li:hover > ul { opacity: 1; visibility: visible; display: table; }
+ul.kidsworld_top_nav li:hover { visibility: inherit; }
+
+ul.kidsworld_top_nav li ul,
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul { display: table; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li { display: table-cell; }
+
+ul.kidsworld_top_nav li:not(.kidsworld-mega-menu) > ul li { border-top-width:1px; border-top-style:solid; }
+/*ul.kidsworld_top_nav > li:not(.kidsworld-mega-menu) > ul > li:first-child { border:0; }*/
+ul.kidsworld_top_nav li ul li a span { padding:10px 20px; margin:0; display: block;  text-decoration: none; }
+ul.kidsworld_top_nav li ul li:first-child a span,
+ul.kidsworld_top_nav li ul li li:first-child a span { border-top:0; }
+ul.kidsworld_top_nav > li > ul li { float:left; width:100%;  }
+ul.kidsworld_top_nav li > ul { top:100%;  }
+
+ul.kidsworld_top_nav li li { padding: 0; margin:0; position: relative; }
+ul.kidsworld_top_nav li li ul { top:auto; top:0; position: absolute; }
+
+ul.kidsworld_top_nav li:last-child:not(.kidsworld-mega-menu) ul ul { left:auto; right:100%; margin-left: 0px; }
+
+
+/*  item space  ------------------------------------ */
+
+ul.kidsworld_top_nav > li:not(.kidsworld-mega-menu) > ul li { padding-top:5px; padding-bottom:5px; }
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:not(.menu-item-object-category) ul li { padding-top:5px; padding-bottom:5px; }
+
+/* mega menu */
+ul.kidsworld_top_nav li.kidsworld-mega-menu { position: inherit; text-align: left; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul { padding:0; position: absolute !important; margin:0; width:100%; top:100%; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li { border:0; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li > a:first-child span { font-weight: bold; padding-top: 25px; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li > ul > li:last-child { margin-bottom: 25px; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li > ul > li { padding-right: 5px; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu:not(.menu-item-object-category) > ul > li { margin: 0; float: left!important; display: block !important; width:25%; padding:5px 1% 0 1%; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li a { padding:0; border:0; display: block; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li a span { border:0;padding-left: 20px; padding:6px 0; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li > a:first-child span { margin-bottom: 8px; padding-left: 20px; cursor: default; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li:first-child {  border:0;  }
+ul.kidsworld_top_nav li.kidsworld-mega-menu.no-title > ul > li > a { display: none; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu li > ul { padding: 0 0 0 20px; margin:0; border:none; left: auto; top: auto; position: relative; visibility: visible; opacity: 1; display: none; padding-left: 20px; width:100%; float:none; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu:hover li ul { opacity: 1 !important; visibility: visible !important; display: block; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu .sub-menu li:hover { background:none; }
+
+/*arrow after before*/
+ul.kidsworld_top_nav li.kidsworld-mega-menu .menu-item-has-children > a:first-child:after { display: none; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li > ul > li > a > span:before { content:'\f0da'; font-family: fontAwesome; float:left; margin-left: -12px; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li > ul > li > a > span { padding-left: 12px; overflow: hidden; display: block; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu:not(.menu-item-object-category) > ul li > a span,
+ul.kidsworld_top_nav li.kidsworld-mega-menu:not(.menu-item-object-category) > ul li > a { position:relative; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu:not(.menu-item-object-category) > ul li:hover > a:before { content:''; position:absolute; left:0; top:0; width:100%; height:100%; padding:5px; display:block; z-index:0; margin-left:-7px; border-radius:3px; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu:not(.menu-item-object-category) > ul > li > a:first-child:before { display:none; }
+
+/*Category Mega menu*/
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category > ul { padding:0; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category > ul > li { width:33%; padding:20px; text-align: center; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category ul li a { border:0; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category img { max-width: 100%; width:100%; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li a.kidsworld_nav_p_img { margin-bottom: 15px; display: block; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li a.kidsworld_nav_p_title { margin-bottom: 5px; display: inline-block; font-size: 15px; font-weight: bold; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li .kidsworld_nav_p_meta { display: block; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li .kidsworld_nav_p_meta span { display: inline-block; margin: 0 6px; font-size: 12px; opacity: 0.8; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li .kidsworld_nav_p_meta span i { margin-right: 5px; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category > ul { display: table; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category > ul > li { display: table-cell; float:none; height:100%; border-left:1px solid; }
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category > ul > li:first-child {  border:0;  }
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category ul li a { padding:0; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu:not(.menu-item-object-category) > ul > li:first-child { border:0; }
+
+.kidsworld_nav ul.kidsworld_top_nav > li > ul > li > a > span, 
+.kidsworld_nav ul.kidsworld_top_nav > li > ul > li > ul > li > a > span {-moz-transition-duration: 0.3s; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; -moz-transition-property:   color; -webkit-transition-property:color; -o-transition-property: color; transition-property: color; }
+
+/*mobile menu*/
+
+#kidsworld_mobi_nav ul#kidsworld_top_nav { display: none; z-index: 999999; }
+
+#kidsworld_mobi_nav #kidsworld_mobi_nav_btn { font-size: 16px; text-align: center; display: inline-block; cursor: pointer; font-family: "Font Awesome"; line-height: 41px;  right:0; float:right; width:40px; height:40px; border-radius: 10px; } 
+
+#kidsworld_mobi_nav { width: 250px; position: absolute; right:0; top:0; display: none; top:50%; margin-top: -20px; } 
+#kidsworld_mobi_nav a { text-decoration: none; }
+#kidsworld_mobi_nav > ul { position: absolute; left:0; top:0; top: 43px; border-radius:10px; overflow: hidden; }
+#kidsworld_mobi_nav ul,#kidsworld_mobi_nav ul li {width: 100%; display: block; margin:0; padding:0;}
+#kidsworld_mobi_nav ul { display: none; text-align: left;  }
+
+#kidsworld_mobi_nav ul li { border-bottom:1px solid #e6e6e6;  }
+#kidsworld_mobi_nav ul li:last-child { border:0; }
+#kidsworld_mobi_nav ul li ul li span { padding-left: 15px; }
+#kidsworld_mobi_nav ul li ul li:first-child { border-top:1px solid #e6e6e6; }
+
+#kidsworld_mobi_nav > ul > li > a {padding: 12px 15px; } 
+#kidsworld_mobi_nav > ul > li > a > span { padding-left: 8px; }
+#kidsworld_mobi_nav ul li a {width: 100%; border-bottom: 0; padding: 12px; line-height: 20px; display: block; } 
+
+#kidsworld_mobi_nav ul ul li a {padding-left: 25px; } 
+#kidsworld_mobi_nav ul ul ul li a {padding-left: 35px; } 
+#kidsworld_mobi_nav ul ul ul ul li a {padding-left: 45px; }
+#kidsworld_mobi_nav ul ul ul ul ul li a {padding-left: 55px; }
+#kidsworld_mobi_nav ul ul ul ul ul ul li a {padding-left: 65px; }
+
+#kidsworld_mobi_nav  ul li.kidsworld-has-sub-menu > a {padding-right: 45px; }
+
+#kidsworld_mobi_nav .kidsworld-mini-menu-arrow {position: absolute; right: 0; top: 0; display: block;  height: 44px; width: 44px; cursor: pointer; font-family: "Font Awesome"; text-align: center;} 
+#kidsworld_mobi_nav .kidsworld-mini-menu-arrow i { line-height: 44px; }
+#kidsworld_mobi_nav ul li ul li .kidsworld-mini-menu-arrow { padding-left:5px; }
+
+#kidsworld_mobi_nav ul.kidsworld-nav-cat-posts li a { padding-left: 12px; }
+#kidsworld_mobi_nav ul.kidsworld-nav-cat-posts li a.kidsworld_nav_p_img { padding-bottom: 0; }
+
+.kidsworld_container #kidsworld_mobi_nav ul li { margin-left:0; position: relative; }
+#kidsworld_mobi_nav > ul > li:first-child { border-top:0; }
+
+#kidsworld_mobi_nav ul li,#kidsworld_mobi_nav li:hover { background:#fff; }
+
+/*Sticky Header*/
+
+.kidsworld_logo_menu_holder { height:142px; }
+.kidsworld_logo_img a { padding-top: 21px; padding-bottom: 21px; display: inline-block; }
+.kidsworld_logo_img img { height:100px; max-height: 100px; }
+
+@media only screen and (min-width: 768px) { 
+
+	body.kidsworld_stickyOn .kidsworld_containers_holder { margin-top: 142px; }
+	.kidsworld_stickyOn .kidsworld_logo_menu_header { position: fixed; }
+
+	#kidsworldHeader.kidsworld_smaller_menu #kidsworld_mobi_nav { margin-top:10px; }
+	#kidsworldHeader.kidsworld_smaller_menu .kidsworld_logo_menu_holder { height:100px; }
+	#kidsworldHeader.kidsworld_smaller_menu .kidsworld_logo_img a { padding-top:10px; padding-bottom: 10px; }
+	#kidsworldHeader.kidsworld_smaller_menu .kidsworld_logo_img img { max-height: 100px; height:80px; }
+
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li > a { margin:0; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li > a > span { padding: 23px 15px 0px 15px; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li > a > span > i {height: 30px; width: 30px; line-height: 31px; font-size: 14px; margin: 0 auto 12px; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li > a > span > i:after { width:36px; height:36px; margin:-3px 0 0 -3px; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active > a:before { margin-left: -9px; border-left: 9px solid transparent; border-right: 9px solid transparent; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav.kidsworld_no_menu_icon > li > a > span { line-height: 100px; padding:0 15px; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav.kidsworld_no_menu_icon > li > a > span:after { margin-top: 43px; bottom:auto; top:0; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld-menu-setting-msg { line-height: 100px; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld-mega-menu > ul { margin:0; }
+	
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li > ul { top:100px;  }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li { padding-bottom: 21px; }
+	#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav.kidsworld_no_menu_icon > li { padding:0; }
+}
+
+/***************************************************************
+* SUB HEADER  *
+****************************************************************/
+
+#kidsworld_sub_header { position: relative; padding:20px 0; text-align: center; margin-bottom: -19px; }
+
+.kidsworld_sub_header_title,h1.kidsworld_sub_header_title { margin:0; padding:0; line-height: normal; position: relative; display: inline;  }
+
+.kidsworld_sub_header_title:before,h1.kidsworld_sub_header_title:before { content:''; position: absolute; background:url(../images/title-bg-left.png) no-repeat left top; width:150px; height:60px; margin:-35px 0 0 -150px; }
+.kidsworld_sub_header_title:after,h1.kidsworld_sub_header_title:after { content:''; position: absolute; background:url(../images/title-bg-right.png) no-repeat right bottom; width:133px; height:60px; margin:0 0 -25px 0px; bottom:0; }
+
+.kidsworld_search_bg,.kidsworld_bc_bg { top:0; display: block; width:100%; height:100%; position: absolute;  top:0; height:38px; z-index: 1; }
+.kidsworld_search_bg { right:-100%;  }
+.kidsworld_bc_bg { left:-100%; }
+
+.kidsworld_search_breadcrumb_container,.kidsworld_search_container { position: relative; overflow: hidden; margin-bottom: -19px; z-index: 2; height:38px; }
+
+.kidsworld_breadcrumbs 	{ padding:4px 15px 4px 0; border-radius: 0 10px 10px 0; display: inline-block; position: relative; text-align: center; float:left; z-index: 2; }
+.kidsworld_search_box_bar { padding:4px 0 4px 12px;  border-radius: 10px 0 0 10px; display: inline-block; position: relative; width:150px;  }
+
+.kidsworld_breadcrumbs a { text-decoration: none; }
+.kidsworld_breadcrumbs span.kidsworld_bc_sep {  width:20px; text-align: center; padding:0 5px; }
+
+.kidsworld_search_box_bar .kidsworld_search_box_bar_icon { float:left; line-height: 30px; margin-right: 7px; }
+.kidsworld_search_box_bar input[type="text"].kidsworld_search_form_input { border:0; padding:0; margin:0; display: inline-block; width:100px; float:left; line-height: 30px; }
+.kidsworld_search_box_bar input[type="text"]:focus { box-shadow: none; }
+.kidsworld_search_box_bar form.kidsworld_search_form { display: inline-block; float:left; }
+form.kidsworld_search_form input::-webkit-input-placeholder{ opacity: 1; } 
+form.kidsworld_search_form input:-moz-placeholder{ opacity: 1; } 
+form.kidsworld_search_form input::-moz-placeholder{ opacity: 1; } 
+form.kidsworld_search_form input:-ms-input-placeholder{ opacity: 1; }
+form.kidsworld_search_form { margin:0; }
+.kidsworld_search_box_bar .kidsworld_search_button { display: none; }
+
+.kidsworld_logo { z-index: 2; }
+.kidsworld_nav { z-index: 11; }
+	ul.kidsworld_top_nav li ul { z-index: 9998; }
+		ul.kidsworld_top_nav li li ul { z-index: 1000; }
+
+#top_mini_nav { z-index: 3; }
+#kidsworld_mobi_nav_btn { z-index: 999991; } 
+#kidsworld_mobi_nav .kidsworld-mini-menu-arrow { z-index: 99; }
+
+#kidsworld_sub_header { z-index: 1; }
+
+.kidsworld_thickborder { z-index: 10; }
+.kidsworld_logo_menu_header { z-index: 9;}
+
+/* Google map - Revolution slider */
+.kidsworld_header_google_map,.kidsworld_header_slider,.kidsworld_google_map_embed_code { margin-bottom: -19px; }
+.home.blog .kidsworld_header_google_map,.home.blog .kidsworld_header_slider,.home.blog #kidsworld_sub_header { margin-bottom:0; }
+.kidsworld_header_googlemap_title { font-size: 170%; padding:10px; }
+.kidsworld_header_googlemap_info { line-height: 20px;  padding:0 10px 10px; font-size: 80%;  }
+.kidsworld_google_map_embed_code iframe { display: block; }
+/***************************************************************
+* SIDEBAR  *
+****************************************************************/
+
+.sidebar { display: block; }
+.sidebar a { text-decoration: none; position: relative; }
+
+.kidsworld_widget_box { position: relative; display: block; clear:both; width:100%; margin-bottom:50px; position: relative; float: left; border-radius: 10px; padding:30px; }
+
+.sidebar .kidsworld_widget_box h3 { line-height: 27px; }
+.sidebar .kidsworld_widget_box h3 span { display:inline-block; position: relative; width:auto; float:left; padding-right:15px; z-index: 2; }
+.kidsworld_sidebar_ttl { position: relative; display: block; margin:-22px 0px 25px 0px; width:100%; z-index: 2; }
+
+.sidebar .kidsworld_widget_box h3:before { position: absolute; content:''; width:13px; height:13px; border:1px solid; padding:2px; display: block; border-radius: 50%; left:0; top:50%; margin-left: -37px; margin-top: -6px;  }
+.sidebar .kidsworld_widget_box h3:after { position: absolute; content: ''; width:7px; height:7px; display: block; border-radius: 50%; left:0; top:50%; margin-left: -34px; margin-top: -3px;  }
+
+.kidsworld_sidebar_title_border { display:block; position: absolute; right:0; margin-right:-35px; width:100%; height:10px; top:50%; margin-top: -5px; border-radius:0 5px 5px 0; padding:1px 0; z-index: 0; }
+
+.kidsworld_sidebar_title_border:after { content:''; position: absolute; z-index:0; margin-right:4px; height:8px; width:100%; display: block; right:0; }
+
+.sidebar .kidsworld_widget_content > ul,.sidebar .kidsworld_widget_content ul.menu { list-style: none; }
+
+.kidsworld_widget_content { width:100%; display: block; padding:0; }
+
+.sidebar p { line-height: 1.8em; }
+.sidebar ul li { border-bottom: 1px solid; margin:0; padding: 9px 0; display: block; line-height: 1.8em; }
+.sidebar ul li:first-child { padding-top: 0; }
+.sidebar ul li ul { padding:15px 0 0 20px; }
+.sidebar ul li:last-child { border-bottom:0; }
+.sidebar ul li ul li { border:0; padding:5px 0 5px 10px; }
+.sidebar ul li ul li:first-child { border:0;  }
+.sidebar .kidsworld_widget_box,.sidebar .kidsworld_fb_subscribe_wid { margin-bottom:25px; }
+
+/***************************************************************
+* Footer *
+****************************************************************/
+
+/*Contact Footer*/
+.kidsworld_cotact_footer { margin:0 auto; text-align: center; padding-bottom: 20px; position: relative; background-position: center center; display: table; width:100%;  }
+.kidsworld_cotact_footer p { margin:0; text-align: center; line-height: 27px; }
+.kidsworld_cotact_footer a { text-decoration: none; }
+
+.kidsworld_cf_icon_line { position: relative; overflow: visible; margin-bottom: 12px; }
+
+.kidsworld_contact_icon {  display: inline-block; margin:0px 0 20px 0; position: relative; font-size: 20px; }
+.kidsworld_contact_icon i { display: block; line-height: 26px; }
+.kidsworld_column_gap { position: relative; }
+.kidsworld_column_gap:before { height:2px; width:100%; position: absolute; top:25px; left:0; content:''; display: block; }
+
+ul.cf_sm_icons li  { list-style: none; display: inline-block; margin:0 6px; padding:0 3px; }
+ul.cf_sm_icons li a { font-size: 17px; }
+
+.kidsworld_cotact_footer_wrap .kidsworld_column { margin:0; }
+.kidsworld_cotact_footer_wrap .kidsworld_column_gap { margin:0; padding:0 10px; }
+.kidsworld_cotact_footer_wrap.kidsworld_row { margin:-26px 0 0 0; }
+
+.kidsworld_contact_icon {width: 46px; height: 26px; position: relative; margin: 13px auto; }
+.kidsworld_contact_icon:before {content: ""; width: 0; height: 0; position: absolute; top: -12px; left: 0; border-left: 23px solid transparent; border-right: 23px solid transparent; }
+.kidsworld_contact_icon:after {content: ""; width: 0; height: 0; position: absolute; bottom: -12px; left: 0; border-left: 23px solid transparent; border-right: 23px solid transparent; }
+
+/*Widget Footer*/
+
+.kidsworld_footer_border { position: relative; display: block; width:100%; height:10px; padding:1px 0; }
+.kidsworld_footer_border span { width:100%; display: block; height:8px; position: relative; }
+
+.footer { margin:0 auto; position: relative; padding:40px 0 20px 0; clear:both; background-position: center center; }
+
+.kidsworld_footer_bg {  float:left; width:100%; text-align: center;  }
+
+.kidsworld_footer_widget { margin-bottom: 40px; text-align: left; }
+
+.kidsworld_footer_widget h3 { text-align: center; position: relative; padding-bottom: 12px; margin-bottom: 35px; }
+
+.kidsworld_footer_widget h3 span:after,.kidsworld_footer_widget h3 span:before { content:''; position: absolute; bottom:0; left:50%; width:80px; margin-left: -40px; height:2px; }
+.kidsworld_footer_widget h3 span:after { margin-bottom: -4px; width:60px; margin-left: -30px; }
+
+.footer ul { padding:0; margin:0; }
+.footer ul li a { text-decoration: none; }
+.footer ul ul { padding-left: 5px; }
+.footer ul li:first-child { margin-top: 0; padding-top: 0;  }
+.footer ul li:last-child { border-bottom:0; }
+
+.footer p { padding-top: 2px;}
+
+.footer input,.footer textarea { background: none; }
+.footer select { margin:0; width:100%; background: none; }
+
+.footer ul li { border-bottom: 1px solid; position: relative; padding:8px 0; margin-left: 0;  }
+.footer ul ul { margin: 15px 0 0px 10px;}
+.footer ul ul li { border:0; padding: 3px 0 3px 0;}
+.tagcloud a { border:1px solid; }
+
+.footer .widget_nav_menu ul { border:1px solid; border-radius: 10px; }
+.footer .widget_nav_menu ul li { padding-left: 16px; }
+.footer .widget_nav_menu ul li i { width:30px; }
+.footer .widget_nav_menu ul li:first-child { padding-top: 8px; }
+
+#kidsworld_go_top_scroll_btn { width:40px; height:40px; line-height: 38px; text-align: center; font-size: 20px; border-radius:50%; position:fixed; right:30px; bottom:50px; display:none; text-align: center; cursor: pointer; z-index: 9999; opacity: 0.7; }
+
+#kidsworld_go_top_scroll_btn:hover { opacity: 1; }
+
+/*Copyright footer*/
+.kidsworld_footer_copyright { text-align: center; background:rgba(0,0,0,0.05); border-top:1px solid rgba(0,0,0,0.06); padding: 20px 0 22px 0; margin-bottom: -20px; }
+.kidsworld_footer_copyright p { font-size: 12px; margin:0; }
+.kidsworld_footer_copyright a { text-decoration: none; }
+
+/***************************************************************
+* Blog *
+****************************************************************/
+
+.kidsworld_post_image img, .kidsworld_post_image { display: block; position: relative; z-index: 3; text-align: center;  }
+.kidsworld_post_image { padding:0;  display: block; }
+.kidsworld_post_image img { width:100%; border-radius: 10px; }
+
+.kidsworld_post_content {  position: relative; min-height:100px;  height:100%; margin-bottom: 50px; clear:both;  }
+.single .kidsworld_post_content { margin-bottom: 0px; }
+.kidsworld_post_text { overflow: hidden; }
+.kidsworld_postExcerptOn .kidsworld_post_text { text-align: center; }
+
+.kidsworld_post_content_block { position: relative; padding:0 20px;  }
+
+.kidsworld_post_date_pf_icon { position: absolute; display: block; width:auto; float:left; text-align: center; height:41px; line-height: 41px; margin:-21px 0 0 0; left:50%; top:0; z-index: 4; border-radius: 5px; }
+.kidsworld_post_date { padding:0 20px; height:41px; line-height:41px; display: block; border-radius: 5px; overflow: hidden; }
+
+.kidsworld_post_date i.swn_sticky_post { display:inline-block; width:42px; height:42px; text-align: center; line-height: 42px; margin-left: -20px; margin-right: 10px; border-radius: 5px 0 0 5px; }
+
+/*Author*/
+.kidsworld_post_author_avatar { width:75px; height:75px;  border-radius: 100px; position: absolute; margin: 0 auto -35px -35px; left:50%; text-align: center; bottom:0; }
+.kidsworld_post_author_avatar img { width:75px; height:75px; border-radius: 100px; border:4px solid; }
+
+.kidsworld_post_divider,.kidsworld_meta_bottom_divider { height:4px; border-top:1px solid; border-bottom:1px solid; width:150px; margin:20px auto 15px; display: block; }
+
+/* Title section, icon */
+.kidsworld_post_title_content { position: relative; text-align: center; display: block; border-radius: 10px; margin:-30px 0 0; z-index: 5; padding:30px;  margin-bottom: 30px;}
+.kidsworld_post_title h1,.kidsworld_post_title h2 { margin-bottom: 0; }
+
+.kidsworld_blog_post.format-video:hover .kidsworld_post_title_content,
+.kidsworld_blog_post.format-audio:hover .kidsworld_post_title_content { margin-top: 25px; }
+
+.kidsworld_postDateOn .kidsworld_post_title { margin-top: 10px; margin-bottom: 10px; }
+.kidsworld_noPostData .kidsworld_post_title_content { margin-top: 10px; }
+
+.kidsworld_post_button { position: relative; display: block; clear:both; margin:30px auto; text-align: center; width:auto; }
+
+.kidsworld_post_button a { display: inline-block; margin:0 auto; width:auto; position: relative;  }
+.kidsworld_post_button a span { text-align: center; z-index: 2; position: relative; text-decoration: none; font-size: 85%; display: inline-block; height:44px; line-height: 42px; padding:0px 30px; margin:0; border-radius: 5px; overflow: visible; border:1px solid; }
+
+.kidsworld_post_button a span:before,.kidsworld_post_button a span:after { content:''; position:absolute; top:50%; height:9px; width:9px; display: block; padding:0; z-index: 1; border-radius: 50%; margin-top: -5px; }
+
+.kidsworld_post_button a span:before { left:0; margin-left: -36px; }
+.kidsworld_post_button a span:after { right:0; margin-right: -36px; }
+
+.kidsworld_post_button a:before,.kidsworld_post_button a:after { content:''; position:absolute; top:50%; height:1px; width:58px; display: block; padding:0; z-index: 1; margin-top: -1px; }
+
+.kidsworld_post_button a:before { left:0; margin-left: -98px; }
+.kidsworld_post_button a:after { right:0; margin-right: -98px; }
+
+/* Meta */
+.kidsworld_post_meta { position: relative; padding:5px 0 0 0; font-size: 85%; font-weight: normal; text-align: center; }
+.kidsworld_post_meta ul { margin:0; padding:0 0 0 22px; display: inline; }
+.kidsworld_post_meta ul li {  margin:0 18px; list-style: none; display: inline-block; line-height: normal; padding:7px 0; }
+.kidsworld_post_meta ul li i { width:22px; margin-left: -22px; text-align: left; }
+.kidsworld_post_meta ul li a { text-decoration: none; display: inline-block; }
+
+.kidsworld_post_bottom_meta { margin:30px 0; display: block; clear:both; }
+
+.kidsworld_post_share_links { display: block; text-align: center; float:right; }
+
+ul.kidsworld_post_share_icons_list { display: inline-block; height:35px; padding:0; margin:0; }
+ul.kidsworld_post_share_icons_list li { display: inline-block; float:left; padding:0;  margin:3px; height:33px; width:33px; line-height: 31px; border-radius: 50%; text-align: center; }
+ul.kidsworld_post_share_icons_list li i { line-height: 31px; font-size: 14px; height:33px; width:31px; }
+ul.kidsworld_post_share_icons_list li a,ul.kidsworld_post_share_icons_list li a:hover { height:33px; width:33px; display: inline-block; }
+
+.kidsworld_post_tags { display: inline-block; float:left; margin-top: 7px; }
+.kidsworld_post_tags i { font-size: 14px; float:left; margin-right: 8px; line-height: 20px;  margin-top: 3px; }
+.kidsworld_post_tags a { display: inline-block; font-size: 80%; border:1px solid; text-decoration: none; padding:3px 8px; border-radius: 2px; float:left; margin:0 4px 4px 0; line-height: 20px; }
+
+/*Quote*/
+.kidsworld_pf_quote { border-radius: 10px; overflow: hidden; }
+body:not(.single) .kidsworld_only_quote_text.kidsworld_blog_post.format-quote .kidsworld_post_content_block,body:not(.single) .kidsworld_blog_post.format-quote.kidsworld_only_quote_text .kidsworld_post_date_pf_icon { display: none; }
+body:not(.single) .kidsworld_only_quote_text .kidsworld_post_content {margin-bottom: 80px; }
+body:not(.single) .kidsworld_blog_grid.kidsworld_only_quote_text .kidsworld_post_content {margin-bottom: 70px; }
+.single .format-quote .kidsworld_pf_quote_text { padding-bottom: 30px; }
+
+.kidsworld_posts_list { position: relative; }
+
+.kidsworld_post_masonry .kidsworld_posts_list .kidsworld_row {  margin:0 -13px;  }
+.kidsworld_post_masonry .kidsworld_posts_list .kidsworld_column_gap { margin:0; padding:0 13px; }
+
+.kidsworld_post_title h2 a { text-transform: none; }
+.kidsworld_blog_post .kidsworld_column_gap { margin:0; }
+.kidsworld_post_image iframe,.kidsworld_post_image audio { display: block; }
+
+.kidsworld-love .fa-heart { display: none; }
+.kidsworld-love.loved .fa-heart-o { display: none; }
+.kidsworld-love.loved .fa-heart { display: inline-block; }
+
+.kidsworld_post_ad { display: block; clear:both; position: relative; }
+.kidsworld_post_ad img { max-width: 100%; width:100%; }
+
+/* Blog Style Grid ============================================= */
+.kidsworld_blog_grid_section .kidsworld_post_meta ul { padding:0; }
+.kidsworld_blog_grid_section .kidsworld_post_meta { padding-top: 3px; }
+.kidsworld_blog_grid_section .kidsworld_post_title { margin:0; }
+.kidsworld_blog_grid_section .kidsworld_blog_post .kidsworld_column_gap { margin:0 10px; }
+.kidsworld_blog_grid_section.kidsworld_row { margin: 0 -20px; }
+
+.kidsworld_post_button_grid { width:43px; height:43px; display: block; background:#fff; border:1px solid rgba(0,0,0,0.1); border-radius: 50%; position: absolute; left:50%; margin-left: -22px; margin-bottom: -22px; bottom:0; padding:2px;  }
+.kidsworld_post_button_grid span { display: block; width:100%; height:100%; line-height: 36px; background:#fcb64f; color:#fff; border-radius: 50%; font-size: 18px;  }
+
+.kidsworld_blog_grid_section .kidsworld_post_date { padding:0 15px; height:33px; line-height: 33px; font-size: 80%; }
+.kidsworld_blog_grid_section .kidsworld_post_date_pf_icon { margin-top: -18px; text-transform: uppercase; }
+.kidsworld_blog_grid_section .kidsworld_post_date i.swn_sticky_post { line-height: 33px; width:36px; height:33px; margin-left: -15px; }
+.kidsworld_blog_grid_section .kidsworld_post_grid_btn_on .kidsworld_post_title_content { padding-bottom: 40px; }
+.kidsworld_blog_grid_section .kidsworld_post_content { margin-bottom: 40px; }
+.kidsworld_blog_grid_section .kidsworld_dot_sep { margin-top: 10px; margin-bottom: 10px; }
+
+.kidsworld_blog_grid_section .kidsworld_post_image { z-index: 9; background:transparent; }
+
+.kidsworld_blog_grid_section .kidsworld_post_image .kidsworld_post_date_pf_icon { z-index: 10; top:auto; bottom:0; margin-top: 0; margin-bottom: -23px;  }
+.kidsworld_blog_grid_section .kidsworld_grid_title1 .kidsworld_post_title_content { padding-top: 60px;  }
+.kidsworld_blog_grid_section .kidsworld_post_content_block { padding:0 10px; }
+
+.kidsworld_blog_grid_section .kidsworld_post_image img,.kidsworld_blog_grid_section .kidsworld_post_title_content,.kidsworld_blog_grid_section .kidsworld_post_image { border-radius: 20px; }
+
+.kidsworld_blog_grid_section .kidsworld_event_arrow { z-index: 11; }
+.kidsworld_blog_grid_section .kidsworld_post_image:hover .kidsworld_event_arrow { opacity: 1; top:50%; } 
+.kidsworld_blog_grid_section .kidsworld_post_image:hover { background:#000; }
+.kidsworld_blog_grid_section .kidsworld_post_image:hover img { opacity: 0.8; }
+.kidsworld_blog_post.kidsworld_blog_grid.format-video:hover .kidsworld_post_image .kidsworld_post_date_pf_icon,
+.kidsworld_blog_post.kidsworld_blog_grid.format-audio:hover .kidsworld_post_image .kidsworld_post_date_pf_icon { margin-bottom: -50px; }
+.kidsworld_blog_post.kidsworld_blog_grid.format-video:hover .kidsworld_grid_title1 .kidsworld_post_title_content,
+.kidsworld_blog_post.kidsworld_blog_grid.format-audio:hover .kidsworld_grid_title1 .kidsworld_post_title_content { padding-top: 30px;  }
+
+/*Tile Gallery*/
+.kidsworld_tile_gallery { display: block; }
+.kidsworld_tile_gallery ul { padding:0; margin:0; }
+.kidsworld_tile_gallery ul li { padding:0; margin:0; width:25%; display: inline-block; position: relative; font-size: 0; float:left; padding-right: 1px; padding-bottom: 1px; }
+.kidsworld_tile_gallery ul li:first-child { width:100%; display: block; clear:both; padding-right: 0; }
+.kidsworld_tile_gallery ul li:nth-child(2) { clear:both; }
+.kidsworld_tile_gallery ul li:nth-child(2),.kidsworld_tile_gallery ul li:nth-child(3) { width:50%; }
+.kidsworld_tile_gallery ul li:nth-child(3),.kidsworld_tile_gallery ul li:nth-child(7) { padding-right: 0; }
+.kidsworld_tile_gallery ul li img { margin:0; padding:0; }
+
+/*Post Single Styles --------------------------------- */
+
+.kidsworld_single_section { display: block; overflow: hidden; margin:0 20px; }
+h5.kidsworld_single_pg_titles,
+#comments h3.comment-reply-title { display: block; position: relative; }
+h5.kidsworld_single_pg_titles span,
+#comments h3.comment-reply-title span  { padding-right: 25px; z-index: 11; position: relative; }
+
+h5.kidsworld_single_pg_titles span:after,
+#comments h3.comment-reply-title span:after  { content:''; position:absolute; top:50%; height:8px; width:8px; display: block; padding:0; z-index: 1; border-radius: 50%; margin-top: -3px; right:0; }
+
+h5.kidsworld_single_pg_titles:after,
+#comments h3.comment-reply-title:after { content:''; position:absolute; top:50%; height:1px; width:100%; display: block; padding:0; z-index: 1; margin-top: 1px; left:0; }
+
+#commentform h3.comment-reply-title:after,#commentform h3.comment-reply-title span:after { display: none; }
+
+/* About author */
+.kidsworld_about_author { position: relative; clear:both; display: block; margin:0; padding:30px 0; }
+.kidsworld_about_author img { float:left; margin: 0 20px 0 0; width:85px; height:85px; border-radius: 10px;  }
+.kidsworld_about_author p { padding-left: 0; margin:0 0 0 100px; overflow: hidden;}
+.kidsworld_site_content .kidsworld_about_author h6 { margin:0 0 10px 0; font-size: 100%; text-transform: uppercase; }
+.kidsworld_about_author h6 a { text-decoration: none; }
+.kidsworld_author_page_box .kidsworld_about_author { margin:0 0 30px 0; }
+body.author .kidsworld_author_page_box .kidsworld_content_wrap { width:100%; }
+body.author .kidsworld_about_author_box { padding:0 20px; border-radius: 10px; }
+body.author .kidsworld_about_author { padding:35px; border-radius: 10px; }
+
+.kidsworld_site_content h5.kidsworld_single_pg_titles { margin-bottom:  30px; }
+
+#respond h3,.kidsworld_single_pg_titles {  margin:0; }
+
+.kidsworld_author_page_box { margin-bottom: 50px; }
+ul.kidsworld_post_author_icon { padding:0; margin:15px 0 0 105px; }
+ul.kidsworld_post_author_icon li { float:left; list-style: none; padding:0; margin:0 10px 0 0; font-size: 15px; }
+
+/*Related Posts*/
+.kidsworld_related_posts_wrap { clear:both; }
+.kidsworld_related_posts { padding:30px 0; }
+.kidsworld_related_posts ul { padding:0; margin:0 -1% 0 0; }
+.kidsworld_related_posts ul li { float:left; padding:0; margin:0 4% 0 0; width:30%; list-style: none; position: relative; }
+.kidsworld_related_posts ul li:last-child { margin-right: 0; }
+.kidsworld_related_posts h5 { margin-bottom: 20px; }
+.kidsworld_related_link h6 { margin:0; }
+.kidsworld_related_link h6 a {  margin-bottom: 0; }
+.kidsworld_related_posts ul li img { height:auto; margin-bottom: 20px; max-width: 100%; border-radius: 10px; }
+
+.kidsworld_related_post_text { display: block; clear:both; }
+.kidsworld_related_post_text span { display: block; }
+.kidsworld_related_post_text span.kidsworld_related_date { font-size: 80%; margin-top: 5px; opacity: 0.8; }
+
+/*Comments*/
+#comments,.kidsworld_container p.kidsworld_nocomments { padding:30px 0; clear:both; position: relative; }
+#comment-wrap { position: relative; }
+#comment-wrap > ol { margin-left: 0; }
+#comment-wrap p { margin:0 0 15px 0;  }
+#comments p.kidsworld_nocomments { padding:0; clear:both; margin:0; border:0; }
+
+.comment_body { position: relative; padding:0; margin:0; }
+.comment_avatar {float:left; display: inline-block; margin-left: -80px; }
+.comment_avatar img { display: inline-block; width:60px; height:60px; float:left; border-radius: 10px; }
+.comment_postinfo { margin-bottom: 5px; }
+.comment_author { margin-right: 7px; }
+.comment_author, .comment_author a { text-decoration: none; font-weight: 600; line-height:24px; margin-bottom: 10px; }
+.comment_date { font-size: 75%; display:inline-block; line-height: 18px; opacity: 0.8; text-transform: uppercase; padding-top: 2px; }
+.comment_date i { margin-right: 5px; }
+.comment_content {  padding:0 0 10px 80px; position: relative; float:left; z-index:1; width:100%;  }
+.comment_text { padding-top: 10px; }
+
+.kidsworld_comment_reply { display: block; position: relative; float:right; font-weight: bold; }
+#comments .kidsworld_comment_reply a.comment-reply-link,#comments .kidsworld_comment_reply a.comment-reply-login { padding:0 20px; display: inline-block; width:auto; text-decoration: none; font-size: 80%; line-height: 30px; cursor:pointer; margin-top:0; text-transform: uppercase; }
+#comments .kidsworld_comment_reply a.comment-reply-link i { margin-right: 5px; }
+#comments .kidsworld_comment_reply a.comment-reply-link { text-align: center; margin:0; opacity: 0.8; }
+#comments .kidsworld_comment_reply a.comment-reply-link:hover { opacity:1; }
+#comment-wrap ol.commentlist li ul.children { padding-left: 40px; }
+#comment-wrap ol { padding:0; margin:0; }
+#comment-wrap ol li ul { padding-bottom: 0 }
+#comment-wrap ol li.comment,#content #comment-wrap ol li.post.pingback { background:none; list-style: none; margin-left: 0; padding:20px 0 0 0;  }
+#comment-wrap ol > li.comment:first-child { border-top:0; padding-top: 0; }
+#comment-wrap ol > li.comment:last-child .comment_content { padding-bottom: 10px;  }
+#comment-wrap ol > li.comment:first-child .comment_content { padding-top: 0; }
+#comments li.comment article.comment_body { padding:20px 20px 0 20px; border-radius: 10px; }
+
+/* Comment Form */
+#respond { position: relative; clear:both; padding:30px 0; }
+#comments #respond:after,#comments #respond:before { display: none; }
+#respond h3 { padding:0px; margin:0 0 30px 0; }
+#respond h3 i { margin-right: 10px; }
+#comments #respond h3 { border:0; margin:0; text-align: left; padding:0; }
+#comments #respond h3 i { display: none; }
+#comments #respond { padding:30px 0 10px 85px; border:0; width:100%; margin:0; }
+#comments #respond #commentform { padding:0; border:0; }
+#respond h3 small a#cancel-comment-reply-link { display:block; text-decoration: none; font-size: 75%; padding: 5px 0 10px 0; color:red; }
+#respond .form-allowed-tags,#respond p.comment-notes { display:none; }
+#comments #respond h3.comment-reply-title span:after,#comments #respond h3.comment-reply-title:after { display:none; }
+
+#commentform { padding:0; }
+#commentform label { clear:both; font-weight: normal; }
+#commentform textarea#comment { width: 99%; clear:both; margin: 0 0 15px 0; height:150px; border-radius: 10px; }
+#commentform input[type=text] { width: 50%; float:left; display:inline-block; margin-right: 1%; clear:both; text-indent: 10px; border-radius: 10px; }
+#commentform input[type=text],input[type=password], #commentform textarea { border-radius:10px; font-size:90%; padding: 10px 0; margin-bottom: 15px;}
+#commentform textarea { padding: 10px 2%;  }
+#commentform p { width:auto; margin:0;  }
+input[type=password] { margin-bottom: 0; display:inline-block; padding:12px; }
+#commentform .hidden { display: none; }
+input[type="submit"] { display: inline; font-weight: bold; }
+
+#commentform p.comment-form-author,#commentform p.comment-form-email,#commentform p.comment-form-url { width:31%; float:left; margin-right: 3%; }
+#commentform p.comment-form-author input[type=text],#commentform p.comment-form-email input[type=text],#commentform p.comment-form-url input[type=text]{ width:100%; }
+#commentform p.comment-form-url { margin-right: 0; }
+#commentform p.comment-form-comment { width:100%; float:left; }
+#commentform p.form-submit { clear:both; margin-top:10px; display: inline-block; float:left; margin-bottom: 30px; }
+
+/*Post Single Next Prev Pagination*/
+
+.kidsworld_post_single_pagination { display: block; clear:both;  margin:40px 0; }
+.kidsworld_pp_arrow { font-size: 65px; opacity: 0.3; line-height: 65px; }
+.kidsworld_next_prev_box { float:left; width:49%; display: inline-block; padding:20px; border-radius: 10px; }
+.kidsworld_pp_next { text-align: right; float:right; }
+.kidsworld_pp_link span { display: block; }
+.kidsworld_pp_prev .kidsworld_pp_arrow { float:left; }
+.kidsworld_pp_next .kidsworld_pp_arrow { float:right; }
+.kidsworld_pp_link_text { font-size: 90%; font-style: italic; opacity: 0.8; padding-bottom:1px; }
+.kidsworld_pp_prev .kidsworld_pp_arrow { margin-right: 15px; }
+.kidsworld_pp_next .kidsworld_pp_arrow { margin-left: 15px; }
+
+.kidsworld_next_prev_box a { width:100%; height:100%; }
+.kidsworld_next_prev_box:hover .kidsworld_pp_arrow,
+.kidsworld_next_prev_box:hover .kidsworld_pp_link_text  { opacity:1;  }
+
+/***************************************************************
+* Pagination *
+****************************************************************/
+
+.kidsworld_pagination_wrap { width:auto; margin:0 auto 30px; text-align: center; }
+.kidsworld_pagination { width:auto;  display: block; }
+
+.kidsworld_pagination a,.kidsworld_pagination .page-numbers.current,
+#comments .kidsworld-paginate-com a,#comments .kidsworld-paginate-com span, .kidsworld_pagination_menu > a,.kidsworld_pagination_menu > span { margin:0; display: inline-block; width:45px; height:40px; line-height: 38px; border-radius:3px; }
+.kidsworld_pagination .page-numbers.current { font-weight: bold; }
+
+.kidsworld_pagination a.prev.page-numbers,.kidsworld_pagination a.next.page-numbers { position:relative; border-radius: 3px; display: inline-block; width:45px; height:40px; line-height: 38px; }
+
+.kidsworld_pagination a,.kidsworld_pagination .page-numbers.current,.kidsworld_pagination a.prev.page-numbers,.kidsworld_pagination a.next.page-numbers,
+#comments .kidsworld-paginate-com span, .kidsworld_pagination_menu > a,.kidsworld_pagination_menu > span { width:36px; height:36px; border-radius: 50%; text-align: center; line-height: 34px; font-size: 80%; }
+
+/*Comments and Post Content Pagination*/
+#comments .kidsworld-paginate-com,.kidsworld_pagination_menu { margin-top: 30px; }
+
+#comments .kidsworld-paginate-com span.page-numbers.current, .kidsworld_pagination_menu > span { font-weight: bold; }
+
+/*next-previous posts*/
+.kidsworld_next_prev_pagination { font-weight: bold; font-size: 90%; clear:both; display: block; }
+.kidsworld_container .kidsworld_next_prev_pagination a,.kidsworld_next_prev_pagination a { padding:8px 15px; border-radius: 5px; text-transform: uppercase; letter-spacing: 1px; }
+.kidsworld_next_prev_pagination a:hover { text-decoration: none; }
+.kidsworld_next_prev_pagination .post-prev { float: left; }
+.kidsworld_next_prev_pagination .post-prev span { margin-right: 5px; }
+.kidsworld_next_prev_pagination .post-next { float: right; text-align: right; }
+.kidsworld_next_prev_pagination .post-next span { margin-left: 5px; }
+
+/*infinite scroll*/
+.kidsworld_infiniteScroll_loader { position: absolute; bottom: 30px; left: 50%; margin-left: -30px; height: 24px; line-height: 24px; width: 30px; text-indent: -9999px; display: block; width:60px; height:60px; border-radius:5px; z-index: 999; overflow: hidden; }
+
+.kidsworld_infinite_scroll_style .kidsworld_infiniteScroll_loader { bottom:-30px; }
+
+#infscr-loading img { display: none !important }
+.kidsworld_infiniteScroll_pagination { display: none }
+.kidsworld_infiniteScroll_wrapper { position: relative; padding-bottom: 40px; }
+
+.kidsworld_infiniteScroll_pagination .kidsworld_next_prev_pagination { display: none; }
+
+/***************************************************************
+* Search page *
+****************************************************************/
+
+.kidsworld_search_featured_img { float:left; margin-right: 25px; margin-top: 5px; }
+.kidsworld_search_featured_img img { width:150px; border-radius: 10px; }
+.kidsworld_search_page_text { overflow: hidden; }
+
+ul.kidsworld_search_list { padding:5px 0; margin:0; }
+ul.kidsworld_search_list > li { list-style: none; margin:0; padding-bottom: 20px; margin-bottom: 20px; }
+ul.kidsworld_search_list > li h5 { margin:0; display: block;  }
+ul.kidsworld_search_list > li h5 span { display: block; opacity: 0.7; }
+ul.kidsworld_search_list > li h5 span i { margin-right: 5px; }
+ul.kidsworld_search_list > li:last-child { margin-bottom: 30px;  }
+ul.kidsworld_search_list > li:first-child { padding-top: 20px; }
+
+.kidsworld_page_box_content.search_pg_form form { width:70%; }
+.kidsworld_page_box_content.search_pg_form { padding:30px; }
+
+/*Meta*/
+.kidsworld_search_meta { font-weight: normal; padding-bottom: 15px;  }
+.kidsworld_search_meta {  position:relative; margin:0; display: block; }
+.kidsworld_search_meta ul { padding:0; margin:0; }
+.kidsworld_search_meta ul li { list-style: none; display: inline-block; margin:0 9px 0 14px; padding:5px 0 0 0; font-size: 90%; opacity: 0.8; }
+.kidsworld_search_meta ul li:before { content:"\f111"; font-family: fontAwesome; font-size: 6px; margin-left: -14px; float:left; padding: 0; text-decoration: none; }
+.kidsworld_search_meta ul li:first-child:before { content: ""; margin-left:0; }
+.kidsworld_search_meta ul li:first-child { margin-left:0; }
+.kidsworld_search_meta ul li:last-child { margin-right:0; }
+
+/*No result text*/
+.kidsworld_search_page_no_result_text { text-align: center;  }
+h4.kidsworld_no_search_result_title,.search-no-results h4.kidsworld_search_pg_subtitle { text-align: center; display: block; clear:both; }
+.kidsworld_search_page_no_result_text form { display: inline-block; float:none; margin-top: 20px; position: relative; }
+.kidsworld_search_page_no_result_text form input[type="text"].kidsworld_search_form_input { width:500px; position: relative; padding-left: 15px; }
+.kidsworld_search_page_no_result_text form button.kidsworld_search_button { position: absolute; top:0; right:0; background:none; padding:12px 15px 12px 12px; line-height: 24px; height:24px; }
+
+
+/***************************************************************
+* Archives page *
+****************************************************************/
+
+.kidsworld_container .kidsworld_archives_content ul { padding:0; margin:0 0 50px 0; }
+.kidsworld_container .kidsworld_archives_content ul li { list-style: none; padding:10px 0 10px 20px; margin:0; display: inline-block; width:100%; }
+.kidsworld_container .kidsworld_archives_content ul li:first-child { border-top:0; }
+.kidsworld_container .kidsworld_archives_content ul li span.kidsworld_archive_page_date { min-width: 100px;  display: inline-block; opacity: 0.8; font-size: 90%; margin-right: 20px; }
+.kidsworld_container .kidsworld_archives_content ul li span.kidsworld_archive_page_titles {  display: inline-block; margin:0; }
+
+/***************************************************************
+* Classes pages *
+****************************************************************/
+
+.kidsworld_classes_box { float:left; margin-bottom: 50px; }
+.kidsworld_column_gap { margin:0 10px; }
+
+.kidsworld_class_img { border-radius: 20px; overflow: hidden; position: relative; background:transparent; }
+.kidsworld_class_img a { display: block; position: relative; width:100%; height:100%; }
+.kidsworld_class_img img { border-radius: 20px; width:100%; }
+.kidsworld_classes_box:hover .kidsworld_class_img img { opacity: 0.8; }
+
+.kidsworld_class_date { display: block; border-radius: 20px; text-align:center; font-weight: bold; position: absolute; left:50%; top:40%; z-index: 1; opacity: 0; }
+.kidsworld_class_date.kidsworld_classNoDate { border-radius: 50%; display: block; width:70px; height:70px; line-height: 70px; text-align: center; }
+
+.kidsworld_classes_box:hover .kidsworld_class_date { opacity: 1; top:50%; } 
+.kidsworld_class_date_holder { margin:13px; display: block; }
+.kidsworld_class_date span { display: block; font-size: 100%; text-transform: uppercase; }
+.kidsworld_class_date span.kidsworld_cd_year { padding:4px 17px; border-radius: 20px; margin-top: 3px; font-size: 80%; letter-spacing: 1px; line-height: 20px; }
+
+.kidsworld_class_date.kidsworld_classNoDate span.kidsworld_classHoverIcon { line-height: 70px; font-size: 20px; } 
+
+.kidsworld_class_grid_content_wrap { border-radius: 20px;  margin-top: -22px; display: block;  margin-left: 10px; margin-right: 10px;  }
+.kidsworld_class_grid_content {  padding:40px 30px 10px;  display: block;}
+
+.kidsworld_class_title_section { margin-bottom: 15px; }
+.kidsworld_class_title { display: block; width:100%;  }
+
+.kidsworld_site_content .kidsworld_class_title h5  { margin:0; line-height: normal; padding:0; display: block; }
+
+.kidsworld_class_title ul { padding:0; margin:0;  }
+.kidsworld_class_title li { float:left; display: inline-block; list-style: none; padding:0; margin:0 10px 0 0; }
+
+.kidsworld_site_content .kidsworld_class_cats { font-size: 80%; line-height: 20px; display: inline-block; }
+.kidsworld_site_content .kidsworld_class_cats i { margin-right: 5px; }
+
+.kidsworld_class_price { float:right; font-size: 135%; text-align: right; font-weight: bold; line-height: 24px; margin:8px 0 0 0; display: block; }
+.kidsworld_class_price span { display: block; font-size: 60%; font-weight: normal; }
+
+.kidsworld_class_excerpt { margin-bottom: 20px; }
+
+.kidsworld_class_grid_meta { display: block; width:100%; }
+.kidsworld_class_grid_meta ul { display: table; padding:0; margin:0; width:100%; border-radius: 0 0 20px 20px; text-align: center; overflow: hidden; }
+.kidsworld_class_grid_meta li { display: table-cell; list-style: none; margin:0; line-height: 24px; padding:14px 20px; text-transform: uppercase; font-size: 80%; font-weight: bold;   }
+
+.kidsworld_class_grid_meta li.class_grid_meta_arrow { padding:14px 0; }
+.kidsworld_class_grid_meta li.class_grid_meta_arrow a { padding:0 22px; }
+
+.kidsworld_class_grid_meta li:first-child { border-radius: 0 0 0 20px; }
+.kidsworld_class_grid_meta li:last-child { border-radius: 0 0 20px 0; }
+
+.kidsworld_dot_sep { display: block; margin-bottom: 15px; }
+.kidsworld_dot_sep:after { content:'\f111 \f111 \f111 \f111 \f111 \f111'; font-family: fontAwesome; display: block; font-size: 4px; letter-spacing:3px; line-height: 10px; }
+
+/*Class Single Page*/
+
+.kidsworld_class_single_featured_img { margin-bottom: 30px; }
+.kidsworld_class_single_featured_img img { border-radius: 20px; }
+
+.kidsworld_class_table { display: block; border-radius: 20px; }
+.kidsworld_class_table ul { padding:0; margin:0; }
+.kidsworld_class_table li { list-style: none; padding:20px; margin:0; }
+.kidsworld_class_table li:first-child { border:0; }
+.kidsworld_ct_icon { display: inline-block; float:left; width:47px; height:47px; text-align: center; line-height: 47px; border-radius: 10px; margin-right: 20px; }
+.kidsworld_ct_text { overflow: hidden;  }
+.kidsworld_ct_text span { display: block; font-weight: bold;  }
+.kidsworld_ct_text span.kidsworld_ct_light_text { text-transform: uppercase; font-size: 80%; line-height: 20px; letter-spacing: 1px; font-weight: normal; }
+
+.kidsworld_class_price_button { display: block; width:100%; margin-top: 5px; font-weight: bold;  }
+
+.kidsworld_class_price_box { display:inline-block;  float:left; padding-right: 5px; width:25%; line-height: 36px;  }
+.kidsworld_class_price_box_holder { border-radius: 20px; text-align: center; font-size: 165%;padding:10px 0 16px;  display:block; width:100%; height:100%; }
+
+.kidsworld_class_price_box span { display: block; font-size: 50%; line-height: 14px;  }
+
+.kidsworld_class_register_btn a { border-radius: 20px; display:inline-block; width:75%; float:left; text-align: center; font-size: 140%; height:76px; line-height: 76px; }
+
+.kidsworld_class_register_btn a i { padding-right: 8px; }
+
+.kidsworld_class_register_btn a:hover { opacity: 0.85; }
+
+/***************************************************************
+* Events pages *
+****************************************************************/
+
+.kidsworld_events_box { float:left; margin-bottom: 50px; }
+.kidsworld_column_gap { margin:0 10px; }
+
+.kidsworld_event_img { border-radius: 20px; overflow: hidden; position: relative; background:transparent; }
+.kidsworld_event_img a { display: block; position: relative; width:100%; height:100%; }
+.kidsworld_event_img img { border-radius: 20px; width:100%; }
+.kidsworld_event_img:hover img { opacity: 0.8; }
+
+.kidsworld_event_arrow { display: block; border-radius: 50%; text-align:center; font-weight: bold; position: absolute; left:50%; top:40%; z-index: 1; opacity: 0; }
+.kidsworld_event_img:hover .kidsworld_event_arrow { opacity: 1; top:50%; } 
+.kidsworld_event_arrow_holder { display: block; width:70px; height:70px; line-height: 70px; text-align: center; }
+.kidsworld_event_arrow span { display: block; font-size: 20px;  }
+
+.kidsworld_event_meta { margin-bottom: 11px; margin-top: 7px; }
+.kidsworld_event_meta span { display: inline-block; border-radius: 5px; margin-right: 4px; margin-bottom: 4px; padding:5px 10px; font-size: 80%; line-height: 20px; float:left; }
+.kidsworld_event_meta span i { margin-right: 5px; }
+
+.kidsworld_event_grid_content_wrap { border-radius: 20px;  margin-top: -22px; display: block;  margin-left: 10px; margin-right: 10px;  }
+.kidsworld_event_grid_content {  padding:40px 30px 10px;  display: block;}
+
+.kidsworld_event_title_section { margin-bottom: 15px; }
+.kidsworld_site_content .kidsworld_event_title h5  { margin:0 0 10px 0; line-height: normal; padding:0; display: block; }
+.kidsworld_event_excerpt { margin-bottom: 20px; }
+
+.kidsworld_event_grid_meta { padding:13px 12px 17px 12px; font-size: 85%; }
+.kidsworld_event_grid_meta span { padding-left: 25px; overflow:hidden; display: block; line-height: 24px;  }
+.kidsworld_event_grid_meta span i { margin-right: 7px; margin-left: -14px; }
+
+/*Event Single*/
+
+.kidsworld_event_single_featured_img { margin-bottom: 30px; }
+.kidsworld_event_single_featured_img img { border-radius: 20px; }
+
+.kidsworld_event_date_time_box { border-radius: 20px; overflow: hidden; margin-bottom: 20px; }
+.kidsworld_event_dt_title { padding:20px 25px; display: block; border-radius:20px 20px 0 0; font-size:110%; font-weight: bold; line-height: 20px; }
+.kidsworld_event_meta_text { padding:25px; }  
+.kidsworld_event_meta_text ul { padding:0; margin:0; }
+.kidsworld_event_meta_text li { padding:0; margin:0 0 10px 0; list-style: none; padding-left: 30px;  }
+.kidsworld_event_meta_text ul li p { margin:0; }
+.kidsworld_event_meta_text li:before { font-family: fontAwesome; float:left; margin-left: -30px; }
+.kidsworld_event_meta_text li.kidsworld_event_meta_date:before { content:'\f073'; }
+.kidsworld_event_meta_text li.kidsworld_event_meta_time:before { content:'\f017'; }
+.kidsworld_event_meta_text li.kidsworld_event_meta_venue:before { content:'\f1ad'; }
+.kidsworld_event_meta_text li.kidsworld_event_meta_gmap:before { content:'\f041'; }
+
+.kidsworld_event_organizer_box { border-radius: 20px; overflow: hidden; margin-bottom: 20px; }
+.kidsworld_event_orgbox_title { padding:20px 25px; display: block; border-radius:20px 20px 0 0; font-size: 110%; font-weight: bold; line-height: 20px; }
+.kidsworld_event_orgbox_meta_text { padding:25px; }  
+.kidsworld_event_orgbox_meta_text ul { padding:0; margin:0; }
+.kidsworld_event_orgbox_meta_text li { padding:0; margin:0 0 10px 0; list-style: none; padding-left: 30px;  }
+.kidsworld_event_orgbox_meta_tefxt p { margin:0; }
+.kidsworld_event_orgbox_meta_text li:before { font-family: fontAwesome; float:left; margin-left: -30px; }
+.kidsworld_event_orgbox_meta_text li.kidsworld_event_orgbox_meta_phone:before { content:'\f095'; }
+.kidsworld_event_orgbox_meta_text li.kidsworld_event_orgbox_meta_email:before { content:'\f003'; }
+.kidsworld_event_orgbox_meta_text li.kidsworld_event_orgbox_meta_website:before { content:'\f0ac'; }
+
+.kidsworld_event_register_button a { display: block; font-size: 130%; font-weight: bold; border-radius: 20px; padding:20px 25px; line-height: 24px;  }
+.kidsworld_event_rg_btn_text { float:left; }
+.kidsworld_event_rg_btn_icon { font-size: 16px; float:right; width:26px; height:26px; border-radius: 50%; text-align: center; line-height: 22px; }
+.kidsworld_event_register_button a:hover { opacity: 0.85; }
+
+/***************************************************************
+* Portfolio Page  *
+****************************************************************/
+
+.kidsworld_portfolio { overflow: visible; position: relative; }
+.kidsworld_portfolio.kidsworld_row { margin:0 -12px; }
+.kidsworld_portfolio.kidsworld_row .kidsworld_column_gap { margin:0; padding:0 12px; }
+
+.kidsworld_portfolio_box { float:left; margin-bottom: 24px; display: block; clear:none; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  }
+.kidsworld_portfolio_box a img { width:100%; height:auto; display:block; line-height: 0; font-size: 0; border-radius: 10px 10px 0 0; overflow: hidden; opacity: 1; }
+.kidsworld_portfolio_box .kidsworld_portfolio_thumb_img { position: relative; z-index:1; overflow: hidden; }
+
+.kidsworld_pf_no_bg.kidsworld_portfolio_box a img,.kidsworld_pf_titles.kidsworld_portfolio_box a img { border-radius: 10px; }
+
+.kidsworld_portfolio_text { border-radius:0 0 10px 10px; clear:both; text-align: center; overflow: hidden; padding:15px 20px; overflow: hidden; margin-top: -1px; position: relative; }
+.kidsworld_portfolio_text span.kidsworld_portfolio_title,.kidsworld_portfolio_text span.kidsworld_portfolio_title a { margin:0; text-decoration: none; display: block; }
+
+.kidsworld_portfolio_text span.kidsworld_portfolio_subtexts { margin:10px 0 10px; display: block; clear: both; }
+
+.kidsworld_portfolio_title_section { float: left; text-align: center; width:100%; }
+.kidsworld_portfolio_title_section span { display: block; clear: both; }
+
+.kidsworld_portfolio > ul > li { display:inline-block; padding:0; margin:0; background: none; float: left; }
+
+.kidsworld_portfolio_img_hovericon { left:50%; top:0; margin-top: -25px; margin-left: -25px; width:50px; height:50px; border-radius: 50%; line-height: 50px; position: absolute; z-index: 100; text-align: center; opacity: 0;  display: block;  }
+
+.kidsworld_portfolio_content:hover .kidsworld_portfolio_img_hovericon { opacity: 0.9; top:50%; }
+
+/* Horizontal Menu */
+.kidsworld_portfolio_menu,ul.events_h_menu,ul.kidsworld_h_menu {display:block; margin:0 auto 40px; padding:0; text-align: center; list-style: none; }
+.kidsworld_site_content .kidsworld_portfolio_menu a, .kidsworld_site_content ul.events_h_menu li a,ul.kidsworld_h_menu li a {display: inline-block; float:none;  line-height: normal; padding:9px 16px; margin:0 4px 4px 0; border-radius:5px; font-weight: bold; text-transform: uppercase; text-decoration: none; font-size: 77%; }
+
+.kidsworld_horizontal_menu { text-align: center; }
+.kidsworld_site_content ul.events_h_menu li a,ul.kidsworld_h_menu li a { margin:0; }
+.kidsworld_site_content ul.events_h_menu li,ul.kidsworld_h_menu li { display: inline-block; padding:0; margin:0 2px 2px 0; list-style: none; float:none; border-radius: 5px;  }
+
+/***************************************************************
+* Testimonials *
+****************************************************************/
+
+.kidsworld_testimonials .kidsworld_column { margin:0; position: relative; display: block; }
+.kidsworld_testimonials_box { display: block; position: relative; margin-bottom: 40px;  padding-right: 6px; margin-right: 1px; }
+.kidsworld_testimonials_box:after { content:''; top:6px; left:0px; width:100%; height:100%; position: absolute; border-radius: 25px; z-index: 1; }
+.kidsworld_testimonials_top { display: block; padding:20px; border-radius: 20px 20px 0 0;  position: relative; z-index: 2; }
+.kidsworld_testimonials_top img { border-radius: 50%; float:left; margin-right: 14px; width:60px; height:60px; display:inline-block;  }
+.kidsworld_testimonials_title { overflow: hidden; }
+.kidsworld_site_content .kidsworld_testimonials_title h5 { padding-right: 20px; display: block; margin:0; }
+.kidsworld_testimonials_title span { display: block; font-size: 80%; }
+.kidsworld_testimonials_quote { position: absolute; right:20px; top:25px; font-size: 24px; }
+.kidsworld_testimonials_bottom { padding:25px; border-radius: 0 0 20px 20px; position: relative; z-index: 2; }
+.kidsworld_testimonials_arrow { font-size: 48px; position: absolute; left:37px; top:0; margin-top:-12px; }  
+.kidsworld_testimonials { margin: 0 -20px 0 -20px; }
+.kidsworld_testimonials .kidsworld_column_gap { margin:0 10px; }
+.kidsworld-testimonials-slider-two.kidsworld_testimonials { margin: 0; }
+
+/***************************************************************
+* Blank Page *
+****************************************************************/
+
+body.kidsworld_stickyOn.page-template-blank .kidsworld_containers_holder { margin-top: 0; }
+body.page-template-blank {display: table; height: 100%; width: 100%; position: absolute; margin: 0; left: 0; right: 0; top: 0; overflow-x: hidden; clear:both; }
+.blank_pg_wrap { display: table-cell; float:none; vertical-align: middle; overflow: visible; width:100%; max-width: none; }
+.blank_pg_holder > .vc_row { margin:0; }
+
+
+/***************************************************************
+* WordPress Default Widgets Styles *
+****************************************************************/
+
+.sidebar select { width:100%; margin:0; }
+.archives-link ul li ul li:first-child { border:0;  }
+.sidebar .textwidget > p > img { margin-top: 5px; }
+.sidebar form { margin-bottom: 0; }
+.sidebar label { margin-bottom: 10px; }
+
+.kidsworld_widget_box ul.menu li a i { padding-right: 7px; }
+
+/*RSS*/
+a.rsswidget {font-weight: bold;}
+span.rss-date {font-size: 80%;}
+
+/*Text*/
+.sidebar .textwidget p {  }
+.sidebar .adwrap{ padding:15px 24px 15px 24px;}
+
+/*Tag Colud*/
+.sidebar .tagcloud { margin:0;}
+.tagcloud a { padding:7px 12px;font-size:90%;line-height: 17px;float:left;	text-decoration: none;margin:0  5px  5px 0;display:inline-block;width:auto;background:none; border-radius: 3px;  }
+
+/* Calendar Widget */
+
+#calendar_wrap { width:100%; }
+#wp-calendar { margin:0; font-size: 90%;}
+.widget_calendar {float: left; width:100%;  }
+#wp-calendar { width: 100% }
+table#wp-calendar { border:none; }
+#wp-calendar caption { text-align: center; font-size: 100%; margin: 0; font-weight: bold; border-bottom:0; padding:5px 0; border-radius: 3px 3px 0 0; }
+#wp-calendar thead { font-size: 90%; }
+table#wp-calendar thead th,#wp-calendar thead th { padding:3px 6px; text-align: center; }
+table#wp-calendar tbody td,#wp-calendar tbody td { text-align: center; padding:3px 6px; }
+#wp-calendar tbody td a { font-weight:bold; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 70%; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 70%; text-transform: uppercase; padding-top: 10px; }	
+#wp-calendar tfoot tr td { border-left:0; border-right:0; border-bottom:0; padding:0; }
+
+/* Search Widget */
+.widget_search form { margin:0; }
+.widget_search #kidsworld_search_form { margin:0; clear:both; display: block; position: relative; }
+.widget_search #kidsworld_search_form  .screen-reader-text { display:block;  }
+.widget_search #kidsworld_search_form input[type="text"] { margin:0; width:100%; padding:7px 7px 7px 12px; position: relative;  }
+
+.widget_search #kidsworld_search_form  #s { width:100%; outline:0; height:40px; background: transparent; border-radius: 3px; padding-left: 15px; }
+.widget_search #kidsworld_search_form button.kidsworld_search_button {  background:none; width: 40px; line-height: 40px;	font-family: FontAwesome !important; font-size:90%; border:0;  height:38px; position: absolute; right:0; text-align: center;margin-top: 1px; box-shadow: none; text-shadow:none; padding:0; position: absolute; right:0; top:0; }
+
+/* Recent Comments */
+#content .sidebar .wp-caption p  { margin:0; }
+
+/*Captions*/
+.wp-caption { border:0; display:block; text-align:center;	margin-bottom: 15px;  max-width: 100%; clear:both; }	
+.wp-caption img { padding:0; margin:0; }
+.wp-caption p { padding:0 10px; margin:0; font-style: italic; }
+p.wp-caption-text { margin:0; padding:10px; }
+.sidebar .textwidget img { display:block; }
+.sidebar .textwidget p.wp-caption-text img { display:inline-block; }
+.sidebar .wp-caption  { border:0; display:block; margin-bottom: 15px; }
+.widget ul li span.post-date,.sidebar ul li span.post-date { font-size: 80%; }
+.widget ul li span.post-date:before,.sidebar ul li span.post-date:before { content:"- "; }
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright { float:right; }
+.alignleft { float:left; }

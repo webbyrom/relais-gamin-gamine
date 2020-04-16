@@ -1,0 +1,5758 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: default\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-12 15:54+0530\n"
+"POT-Revision-Date: Thu May 12 2016 20:15:35 GMT+0530 (IST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2;esc_html_e\n"
+"X-Poedit-SearchPath-0: ../framework\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: ../parts\n"
+"X-Poedit-SearchPath-3: ../templates\n"
+"X-Poedit-SearchPathExcluded-0: ../js\n"
+"X-Poedit-SearchPathExcluded-1: ../fonts\n"
+"X-Poedit-SearchPathExcluded-2: ../framework/js\n"
+"X-Poedit-SearchPathExcluded-3: ../css\n"
+"X-Poedit-SearchPathExcluded-4: ../framework/css\n"
+"X-Poedit-SearchPathExcluded-5: ../images\n"
+"X-Poedit-SearchPathExcluded-6: ../framework/images\n"
+"X-Poedit-SearchPathExcluded-7: ../framework/customizer/js\n"
+"X-Poedit-SearchPathExcluded-8: ../assets/js\n"
+"X-Poedit-SearchPathExcluded-9: ../framework/customizer/css\n"
+"X-Poedit-SearchPathExcluded-10: ../framework/customizer/output\n"
+"X-Poedit-SearchPathExcluded-11: ../framework/tgm-plugin-activation/plugins\n"
+
+#: ../comments.php:5
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:10
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:24 ../framework/theme-filters.php:776
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:24
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:24
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:95
+msgid "SUBMIT"
+msgstr ""
+
+#: ../comments.php:96
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:97
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:98
+msgid "Leave a Reply</span>"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:16
+msgid "Home"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:336
+msgid "g:i a"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:339
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:339
+msgid "i"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:342
+msgid "g a"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:353 ../framework/breadcrumbs.php:359
+#: ../framework/breadcrumbs.php:364 ../framework/breadcrumbs.php:369
+#: ../framework/breadcrumbs.php:422
+msgid "Y"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:354 ../framework/breadcrumbs.php:365
+#: ../framework/breadcrumbs.php:426
+msgid "F"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:355 ../framework/breadcrumbs.php:430
+msgid "d"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:360
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:360
+msgid "W"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:376
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:381
+msgid "404 Not Found"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:426
+msgid "F Y"
+msgstr ""
+
+#: ../framework/breadcrumbs.php:430
+msgid "F j, Y"
+msgstr ""
+
+#: ../framework/customizer/controls.php:103
+msgid "-- Select --"
+msgstr ""
+
+#: ../framework/customizer/controls.php:429
+msgid ""
+"Note: Please create revolution slider to view list of all revolution slider(s) name "
+"from WordPress Admin > Revolution Slider"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:51
+msgid "Loading"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:53
+msgid "Customizer"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4662
+msgid "Ultra Light"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4663
+msgid "Ultra Light Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4664
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3174
+msgid "Light"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4665
+msgid "Light Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4666
+msgid "Book"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4667
+msgid "Book Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4668
+msgid "Regular"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4669
+msgid "Regular Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4670
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2765
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3991
+msgid "Medium"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4671
+msgid "Medium Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4672
+msgid "Semi-Bold"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4673
+msgid "Semi-Bold Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4674
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3248
+msgid "Bold"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4675
+msgid "Bold Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4676
+msgid "Extra Bold"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4677
+msgid "Extra Bold Italic"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4678
+msgid "Ultra Bold"
+msgstr ""
+
+#: ../framework/customizer/fonts.php:4679
+msgid "Ultra Bold Italic"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:24 ../framework/meta-box-options.php:381
+#: ../framework/meta-box-options.php:674 ../framework/meta-box-options.php:691
+#: ../framework/meta-box-options.php:701 ../framework/meta-box-options.php:711
+#: ../framework/meta-box-options.php:800
+msgid "On"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:25 ../framework/meta-box-options.php:382
+#: ../framework/meta-box-options.php:675 ../framework/meta-box-options.php:692
+#: ../framework/meta-box-options.php:702 ../framework/meta-box-options.php:712
+#: ../framework/meta-box-options.php:801
+msgid "Off"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:29
+#: ../framework/plugins/visual-composer/visual-composer-options.php:102
+#: ../framework/plugins/visual-composer/visual-composer-options.php:108
+#: ../framework/plugins/visual-composer/visual-composer-options.php:353
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1676
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3036
+msgid "Left"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:30
+#: ../framework/plugins/visual-composer/visual-composer-options.php:103
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3037
+msgid "Center"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:31
+#: ../framework/plugins/visual-composer/visual-composer-options.php:104
+#: ../framework/plugins/visual-composer/visual-composer-options.php:109
+#: ../framework/plugins/visual-composer/visual-composer-options.php:354
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1677
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3038
+msgid "Right"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:35 ../framework/meta-box-options.php:758
+#: ../framework/plugins/visual-composer/visual-composer-options.php:188
+#: ../framework/plugins/visual-composer/visual-composer-options.php:422
+msgid "Left Top"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:36 ../framework/meta-box-options.php:759
+#: ../framework/plugins/visual-composer/visual-composer-options.php:189
+#: ../framework/plugins/visual-composer/visual-composer-options.php:423
+msgid "Left Center"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:37 ../framework/meta-box-options.php:760
+#: ../framework/plugins/visual-composer/visual-composer-options.php:190
+#: ../framework/plugins/visual-composer/visual-composer-options.php:424
+msgid "Left Bottom"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:38 ../framework/meta-box-options.php:761
+#: ../framework/plugins/visual-composer/visual-composer-options.php:191
+#: ../framework/plugins/visual-composer/visual-composer-options.php:425
+msgid "Right Top"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:39 ../framework/meta-box-options.php:762
+#: ../framework/plugins/visual-composer/visual-composer-options.php:192
+#: ../framework/plugins/visual-composer/visual-composer-options.php:426
+msgid "Right Center"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:40 ../framework/meta-box-options.php:763
+#: ../framework/plugins/visual-composer/visual-composer-options.php:193
+#: ../framework/plugins/visual-composer/visual-composer-options.php:427
+msgid "Right Bottom"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:41 ../framework/meta-box-options.php:764
+#: ../framework/plugins/visual-composer/visual-composer-options.php:194
+#: ../framework/plugins/visual-composer/visual-composer-options.php:428
+msgid "Center Top"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:42 ../framework/meta-box-options.php:765
+#: ../framework/plugins/visual-composer/visual-composer-options.php:195
+#: ../framework/plugins/visual-composer/visual-composer-options.php:429
+msgid "Center Center"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:43 ../framework/meta-box-options.php:766
+#: ../framework/plugins/visual-composer/visual-composer-options.php:196
+#: ../framework/plugins/visual-composer/visual-composer-options.php:430
+msgid "Center Bottom"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:47 ../framework/meta-box-options.php:776
+#: ../framework/plugins/visual-composer/visual-composer-options.php:173
+#: ../framework/plugins/visual-composer/visual-composer-options.php:409
+msgid "Repeat"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:48
+#: ../framework/plugins/visual-composer/visual-composer-options.php:174
+#: ../framework/plugins/visual-composer/visual-composer-options.php:410
+msgid "No Repeat"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:49
+#: ../framework/plugins/visual-composer/visual-composer-options.php:175
+#: ../framework/plugins/visual-composer/visual-composer-options.php:411
+msgid "Repeat X"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:50
+#: ../framework/plugins/visual-composer/visual-composer-options.php:176
+#: ../framework/plugins/visual-composer/visual-composer-options.php:412
+msgid "Repeat Y"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:54 ../framework/meta-box-options.php:789
+#: ../framework/plugins/visual-composer/visual-composer-options.php:208
+msgid "Scroll"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:55 ../framework/meta-box-options.php:790
+#: ../framework/plugins/visual-composer/visual-composer-options.php:209
+msgid "Fixed"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:72
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2858
+msgid "None"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:73
+msgid "Uppercase"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:74
+msgid "Lowercase"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:78
+msgid "200"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:79
+msgid "300"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:80
+msgid "400"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:81
+msgid "500"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:82
+msgid "600"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:83
+msgid "700"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:84
+msgid "800"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:85
+msgid "900"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:89
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3247
+msgid "Normal"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:90
+msgid "Italic"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:94 ../framework/meta-box-options.php:500
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1239
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1406
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2136
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3495
+msgid "2 Column"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:95 ../framework/meta-box-options.php:501
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1407
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2137
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3496
+msgid "3 Column"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:96
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1408
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2138
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3497
+msgid "4 Column"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:100 ../framework/meta-box-options.php:15
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:22
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:101 ../framework/meta-box-options.php:16
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:23
+msgid "Sidebar Left"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:102 ../framework/meta-box-options.php:17
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:21
+msgid "Full Width"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:106
+#: ../framework/customizer/theme-options.php:111 ../framework/meta-box-options.php:88
+#: ../framework/meta-box-options.php:419 ../framework/meta-box-options.php:511
+#: ../framework/meta-box-options.php:591
+msgid "Standard"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:107
+msgid "Grid"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:112
+msgid "Next Previous"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:113 ../framework/meta-box-options.php:90
+#: ../framework/meta-box-options.php:421 ../framework/meta-box-options.php:513
+#: ../framework/meta-box-options.php:593
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:117 ../framework/theme-filters.php:623
+msgid "About Author"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:118
+msgid "Next Previous Pagination"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:119 ../parts/related-posts.php:10
+msgid "Related Posts"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:120
+#: ../framework/customizer/theme-options.php:269
+#: ../framework/customizer/theme-options.php:285
+#: ../framework/customizer/theme-options.php:301
+#: ../framework/customizer/theme-options.php:637
+#: ../framework/customizer/theme-options.php:715
+msgid "Comments"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:124
+#: ../framework/customizer/theme-options.php:806
+#: ../framework/customizer/theme-options.php:848
+#: ../framework/customizer/theme-options.php:946
+#: ../framework/customizer/theme-options.php:1051
+#: ../framework/meta-box-options.php:743
+#: ../framework/plugins/visual-composer/visual-composer-options.php:161
+#: ../framework/plugins/visual-composer/visual-composer-options.php:343
+#: ../framework/plugins/visual-composer/visual-composer-options.php:399
+msgid "Background Image"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:125
+#: ../framework/customizer/theme-options.php:596 ../framework/meta-box-options.php:729
+#: ../framework/meta-box-options.php:834
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:133
+msgid "Footer Options"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:134
+msgid "Blog Options"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:135
+#: ../framework/customizer/theme-options.php:323
+msgid "Advanced Styling"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:137
+msgid "Header - Logo, Top Menu"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:138
+#: ../framework/customizer/theme-options.php:157
+#: ../framework/customizer/theme-options.php:590
+#: ../framework/customizer/theme-options.php:835 ../framework/meta-box-options.php:679
+msgid "Sub Header"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:139
+#: ../framework/customizer/theme-options.php:158
+msgid "Sidebar"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:140
+#: ../framework/customizer/theme-options.php:162
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3586
+msgid "Classes"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:141
+#: ../framework/customizer/theme-options.php:163
+msgid "Events"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:143
+#: ../framework/customizer/theme-options.php:937
+msgid "Widget Footer"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:144
+#: ../framework/customizer/theme-options.php:1033
+msgid "Contact Footer"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:146 ../framework/theme-filters.php:368
+msgid "Blog"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:147
+msgid "Blog Single"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:148
+msgid "Sort Blog Single Sections"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:149
+msgid "Category"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:152
+msgid "Layout"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:153
+msgid "Styling"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:154
+#: ../framework/customizer/theme-options.php:332
+msgid "Top Bar"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:155
+#: ../framework/customizer/translations.php:44
+msgid "Logo"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:156 ../framework/menus.php:10
+msgid "Top Navigation"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:159
+msgid "Fonts"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:160
+msgid "Page"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:161
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3456
+msgid "Portfolio"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:165
+#: ../framework/customizer/translations.php:45
+#: ../framework/customizer/translations.php:47
+#: ../framework/plugins/visual-composer/visual-composer-options.php:882
+msgid "Social Media Icons"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:166
+msgid "Error 404 Page"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:167
+msgid "Custom CSS"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:177
+msgid "Activate Google Fonts"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:180
+msgid "Fonts Subsets"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:183
+msgid "Cyrillic"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:186
+msgid "Greek"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:189
+msgid "Vietnamese"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:192
+#: ../framework/customizer/theme-options.php:204
+#: ../framework/customizer/theme-options.php:210
+msgid "Font Family"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:195
+#: ../framework/customizer/theme-options.php:207
+#: ../framework/customizer/theme-options.php:213
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3245
+msgid "Font Weight"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:198
+#: ../framework/customizer/theme-options.php:353
+#: ../framework/customizer/theme-options.php:880
+#: ../framework/customizer/theme-options.php:970
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2575
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3089
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3227
+msgid "Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:201
+#: ../framework/customizer/theme-options.php:612
+#: ../framework/customizer/theme-options.php:690
+#: ../framework/customizer/theme-options.php:735
+#: ../framework/customizer/theme-options.php:973
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2604
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3125
+msgid "Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:216
+msgid "Heading H1 - Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:219
+msgid "Heading H2 - Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:222
+msgid "Heading H3 - Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:225
+msgid "Heading H4 - Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:228
+msgid "Heading H5 - Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:231
+msgid "Heading H6 - Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:234
+msgid "Heading H1 - Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:237
+msgid "Heading H2 - Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:240
+msgid "Heading H3 - Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:243
+msgid "Heading H4 - Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:246
+msgid "Heading H5 - Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:249
+msgid "Heading H6 - Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:256
+msgid "Display Comments in Pages"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:263
+msgid "Portfolio Page Title for Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:266
+msgid "Portfolio Page URL for Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:276
+msgid "Class Page Title for Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:279
+msgid "Class Page URL for Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:282
+#: ../framework/customizer/theme-options.php:298
+msgid "Featured Image"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:292
+msgid "Event Page Title for Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:295
+msgid "Event Page URL for Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:308
+msgid "Theme Skin Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:311
+msgid "Text Color on Theme Skin Color Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:314
+msgid "Site Content Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:317
+msgid "Site Content Link Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:320
+msgid "Site Content Link Hover Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:335
+msgid "Intro/Start line Text"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:338
+#: ../framework/customizer/theme-options.php:1039
+msgid "Phone"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:341
+#: ../framework/customizer/theme-options.php:1042
+msgid "Email"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:344
+#: ../framework/customizer/theme-options.php:409
+#: ../framework/customizer/theme-options.php:800
+#: ../framework/customizer/theme-options.php:845
+#: ../framework/customizer/theme-options.php:949
+#: ../framework/customizer/theme-options.php:1054
+#: ../framework/meta-box-options.php:735
+#: ../framework/plugins/visual-composer/visual-composer-options.php:152
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1095
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2550
+msgid "Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:347
+#: ../framework/customizer/theme-options.php:412
+#: ../framework/customizer/theme-options.php:919
+#: ../framework/customizer/theme-options.php:961
+#: ../framework/customizer/theme-options.php:1057
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1841
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2567
+msgid "Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:350
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:356
+#: ../framework/customizer/theme-options.php:1045
+msgid "Social Icons"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:368
+#: ../framework/customizer/translations.php:28
+msgid "Header Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:371
+msgid "Top Thick Border - Right Side"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:375
+msgid "All Links text color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:378
+#: ../framework/customizer/theme-options.php:1081
+msgid "Icons Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:381
+msgid "Link 1 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:384
+msgid "Link 2 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:387
+msgid "Link 3 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:390
+msgid "Link 4 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:393
+msgid "Link 5 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:396
+msgid "Link 6 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:399
+msgid "Link 7 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:402
+msgid "Link 8 Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:405
+msgid "Light Dot Background On Menu Elements"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:417
+msgid "Breadcrumb Bar Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:420
+msgid "Search Bar Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:423
+msgid "Both Bars Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:428
+msgid "Widget 1 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:431
+msgid "Widget 2 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:434
+msgid "Widget 3 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:437
+msgid "Widget 4 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:440
+msgid "Widget 5 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:443
+msgid "Widget 6 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:446
+msgid "Widget 7 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:449
+msgid "Widget 8 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:452
+msgid "Widget 9 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:455
+msgid "Widget 10 Title "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:461
+msgid "Date Year Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:464
+#: ../framework/customizer/theme-options.php:546
+#: ../framework/customizer/theme-options.php:600
+#: ../framework/customizer/theme-options.php:865 ../framework/meta-box-options.php:805
+msgid "Title Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:467
+msgid "Price Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:470
+msgid "Time Color "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:473
+msgid "Bottom Meta Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:476
+msgid "\"Age\" field background color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:479
+msgid "\"Class Size\" field background color "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:482
+msgid "\"Arrow\" field background color "
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:486
+msgid "Class Table Icons color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:489
+msgid "Class Table First Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:492
+msgid "Class table Second Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:495
+msgid "Icon 1 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:498
+msgid "Icon 2 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:501
+msgid "Icon 3 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:504
+msgid "Icon 4 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:507
+msgid "Icon 5 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:510
+msgid "Icon 6 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:513
+msgid "Icon 7 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:516
+msgid "Icon 8 Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:519
+msgid "Price Box Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:522
+msgid "Price Box Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:525
+#: ../framework/customizer/theme-options.php:562
+msgid "Register Button Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:528
+#: ../framework/customizer/theme-options.php:565
+msgid "Register Button Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:534
+msgid "Event Date Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:537
+msgid "Event Date Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:540
+msgid "Event Time Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:543
+msgid "Event Time Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:550
+msgid "Table 1 Title Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:553
+msgid "Table 1 Title Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:556
+msgid "Table 2 Title Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:559
+msgid "Table 2 Title Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:575
+msgid "Blog Page Layout"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:578
+msgid "Blog Post Style"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:581 ../framework/meta-box-options.php:82
+#: ../framework/meta-box-options.php:413 ../framework/meta-box-options.php:505
+#: ../framework/meta-box-options.php:585
+msgid "Pagination Style"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:584
+msgid "Featured Image Height (Only Number)"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:587
+msgid "Fullwidth Featured Image Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:593 ../framework/meta-box-options.php:722
+msgid "Header Style"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:603
+msgid "Title Hover Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:606
+#: ../framework/customizer/theme-options.php:684
+#: ../framework/customizer/theme-options.php:729
+#: ../framework/customizer/theme-options.php:905
+#: ../framework/customizer/theme-options.php:922
+#: ../framework/customizer/theme-options.php:1007
+#: ../framework/customizer/theme-options.php:1063
+msgid "Text Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:609
+#: ../framework/customizer/theme-options.php:687
+#: ../framework/customizer/theme-options.php:732
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:615
+#: ../framework/customizer/theme-options.php:693
+#: ../framework/customizer/theme-options.php:738
+#: ../framework/customizer/theme-options.php:883
+#: ../framework/customizer/theme-options.php:908
+msgid "Text Transform"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:618
+#: ../framework/customizer/theme-options.php:696
+#: ../framework/customizer/theme-options.php:741
+msgid "Text Style"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:621
+msgid "Date Box Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:624
+msgid "Date Box Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:628
+#: ../framework/customizer/theme-options.php:700
+#: ../woocommerce/kidsworld-custom/woo-functions.php:19
+msgid "Date"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:631
+#: ../framework/customizer/theme-options.php:703
+msgid "Author Name"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:634
+#: ../framework/customizer/theme-options.php:709
+msgid "Category Names"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:640
+#: ../framework/customizer/theme-options.php:718 ../parts/posts/post-standard.php:53
+#: ../parts/posts/post-standard.php:55
+msgid "Views"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:643
+#: ../framework/customizer/theme-options.php:721 ../parts/posts/post-standard.php:60
+msgid "Likes"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:646
+msgid "Readmore Button/Link"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:649
+msgid "Excerpt"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:652
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:655
+msgid "Readmore Button/Link Text"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:659
+msgid "Select Sidebar Name"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:663
+msgid "Display Author Bio"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:670
+msgid "Sort and On/Off Blog Single Sections"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:677
+msgid "Header Title Text"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:680
+msgid "Blog Page URL for Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:706
+msgid "Tags"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:712
+msgid "Share"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:726
+msgid "Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:744
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2805
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2955
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3117
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3308
+msgid "Border Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:747
+msgid "Border Small Circle Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:784
+msgid "Boxed Layout"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:787
+msgid "Max Width (px)"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:790
+msgid "Site Width (%)"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:793
+msgid "Content Width (%)"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:796
+msgid "Page Preloader"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:803
+msgid "Background Color Opacity"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:809
+#: ../framework/customizer/theme-options.php:851
+msgid "Background Image Position"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:812
+#: ../framework/customizer/theme-options.php:854
+msgid "Background Image Repeat"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:815
+#: ../framework/customizer/theme-options.php:857 ../framework/meta-box-options.php:783
+#: ../framework/plugins/visual-composer/visual-composer-options.php:204
+msgid "Background Attachment"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:818
+#: ../framework/plugins/visual-composer/visual-composer-options.php:217
+msgid "100% Background Image Width"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:824
+msgid "Site Content Top Padding (#px or #em)"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:827
+msgid "Site Content Bottom Padding (#px or #em)"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:838
+msgid "Sub Header Top Padding"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:841
+msgid "Sub Header Bottom Padding"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:862
+#: ../framework/plugins/visual-composer/visual-composer-options.php:750
+#: ../framework/plugins/visual-composer/visual-composer-options.php:842
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1136
+msgid "Title"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:868
+msgid "Title Font Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:871
+#: ../framework/customizer/theme-options.php:982
+#: ../framework/customizer/theme-options.php:1120
+msgid "Title Text Transform"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:874
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:877
+msgid "Search Bar in Header"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:886
+msgid "Default Search Placeholder Text"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:889
+#: ../framework/customizer/translations.php:29
+msgid "Google Maps API"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:894
+msgid "Standard Logo Image"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:897
+msgid "Retina Logo Image"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:902
+msgid "Sticky Menu"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:911
+msgid "Main Links with Minimum Width"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:915
+msgid "Width At Which Menu Becomes Responsive"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:926
+msgid "Column Title Text Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:929 ../framework/meta-box-options.php:188
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3559
+msgid "Space Between Two Items"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:940
+msgid "Bottom Go to Top Arrow Button"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:943
+#: ../framework/customizer/theme-options.php:1048
+msgid "Footer Column"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:952
+msgid "Secondary Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:955
+#: ../framework/plugins/visual-composer/visual-composer-options.php:239
+msgid "Top Border Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:958
+msgid "Elements Border Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:964
+msgid "Links Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:967
+#: ../framework/customizer/theme-options.php:1060
+msgid "Links Hover Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:976
+#: ../framework/customizer/theme-options.php:1117
+#: ../framework/customizer/theme-options.php:1266
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1753
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2262
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3931
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4121
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4270
+msgid "Title Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:979
+msgid "Title Border Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:985
+#: ../framework/customizer/theme-options.php:1123
+msgid "Title Text Style"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:988
+#: ../framework/customizer/theme-options.php:1126
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2270
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3525
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3924
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4114
+msgid "Title Text Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:991
+#: ../framework/customizer/theme-options.php:1129
+msgid "Title Letter Spacing"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:994
+msgid "Title Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:997
+msgid "Space Between Two Widgets"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1001
+msgid "Copyright Text Left"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1004
+msgid "Copyright Text Right"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1011
+#: ../framework/customizer/theme-options.php:1133
+msgid "Default Tab Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1014
+#: ../framework/customizer/theme-options.php:1136
+msgid "Default Tab Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1017
+#: ../framework/customizer/theme-options.php:1139
+msgid "Active Tab Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1020
+#: ../framework/customizer/theme-options.php:1142
+msgid "Active Tab Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1023
+msgid "Tab Title Text Transform"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1026
+#: ../framework/customizer/theme-options.php:1148
+msgid "Tab Title Text Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1029
+#: ../framework/customizer/theme-options.php:1151
+msgid "Tab Title Text Letter Spacing"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1036
+#: ../framework/customizer/theme-options.php:1066
+#: ../framework/meta-box-options.php:860
+msgid "Location"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1069
+msgid "Phone 1"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1072
+msgid "Phone 2"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1075
+msgid "Email 1"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1078
+msgid "Email 2"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1084
+msgid "Location Icon Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1087
+msgid "Phone Icon Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1090
+msgid "Email Icon Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1093
+msgid "Social Media Icon Background"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1101
+msgid "Sidebar Text Size"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1104
+msgid "Sidebar Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1107
+msgid "Sidebar Link Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1110
+msgid "Sidebar Link Hover Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1113
+msgid "Elements Borders Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1145
+msgid "Tab Text Transform"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1154
+msgid "Tab Title Text Line Height"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1161
+msgid "Open Social Sites in New Window"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1164
+msgid "Icon 1"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1167
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1893
+msgid "Icon 1 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1170
+msgid "Icon 2"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1173
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1910
+msgid "Icon 2 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1176
+msgid "Icon 3"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1179
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1926
+msgid "Icon 3 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1182
+msgid "Icon 4"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1185
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1942
+msgid "Icon 4 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1188
+msgid "Icon 5"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1191
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1958
+msgid "Icon 5 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1194
+msgid "Icon 6"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1197
+msgid "Icon 6 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1200
+msgid "Icon 7"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1203
+msgid "Icon 7 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1206
+msgid "Icon 8"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1209
+msgid "Icon 8 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1212
+msgid "Icon 9"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1215
+msgid "Icon 9 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1218
+msgid "Icon 10"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1221
+msgid "Icon 10 URL"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1229
+msgid "Error 404 Image"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1232
+msgid "Error 404 Title Text"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1235
+msgid "Error 404 Message"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1238
+msgid "Error Message Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1245
+msgid "Add Custom CSS"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1253
+msgid "WooCommerce"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1256
+msgid "Standard Logo Width (px) (Optional)"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1260
+msgid "Add to Cart Button Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1263
+msgid "Add to Cart Button Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1270
+msgid "Product Single Page Title Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1273
+msgid "Small Sections Title Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1277
+msgid "Cart Icon Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1280
+msgid "Cart Icon Background Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1283
+msgid "Hover Box Text Color"
+msgstr ""
+
+#: ../framework/customizer/theme-options.php:1286
+msgid "Hover Box Background Color"
+msgstr ""
+
+#: ../framework/customizer/translations.php:9
+msgid ""
+"Add little dark color from primary background color to apply in tags hover, forms "
+"fields etc."
+msgstr ""
+
+#: ../framework/customizer/translations.php:10
+#: ../framework/customizer/translations.php:11
+msgid "Border color for form borders, link list separator borders, tags borders etc."
+msgstr ""
+
+#: ../framework/customizer/translations.php:12
+msgid "Leave this field blank to hide Go Top link text"
+msgstr ""
+
+#: ../framework/customizer/translations.php:14
+msgid "Body Fonts"
+msgstr ""
+
+#: ../framework/customizer/translations.php:15
+msgid "Main Navigation Fonts"
+msgstr ""
+
+#: ../framework/customizer/translations.php:16
+msgid "Headings Fonts"
+msgstr ""
+
+#: ../framework/customizer/translations.php:17
+msgid "Sub Header - Background"
+msgstr ""
+
+#: ../framework/customizer/translations.php:18
+msgid "Sub Header Title"
+msgstr ""
+
+#: ../framework/customizer/translations.php:19
+msgid "Breadcrumbs and Search"
+msgstr ""
+
+#: ../framework/customizer/translations.php:20
+msgid "Sub Header (If Blog as a Home)"
+msgstr ""
+
+#: ../framework/customizer/translations.php:21
+msgid "Post Title and Date Box"
+msgstr ""
+
+#: ../framework/customizer/translations.php:22
+#: ../framework/customizer/translations.php:26
+msgid "On/Off Post Meta"
+msgstr ""
+
+#: ../framework/customizer/translations.php:23
+msgid "Archives Pages Options"
+msgstr ""
+
+#: ../framework/customizer/translations.php:24
+msgid "Author Archives Page"
+msgstr ""
+
+#: ../framework/customizer/translations.php:25
+msgid "Post Title"
+msgstr ""
+
+#: ../framework/customizer/translations.php:27
+msgid "Sections Title"
+msgstr ""
+
+#: ../framework/customizer/translations.php:30
+msgid "Advanced Styling - On/Off"
+msgstr ""
+
+#: ../framework/customizer/translations.php:31
+msgid "Top Menu"
+msgstr ""
+
+#: ../framework/customizer/translations.php:32
+#: ../framework/customizer/translations.php:39
+msgid "Dropdown Menu"
+msgstr ""
+
+#: ../framework/customizer/translations.php:33
+msgid "Class Grid Page"
+msgstr ""
+
+#: ../framework/customizer/translations.php:34
+msgid "Class Single Page"
+msgstr ""
+
+#: ../framework/customizer/translations.php:35
+msgid "Events Grid Page"
+msgstr ""
+
+#: ../framework/customizer/translations.php:36
+msgid "Events Single Page"
+msgstr ""
+
+#: ../framework/customizer/translations.php:38
+msgid "Responsive/Mobile Menu"
+msgstr ""
+
+#: ../framework/customizer/translations.php:40
+msgid "Mega Menu"
+msgstr ""
+
+#: ../framework/customizer/translations.php:41
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../framework/customizer/translations.php:42
+msgid "Widget Title"
+msgstr ""
+
+#: ../framework/customizer/translations.php:43
+msgid "Copyright Info Section"
+msgstr ""
+
+#: ../framework/customizer/translations.php:46
+msgid "Title and Description"
+msgstr ""
+
+#: ../framework/customizer/translations.php:48
+msgid "Sidebar Widget Box and Title"
+msgstr ""
+
+#: ../framework/customizer/translations.php:49
+msgid "Sidebar Widget Tabs Styling"
+msgstr ""
+
+#: ../framework/customizer/translations.php:50
+msgid "Footer Widget Tabs Styling"
+msgstr ""
+
+#: ../framework/customizer/translations.php:51
+msgid "Search Box"
+msgstr ""
+
+#: ../framework/customizer/translations.php:52
+msgid "Content area between header and footer"
+msgstr ""
+
+#: ../framework/customizer/translations.php:53
+msgid "Body Background"
+msgstr ""
+
+#: ../framework/customizer/translations.php:55
+msgid ""
+"Upload standard and retina logo. Retina logo should be double of standard logo. For "
+"example standard logo size is 100x50 then retina logo size should be 200x100. If "
+"you do not want to add retina logo then use standard logo in retina logo upload "
+"section."
+msgstr ""
+
+#: ../framework/customizer/translations.php:56
+msgid ""
+"Rererence icon site: <a href=\"https://fontawesome.com/v4.7.0/icons/#brand\" target="
+"\"_blank\">Font Awesome</a>"
+msgstr ""
+
+#: ../framework/customizer/translations.php:57
+msgid ""
+"Add styles to section titles like About Author, Comments, Related Posts, Leave a "
+"Reply form in blog single page."
+msgstr ""
+
+#: ../framework/customizer/translations.php:59
+msgid ""
+"If you are not using excerpt box to display summery text then you can control "
+"summery text from <strong>content</strong> text. If you are adding summery text in "
+"post excerpt section then it will display all excerpt content."
+msgstr ""
+
+#: ../framework/customizer/translations.php:60
+msgid ""
+"Skin color will apply in small elements like buttons, scroll top top arrow etc."
+msgstr ""
+
+#: ../framework/customizer/translations.php:61
+msgid ""
+"Select your preferred sidebar for blog pages like archives, categories, author and "
+"tags etc."
+msgstr ""
+
+#: ../framework/customizer/translations.php:62
+msgid ""
+"Edit styling of  top menu, sidebar widget titles, events, classes etc. sections. "
+"Set \"ON\" mode, \"Save and Publish\" customizer and \"REFRESH\" Page to see "
+"\"Advanced Styling\" below \"Styling\" tab in customizer main tabs list. This "
+"option will add css styles in page head section which can make page speed little "
+"slow. If you have basic skill in css then you can quickly edit theme styles options "
+"from ../wp-content/themes/kids-world/styling.css OR from admin > appearance > "
+"editor > click on right side \"styling.css\" file name."
+msgstr ""
+
+#: ../framework/customizer/translations.php:63
+msgid "Set sidebar widget titles stripe colors."
+msgstr ""
+
+#: ../framework/customizer/translations.php:64
+msgid "If you are not using WooCommerce plugin then leave logo width field blank. "
+msgstr ""
+
+#: ../framework/customizer/translations.php:65
+msgid ""
+"To set up your Google Map API key please do follow their detailed instructions in "
+"the \"Get API Key\" article. <a href=\"https://developers.google.com/maps/"
+"documentation/javascript/get-api-key\" target=\"_blank\">Click here to read full "
+"article.</a>"
+msgstr ""
+
+#: ../framework/menus.php:11
+msgid "Events Page Horizontal Menu"
+msgstr ""
+
+#: ../framework/menus.php:12
+msgid "Classic Portfolio Page Horizontal Menu"
+msgstr ""
+
+#: ../framework/meta-box-options.php:50
+msgid "Portfolio Page Options"
+msgstr ""
+
+#: ../framework/meta-box-options.php:59
+msgid "Portfolio Type"
+msgstr ""
+
+#: ../framework/meta-box-options.php:60
+msgid ""
+"Note: If you want to display 15-20 items on single page then sortable portfolio is "
+"best option. Sortable script will sort visible items on current page. If you have "
+"more than 20 items to display then select classic portfolio option because second "
+"or third page items will not sort and display in first page by click on categery "
+"name."
+msgstr ""
+
+#: ../framework/meta-box-options.php:65
+msgid "Sortable Portfolio"
+msgstr ""
+
+#: ../framework/meta-box-options.php:66
+msgid "Classic Portfolio"
+msgstr ""
+
+#: ../framework/meta-box-options.php:70
+msgid "Portfolio Column"
+msgstr ""
+
+#: ../framework/meta-box-options.php:71
+msgid "Select portfolio display column"
+msgstr ""
+
+#: ../framework/meta-box-options.php:76
+msgid "2 Column Portfolio"
+msgstr ""
+
+#: ../framework/meta-box-options.php:77
+msgid "3 Column Portfolio"
+msgstr ""
+
+#: ../framework/meta-box-options.php:78
+msgid "4 Column Portfolio"
+msgstr ""
+
+#: ../framework/meta-box-options.php:83
+msgid "Select portfolio pagination style"
+msgstr ""
+
+#: ../framework/meta-box-options.php:89 ../framework/meta-box-options.php:420
+#: ../framework/meta-box-options.php:512 ../framework/meta-box-options.php:592
+msgid "Next - Previous"
+msgstr ""
+
+#: ../framework/meta-box-options.php:94
+msgid "Exclude Portfolio Categories"
+msgstr ""
+
+#: ../framework/meta-box-options.php:95 ../framework/meta-box-options.php:403
+#: ../framework/meta-box-options.php:476 ../framework/meta-box-options.php:575
+msgid "Checked categories will be excluded from page display."
+msgstr ""
+
+#: ../framework/meta-box-options.php:105
+msgid "Display Portfolio Title Section"
+msgstr ""
+
+#: ../framework/meta-box-options.php:106
+msgid "Enable portfolio item title and excerpt/categories section."
+msgstr ""
+
+#: ../framework/meta-box-options.php:112
+msgid "Portfolio Item Title Text Size"
+msgstr ""
+
+#: ../framework/meta-box-options.php:124
+msgid "Portfolio Item Title Text Line Height"
+msgstr ""
+
+#: ../framework/meta-box-options.php:136
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3517
+msgid "Add link on Portfolio Title Text"
+msgstr ""
+
+#: ../framework/meta-box-options.php:137
+msgid "Enable permalink on portfolio title text"
+msgstr ""
+
+#: ../framework/meta-box-options.php:143 ../framework/meta-box-options.php:432
+msgid "Post Excerpt"
+msgstr ""
+
+#: ../framework/meta-box-options.php:144
+msgid "Enable portfolio item excerpt text "
+msgstr ""
+
+#: ../framework/meta-box-options.php:150
+msgid "Portfolio Item Excerpt Text Size"
+msgstr ""
+
+#: ../framework/meta-box-options.php:162
+msgid "Portfolio Item Excerpt Text Line Height"
+msgstr ""
+
+#: ../framework/meta-box-options.php:174
+msgid "Display Images/Videos on Lightbox"
+msgstr ""
+
+#: ../framework/meta-box-options.php:175
+msgid ""
+"Enable lightbox feature (open large image in popup). If disable then linked image "
+"will open portfolio single page."
+msgstr ""
+
+#: ../framework/meta-box-options.php:181 ../framework/meta-box-options.php:439
+#: ../framework/meta-box-options.php:538 ../framework/meta-box-options.php:607
+msgid "Pagination"
+msgstr ""
+
+#: ../framework/meta-box-options.php:182
+msgid "Add number to display portfolio items per page e.g. 12"
+msgstr ""
+
+#: ../framework/meta-box-options.php:190
+msgid "Add space between two portfolio items."
+msgstr ""
+
+#: ../framework/meta-box-options.php:201 ../framework/meta-box-options.php:446
+#: ../framework/meta-box-options.php:545 ../framework/meta-box-options.php:614
+msgid "Page Content Position"
+msgstr ""
+
+#: ../framework/meta-box-options.php:202 ../framework/meta-box-options.php:447
+#: ../framework/meta-box-options.php:546 ../framework/meta-box-options.php:615
+msgid "Select page content position"
+msgstr ""
+
+#: ../framework/meta-box-options.php:207
+msgid "Display above Portfolio items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:208
+msgid "Display below Portfolio items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:221
+msgid "Add Video"
+msgstr ""
+
+#: ../framework/meta-box-options.php:227
+msgid "Add YouTube video embed or embedded code"
+msgstr ""
+
+#: ../framework/meta-box-options.php:228
+msgid "Default embed video width - 616"
+msgstr ""
+
+#: ../framework/meta-box-options.php:244
+msgid "Add Audio"
+msgstr ""
+
+#: ../framework/meta-box-options.php:250
+msgid "Embed/embedded audio code"
+msgstr ""
+
+#: ../framework/meta-box-options.php:267
+msgid "Add Link URL"
+msgstr ""
+
+#: ../framework/meta-box-options.php:272
+msgid "Link URL ( e.g. http://www.domain.com )"
+msgstr ""
+
+#: ../framework/meta-box-options.php:288
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2099
+msgid "Add Gallery Images"
+msgstr ""
+
+#: ../framework/meta-box-options.php:293
+msgid "Gallery Type"
+msgstr ""
+
+#: ../framework/meta-box-options.php:298
+msgid "Slide Show with Next Previous Arrows"
+msgstr ""
+
+#: ../framework/meta-box-options.php:299
+msgid "1-2-4 Column Large to thumb images"
+msgstr ""
+
+#: ../framework/meta-box-options.php:305
+msgid "Galley Images"
+msgstr ""
+
+#: ../framework/meta-box-options.php:319
+msgid "Add Quote"
+msgstr ""
+
+#: ../framework/meta-box-options.php:324
+msgid "Add Quote Text"
+msgstr ""
+
+#: ../framework/meta-box-options.php:331
+msgid "Quote Text Size"
+msgstr ""
+
+#: ../framework/meta-box-options.php:332 ../framework/meta-box-options.php:338
+msgid "Add Quote text size in \"px\"\" or \"em\". Example : 30px or 2em"
+msgstr ""
+
+#: ../framework/meta-box-options.php:337
+msgid "Quote Text Line Height"
+msgstr ""
+
+#: ../framework/meta-box-options.php:343
+msgid "Source Name (optional)"
+msgstr ""
+
+#: ../framework/meta-box-options.php:350
+msgid "Source URL (optional)"
+msgstr ""
+
+#: ../framework/meta-box-options.php:357
+msgid "Quote Text Color"
+msgstr ""
+
+#: ../framework/meta-box-options.php:363
+msgid "Quote Background Color"
+msgstr ""
+
+#: ../framework/meta-box-options.php:368
+msgid "Text Padding"
+msgstr ""
+
+#: ../framework/meta-box-options.php:369
+msgid ""
+"Text space from top, bottom, left and right. Add value in \"px\" or \"em\". You can "
+"add single value like 50px or differnt values like 50px 80px 50px 80px (top, right, "
+"bottom and left)."
+msgstr ""
+
+#: ../framework/meta-box-options.php:375
+msgid "Display Only Quote Text and Background"
+msgstr ""
+
+#: ../framework/meta-box-options.php:377
+msgid ""
+"Select \"On\" to hide all sections like post title, meta, excerpt etc. and display "
+"only quote text with background in blog and archives pages. Some post styles looks "
+"nice with date, postformat icon and other meta fields and that's why it will be "
+"visible in those post styles."
+msgstr ""
+
+#: ../framework/meta-box-options.php:393
+msgid "Classes Page Options"
+msgstr ""
+
+#: ../framework/meta-box-options.php:402
+msgid "Exclude Classes Categories"
+msgstr ""
+
+#: ../framework/meta-box-options.php:414
+msgid "Select classes pagination style"
+msgstr ""
+
+#: ../framework/meta-box-options.php:425 ../framework/meta-box-options.php:486
+msgid "Display Sortable Menu"
+msgstr ""
+
+#: ../framework/meta-box-options.php:426 ../framework/meta-box-options.php:487
+msgid ""
+"Note: If you want to display 10-20 items on single page then sortable menu is best "
+"option. Sortable script will sort visible items on current page. If you have more "
+"than 20 items to display then disable this option because second or third page "
+"items will not sort and display in first page by click on categery name."
+msgstr ""
+
+#: ../framework/meta-box-options.php:433
+msgid "Enable class item excerpt text "
+msgstr ""
+
+#: ../framework/meta-box-options.php:440
+msgid "Add number to display Classes items per page e.g. 12"
+msgstr ""
+
+#: ../framework/meta-box-options.php:452
+msgid "Display above Classes items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:453
+msgid "Display below Classes items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:466
+msgid "Testimonials Page Options"
+msgstr ""
+
+#: ../framework/meta-box-options.php:475
+msgid "Exclude Testimonials Categories"
+msgstr ""
+
+#: ../framework/meta-box-options.php:493
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1234
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1402
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2131
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3491
+msgid "Display Column"
+msgstr ""
+
+#: ../framework/meta-box-options.php:494
+msgid "Select testimoninals display column"
+msgstr ""
+
+#: ../framework/meta-box-options.php:499
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1238
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1405
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2135
+msgid "1 Column"
+msgstr ""
+
+#: ../framework/meta-box-options.php:506
+msgid "Select testimonials pagination style"
+msgstr ""
+
+#: ../framework/meta-box-options.php:517
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1462
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1543
+msgid "Display Client Image"
+msgstr ""
+
+#: ../framework/meta-box-options.php:518
+msgid "Enable client image"
+msgstr ""
+
+#: ../framework/meta-box-options.php:524
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1425
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1470
+msgid "Display Quote Icon"
+msgstr ""
+
+#: ../framework/meta-box-options.php:525
+msgid "Enable quote icon next to client name"
+msgstr ""
+
+#: ../framework/meta-box-options.php:531
+msgid "Display Box with Color Background"
+msgstr ""
+
+#: ../framework/meta-box-options.php:532
+msgid "Disable Colorful Background in testimonials boxes"
+msgstr ""
+
+#: ../framework/meta-box-options.php:539
+msgid "Add number to display Testimonials items per page e.g. 12"
+msgstr ""
+
+#: ../framework/meta-box-options.php:551
+msgid "Display above Testimonials items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:552
+msgid "Display below Testimonials items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:565
+msgid "Events Page Options"
+msgstr ""
+
+#: ../framework/meta-box-options.php:574
+msgid "Exclude Events Categories"
+msgstr ""
+
+#: ../framework/meta-box-options.php:586
+msgid "Select events pagination style"
+msgstr ""
+
+#: ../framework/meta-box-options.php:597
+msgid "Events Type"
+msgstr ""
+
+#: ../framework/meta-box-options.php:602
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3346
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3411
+msgid "Upcoming Events"
+msgstr ""
+
+#: ../framework/meta-box-options.php:603
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3347
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3412
+msgid "Past Events"
+msgstr ""
+
+#: ../framework/meta-box-options.php:608
+msgid "Add number to display Events items per page e.g. 12"
+msgstr ""
+
+#: ../framework/meta-box-options.php:620
+msgid "Display above Events items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:621
+msgid "Display below Events items"
+msgstr ""
+
+#: ../framework/meta-box-options.php:636
+msgid "Page Options"
+msgstr ""
+
+#: ../framework/meta-box-options.php:643
+msgid "Page Content"
+msgstr ""
+
+#: ../framework/meta-box-options.php:648
+msgid "Content Layout"
+msgstr ""
+
+#: ../framework/meta-box-options.php:655
+msgid "Page Content Top Padding"
+msgstr ""
+
+#: ../framework/meta-box-options.php:656
+msgid ""
+"Enter content top padding value in pixels or em( Example: 20px, 30px, 1em, 2em). "
+"Leave it empty for default value."
+msgstr ""
+
+#: ../framework/meta-box-options.php:662
+msgid "Page Content Bottom Padding"
+msgstr ""
+
+#: ../framework/meta-box-options.php:663
+msgid ""
+"Enter content bottom padding value in pixels or em( Example: 20px, 30px, 1em, 2em). "
+"Leave it empty for default value."
+msgstr ""
+
+#: ../framework/meta-box-options.php:669
+msgid "Display Content Image WordPress Default Gallery with Masonry Style"
+msgstr ""
+
+#: ../framework/meta-box-options.php:684
+msgid "Display Sub Header"
+msgstr ""
+
+#: ../framework/meta-box-options.php:690
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2352
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2586
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2777
+msgid "Default"
+msgstr ""
+
+#: ../framework/meta-box-options.php:696
+msgid "Display Breadcrumbs Bar"
+msgstr ""
+
+#: ../framework/meta-box-options.php:706
+msgid "Display Search Bar"
+msgstr ""
+
+#: ../framework/meta-box-options.php:716
+msgid "Sub Header Styles"
+msgstr ""
+
+#: ../framework/meta-box-options.php:728
+msgid "Standard - Title with Background"
+msgstr ""
+
+#: ../framework/meta-box-options.php:730 ../framework/meta-box-options.php:842
+msgid "Google Map with Embed Code"
+msgstr ""
+
+#: ../framework/meta-box-options.php:731
+msgid "Google Map with API"
+msgstr ""
+
+#: ../framework/meta-box-options.php:736
+msgid "If you do not want to upload background image then add background color value"
+msgstr ""
+
+#: ../framework/meta-box-options.php:744
+msgid "Upload background image to display in this page (recommended size : 1920x400)"
+msgstr ""
+
+#: ../framework/meta-box-options.php:752
+#: ../framework/plugins/visual-composer/visual-composer-options.php:184
+#: ../framework/plugins/visual-composer/visual-composer-options.php:418
+msgid "Background Position"
+msgstr ""
+
+#: ../framework/meta-box-options.php:770
+#: ../framework/plugins/visual-composer/visual-composer-options.php:169
+#: ../framework/plugins/visual-composer/visual-composer-options.php:405
+msgid "Background Repeat"
+msgstr ""
+
+#: ../framework/meta-box-options.php:777
+msgid "No-Repeat"
+msgstr ""
+
+#: ../framework/meta-box-options.php:778
+msgid "Repeat-X"
+msgstr ""
+
+#: ../framework/meta-box-options.php:779
+msgid "Repeat-Y"
+msgstr ""
+
+#: ../framework/meta-box-options.php:794
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3483
+msgid "Display Title"
+msgstr ""
+
+#: ../framework/meta-box-options.php:811
+msgid "Header Top Padding"
+msgstr ""
+
+#: ../framework/meta-box-options.php:822
+msgid "Header Bottom Padding"
+msgstr ""
+
+#: ../framework/meta-box-options.php:843
+msgid "Video tutorial: https://youtu.be/ruNDITzcB_8"
+msgstr ""
+
+#: ../framework/meta-box-options.php:852
+msgid "Address"
+msgstr ""
+
+#: ../framework/meta-box-options.php:853
+msgid ""
+"Required: Please add \"Google Map API\" from Admin > Appearance > Customize > Sub "
+"Header > Google Map API (scrool to bottom to view this section)"
+msgstr ""
+
+#: ../framework/meta-box-options.php:856
+msgid "New York, NY, USA"
+msgstr ""
+
+#: ../framework/meta-box-options.php:868
+msgid "Header Height"
+msgstr ""
+
+#: ../framework/meta-box-options.php:869
+msgid "Header height to display map. Enter only number."
+msgstr ""
+
+#: ../framework/meta-box-options.php:876
+msgid "Map Zoom Level"
+msgstr ""
+
+#: ../framework/meta-box-options.php:877
+msgid ""
+"Enter number between 10 to 20 ( default 14 ). <a href=\"https://developers.google."
+"com/maps/documentation/static-maps/intro?hl=en#Zoomlevels\" target=\"_blank\">Read "
+"more</a>."
+msgstr ""
+
+#: ../framework/meta-box-options.php:884
+msgid "Info Window  - Title"
+msgstr ""
+
+#: ../framework/meta-box-options.php:892
+msgid "Info Window - Address, Small Description."
+msgstr ""
+
+#: ../framework/meta-box-options.php:893
+msgid ""
+"You can add address or description text. You can also use html tags like strong, "
+"em, p h2, h3, h4. Just remember the content will be passed to Javascript, so things "
+"like quotes (single or double) should be avoided"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:920
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2626
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1027
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin according "
+"to the WordPress guidelines."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1214
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a while "
+"on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some hosts, "
+"so please be patient."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:40
+#: ../framework/plugins/visual-composer/visual-composer-options.php:50
+msgid "Icon Name"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:41
+#: ../framework/plugins/visual-composer/visual-composer-options.php:51
+msgid "Select icon from dropdown menu."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:60
+msgid "Unique Id"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:61
+msgid "(Optional) Enter a unique Id."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:70
+msgid "Class"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:71
+msgid "(Optional) Enter a unique class name."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:80
+msgid "Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:81
+msgid "(Optional) Enter inline CSS."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:88
+msgid "Solid"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:89
+msgid "Dotted"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:90
+msgid "Dashed"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:91
+msgid "Double"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:97
+#: ../framework/plugins/visual-composer/visual-composer-options.php:222
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2847
+msgid "Yes"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:98
+#: ../framework/plugins/visual-composer/visual-composer-options.php:221
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2846
+msgid "No"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:117
+msgid "Simple Container"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:120
+#: ../framework/plugins/visual-composer/visual-composer-options.php:142
+#: ../framework/plugins/visual-composer/visual-composer-options.php:651
+#: ../framework/plugins/visual-composer/visual-composer-options.php:671
+#: ../framework/plugins/visual-composer/visual-composer-options.php:706
+#: ../framework/plugins/visual-composer/visual-composer-options.php:738
+#: ../framework/plugins/visual-composer/visual-composer-options.php:791
+#: ../framework/plugins/visual-composer/visual-composer-options.php:831
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1115
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1664
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2515
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2633
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2661
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2701
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2745
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2883
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2911
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2939
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2991
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3074
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3164
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3212
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4337
+msgid "Typography"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:121
+msgid "Include container in 100% width template section"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:139
+msgid "Advanced Container"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:143
+msgid ""
+"Include container with background, padding, margin etc. for 100% width template "
+"section"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:153
+msgid "Set section backgorund color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:162
+#: ../framework/plugins/visual-composer/visual-composer-options.php:400
+msgid "Upload background image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:231
+msgid "Border Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:232
+msgid ""
+"If you want to make section with border then set border width and then set top and/"
+"or bottom border colors"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:247
+msgid "Bottom Border Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:255
+msgid "Arrow Direction"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:256
+msgid ""
+"If you want to make section with top or bottom direction arrow then select from "
+"above drop down."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:259
+msgid "Hide Arrow"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:260
+msgid "Display Arrow Top"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:261
+msgid "Display Arrow Bottom"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:269
+msgid "Arrow Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:277
+msgid "Padding Top"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:278
+msgid "Enter section padding top value in pixels."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:286
+msgid "Padding Bottom"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:287
+msgid "Enter section padding bottom value in pixels."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:296
+msgid "Magin Top"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:297
+msgid "Enter section margin top value in pixels."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:305
+#: ../framework/plugins/visual-composer/visual-composer-options.php:487
+msgid "Magin Bottom"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:306
+msgid "Enter section margin bottom value in pixels."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:313
+msgid "Section Font Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:314
+msgid "This will change general body color like paragraph text etc. in the section."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:330
+msgid "Half Background and Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:333
+#: ../framework/plugins/visual-composer/visual-composer-options.php:389
+#: ../framework/plugins/visual-composer/visual-composer-options.php:520
+#: ../framework/plugins/visual-composer/visual-composer-options.php:540
+#: ../framework/plugins/visual-composer/visual-composer-options.php:885
+#: ../framework/plugins/visual-composer/visual-composer-options.php:905
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1071
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1714
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1794
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2246
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2389
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3276
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3900
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4090
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4247
+msgid "Advanced"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:334
+msgid "Display content with half background block"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:350
+msgid "Content Block Position"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:362
+msgid "Top Padding"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:370
+msgid "Bottom Padding"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:386
+msgid "Services/Content Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:390
+msgid "Display content inside box with various style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:436
+#: ../framework/plugins/visual-composer/visual-composer-options.php:549
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2361
+msgid "Box Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:445
+msgid "Box Border Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:452
+msgid "Box Border Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:461
+msgid "Box Border Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:469
+msgid "Box Border Radius"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:478
+msgid "Box Padding"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:479
+msgid "Inner space between box and content in pixels"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:488
+msgid "Enter bottom margin in pixels"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:495
+msgid "Content Image Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:497
+msgid "Image width feature to set as per box width."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:499
+msgid "Auto Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:500
+msgid "Full - 100% Width of Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:517
+msgid "Counter Boxes"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:521
+msgid "Include counter boxes in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:537
+msgid "Counter Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:541
+msgid "Add counter box."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:557
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3219
+msgid "Font Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:566
+#: ../framework/plugins/visual-composer/visual-composer-options.php:931
+msgid "Icon Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:574
+#: ../framework/plugins/visual-composer/visual-composer-options.php:681
+#: ../framework/plugins/visual-composer/visual-composer-options.php:923
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2753
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2947
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3109
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4002
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4317
+msgid "Icon Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:582
+msgid "Counter Number"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:583
+msgid "Counter will animated above numter"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:591
+msgid "Unit"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:592
+msgid "Enter the unit for the counter number ( Example %, $, + )."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:600
+msgid "Unit Position"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:602
+msgid "Before Number"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:603
+msgid "After Number"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:611
+msgid "Animation Speed"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:612
+msgid ""
+"Add animation speed in miliseconds ( Example 1000 = 1 second, 5000 = 5 second. )"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:620
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3613
+msgid "Column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:621
+msgid "Select counter box display column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:633
+msgid "description text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:635
+msgid "Small Description text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:648
+msgid "List Icons"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:652
+msgid "Include list icons in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:668
+msgid "List Icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:672
+msgid "Add list icon."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:690
+msgid "List Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:703
+msgid "Accordion Toggle"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:707
+msgid "Include accordion toggles in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:716
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1122
+msgid "Toogle Status"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:719
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1124
+msgid "Close"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:720
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1125
+msgid "Open"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:735
+msgid "Toggle"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:739
+msgid "Add accordion toggle."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:748
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1134
+msgid "Toggle Content Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:749
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1135
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:757
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1143
+msgid "Toggle Content Title Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:765
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1151
+msgid "Toggle Content Title Text Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:772
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1158
+msgid " [p] Insert toggle content here [/p]  "
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:774
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1160
+msgid "Toggle Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:775
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1161
+msgid ""
+"Add the toggle content. If you are adding more than one line then you can remove "
+"[p]...[/p] shortcode because wordpress will automatically add paragraph tag for all "
+"next lines."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:788
+msgid "Tabs"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:792
+msgid "Include tabs your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:801
+msgid "Tabs Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:803
+msgid "Horizontal Tabs"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:804
+msgid "Vertical Tabs"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:813
+msgid "Tabs Align"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:828
+msgid "Tab"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:832
+msgid "Add tab in your content."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:840
+msgid "Tab Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:841
+msgid "Add the title that will go above the content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:849
+msgid "Insert content here"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:851
+msgid "Tab Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:852
+msgid "tab content text here"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:859
+msgid "Tab Title Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:867
+msgid "Tab Title Text Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:886
+msgid "Include social icons in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:902
+msgid "Social Media Icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:906
+msgid "Add social icon."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:915
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2814
+msgid "Link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:939
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1051
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2461
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2823
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3955
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4145
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4286
+msgid "Link Target"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:941
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1053
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2069
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2324
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2463
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2541
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2825
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3766
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3878
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3957
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4147
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4288
+msgid "Open page in same window"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:942
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1054
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2070
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2325
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2464
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2542
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2826
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3767
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3879
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3958
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4148
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4289
+msgid "Open page in new window"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:958
+msgid "Image Slider"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:961
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1025
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1455
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1536
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3647
+msgid "Sliders"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:962
+msgid "Simple image slider"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:971
+msgid "Animation Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:973
+msgid "Fade"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:974
+msgid "Slide"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:982
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3703
+msgid "Auto Play"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:990
+msgid "Display Bullet Navigation"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:998
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1479
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1551
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3685
+msgid "Display Arrow Navigation"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1006
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1497
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1578
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3694
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1007
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1498
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1579
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3695
+msgid "Intreval between two slides. 1000=1 second, 5000= 5 second"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1022
+msgid "Image Slide"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1026
+msgid "Add image slide."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1034
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1993
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2024
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4166
+msgid "Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1035
+msgid "Maximum image width : 940px, height size is flexible."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1042
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2000
+msgid "Link on Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1043
+msgid "Add link to open page or post by click on image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1068
+msgid "Skill Bar"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1072
+msgid "Include skill bar in your content."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1078
+msgid "Percentage"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1087
+msgid "Title Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1112
+msgid "Simple Toggle"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1116
+msgid "Include simple toggle in your content."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1178
+msgid "Recent Posts - Tiny"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1181
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1227
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1331
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1386
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3336
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3401
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3459
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3589
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3788
+msgid "Recent Posts"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1182
+msgid "Posts with tiny thumb, title and meta."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1188
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1247
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1338
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3355
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3420
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3466
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3596
+msgid "Post Limit"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1189
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1248
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1339
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3356
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3421
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3467
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3597
+msgid "Number of posts to display"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1197
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1301
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1356
+msgid "Categories"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1198
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1302
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1357
+msgid ""
+"If you want to display specific category(ies) recent posts only, then add Category "
+"IDs with comma seperated (e.g. 1,2,3) or Leave it blank for default."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1206
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1310
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1365
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1434
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1515
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1614
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3380
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3438
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3568
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3626
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3756
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3867
+msgid "Exclude Categories"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1207
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1311
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1366
+msgid "add post categories IDs with comma seperate to exclude from post list"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1224
+msgid "Recent Posts - Large"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1228
+msgid "Posts with medium thumb, title, excerpt etc."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1235
+msgid "Select display column for recent posts"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1256
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1347
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3429
+msgid "Description Limit"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1257
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1348
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3430
+msgid "Number of characters to display in summery text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1265
+msgid "Read More Link Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1266
+msgid "Leave it blank to hide \"Read More\" link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1274
+msgid "Display Date"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1283
+msgid "Display Author Name and Comments"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1292
+msgid "Display Featured Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1328
+msgid "Recent Posts - Square Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1332
+msgid "Post with datebox, title, excerpt and meta."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1383
+msgid "Testimonials"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1387
+msgid "Display recent testimonials"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1393
+msgid "Number of Testimonials"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1394
+msgid "Enter number to display testimonials"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1416
+msgid "Display Person Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1435
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1516
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1615
+msgid "add testimonials categories IDs with comma seperate to exclude from display"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1452
+msgid "Testimonials Box Slider"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1456
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1537
+msgid "Slider with Testimonials posts"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1488
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1569
+msgid "Auto Play Sideshow"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1506
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1587
+msgid "Slide Limit"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1507
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1588
+msgid "Enter number to display testimonials slides in slideshows"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1533
+msgid "Testimonials Wide Slider"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1560
+msgid "Display Circle Navigation"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1596
+msgid "Slider Maximum Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1597
+msgid "Enter maximum display width in pixels"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1605
+msgid "Client Image Border Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1606
+msgid "Enter border width around client image. Enter \"0px\" to hide border"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1633
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2025
+msgid "Video"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1636
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1986
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2092
+msgid "Media"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1637
+msgid "Add YouTube, Vimeo or any embed video"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1643
+msgid "Video URL"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1644
+msgid ""
+"Enter embed YouTube/Vimeo video URL. Use sample URLs and replace video ids in "
+"sample URL. YouTube [ https://www.youtube.com/embed/sn1GG20V_m8 ] Vimeo: [ https://"
+"player.vimeo.com/video/30955798 ]"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1661
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1693
+msgid "Tooltip"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1665
+msgid "Tooltip with left, right, up and down direction"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1671
+msgid "Tooltip Position"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1672
+msgid "Select tooltip display position"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1674
+msgid "Up"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1675
+msgid "Down"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1684
+msgid "Exmaple of tooltip text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1686
+msgid "Tooltip Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1687
+msgid "Enter text which you want to display in tooltip"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1695
+msgid "Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1711
+msgid "Team Member"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1715
+msgid "Person image with description"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1721
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1801
+msgid "Team Member Photo"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1722
+msgid "Upload team member image. Recommended Size:[ 401px x 594px ]"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1729
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1809
+#: ../woocommerce/kidsworld-custom/woo-functions.php:17
+msgid "Name"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1730
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1810
+msgid "John Doe"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1737
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1825
+msgid "Position"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1738
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1826
+msgid "Team Leader"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1746
+msgid "Team Member Info"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1761
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1881
+msgid "Team Member Image Alignment"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1770
+msgid "Content Background"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1773
+msgid "Light Gray"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1774
+msgid "White"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1791
+msgid "Team Member - Small"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1795
+msgid "Person image with name, position and icons "
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1802
+msgid "Upload team member image. Recommended Size: 401px x 594px"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1818
+msgid "Name Text Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1834
+msgid "Position Text Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1849
+msgid "Content Box Border Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1858
+msgid "Content Box Border Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1866
+msgid "Content Box Border Radius"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1873
+msgid "Content Box Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1884
+msgid "Below Person Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1885
+msgid "Above Person Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1894
+msgid ""
+"You can refer social media icon from this page: https://fontawesome.com/v4.7.0/"
+"icons/#brand"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1902
+msgid "Icon 1 Link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1918
+msgid "Icon 2 Link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1934
+msgid "Icon 3 Link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1950
+msgid "Icon 4 Link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1966
+msgid "Icon 5 Link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1983
+msgid "Single Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:1987
+msgid "Add image with left-right align and lightbox"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2001
+msgid ""
+"If you want to add lightbox property on this image then give full size image path "
+"in above box."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2009
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2163
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3505
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3672
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3854
+msgid "Lightbox"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2010
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3506
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3673
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3855
+msgid "Select event you want after click on thumbnail"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2012
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3508
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3677
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3859
+msgid "Display Large Image In Lightbox"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2013
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3509
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3676
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3858
+msgid "Disable Lightbox and Go to link page"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2021
+msgid "Lightbox Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2022
+msgid "If you want to display video in light box then select Video."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2033
+msgid "Image Alignment"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2034
+msgid "Select column as per images size."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2043
+msgid "Image Alternate Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2051
+msgid "Image Title Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2059
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2107
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4193
+msgid "Image Border Radius"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2067
+msgid "Page Link Target"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2089
+msgid "Gallery"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2093
+msgid "Custom gallery with 1-9 column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2115
+msgid "Space Between Two Images"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2123
+msgid "Image Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2124
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or other "
+"sizes defined by theme like \"kidsworld-square-image\",\"kidsworld-related-posts\","
+"\"kidsworld-grid-image\",\"kidsworld-blog-featured\". )."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2139
+msgid "5 Column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2140
+msgid "6 Column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2141
+msgid "7 Column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2142
+msgid "8 Column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2143
+msgid "9 Column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2151
+msgid "Grid Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2154
+msgid "Masonry"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2155
+msgid "Fit Rows"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2164
+msgid "Enable/Disable large image popup box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2166
+msgid "Display Large Image in Lightbox"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2167
+msgid "Disable Lightbox"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2173
+msgid "Show/Hide Image Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2176
+msgid "No Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2177
+msgid "Only Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2178
+msgid "Title and Caption"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2186
+msgid "Image Hover Icon Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2194
+msgid "Image Hover Icon Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2202
+msgid "Image Title Text Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2210
+msgid "Image Title Text Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2218
+msgid "Image Caption Text Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2226
+msgid "Image Caption Text Color Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2243
+msgid "Promotion Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2247
+msgid "Box with heading, small description and button"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2252
+msgid "This is title text of promotion box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2254
+msgid "Promotion Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2255
+msgid "Add the promotion text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2278
+msgid "this is sub line promo text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2280
+msgid "Sub Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2281
+msgid "Add the subline promotext"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2288
+msgid "Sub Text Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2296
+msgid "Sub Text Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2305
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2445
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2523
+msgid "Button Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2306
+msgid "If you want to hide button then leave this field blank"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2307
+msgid "Signup Now!"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2314
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2453
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2531
+msgid "Button Link"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2322
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2539
+msgid "Button Link Target"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2334
+msgid "Button Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2342
+msgid "Button Text Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2350
+msgid "Box Display Stayle"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2353
+msgid "Text and Button Center Align"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2369
+msgid "Display Border Around Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2386
+msgid "Pricing Table"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2390
+msgid "Add pricing table"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2396
+msgid "Heading Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2397
+msgid "Upload heading image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2404
+#: ../woocommerce/kidsworld-custom/woo-functions.php:18
+msgid "Price"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2412
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2420
+msgid "Price Sub Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2428
+msgid "Table Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2429
+msgid "Title Here"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2437
+msgid "Small Description"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2438
+msgid "Add small description of this plan"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2446
+msgid "Join Now!"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2479
+msgid "Table Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2480
+msgid "Add the table content in list format."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2487
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3300
+msgid "Skin Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2495
+msgid "Text Color on Skin Color Background"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2512
+msgid "Button"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2516
+msgid "Add button with lots of variations"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2521
+msgid "Read more"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2524
+msgid ""
+"Add the button text. If you want to add icon before button text then use simple "
+"shortcode [fa_icon icon_name=\"fa-star\"]. Icon Referce Website : https://"
+"fontawesome.com/v4.7.0/icons/"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2558
+msgid "Text Shadow Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2559
+msgid "Add Little dark color of Button Background color to create shadow effect"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2584
+msgid "Display Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2587
+msgid "Outline - Transparent Background"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2595
+msgid "Border Radius"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2596
+msgid ""
+"You can add border radius with diff. styles for four corners like \"10px 0 10px 0\" "
+"to create diff. shapes.  "
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2612
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4218
+msgid "Padding"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2613
+msgid "Top Bottom Left and Right side padding example : \"3px 20px 3px 20px\""
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2630
+msgid "Blockquote"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2634
+msgid "Add blockquote in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2639
+msgid "This is sample text for blockquote"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2641
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2681
+msgid "Quote Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2642
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2682
+msgid "Add the quote text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2658
+msgid "Pull Quote"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2662
+msgid "Include pull quotes in your content."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2668
+msgid "Quote Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2669
+msgid "Select quote style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2671
+msgid "Pull Quote Left"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2672
+msgid "Pull Quote Right"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2679
+msgid "This is sample text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2698
+msgid "Alert"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2702
+msgid "Provide information to users with alerts"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2708
+msgid "Info Box Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2709
+msgid "Select info box style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2711
+msgid "Info"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2712
+msgid "Success"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2713
+msgid "Error"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2714
+msgid "Warning"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2715
+msgid "Download"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2716
+msgid "Note"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2723
+msgid "Sample text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2725
+msgid "Info Box Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2726
+msgid "Add the info box text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2742
+msgid "Icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2746
+msgid "Add Font Awesome icon with variations"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2761
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3986
+msgid "Icon Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2763
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3989
+msgid "Tiny"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2764
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3990
+msgid "Small"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2766
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3992
+msgid "Large"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2767
+msgid "xlarge"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2775
+msgid "Icon Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2778
+msgid "Icon with Square Shape"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2779
+msgid "Icon with Circle Shape"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2787
+msgid "Icon Background"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2788
+msgid ""
+"If \"Icon Style\" drodown is selected \"Icon with Square or Circle Shape\" then "
+"enter icon background color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2796
+msgid "Display Icon Border"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2797
+msgid ""
+"If \"Icon Style\" drodown is selected \"Icon with Square or Circle Shape\" then you "
+"can add border on square or circle shape"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2806
+msgid ""
+"If \"Display Icon Border\" drodown is selected \"Yes\" then enter icon border color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2815
+msgid "Enter full url to create clickable icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2835
+msgid "Margin"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2836
+msgid "Set margin around icon."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2844
+msgid "Rotate Icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2855
+msgid "Animation Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2856
+msgid "Select icon animation style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2859
+msgid "Expand from Center"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2860
+msgid "Move Left to Right"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2861
+msgid "Move Right to Left"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2862
+msgid "Move Top to Bottom"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2863
+msgid "Move Bottom to Top"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2880
+msgid "Text Block ( Custom )"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2884
+msgid ""
+"Include a block of text in your content. Use [break] shortcode for line break in "
+"text block content."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2891
+msgid "Enter Your Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2892
+msgid "Include a block of text in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2908
+msgid "Gap"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2912
+msgid "Blank space with Custom Height"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2918
+msgid "Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2919
+msgid "Enter gap size in pixels."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2936
+msgid "Horizontal Line"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2940
+msgid "Add horizontal line with icon "
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2963
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3046
+msgid "Top Margin"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2971
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3054
+msgid "Bottom Margin"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2988
+msgid "Dividers"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2992
+msgid "Add dividers between content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:2998
+msgid "Divider Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3001
+msgid "Line 1px"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3002
+msgid "Line 2px"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3003
+msgid "Line 3px"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3004
+msgid "Double Line"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3005
+msgid "Square Open"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3006
+msgid "Square Full"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3007
+msgid "Circle Open"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3008
+msgid "Circle Full"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3016
+msgid "Divider Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3024
+msgid "Divider Maximum Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3025
+msgid ""
+"Only for divider type \"Line 1px, Line 2px, Line 3px and Double Line\". (e.g. "
+"100px, 100%, 50px)"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3033
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3316
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4308
+msgid "Text Align"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3071
+msgid "Fancy Heading"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3075
+msgid "Heading with border and icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3080
+msgid "Title Text Here"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3082
+msgid "Section Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3098
+msgid "Title Align"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3134
+msgid "Margin Top"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3135
+msgid "Enter title margin top value in pixels."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3143
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3144
+msgid "Enter title margin bottom value in pixels."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3161
+msgid "Dropcaps"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3165
+msgid "Include dropcap in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3171
+msgid "Dropcap Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3172
+msgid "Select dropcaps style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3175
+msgid "Dark"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3184
+msgid "Dropcap Border Radius"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3190
+msgid "A"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3192
+msgid "Dropcap Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3193
+msgid "Add the dropcap text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3209
+msgid "Font"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3213
+msgid "Include text with size, line height, color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3236
+msgid "Font Line Height"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3255
+msgid "Your Text Here"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3257
+msgid "Description Text"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3273
+msgid "Services - Default Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3277
+msgid "Include services in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3283
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3285
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3906
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3908
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4096
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4098
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4253
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4255
+msgid "Service Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3291
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3914
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4104
+msgid "Service description text here"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3293
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3916
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4106
+msgid "Service Description"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3333
+msgid "Events - Large"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3337
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3402
+msgid "Add Upcoming or Past events"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3343
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3408
+msgid "Event Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3364
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3475
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3605
+msgid "Display Excerpt"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3372
+msgid "Display Address"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3381
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3439
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3627
+msgid "add events categories IDs with comma seperate to exclude from post list"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3398
+msgid "Events - Square Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3460
+msgid "Display portfolio items with variations"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3492
+msgid "Select display column for recent work items"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3534
+msgid "Title Text Line Height"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3542
+msgid "Excerpt Font Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3551
+msgid "Excerpt Text Line Height"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3560
+msgid "Add space between two portfolio items. Enter only numbers."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3569
+msgid "add portfolio categories IDs with comma seperate to exclude from post list"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3590
+msgid "Include Class posts in your content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3644
+msgid "Logo Slider"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3648
+msgid "Display Client logos with carousel slider"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3654
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3795
+msgid "Number of Logo Thumbnails"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3655
+msgid "Enter number of logo thumbnails to display in slider"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3663
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3813
+msgid "Thumbnail Margin"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3664
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3814
+msgid "Enter margin between two thumbnails in pixels e.g. \"5px\" \"10px\""
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3712
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3822
+msgid "Thumbnail Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3720
+msgid "Number of Thumbnails for Large Screens"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3721
+msgid "Enter number to display logo thumbnails in desktop resolution"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3729
+msgid "Number of Thumbnails for Tablet/iPad "
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3730
+msgid "Enter number to display in Tablet Vertical resolution "
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3738
+msgid "Number of Thumbnails for Mobile Horizontal"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3739
+msgid "Enter number to display in mobile horizontal resolution"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3747
+msgid "Number of Thumbnails for Mobile Vertical"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3748
+msgid "Enter number to display in mobile vertical resolution"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3757
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3868
+msgid "add logo categories IDs with comma seperate to exclude from post list"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3764
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3876
+msgid "Thumbnail Link Target"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3785
+msgid "Logos Grid"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3789
+msgid "Display Logo Thumbnails with Grid Columns"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3796
+msgid "Enter number of logo thumbnails to display"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3804
+msgid "Grid Column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3805
+msgid "Enter number to display thumbnails in grid column"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3830
+msgid "Thumbnail Border Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3838
+msgid "Thumbnail Border Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3846
+msgid "Thumbnail Border Radius"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3897
+msgid "Services - Icon Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3901
+msgid "Display services with icon style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3939
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4129
+msgid "Title Text Bottom Margin"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3948
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4279
+msgid "Link on Title Text and Icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3968
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4299
+msgid "Space Between Icon and Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3969
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4159
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4300
+msgid "Enter margin between icon and content in pixels"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3977
+msgid "Icon Position"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3993
+msgid "X-Large"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:3994
+msgid "Super Large"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4010
+msgid "Icon Display Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4013
+msgid "Icon with Border and Background Box"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4014
+msgid "Simple Icon"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4022
+msgid "Icon Box Background Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4023
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4033
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4042
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4051
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4060
+msgid "Skip this option if \"Icon Display Style\" is \"Simple Icon\""
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4032
+msgid "Icon Box Border Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4041
+msgid "Icon Box Border Radius"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4049
+msgid "Icon Box Border Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4059
+msgid "Icon Box Border Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4069
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4227
+msgid "Responsive Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4070
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4228
+msgid ""
+"Enter responsive width where icon will move from left or right to center. It "
+"depends on column and icon size. If you are using services in 4 column then "
+"responsive width should be iPad width (979) and for 2 column iPhone horizontal "
+"(767). Responsive Width Number is flexible to any size (e.g. 0 to 1200 or more)."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4087
+msgid "Services - Image Style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4091
+msgid "Display services with image style"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4138
+msgid "Link on Title Text and Image"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4158
+msgid "Space Between Image and Content"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4167
+msgid "Upload image. Image width and height size is flexible."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4174
+msgid "Image Position"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4184
+msgid "Image Border Width"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4185
+msgid "You can hide border with \"0px\" image width size."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4200
+msgid "Image Border Type"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4209
+msgid "Image Border Color"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4219
+msgid "Space between image and border."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4244
+msgid "Simple Icon and Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4248
+msgid "Display Simple Icon with Title"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4263
+msgid "Title Text & Icon Size"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4334
+msgid "Clear"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-options.php:4338
+msgid "Clear floating elements."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:9
+msgid "Theme Settings"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:12
+msgid "Hide Extra Metaboxes"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:13
+msgid "Remove Default Elements"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:14
+msgid "Remove Default Templates"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:15
+msgid "Remove Frontend Editor"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:16
+msgid "Hide Design Options"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:26
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:30
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:34
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:38
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:42
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:46
+msgid "Enable"
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:26
+msgid ""
+"Enable this option to overwrite certain Visual Composer shortcodes to match with "
+"theme design."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:30
+msgid "Removes an uncommonly used metaboxes."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:34
+msgid "Enable to use only theme styled elements."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:38
+msgid "Enable it when you are hiding default Visual Composer elements."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:42
+msgid "Enable to hide Frontend editor access."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:46
+msgid "Hide design and styling options which are already provided with the theme."
+msgstr ""
+
+#: ../framework/plugins/visual-composer/visual-composer-settings.php:94
+msgid ""
+"Enable / Disable Visual Composer custom settings for better integration with theme."
+msgstr ""
+
+#: ../framework/post-like.php:38
+msgid "Love randomized"
+msgstr ""
+
+#: ../framework/register-widgets.php:7
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../framework/register-widgets.php:17
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../framework/register-widgets.php:26
+msgid "Footer Column 1"
+msgstr ""
+
+#: ../framework/register-widgets.php:36
+msgid "Footer Column 2"
+msgstr ""
+
+#: ../framework/register-widgets.php:46
+msgid "Footer Column 3"
+msgstr ""
+
+#: ../framework/register-widgets.php:56
+msgid "Footer Column 4"
+msgstr ""
+
+#: ../framework/register-widgets.php:68
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: ../framework/register-widgets.php:78
+msgid "Product Single Page Sidebar"
+msgstr ""
+
+#: ../framework/theme-filters.php:273
+msgid "VIEW ALL"
+msgstr ""
+
+#: ../framework/theme-filters.php:291
+msgid "Sorry, no results were found for this query."
+msgstr ""
+
+#: ../framework/theme-filters.php:292
+msgid "Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+#: ../framework/theme-filters.php:313 ../framework/theme-filters.php:316
+#: ../framework/theme-filters.php:319
+#, php-format
+msgid "Archive: %s"
+msgstr ""
+
+#: ../framework/theme-filters.php:322
+msgid "Author Archives"
+msgstr ""
+
+#: ../framework/theme-filters.php:365 ../framework/theme-filters.php:1109
+msgid "Search"
+msgstr ""
+
+#: ../framework/theme-filters.php:380 ../framework/theme-functions.php:231
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../framework/theme-filters.php:453
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../framework/theme-filters.php:455
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../framework/theme-filters.php:457
+msgid "Share on Google+"
+msgstr ""
+
+#: ../framework/theme-filters.php:459
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../framework/theme-filters.php:461
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: ../framework/theme-filters.php:463
+msgid "Share on Tumblr"
+msgstr ""
+
+#: ../framework/theme-filters.php:778
+msgid " Comments"
+msgstr ""
+
+#: ../framework/theme-filters.php:780
+msgid "1 Comment"
+msgstr ""
+
+#: ../framework/theme-filters.php:851
+#: ../woocommerce/kidsworld-custom/woo-functions.php:310
+msgid "Prev"
+msgstr ""
+
+#: ../framework/theme-filters.php:854
+#: ../woocommerce/kidsworld-custom/woo-functions.php:311
+msgid "Next"
+msgstr ""
+
+#: ../framework/theme-filters.php:1056
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1057
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1058
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1059
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1060
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1061
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1062
+msgid "Delicious URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1063
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1064
+msgid "YouTube URL"
+msgstr ""
+
+#: ../framework/theme-filters.php:1199
+msgid ""
+"This content is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: ../framework/theme-filters.php:1200
+msgid "Password:"
+msgstr ""
+
+#: ../framework/theme-filters.php:1201
+msgid "Submit"
+msgstr ""
+
+#: ../framework/theme-functions.php:227
+msgid "Reply"
+msgstr ""
+
+#: ../framework/theme-functions.php:234
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../framework/theme-functions.php:236
+msgid " (Edit)"
+msgstr ""
+
+#: ../framework/theme-functions.php:243
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/theme-functions.php:272
+msgid "Pingback:"
+msgstr ""
+
+#: ../framework/theme-functions.php:272
+msgid "(Edit)"
+msgstr ""
+
+#: ../framework/theme-functions.php:370 ../page.php:32 ../templates/100-width.php:23
+#: ../templates/blank.php:43
+msgid "Next Page "
+msgstr ""
+
+#: ../framework/theme-functions.php:371 ../page.php:33 ../templates/100-width.php:24
+#: ../templates/blank.php:44
+msgid "Previous Page "
+msgstr ""
+
+#: ../header.php:80 ../header.php:82
+#: ../woocommerce/kidsworld-custom/woo-functions.php:681
+msgid "View Cart"
+msgstr ""
+
+#: ../header.php:82 ../woocommerce/kidsworld-custom/woo-functions.php:683
+#, php-format
+msgid "%d Item"
+msgid_plural "%d Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../parts/posts/post-grid.php:86 ../parts/posts/post-standard.php:74
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../parts/single-pagination.php:16
+msgid "Previous Post"
+msgstr ""
+
+#: ../parts/single-pagination.php:30
+msgid "Next Post"
+msgstr ""
+
+#: ../search.php:23
+#, php-format
+msgid "results for &quot;%1$s&quot;"
+msgstr ""
+
+#: ../single-classes.php:62
+msgid "Start Date"
+msgstr ""
+
+#: ../single-classes.php:73
+msgid "Years Old"
+msgstr ""
+
+#: ../single-classes.php:84
+msgid "Class Size"
+msgstr ""
+
+#: ../single-classes.php:95
+msgid "Class Duration"
+msgstr ""
+
+#: ../single-classes.php:106
+msgid "Transportation"
+msgstr ""
+
+#: ../single-events.php:60
+msgid "Date, Time and Venue"
+msgstr ""
+
+#: ../single-events.php:90
+msgid "Google Map"
+msgstr ""
+
+#: ../single-events.php:100
+msgid "About Organizer"
+msgstr ""
+
+#: ../templates/100-width.php:18 ../templates/blank.php:38
+msgid "Pages: "
+msgstr ""
+
+#: ../templates/archives.php:30
+msgid "Last 30 Posts"
+msgstr ""
+
+#: ../templates/archives.php:46
+msgid "Archives by Month"
+msgstr ""
+
+#: ../templates/archives.php:53
+msgid "Archives by Category"
+msgstr ""
+
+#: ../templates/classes.php:77 ../templates/portfolio.php:81
+#: ../templates/testimonials.php:81
+msgid "View All"
+msgstr ""
+
+#: ../templates/classes.php:194
+msgid "Age:"
+msgstr ""
+
+#: ../templates/classes.php:195
+msgid "Class Size:"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:27
+msgid "Custom: General Options"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:33
+msgid "Cart Icon Below Logo"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:36
+msgid "Enable cart icon below logo in header section"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:49
+msgid "Custom: Shop Page Options"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:54
+msgid "Sort by Default Menu"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:57
+msgid "Disable sort by default,name, price, date etc. dropdown menu"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:62
+msgid "Products per Page menu"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:65
+msgid "Disable show 12,24,36 products dropdown menu"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:71
+msgid "Shop Layout"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:76
+msgid "Select layout for Shop page"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:82
+msgid "How Many Products Per Page?"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:84
+msgid "Enter number of products to display per page"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:91
+msgid "Products Column"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:96
+msgid "Select column number to display products in shop page"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:102
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:212
+msgid "Title Text Size (in pixels)"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:104
+msgid "Enter featured products box title text size in pixels like \"22px\""
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:111
+msgid "Price Text Size (in pixels)"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:113
+msgid "Enter featured products box price text size in pixels like \"18px\""
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:125
+msgid "Custom: Product Single (Overview) Page Options"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:131
+msgid "Product Overview Layout"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:136
+msgid "Select layout for product single page"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:142
+msgid "Display Next Previous links"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:145
+msgid "Enable next previous arrows on right side beside product title"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:151
+msgid "Gallery Images Column"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:156
+msgid "Select column number to display thumanail images below large image"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:168
+msgid "Related Products Column"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:173
+msgid "Select column number to display Related products"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:179
+msgid "How Many Related Items?"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:183
+msgid ""
+"How many related products you want to display in the page, below product "
+"description section?"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:190
+msgid "Up-Sells Products Column"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:195
+msgid "Select column number to display Up-Sells products"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:201
+msgid "How Many Up-Sells Items?"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:205
+msgid ""
+"How many Up-Sells products you want to display in the page, below product "
+"description section?"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:214
+msgid "Enter shop single page title text size in pixels like \"27px\""
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:221
+msgid "Single and Innter Pages Section Title Text Size (in pixels)"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:223
+msgid "Enter shop single page title text size in pixels like \"22px\""
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:236
+msgid "Custom: Cart Page Options"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:242
+msgid "Cross-Sells Products Column"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:247
+msgid "Select column number to display Cross-Sells products"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:253
+msgid "How Many Cross-Sells Items?"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:257
+msgid ""
+"How many Cross-Sells products you want to display in the cart page, below Calculate "
+"Shipping and Order Total tables?"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:270
+msgid "Custom: Sale Badge Options"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:277
+msgid "Sale Badge Background Color"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:279
+msgid "Select \"sale\" badge background color"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:286
+msgid "Sale Badge Font Color"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-admin-options.php:288
+msgid "Select \"sale\" badge font color"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:16
+msgid "Default Order"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:20
+msgid "Rating"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:21
+msgid "Popularity"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:22
+msgid "Sort Ascending"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:23
+msgid "Sort Descending"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:24
+msgid "Products"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:44
+msgid "Sort by"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:72
+msgid "Show"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:264
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:425
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:425
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:490
+msgid "Cart"
+msgstr ""
+
+#: ../woocommerce/kidsworld-custom/woo-functions.php:511
+#: ../woocommerce/kidsworld-custom/woo-functions.php:644
+msgid "Search Products"
+msgstr ""
+
+#: ../woocommerce/single-product/product-image.php:54
+msgid "Awaiting product image"
+msgstr ""

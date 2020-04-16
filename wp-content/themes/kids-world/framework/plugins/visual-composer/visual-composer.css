@@ -1,0 +1,92 @@
+
+/* Visual Composer Switch - Mode Button */
+div.composer-switch {margin: 15px 0 0; }
+
+/* Element Buttons  */
+.kidsworld_content_element_o .vc_element-icon.vc_element-icon {width: 32px; height: 32px; text-align: center; border-radius: 7px; background-color: #fff; background-image: none !important; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+.kidsworld_content_element_o .vc_element-icon.vc_element-icon:before {display: block; font-family: "fontawesome"; font-size: 14px; font-style: normal; font-weight: normal; line-height: 32px; -webkit-font-smoothing: antialiased; color: #444; speak: none; }
+
+li.kidsworld_content_element_o i.gap:before                   { content: "\f07d"; }
+li.kidsworld_content_element_o i.line:before                  { content: "\f068"; }
+li.kidsworld_content_element_o i.blockquote:before            { content: "\f10d"; }
+li.kidsworld_content_element_o i.pullquote:before             { content: "\f10d"; }
+li.kidsworld_content_element_o i.alert:before                 { content: "\f12a"; }
+li.kidsworld_content_element_o i.skill_bar:before             { content: "\f0ae"; }
+li.kidsworld_content_element_o i.el_icon:before               { content: "\f118"; }
+li.kidsworld_content_element_o i.image:before                 { content: "\f03e"; }
+li.kidsworld_content_element_o i.pricing_table:before         { content: "\f0d6"; }
+li.kidsworld_content_element_o i.recent_posts:before          { content: "\f0c5"; }
+li.kidsworld_content_element_o i.promo:before                 { content: "\f005"; }
+li.kidsworld_content_element_o i.counter:before               { content: "\f0e4"; }
+li.kidsworld_content_element_o i.slider:before                { content: "\f108"; }
+li.kidsworld_content_element_o i.portfolio:before             { content: "\f009"; }
+li.kidsworld_content_element_o i.video_player:before          { content: "\f144"; }
+li.kidsworld_content_element_o i.el_button:before             { content: "\f0c8"; }
+li.kidsworld_content_element_o i.testimonials:before          { content: "\f10d"; }
+li.kidsworld_content_element_o i.testimonials_slider:before   { content: "\f27a"; }
+li.kidsworld_content_element_o i.tooltip:before               { content: "\f0e5"; }
+li.kidsworld_content_element_o i.author:before                { content: "\f007"; }
+li.kidsworld_content_element_o i.heading:before               { content: "\f1dc"; }
+li.kidsworld_content_element_o i.dropcap:before               { content: "\f043"; }
+li.kidsworld_content_element_o i.font:before                  { content: "\f031"; }
+li.kidsworld_content_element_o i.services:before              { content: "\f085"; }
+li.kidsworld_content_element_o i.calendar:before              { content: "\f073"; }
+li.kidsworld_content_element_o i.education:before             { content: "\f19d"; }
+li.kidsworld_content_element_o i.social:before                { content: "\f099"; }
+li.kidsworld_content_element_o i.toggle:before                { content: "\f150"; }
+li.kidsworld_content_element_o i.list:before                  { content: "\f0ca"; }
+li.kidsworld_content_element_o i.tabs:before                  { content: "\f022"; }
+li.kidsworld_content_element_o i.container:before             { content: "\f090"; }
+li.kidsworld_content_element_o i.clear:before              		{ content: "\f12d"; }
+li.kidsworld_content_element_o i.paint:before              		{ content: "\f1fc"; }
+li.kidsworld_content_element_o i.cbox:before              		{ content: "\f096"; }
+li.kidsworld_content_element_o i.pagetext:before              	{ content: "\f0f6"; }
+
+/* Content Element Manager */
+.wpb_element_title .vc_element-icon {position: relative; background-image: none !important; }
+.wpb_element_title .vc_element-icon:before {content: "\f013"; display: block; position: absolute; top: 0; left: 0; width: 32px; height: 32px; margin: 0 auto; font-family: "fontawesome"; font-size: 12px; font-style: normal; font-weight: normal; line-height: 32px; text-align: center; -webkit-font-smoothing: antialiased; color: #444; background-color: #f5f5f5; border-radius: 100px; speak: none; }
+
+.wpb_element_title .vc_element-icon.gap:before                   { content: "\f07d"; }
+.wpb_element_title .vc_element-icon.line:before                  { content: "\f068"; }
+.wpb_element_title .vc_element-icon.blockquote:before            { content: "\f10d"; }
+.wpb_element_title .vc_element-icon.pullquote:before             { content: "\f10d"; }
+.wpb_element_title .vc_element-icon.alert:before                 { content: "\f12a"; }
+.wpb_element_title .vc_element-icon.skill_bar:before             { content: "\f0ae"; }
+.wpb_element_title .vc_element-icon.el_icon:before               { content: "\f118"; }
+.wpb_element_title .vc_element-icon.image:before                 { content: "\f03e"; }
+.wpb_element_title .vc_element-icon.pricing_table:before         { content: "\f0d6"; }
+.wpb_element_title .vc_element-icon.recent_posts:before          { content: "\f0c5"; }
+.wpb_element_title .vc_element-icon.promo:before                 { content: "\f005"; }
+.wpb_element_title .vc_element-icon.counter:before               { content: "\f0e4"; }
+.wpb_element_title .vc_element-icon.slider:before                { content: "\f108"; }
+.wpb_element_title .vc_element-icon.portfolio:before             { content: "\f009"; }
+.wpb_element_title .vc_element-icon.video_player:before          { content: "\f144"; }
+.wpb_element_title .vc_element-icon.el_button:before             { content: "\f0c8"; }
+.wpb_element_title .vc_element-icon.testimonials:before          { content: "\f10d"; }
+.wpb_element_title .vc_element-icon.testimonials_slider:before   { content: "\f27a"; }
+.wpb_element_title .vc_element-icon.tooltip:before               { content: "\f0e5"; }
+.wpb_element_title .vc_element-icon.author:before                { content: "\f007"; }
+.wpb_element_title .vc_element-icon.heading:before               { content: "\f1dc"; }
+.wpb_element_title .vc_element-icon.dropcap:before               { content: "\f043"; }
+.wpb_element_title .vc_element-icon.font:before                  { content: "\f031"; }
+.wpb_element_title .vc_element-icon.services:before              { content: "\f085"; }
+.wpb_element_title .vc_element-icon.calendar:before              { content: "\f073"; }
+.wpb_element_title .vc_element-icon.education:before             { content: "\f19d"; }
+.wpb_element_title .vc_element-icon.social:before                { content: "\f099"; }
+.wpb_element_title .vc_element-icon.toggle:before                { content: "\f150"; }
+.wpb_element_title .vc_element-icon.list:before                  { content: "\f0ca"; }
+.wpb_element_title .vc_element-icon.tabs:before                  { content: "\f022"; }
+.wpb_element_title .vc_element-icon.container:before             { content: "\f090"; }
+.wpb_element_title .vc_element-icon.clear:before             	 { content: "\f12d"; }
+.wpb_element_title .vc_element-icon.paint:before             	 { content: "\f1fc"; }
+.wpb_element_title .vc_element-icon.cbox:before             	 { content: "\f096"; }
+.wpb_element_title .vc_element-icon.pagetext:before             	 { content: "\f0f6"; }
+
+.vc_add-element-container .wpb-content-layouts li.kidsworld_vc_parent_element_o { background:rgba(0,0,0,0.1); }
+
+/* Content Element Manager Parameters */
+div.wpb_vc_param_value.content {margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+div.wpb_vc_param_value.content p, div.wpb_vc_param_value.content ul, div.wpb_vc_param_value.content ol, div.wpb_vc_param_value.content div, div.wpb_vc_param_value.content span { 
+  margin: 3px 0 0; font-size: 11px; font-style: italic; line-height: 1; color: #999999; }
+div.wpb_vc_param_value.content iframe {margin: 3px 0 0; width: 100%; }
+div.wpb_vc_param_value:not(.content) {display: none !important; }

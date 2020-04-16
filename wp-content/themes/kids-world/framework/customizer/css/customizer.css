@@ -1,0 +1,149 @@
+.customize-control { margin-bottom: 21px; }
+.customize-control-radio { padding: 0; }
+.customize-control-radio label { line-height: 25px; }
+
+.customize-control input[type="text"], .customize-control select { width: 100%; }
+
+.customize-control-image .dropdown { width: 100%; }
+.customize-control-image .dropdown-content { float: none; }
+.customize-control-image .dropdown-status { max-width: none; }
+.customize-control-image .dropdown-arrow:after { position: absolute; top: 50%; margin-top: -12px; }
+.accordion-section .customize-control-image .preview-thumbnail img { width: auto; max-width: 100%; max-height: none; }
+
+.wp-color-result { top: 0; }
+.wp-color-result:focus,.wp-color-result:active { outline: 0; -webkit-box-shadow: none; box-shadow: none; }
+
+.customize-control-sub-title { margin: 15px 0 10px; }
+.customize-sub-title { display: block; margin: 20px -20px 10px; border: 1px dashed #ddd; border-left: 0; border-right: 0; padding: 9px 20px 9px 15px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; line-height: 1; color: #444; background: #f5f5f5; }
+
+.customize-description { margin: 0; font-size: 11px; line-height: 1.4; color: #888; font-style: normal; } 
+.customize-description span { font-size: 10px; font-weight: 700; text-transform: uppercase; color: #2a93c2; }
+.customize-description a { font-weight: bold; }
+
+span.customize-control-title { font-size: 13px; }
+
+#customize-theme-controls ul li.customize-control { margin-bottom: 15px; }
+.accordion-section .customize-control-image .dropdown-status { font-size: 11px; }
+#customize-theme-controls ul li select { font-size: 12px; }
+
+#customize-theme-controls ul li h3:before,#customize-theme-controls ul li h4:before { font: 400 18px/1 dashicons; speak: none; left:0; float:left; display: inline-block; padding: 2px 10px 0 0; text-indent: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-decoration: none!important; }
+
+#customize-theme-controls ul li h4:before { content:'\f139'; padding: 0 0px 0 0; font: 400 16px/1 dashicons; margin-top: -2px; }
+
+.kidsworld_customizer_slider_control { width:100%; position: relative; float:left; }
+.kidsworld_customizer_slider_control .left { width:180px; display: inline-block; float:left;  }
+.kidsworld_customizer_slider_control .left input { width:175px; }
+.kidsworld_customizer_slider_control .right { width:55px;  display: inline-block; float:right;}
+.kidsworld_customizer_slider_control .right input { text-align: center; background: #eee;  }
+
+.kidsworld_customizer_minitext label { width:90px; float:left; display: inline-block;}
+.kidsworld_customizer_minitext input.kidsworld_minitext_field { width:140px; float:right; display: inline-block;}
+
+.customize-control-miniselect { width:63%; float:left; clear:none; margin-right: 1.8%; }
+
+.customize-control-radio label { font-size: 12px;}
+
+#customize-control-kidsworld_h6_font_size, #customize-control-kidsworld_headings_font_weight, #customize-control-kidsworld_icon1_url, #customize-control-kidsworld_icon2_url, #customize-control-kidsworld_icon3_url, #customize-control-kidsworld_icon4_url, #customize-control-kidsworld_icon5_url, #customize-control-kidsworld_icon6_url, #customize-control-kidsworld_icon7_url, #customize-control-kidsworld_icon8_url, #customize-control-kidsworld_icon9_url, #customize-control-kidsworld_post_box_on,#customize-control-kidsworld_blog_featured_image_height,#customize-control-kidsworld_blog_archive_image_height,#customize-control-kidsworld_light_dark_style,#customize-control-kidsworld_blog_img_overlay_text { border-bottom: 1px dotted #ddd; padding-bottom: 25px; margin-bottom: 20px; }
+
+/*Image Height*/
+label.kidsworld_customizer_image_height { width:190px; }
+label.kidsworld_customizer_image_height span { font-size: 12px; line-height: 18px; display: table-cell; vertical-align: middle; font-weight: normal; }
+.kidsworld_customizer_minitext input.kidsworld_minitext_field.kidsworld_customizer_image_height { font-size: 12px; width:50px; text-align: center; }
+
+#customize-theme-controls .control-section.open .accordion-section-title { background: #2ea2cc; color:#fff; }
+#customize-theme-controls .control-section.open .accordion-section-title:after { color:#fff; }
+
+/* Preloader */
+#kidsworld_customizer_loading { position: fixed; width:100%; height:100%; background-color: #fff; z-index: 9999999; font-weight: 300; text-align: center;} 
+#kidsworld_customizer_loading #kidsworld_cs_proload_content { width: 250px; height: 100px; top: 50%; left: 50%; margin: -60px 0 0 -125px; display: table; position: absolute; } 
+#kidsworld_customizer_loading #kidsworld_cs_proload_content p { padding:0px 0 10px; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #444; } 
+#kidsworld_customizer_loading #kidsworld_cs_proload_content p span { position: relative; display: block; z-index: 99999999; } 
+#kidsworld_customizer_loading #kidsworld_cs_proload_content p span.kidsworld_cs_loading_title { margin: 7px 0 0 0; font-size: 36px; letter-spacing: -1px; } 
+#kidsworld_customizer_loading #kidsworld_cs_proload_content p span.kidsworld_cs_loading { left: 50%;  background: url(../../../images/loader-infinite.gif) no-repeat 0 0; width:24px; height:24px; margin:0 0 15px -12px; } 
+
+.customize-control select[multiple].kidsworld_customizer_multipost { height:250px; }
+
+.kidsworld_customizer_divider { height:1px; background: #e6e6e6; width:100%; display: block; clear:both; margin:10px 0 10px 0;}
+.blocked_divider { height:1px; border-bottom:1px solid #e6e6e6; clear:both; height: 30px; background: none;  }
+
+/* Social Media Icons */
+
+li#customize-control-kidsworld_icon1_bg label span.customize-control-title, li#customize-control-kidsworld_icon2_bg label span.customize-control-title, li#customize-control-kidsworld_icon3_bg label span.customize-control-title, li#customize-control-kidsworld_icon4_bg label span.customize-control-title, li#customize-control-kidsworld_icon5_bg label span.customize-control-title, li#customize-control-kidsworld_icon6_bg label span.customize-control-title, li#customize-control-kidsworld_icon7_bg label span.customize-control-title, li#customize-control-kidsworld_icon8_bg label span.customize-control-title, li#customize-control-kidsworld_icon9_bg label span.customize-control-title, li#customize-control-kidsworld_icon10_bg label span.customize-control-title { display: none; }
+
+li#accordion-section-kidsworld_customizer_sm_icons ul li.customize-control.customize-control-text { width:80px; display: inline-block; float:left; clear:none; margin-right: 5px; }
+
+li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon1_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon2_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon3_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon4_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon5_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon6_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon7_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon8_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon9_url.customize-control.customize-control-text, li#accordion-section-kidsworld_customizer_sm_icons li#customize-control-kidsworld_icon10_url.customize-control.customize-control-text { width:150px; }
+
+/*Radio Image Header Style*/
+.customize-control-radio-image .image.ui-buttonset input[type=radio] { height: auto; } 
+.customize-control-radio-image .image.ui-buttonset label img { border: 2px solid #999; display: inline-block; margin-right: 5px; margin-bottom: 5px; } 
+.customize-control-radio-image .image.ui-buttonset label.ui-state-active img { background: none; border: 2px solid #000; }
+
+.customize-control-radio-image .image.ui-buttonset label img { display: inline-block; opacity: 0.4; } 
+.customize-control-radio-image .image.ui-buttonset label.ui-state-active img { opacity: 1.0; }
+
+.customize-control-radio-image .image.ui-buttonset label.ui-button { padding:0;background:none; border:0; box-shadow: none; height:auto; line-height: auto; width:auto; }
+
+#input_kidsworld_header_style { margin-right: -20px; margin-left: -5px; }
+
+#input_kidsworld_header_style input,#input_kidsworld_header_style label img { float:left; display: inline-block; margin:0 5px 15px; padding:0; font-size: 0; line-height: 0; }
+
+/*Image Switch*/
+.kidsworld-image-switch { display: block; margin-bottom: 15px; }
+.kidsworld-image-switch-block { height:18px; width:auto; padding:3px;  background: #e9e9e9; border-radius:20px; float:left; margin-right: 10px; display: inline; }
+.kidsworld_image_switch_title { float:left; line-height: 26px; overflow: hidden; width:175px; }
+
+.customize-control-radio-switch .image.kidsworld-image-switch.ui-buttonset label { float:left; }
+.customize-control-radio-switch .image.kidsworld-image-switch.ui-buttonset label p { background: #333; width:18px; height:18px; line-height: 18px; border-radius: 100px; margin:0; padding:0; font-size: 0; opacity:0; } 
+.customize-control-radio-switch .image.kidsworld-image-switch.ui-buttonset label.ui-state-active p { opacity: 1.0; }
+
+.customize-control-radio-switch .image.kidsworld-image-switch.ui-buttonset label p.mode_on { background:#0079b8; margin-right: 3px; }
+.customize-control-radio-switch .image.kidsworld-image-switch.ui-buttonset label p.mode_off { background:#fff; }
+
+.customize-control-radio-switch .image.kidsworld-image-switch.ui-buttonset label.ui-button { box-shadow: none; border:0; padding:0; height:auto; width:auto; background: none; }
+
+/*Tooltip*/
+#kidsworld_tooltip { text-align: center; color: #fff; font-size: 12px; background: #111; position: absolute; z-index: 9999999; padding:8px 12px; border-radius:3px;  } 
+#kidsworld_tooltip:after { width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #111; content: ''; position: absolute; left: 50%; bottom: -10px; margin-left: -10px; } 
+#kidsworld_tooltip.top:after { border-top-color: transparent; border-bottom: 10px solid #111; top: -20px; bottom: auto; } 
+#kidsworld_tooltip.left:after { left: 10px; margin: 0; } #kidsworld_tooltip.right:after {right: 10px; left: auto; margin: 0; }
+
+.customize-control-title i,.kidsworld_image_switch_title i { margin-left: 3px; font-size: 16px; color:#666; line-height: 26px; }
+.customize-control-title i:hover { color:#000; }
+
+span.kidsworld_customizer_info_text { font-size: 11px; margin-bottom: 20px; display: block; }
+
+[data-custmizer-hide] {display: none !important; }
+
+.wp-full-overlay-sidebar { background: #fff; }
+li#accordion-panel-header_panel > .accordion-section-title:after,
+li#accordion-panel-footer_panel > .accordion-section-title:after,
+li#accordion-panel-blog_panel > .accordion-section-title:after { content:"\f502"; }
+#customize-theme-controls .accordion-section-content { padding-bottom: 60px; }
+
+/* Sortable */
+.kidsworld-sortable ul { margin-top: 10px }
+.kidsworld-sortable li.kidsworld-sortable-li { cursor: move; background: #fafafa; padding: 0; padding-left: 15px; height: 40px; line-height: 40px; white-space: nowrap; border: 1px solid #e5e5e5; text-overflow: ellipsis; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; color: #222; position: relative; }
+.kidsworld-sortable li.kidsworld-sortable-li:hover { border-color: #999999 }
+.kidsworld-sortable li.kidsworld-sortable-li.kidsworld-hide { opacity: 0.75; border-color: #e5e5e5; }
+.kidsworld-sortable li.kidsworld-sortable-li .kidsworld-hide-sortee { cursor: pointer }
+.kidsworld-sortable li.kidsworld-sortable-li .kidsworld-hide-sortee:hover { color: #222 }
+.kidsworld-sortable ul li:last-child { margin-bottom: 0 }
+.kidsworld-sortable li.kidsworld-hide { color: #ccc; background: transparent; }
+
+.kidsworld-sortable li.kidsworld-sortable-li .onofficons { display: block; position: absolute; top: 0; right: 0; width:13px; height:13px; display: inline-block; border-radius: 100px; background: green; margin:13px; }
+.kidsworld-sortable li.kidsworld-sortable-li .onofficons.green { background: green; }
+.kidsworld-sortable li.kidsworld-sortable-li .onofficons.red { background: red; opacity: 0.5; }
+
+/* Radio control styles */
+.kidsworld_buttonset { border:1px solid #e6e6e6; display: inline-block; font-size: 12px; padding:1px; line-height: normal; }
+.kidsworld_buttonset label { padding: 5px; border-color: #eee; border-left:1px solid #e6e6e6; display: inline-block; float:left; } 
+
+.kidsworld_buttonset label.ui-state-default { background: #fff; } 
+.kidsworld_buttonset label.ui-state-hover { color: #0074a2; } 
+.kidsworld_buttonset label.ui-state-active { color: #212121; background: #e6e6e6; }
+.kidsworld_buttonset label.ui-button { border:0; line-height: normal; height: auto; width: auto; box-shadow: none; border-left:1px solid #e6e6e6; }
+.kidsworld_buttonset label.bt_count1 { border-left:0; }
+
+
+

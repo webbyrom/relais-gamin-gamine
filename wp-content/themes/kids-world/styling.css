@@ -1,0 +1,464 @@
+/*Main*/
+.kidsworld_main_container { background:#fff; }
+
+/* Header ( Logo, Top Menu ) ============================================================================ */
+
+.kidsworld_logo_menu_header { background:#fff; border-bottom:1px solid rgba(0,0,0,0.1); }
+.kidsworld_header_thick_border { background: #adcb69; }
+
+ul.kidsworld_top_nav > li > a > span > i,
+ul.kidsworld_top_nav > li > a > span:before,
+.kidsworld_logo_menu_header:after { background-image:url(images/dot-bg.png); }
+
+ul.kidsworld_top_nav li ul li:hover a { color:#fff; }
+ul.kidsworld_top_nav > li > ul li { background:#fff; }
+
+ul.kidsworld_top_nav > li > a { color:#555555; }
+
+ul.kidsworld_top_nav > li > a > span > i,ul.kidsworld_top_nav > li:hover > a > span > i { color:#fff; }
+ul.kidsworld_top_nav > li > a > span:before,
+ul.kidsworld_top_nav > li > a > span:after { background-color:#555555;}
+
+ul.kidsworld_top_nav > li > a > span > i:after { border:1px solid #555555; }
+ul.kidsworld_top_nav > li.kidsworld_m_active > a:before { border-top: 11px solid #f00; }
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active > a:before { border-top: 9px solid #f00;  }
+
+ul.kidsworld_top_nav li:not(.kidsworld-mega-menu) ul li,
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li,
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category > ul > li { border-color:rgba(0,0,0,0.08); }
+ul.kidsworld_top_nav li.kidsworld-mega-menu:not(.menu-item-object-category) > ul > li { border-left:1px solid rgba(0,0,0,0.08);}
+
+ul.kidsworld_top_nav .sub-menu li a span,
+ul.kidsworld_top_nav .sub-menu li,
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li > a,
+ul.kidsworld_top_nav .sub-menu li.menu-item-has-children > a:after,
+ul.kidsworld_top_nav li.kidsworld-mega-menu .sub-menu li:hover a span,
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li .kidsworld_nav_p_meta span { color:#555555; }
+
+ul.kidsworld_top_nav > li > ul > li:first-child,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu > ul { border:0; border-top:2px solid; }
+
+/* dropdown hover ------------------------------------ */
+
+ul.kidsworld_top_nav ul,
+ul.kidsworld_top_nav ul.sub-menu li,
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul > li:hover,
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul { background:#fff; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul.sub-menu li { background:transparent; }
+
+ul.kidsworld_top_nav li.kidsworld-mega-menu.menu-item-object-category ul li:hover,
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul li:hover > a:before { background: rgba(0,0,0,0.08); }
+
+ul.kidsworld_top_nav ul.sub-menu > li:hover > a > span,
+ul.kidsworld_top_nav ul.sub-menu > li.menu-item-has-children:hover > a:after,
+ul.kidsworld_top_nav li.kidsworld-mega-menu > ul.sub-menu ul.sub-menu li:hover > a span,
+ul.kidsworld_top_nav li.kidsworld-mega-menu ul li a:hover { color:#fff; }
+
+/*Menu Link 1*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:first-child > a,ul.kidsworld_top_nav > li:first-child:hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:first-child > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:first-child > ul > li:hover > a:first-child span { color: #8373ce; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:first-child > a:before,ul.kidsworld_top_nav > li:first-child > ul { border-top-color:#8373ce; }
+ul.kidsworld_top_nav > li:first-child > ul li:hover,
+ul.kidsworld_top_nav > li:first-child > a > span > i,
+ul.kidsworld_top_nav > li:first-child > a > span:before,
+ul.kidsworld_top_nav > li:first-child > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:first-child > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:first-child > ul li:hover > a:before { background-color:#8373ce; color:#fff; }
+ul.kidsworld_top_nav > li:first-child > a > span > i:after,
+ul.kidsworld_top_nav > li > ul > li:first-child,
+ul.kidsworld_top_nav > li:first-child.kidsworld-mega-menu > ul { border-color: #8373ce; }
+
+/*Menu Link 2*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(2) > a,ul.kidsworld_top_nav > li:nth-child(2):hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(2) > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(2) > ul > li:hover > a:first-child span { color: #fcb54d; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(2) > a:before,
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(2) > a:before { border-top-color:#fcb54d; }
+ul.kidsworld_top_nav > li:nth-child(2) > ul li:hover,
+ul.kidsworld_top_nav > li:nth-child(2) > a > span > i,
+ul.kidsworld_top_nav > li:nth-child(2) > a > span:before,
+ul.kidsworld_top_nav > li:nth-child(2) > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:nth-child(2) > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(2) > ul li:hover > a:before { background-color:#fcb54d; color:#fff; }
+ul.kidsworld_top_nav > li:nth-child(2) > a > span > i:after,
+ul.kidsworld_top_nav > li:nth-child(2) > ul > li:first-child,
+ul.kidsworld_top_nav > li:nth-child(2).kidsworld-mega-menu > ul { border-color: #fcb54d; }
+
+/*Menu Link 3*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(3) > a,ul.kidsworld_top_nav > li:nth-child(3):hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(3) > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(3) > ul > li:hover > a:first-child span { color: #fc5b4e; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(3) > a:before,
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(3) > a:before { border-top-color:#fc5b4e; }
+ul.kidsworld_top_nav > li:nth-child(3) > ul li:hover,
+ul.kidsworld_top_nav > li:nth-child(3) > a > span > i,
+ul.kidsworld_top_nav > li:nth-child(3) > a > span:before,
+ul.kidsworld_top_nav > li:nth-child(3) > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:nth-child(3) > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(3) > ul li:hover > a:before { background-color:#fc5b4e; color:#fff; }
+ul.kidsworld_top_nav > li:nth-child(3) > a > span > i:after,
+ul.kidsworld_top_nav > li:nth-child(3) > ul > li:first-child,
+ul.kidsworld_top_nav > li:nth-child(3).kidsworld-mega-menu > ul { border-color: #fc5b4e; }
+
+/*Menu Link 4*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(4) > a,ul.kidsworld_top_nav > li:nth-child(4):hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(4) > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(4) > ul > li:hover > a:first-child span { color: #adca69; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(4) > a:before,
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(4) > a:before { border-top-color:#adca69; }
+ul.kidsworld_top_nav > li:nth-child(4) > ul li:hover,
+ul.kidsworld_top_nav > li:nth-child(4) > a > span > i,
+ul.kidsworld_top_nav > li:nth-child(4) > a > span:before,
+ul.kidsworld_top_nav > li:nth-child(4) > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:nth-child(4) > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(4) > ul li:hover > a:before { background-color:#adca69; color:#fff; }
+ul.kidsworld_top_nav > li:nth-child(4) > a > span > i:after,
+ul.kidsworld_top_nav > li:nth-child(4) > ul > li:first-child,
+ul.kidsworld_top_nav > li:nth-child(4).kidsworld-mega-menu > ul { border-color: #adca69; }
+
+/*Menu Link 5*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(5) > a,ul.kidsworld_top_nav > li:nth-child(5):hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(5) > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(5) > ul > li:hover > a:first-child span { color: #84bed6; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(5) > a:before,
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(5) > a:before { border-top-color:#84bed6; }
+ul.kidsworld_top_nav > li:nth-child(5) > ul li:hover,
+ul.kidsworld_top_nav > li:nth-child(5) > a > span > i,
+ul.kidsworld_top_nav > li:nth-child(5) > a > span:before,
+ul.kidsworld_top_nav > li:nth-child(5) > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:nth-child(5) > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(5) > ul li:hover > a:before { background-color:#84bed6; color:#fff; }
+ul.kidsworld_top_nav > li:nth-child(5) > a > span > i:after,
+ul.kidsworld_top_nav > li:nth-child(5) > ul > li:first-child,
+ul.kidsworld_top_nav > li:nth-child(5).kidsworld-mega-menu > ul { border-color: #84bed6; }
+
+/*Menu Link 6*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(6) > a,ul.kidsworld_top_nav > li:nth-child(6):hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(6) > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(6) > ul > li:hover > a:first-child span { color: #c389ce; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(6) > a:before,
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(6) > a:before { border-top-color:#c389ce; }
+ul.kidsworld_top_nav > li:nth-child(6) > ul li:hover,
+ul.kidsworld_top_nav > li:nth-child(6) > a > span > i,
+ul.kidsworld_top_nav > li:nth-child(6) > a > span:before,
+ul.kidsworld_top_nav > li:nth-child(6) > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:nth-child(6) > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(6) > ul li:hover > a:before { background-color:#c389ce; color:#fff; }
+ul.kidsworld_top_nav > li:nth-child(6) > a > span > i:after,
+ul.kidsworld_top_nav > li:nth-child(6) > ul > li:first-child,
+ul.kidsworld_top_nav > li:nth-child(6).kidsworld-mega-menu > ul { border-color: #c389ce; }
+
+/*Menu Link 7*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(7) > a,ul.kidsworld_top_nav > li:nth-child(7):hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(7) > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(7) > ul > li:hover > a:first-child span { color: #8373ce; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(7) > a:before,
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(7) > a:before { border-top-color:#8373ce; }
+ul.kidsworld_top_nav > li:nth-child(7) > ul li:hover,
+ul.kidsworld_top_nav > li:nth-child(7) > a > span > i,
+ul.kidsworld_top_nav > li:nth-child(7) > a > span:before,
+ul.kidsworld_top_nav > li:nth-child(7) > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:nth-child(7) > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(7) > ul li:hover > a:before { background-color:#8373ce; color:#fff; }
+ul.kidsworld_top_nav > li:nth-child(7) > a > span > i:after,
+ul.kidsworld_top_nav > li:nth-child(7) > ul > li:first-child,
+ul.kidsworld_top_nav > li:nth-child(7).kidsworld-mega-menu > ul { border-color: #8373ce; }
+
+/*Menu Link 8*/
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(8) > a,ul.kidsworld_top_nav > li:nth-child(8):hover > a,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(8) > ul > li > a:first-child span,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(8) > ul > li:hover > a:first-child span { color: #fcb54d; }
+ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(8) > a:before,
+#kidsworldHeader.kidsworld_smaller_menu ul.kidsworld_top_nav > li.kidsworld_m_active:nth-child(8) > a:before { border-top-color:#fcb54d; }
+ul.kidsworld_top_nav > li:nth-child(8) > ul li:hover,
+ul.kidsworld_top_nav > li:nth-child(8) > a > span > i,
+ul.kidsworld_top_nav > li:nth-child(8) > a > span:before,
+ul.kidsworld_top_nav > li:nth-child(8) > a > span:after,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu.menu-item-object-category:nth-child(8) > ul > li:hover,
+ul.kidsworld_top_nav > li.kidsworld-mega-menu:nth-child(8) > ul li:hover > a:before { background-color:#fcb54d; color:#fff; }
+ul.kidsworld_top_nav > li:nth-child(8) > a > span > i:after,
+ul.kidsworld_top_nav > li:nth-child(8) > ul > li:first-child,
+ul.kidsworld_top_nav > li:nth-child(8).kidsworld-mega-menu > ul { border-color: #fcb54d; }
+
+#kidsworld_mobi_nav #kidsworld_mobi_nav_btn {  background:#8373ce; color:#fff; }
+#kidsworld_mobi_nav > ul { border:1px solid rgba(0,0,0,0.1); }
+
+/* Sub Header - Search, Breadcrumbs bar ======================================================================= */
+
+.kidsworld_breadcrumbs,.kidsworld_breadcrumbs a,.kidsworld_breadcrumbs a:hover, .kidsworld_breadcrumbs span.kidsworld-bc-trail-end { color:#fff; }
+.kidsworld_bc_bg { background:#d07dd2; }
+.kidsworld_breadcrumbs { background:#d07dd2; }
+.kidsworld_search_bg { background:#adcb69; }
+.kidsworld_search_box_bar { background:#adcb69; }
+.kidsworld_search_box_bar .kidsworld_search_box_bar_icon { color:#fff; }
+.kidsworld_search_box_bar input[type="text"].kidsworld_search_form_input { color:#fff; }
+.kidsworld_search_box_bar form.kidsworld_search_form input::-webkit-input-placeholder{color: #fff;}
+.kidsworld_search_box_bar form.kidsworld_search_form input:-moz-placeholder{color: #fff;}
+.kidsworld_search_box_bar form.kidsworld_search_form input::-moz-placeholder{color: #fff;}
+.kidsworld_search_box_bar form.kidsworld_search_form input:-ms-input-placeholder{color: #fff;}
+
+/* Sidebar - widget & title styles ============================================================================ */
+
+.sidebar .kidsworld_widget_box h3:before { border-color:#adca69; }
+.sidebar .kidsworld_widget_box h3:after,.sidebar .kidsworld_sidebar_title_border { background:#adca69; }
+.kidsworld_widget_box,.sidebar .kidsworld_wid_tabs_container { border:1px solid rgba(0,0,0,0.1); }
+.sidebar .kidsworld_widget_box h3 span { background:#fff; }
+.sidebar .kidsworld_widget_box h3:before { background:#fff; }
+.kidsworld_sidebar_title_border:after { border-top:1px dotted rgba(255,255,255,0.7); border-bottom:1px dotted rgba(255,255,255,0.7); }
+.sidebar select { background:#fff url(../images/select.png) no-repeat center right;  }
+
+#sidebar div:first-child .kidsworld_widget_box h3:before { border-color:#adca69; }
+#sidebar div:first-child .kidsworld_widget_box h3:after,
+#sidebar div:first-child .kidsworld_sidebar_title_border { background:#adca69; }
+
+#sidebar div:nth-child(2) .kidsworld_widget_box h3:before,
+#sidebar div:nth-child(12) .kidsworld_widget_box h3:before { border-color:#fcb54d; }
+#sidebar div:nth-child(2) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(12) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(2) .kidsworld_sidebar_title_border,
+#sidebar div:nth-child(12) .kidsworld_sidebar_title_border { background:#fcb54d; }
+
+#sidebar div:nth-child(3) .kidsworld_widget_box h3:before,
+#sidebar div:nth-child(13) .kidsworld_widget_box h3:before { border-color:#84bed6; }
+#sidebar div:nth-child(3) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(13) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(3) .kidsworld_sidebar_title_border,
+#sidebar div:nth-child(13) .kidsworld_sidebar_title_border { background:#84bed6; }
+
+#sidebar div:nth-child(4) .kidsworld_widget_box h3:before,
+#sidebar div:nth-child(14) .kidsworld_widget_box h3:before { border-color:#d07dd2; }
+#sidebar div:nth-child(4) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(14) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(4) .kidsworld_sidebar_title_border,
+#sidebar div:nth-child(14) .kidsworld_sidebar_title_border { background:#d07dd2; }
+
+#sidebar div:nth-child(5) .kidsworld_widget_box h3:before { border-color:#59c79e; }
+#sidebar div:nth-child(5) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(5) .kidsworld_sidebar_title_border { background:#59c79e; }
+
+#sidebar div:nth-child(6) .kidsworld_widget_box h3:before { border-color:#8373ce; }
+#sidebar div:nth-child(6) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(6) .kidsworld_sidebar_title_border { background:#8373ce; }
+
+#sidebar div:nth-child(7) .kidsworld_widget_box h3:before { border-color:#fdd94f; }
+#sidebar div:nth-child(7) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(7) .kidsworld_sidebar_title_border { background:#fdd94f; }
+
+#sidebar div:nth-child(8) .kidsworld_widget_box h3:before { border-color:#cc9966; }
+#sidebar div:nth-child(8) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(8) .kidsworld_sidebar_title_border { background:#cc9966; }
+
+#sidebar div:nth-child(9) .kidsworld_widget_box h3:before { border-color:#2ab2bf; }
+#sidebar div:nth-child(9) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(9) .kidsworld_sidebar_title_border { background:#2ab2bf; }
+
+#sidebar div:nth-child(10) .kidsworld_widget_box h3:before { border-color:#f97831; }
+#sidebar div:nth-child(10) .kidsworld_widget_box h3:after,
+#sidebar div:nth-child(10) .kidsworld_sidebar_title_border { background:#f97831; }
+
+/* Footer ============================================================================ */
+.kidsworld_cotact_footer { border-top:1px solid rgba(0,0,0,0.1); }
+.kidsworld_footer_border span { border-top:1px dotted rgba(255,255,255,0.7); border-bottom:1px dotted rgba(255,255,255,0.7); }
+.kidsworld_footer_widget h3 span:after,.kidsworld_footer_widget h3 span:before { background:orange; }
+.footer select { background:#fff url(../images/select3.png) no-repeat center right;  }
+
+/* Blog Post ============================================================================ */
+.kidsworld_post_title_content { border:1px solid rgba(0,0,0,0.1); background:#fff; }
+.kidsworld_post_button a span { background:#fff;  }
+.kidsworld_post_button a span:before,.kidsworld_post_button a span:after { border:1px solid #d07dd2; }
+.kidsworld_post_button a:before,.kidsworld_post_button a:after { border-top:1px dashed #fdd94e; }
+.kidsworld_post_tags a { border-color:#e4e4e4; background: #f6f6f6; color:#777; }
+.kidsworld_post_tags a:hover { color:#000; }
+.kidsworld_post_meta,.kidsworld_post_divider,.kidsworld_meta_bottom_divider { border-color:rgba(0,0,0,0.1); }
+.kidsworld_post_date_pf_icon { background: #fff; }
+.kidsworld_post_author_avatar img { border-color:#fff; }
+.kidsworld_pf_icon,.kidsworld_pf_icon i { background: #54595d; color:#fff; }
+.kidsworld_post_meta ul li,.kidsworld_post_meta ul li a { color:#777; }
+.kidsworld_post_meta a:hover { color:#000; }
+.kidsworld_post_meta ul li i { color:#bbb; }
+#comments .kidsworld_comment_reply a.comment-reply-link {  color:#fbb54d;  }
+ul.kidsworld_post_author_icon li a { color:#888; }
+ul.kidsworld_post_author_icon li a:hover { color:#222; }
+.kidsworld_author_page_box .kidsworld_about_author { border:1px solid rgba(0,0,0,0.1); }
+#comments li.comment article.comment_body { border:1px solid #e6e6e6; }
+.kidsworld_post_date i.swn_sticky_post { background:rgba(0,0,0,0.1); }
+
+h3.comment-reply-title span,h5.kidsworld_single_pg_titles span, h3.comment-reply-title span  { background:#fff; }
+
+.kidsworld_next_prev_box { border: 1px solid rgba(0,0,0,0.1); }
+
+ul.kidsworld_post_share_icons_list li { background:#fff; border:1px solid rgba(0,0,0,0.1); }
+ul.kidsworld_post_share_icons_list li a { color:#888; }
+ul.kidsworld_post_share_icons_list li a:hover { color:#fff; }
+ul.kidsworld_post_share_icons_list li.s_twitter:hover { background: #12c4f7; }
+ul.kidsworld_post_share_icons_list li.s_facebook:hover { background: #3984bd; }
+ul.kidsworld_post_share_icons_list li.s_google:hover { background: #e65f3d; }
+ul.kidsworld_post_share_icons_list li.s_pinterest:hover { background: #cd2127; }
+ul.kidsworld_post_share_icons_list li.s_linkedin:hover { background: #0097bf; }
+ul.kidsworld_post_share_icons_list li.s_tumblr:hover { background: #e55e42; }
+
+/* Classes ============================================================================ */
+.kidsworld_site_content .kidsworld_class_img a,.kidsworld_site_content .kidsworld_class_img a:hover,
+.kidsworld_class_date span { color:#fff; }
+.kidsworld_class_date span.kidsworld_cd_year { background:#adcb69; }
+.kidsworld_site_content .kidsworld_class_title h5 a { color:#8374cf; }
+.kidsworld_class_date { background:rgba(0,0,0,0.5); }
+.kidsworld_site_content .kidsworld_class_cats { color:#777; }
+.kidsworld_site_content .kidsworld_class_cats i { color:#999; }
+.kidsworld_class_price { color:#fbb54d; }
+.kidsworld_class_price span { color:#777; }
+.kidsworld_classes_box:hover .kidsworld_class_img { background:#000; }
+.kidsworld_class_grid_content_wrap { border:1px solid rgba(0,0,0,0.1); }
+.kidsworld_class_grid_meta ul { color:#fff;  }
+.kidsworld_class_grid_meta li a,.kidsworld_class_grid_meta li a:hover { color:#fff; }
+.kidsworld_class_grid_meta li:first-child { background:#adcb69; }
+.kidsworld_class_grid_meta li:last-child { background:#fbb54d; }
+.kidsworld_class_grid_meta li:nth-child(2) { background:#f47c7d; }
+.kidsworld_dot_sep { color:#d8d8d8; }
+.kidsworld_ct_icon { color:#fff; }
+.kidsworld_ct_text { color:#8373ce; }
+.kidsworld_ct_text span.kidsworld_ct_light_text { color:#777; }
+.kidsworld_class_table { border:1px solid rgba(0,0,0,0.1); }
+.kidsworld_class_table li:first-child .kidsworld_ct_icon { background:#adcb69; }
+.kidsworld_class_table li:nth-child(2) .kidsworld_ct_icon { background:#f57d7d; }
+.kidsworld_class_table li:nth-child(3) .kidsworld_ct_icon { background:#fbb54d; }
+.kidsworld_class_table li:nth-child(4) .kidsworld_ct_icon { background:#d07dd2; }
+.kidsworld_class_table li:nth-child(5) .kidsworld_ct_icon { background:#78d0e4; }
+.kidsworld_class_table li:nth-child(6) .kidsworld_ct_icon { background:#5ec99f; }
+.kidsworld_class_table li:nth-child(7) .kidsworld_ct_icon { background:#fdda4f; }
+.kidsworld_class_table li:nth-child(8) .kidsworld_ct_icon { background:#d76e9f; }
+.kidsworld_class_table li { border-top: 1px solid rgba(0,0,0,0.1); }
+.kidsworld_class_price_button { color:#fff; }
+.kidsworld_class_price_box_holder { background:#8474d6; }
+.kidsworld_class_register_btn a { background:#adcb69; }
+.kidsworld_site_content .kidsworld_class_register_btn a,.kidsworld_site_content .kidsworld_class_register_btn a:hover { color:#fff; }
+
+/* Events ============================================================================ */
+.kidsworld_event_img:hover { background:#000; }
+.kidsworld_event_arrow { background:rgba(0,0,0,0.5); }
+.kidsworld_site_content .kidsworld_event_img a,.kidsworld_site_content .kidsworld_event_img a:hover,
+.kidsworld_event_arrow span { color:#fff; }
+.kidsworld_event_meta span.kidsworld_event_date { background:#adcb69; color:#fff; }
+.kidsworld_event_meta span.kidsworld_event_time { background:#fbb54d; color:#fff; }
+.kidsworld_event_grid_content_wrap { border:1px solid rgba(0,0,0,0.1); }
+.kidsworld_site_content .kidsworld_event_title h5 a { color:#8374cf; }
+.kidsworld_event_grid_meta { border-top:1px solid rgba(0,0,0,0.1); color:#777; }
+.kidsworld_event_date_time_box { border:1px solid rgba(0,0,0,0.1);}
+.kidsworld_event_dt_title { background:#fdc36f; color:#fff; }
+.kidsworld_event_meta_text li:before,.kidsworld_site_content .kidsworld_event_date_time_box a { color:#fdc36f; }
+.kidsworld_event_organizer_box { border:1px solid rgba(0,0,0,0.1); }
+.kidsworld_event_orgbox_title { background:#78d0e4; color:#fff; }
+.kidsworld_event_orgbox_meta_text li:before,.kidsworld_site_content .kidsworld_event_organizer_box a { color:#78d0e4; }
+.kidsworld_event_register_button a { background:#adcb69; }
+.kidsworld_site_content .kidsworld_event_register_button a,.kidsworld_site_content .kidsworld_event_register_button a:hover { color:#fff; }
+.kidsworld_event_rg_btn_icon { border:2px solid #fff; }
+
+/* Portfolio ============================================================================ */
+.kidsworld_portfolio_box { background: #fff; }
+.kidsworld_portfolio_box .project_title, .kidsworld_portfolio_box .project_title a  { color:#555;  }
+.kidsworld_portfolio_text span.kidsworld_portfolio_subtexts { color:#606060; }
+.kidsworld_portfolio_img_hovericon { background:rgba(255,255,255,0.9); color:rgba(0,0,0,0.7); }
+
+/* Testimonials ============================================================================ */
+
+.kidsworld_testimonials_box:after { border:1px solid rgba(0,0,0,0.15); }
+.kidsworld_testimonials_colorboxoff .kidsworld_testimonials_box:after { border:1px solid #e6e6e6; }
+.kidsworld_testimonials_title span { color:#666; }
+.kidsworld_testimonials_bottom { background:#f2f2f2; color:#555555; }
+.kidsworld_testimonials_top { background: #f1f1f1; }
+.kidsworld_testimonials_colorboxoff .kidsworld_testimonials_top { background: #e6e6e6; }
+.kidsworld_testimonials_arrow,.kidsworld_testimonials_quote { color:#f6f6f6; }
+.kidsworld_testimonials_quote { color:#fff; }
+
+/* Horizontal Menu ============================================================================ */
+.kidsworld_site_content .kidsworld_portfolio_menu a, .kidsworld_site_content ul.events_h_menu li a,ul.kidsworld_h_menu li a { color:#888; background: #fff; border:1px solid rgba(0,0,0,0.1); }
+
+/* Archives ============================================================================ */
+.kidsworld_container .kidsworld_archives_content ul { border:1px solid #e6e6e6; }
+.kidsworld_container .kidsworld_archives_content ul li { border-top: 1px solid #e6e6e6;  }
+.kidsworld_container .kidsworld_archives_content ul li span.archive_page_date { border-right:1px dotted #ddd; }
+
+/* Search Page ============================================================================ */
+ul.kidsworld_search_list > li {border-bottom: 1px dotted rgba(0,0,0,0.1);}
+ul.kidsworld_search_list > li h5 a { color:#8373ce; }
+ul.kidsworld_search_list > li:first-child { border-top: 1px dotted rgba(0,0,0,0.1); }
+
+/* Pagination ============================================================================ */
+.kidsworld_pagination a,.kidsworld_pagination .page-numbers.current { background:rgba(0,0,0,0.02); border:1px solid rgba(0,0,0,0.1); }
+.kidsworld_pagination a.prev.page-numbers,.kidsworld_pagination a.next.page-numbers { border:1px solid rgba(0,0,0,0.1); }
+#comments .kidsworld-paginate-com a,#comments .kidsworld-paginate-com span, .kidsworld_pagination_menu > a,.kidsworld_pagination_menu > span { border:1px solid rgba(0,0,0,0.1); }
+.kidsworld_container .kidsworld_next_prev_pagination a,.kidsworld_next_prev_pagination a { background:rgba(0,0,0,0.02); border:1px solid rgba(0,0,0,0.1); }
+.kidsworld_infiniteScroll_loader { background: url("images/loader-infinite3.gif") center center no-repeat; background-color:#fff; }
+.kidsworld_container .kidsworld_next_prev_pagination a,.kidsworld_next_prev_pagination a { color:#888;}
+
+/* Archive Page ============================================================================ */
+.kidsworld_container .kidsworld_archives_content ul { border:1px solid #e6e6e6; }
+.kidsworld_container .kidsworld_archives_content ul li { border-top: 1px solid #e6e6e6;  }
+.kidsworld_container .kidsworld_archives_content ul li span.archive_page_date { border-right:1px dotted #ddd; }
+
+/*Global ============================================================================ */
+abbr,acronym { border-bottom: 1px dotted #ccc;  }
+th,td { border-color:#e1e1e1; }
+table thead  { background: rgba(0,0,0,0.05); }
+blockquote { color:#636363; }
+input[type="search"],input, textarea, select,.woocommerce input,.woocommerce select,.woocommerce textarea { border: 1px solid #e6e6e6; border-radius: 10px; }
+input[type="text"]:focus, input[type="password"]:focus,	input[type="email"]:focus, input[type="number"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="search"]:focus, textarea:focus { box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2); color: #555;	}
+label span, legend span { color: #444; }
+@media print {
+    * { color: #000 !important; }
+    pre, blockquote { border: 1px solid #999; }
+}
+.border { border:1px solid rgba(0,0,0,.1); }
+.image_border { border:1px solid #ececec; }
+
+pre {
+	border:1px solid #e1e1e1;
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, .05) 50%, transparent 50%, transparent);
+	background-image: -moz-linear-gradient(rgba(0, 0, 0, .05) 50%, transparent 50%, transparent);
+	background-image: -ms-linear-gradient(rgba(0, 0, 0, .05) 50%, transparent 50%, transparent);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, .05) 50%, transparent 50%, transparent);
+	background-image: linear-gradient(rgba(0, 0, 0, .05) 50%, transparent 50%, transparent);
+}
+
+/*WooCommerce ============================================================================ */
+.kidsworld_woo_add_to_cart a.button { background:#adcb69; }
+.kidsworld_woo_add_to_cart a.button,.kidsworld_woo_add_to_cart a.add_to_cart_button:hover,.woocommerce ul.products li.product a.button.add_to_cart_button { color:#fff; }
+h3.kidsworld-product-title a { font-size:22px; color:#8373ce; }
+.kidsworld-featured-product-block span.amount { font-size:18px; }
+.kidsworld-featured-product-block del span.amount,.summary.entry-summary p.offers,.product span.price del,.product p.price del,.single_variation span.price del span.amount,table.group_table .price del { color:#666; }
+.single-product .summary.entry-summary h1 { font-size: 27px; color:#8373ce; }
+.woocommerce-checkout .woocommerce #customer_details h3, .woocommerce-checkout .woocommerce h3#order_review_heading, h3#ship-to-different-address label,.woocommerce-order-received .woocommerce h2,.kidsworld_site_content .woocommerce h2,.woocommerce .edit-account fieldset legend { color:#8373ce; }
+
+/*cart icon*/
+.kidsworld_cart_icon_holder {border:1px solid rgba(255,255,255,0.2);}
+.kidsworld_cart_icon_holder a span.kidsworld_ci_holder { background:#cb77cf;color:#fff;}
+.kidsworld_cart_icon_holder a span.kidsworld_ci_holder i { color:#fff;}
+.kidsworld_cart_icon_hover { background:#8374cf; }
+.kidsworld_cart_icon_hover span.kidsworld_ci_total_price:before {border-bottom-color:#8374cf;}
+.kidsworld_cart_icon_hover span { color:#fff;  }
+span.kidsworld_ci_total_price { border-bottom: 1px solid rgba(0,0,0,0.1);  }
+
+
+.kidsworld_site_loader { width:100%; height:100%; position: relative; }
+
+.kidsworld_loader {position: relative; width: 2.5em; height: 2.5em; transform: rotate(165deg); }
+.kidsworld_loader:before, .kidsworld_loader:after {content: ''; position: absolute; top: 50%; left: 50%; display: block; width: 0.5em; height: 0.5em; border-radius: 0.25em; transform: translate(-50%, -50%); }
+.kidsworld_loader:before {animation: siteloaderbefore 2s infinite; }
+.kidsworld_loader:after {animation: siteloaderafter 2s infinite; }
+
+@keyframes siteloaderbefore {
+	0% {width: 0.5em; box-shadow: 1em -0.5em rgba(243,127,140, 0.75), -1em 0.5em rgba(0,200,225, 0.75); }
+	35% {width: 2.5em; box-shadow: 0 -0.5em rgba(243,127,140, 0.75), 0 0.5em rgba(0,200,225, 0.75); }
+	70% {width: 0.5em; box-shadow: -1em -0.5em rgba(243,127,140, 0.75), 1em 0.5em rgba(0,200,225, 0.75); }
+	100% {box-shadow: 1em -0.5em rgba(243,127,140, 0.75), -1em 0.5em rgba(0,200,225, 0.75); }
+}
+@keyframes siteloaderafter {
+	0% {height: 0.5em; box-shadow: 0.5em 1em rgba(91,200,159, 0.75), -0.5em -1em rgba(252,181,77, 0.75); }
+	35% {height: 2.5em; box-shadow: 0.5em 0 rgba(91,200,159, 0.75), -0.5em 0 rgba(252,181,77, 0.75); }
+	70% {height: 0.5em; box-shadow: 0.5em -1em rgba(91,200,159, 0.75), -0.5em 1em rgba(252,181,77, 0.75); }
+	100% {box-shadow: 0.5em 1em rgba(91,200,159, 0.75), -0.5em -1em rgba(252,181,77, 0.75); }
+}
+
+.kidsworld_loader {position: absolute; top: calc(50% - 1.25em); left: calc(50% - 1.25em); }

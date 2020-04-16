@@ -1,0 +1,23 @@
+.clear { clear:both; }
+.mce-menubtn button i.mce-i-swmcustomicon { background: url(../images/shortcode-icon.png) no-repeat 0 0; }
+.mce-panel.mce-menu .mce-menu-item { padding:2px 10px; font-size: 12px; }
+.mce-container span.mce-text { font-size: 12px; }
+#widgets-right .widgets-holder-wrap div.widget .widget-title:after { padding-right: 40px; }
+#adminmenu li#menu-posts-faq .wp-menu-name,#adminmenu li#menu-posts-faq a.wp-first-item { text-transform: uppercase;}
+.mce-menu .mce-menu-item:hover .mce-text,.mce-menu .mce-menu-item.mce-selected .mce-text { color:#fff;  }
+
+/* Advertise Widget Style */
+
+.swmsc_advertise_widget { clear:both; background:#f4f3f3; border:1px solid #d3d3d3; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;	display:block;	margin-bottom:12px;	padding-bottom:10px; }
+.swmsc_advertise_widget_title { background:#d7d7d7;border-bottom:1px solid #d3d3d3;border-top:1px solid #f3f2f2; width:436px; height:25px; font-size:12px; font-weight:bold; margin-bottom:10px; line-height:25px; padding-left:10px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#e2e2e2');
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#e2e2e2));
+	background: -moz-linear-gradient(top,  #ededed,  #e2e2e2); }
+
+.swmsc_advertise_widget label { margin-left:10px; width:100px; float:left; clear:both; height:25px; line-height:25px; margin-bottom:5px; display:inline-block; font-size: 11px;  }
+.swmsc_advertise_widget input { width:325px; float:left; height:25px; line-height:25px; margin-bottom:5px; font-size: 11px; }
+.swmsc_advertise_widget select { border:1px solid #bbb; }
+
+.edit-post-meta-boxes-area #sbg_box.postbox>.inside,#sbg_box.postbox { border:0; }
+#sbg_box.postbox {box-shadow: none;}
+#sbg_box.postbox .inside { padding:0; }
