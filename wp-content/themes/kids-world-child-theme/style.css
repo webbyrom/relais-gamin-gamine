@@ -10,3 +10,15 @@ Version: 		1.00
 
 
 /* Add your custom style below */
+
+
+/**** modification forme img testimonial*****/
+
+.swmsc_tws_img img {
+    /* max-width: 100%;*/
+    border-radius: 20%;
+    /* rond a l'origine 100%*/
+    /* border: 5px solid;*/
+    /*padding: 2px;*/
+    /* z-index: 11111;*/
+}
