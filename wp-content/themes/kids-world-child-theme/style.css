@@ -22,3 +22,13 @@ Version: 		1.00
     /*padding: 2px;*/
     /* z-index: 11111;*/
 }
+
+.text-accueil {
+    width: 80%;
+    margin: auto;
+    display: inline-flex;
+}
+
+.Image-accueil {
+    /* padding-right: 50px;*/
+}
