@@ -32,3 +32,13 @@ Version: 		1.00
 .Image-accueil {
     /* padding-right: 50px;*/
 }
+
+
+/**** button voir plus page accueil notre equipe***/
+
+.swmsc_button {
+    border: 2px solid #fafafa!important;
+    text-shadow: none !important;
+    color: #ee21f2!important;
+    background: #efd308!important;
+}
