@@ -29,8 +29,29 @@ Version: 		1.00
     display: inline-flex;
 }
 
-.Image-accueil {
-    /* padding-right: 50px;*/
+#page_body .kidsworld_sub_header_title {
+    background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+
+#page_body .kidsworld_sub_header .kidsworld_css_transition {
+    background-color: #0000002e;
+    border-radius: 20px;
+    width: max-content;
+    padding: 15px;
+}
+
+#page_body .swmsc_fancy_heading .swmsc_fancy_heading_text>h1 {
+    transition-duration: 5s;
+    transition-property: background-image;
+    background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    /* background-clip: text!important;*/
+    color: transparent!important;
 }
 
 
