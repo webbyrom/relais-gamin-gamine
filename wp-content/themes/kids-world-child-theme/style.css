@@ -50,36 +50,23 @@ Version: 		1.00
     background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);
     -webkit-background-clip: text!important;
     -moz-background-clip: text!important;
-    /* background-clip: text!important;*/
+    background-clip: text!important;
     color: transparent!important;
 }
 
 
 /**** button voir plus page accueil notre equipe***/
 
-
-/*
-.swmsc_button {
-    border: 2px solid #fafafa!important;
+#page_body #bouton-team-accueil>a {
+    border: 2px solid pink!important;
     text-shadow: none !important;
-    color: #ee21f2!important;
+    color: #0a0a0a!important;
     background: #efd308!important;
 }
-*/
 
-
-/*
-.swmsc_testimonials_wide_slide {
-    background: #ffffff05;
+#page_body #bouton-team-accueil>a:hover {
+    border: 2px solid #fafafa!important;
+    text-shadow: none !important;
+    color: #fdfdfd!important;
+    background: #0a0a0a!important;
 }
-*/
-
-
-/*
-.title-color {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text!important;
-    -moz-background-clip: text!important;
-    background-clip: text!important;
-    color: transparent!important;
-}*/
