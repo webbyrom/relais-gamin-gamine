@@ -70,3 +70,28 @@ Version: 		1.00
     color: #fdfdfd!important;
     background: #0a0a0a!important;
 }
+
+
+/**** bouton page service****/
+
+.services_tab .swmsc_button_div {
+    position: relative!important;
+    float: right!important;
+}
+
+
+/**** page accueil slider temoignage****/
+
+.swmsc_testimonials_wide_slide {
+    background-color: #00000000;
+}
+
+.rs_splitted_chars {
+    transition-duration: 5s;
+    transition-property: background-image;
+    background-image: linear-gradient(to left, violet, indigo, #80004d);
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}

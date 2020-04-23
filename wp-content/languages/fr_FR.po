@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 5.4.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-09 12:34:08+0000\n"
+"PO-Revision-Date: 2020-04-21 14:18:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: WordPress - 5.4.x - Development\n"
 
@@ -8814,7 +8814,7 @@ msgstr "Aucun jeu de modifications trouvé."
 
 #: wp-includes/post.php:188
 msgid "Search Changesets"
-msgstr "Rechercher un jeu de modifications"
+msgstr "Rechercher des jeux de modifications"
 
 #: wp-includes/post.php:187
 msgid "All Changesets"
@@ -14647,7 +14647,7 @@ msgstr "%1$s et %2$s"
 
 #: wp-includes/taxonomy.php:565
 msgid "Choose from the most used tags"
-msgstr "Choisir parmi les étiquettes les plus utilisées"
+msgstr "Choisissez parmi les étiquettes les plus utilisées"
 
 #: wp-includes/js/dist/media-utils.js:1095
 msgid "This file exceeds the maximum upload size for this site."

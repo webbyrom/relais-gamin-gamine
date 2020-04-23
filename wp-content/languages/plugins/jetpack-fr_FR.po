@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-04-16 00:54:14+0000\n"
+"PO-Revision-Date: 2020-04-22 00:54:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,21 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
+
+#: _inc/lib/debugger/class-jetpack-cxn-tests.php:655
+msgid "Jetpack Sync has been disabled on your site. Without it, certain Jetpack features will not work. <strong>We recommend enabling Sync.</strong>"
+msgstr "Jetpack Sync a été désactivé sur votre site. Par conséquent, certaines fonctionnalités de Jetpack ne fonctionneront pas. <strong>Nous recommandons l’activation de Sync.</strong>"
+
+#. translators: placeholder is a number of minutes.
+#: _inc/lib/debugger/class-jetpack-cxn-tests.php:607
+msgid "Jetpack has identified a delay while syncing individual content updates. Certain features might be slower than usual, but this is only temporary while sync catches up with recent changes to your site. <strong>We’re seeing a current delay of %1$d minute.</strong>"
+msgid_plural "Jetpack has identified a delay while syncing individual content updates. Certain features might be slower than usual, but this is only temporary while sync catches up with recent changes to your site. <strong>We’re seeing a current delay of %1$d minutes.</strong>"
+msgstr[0] "Jetpack a constaté un retard au cours de la synchronisation de mises à jour de certains contenus. Certaines fonctionnalités peuvent être plus lentes que prévues, mais il s’agit d’un inconvénient temporaire pendant que la synchronisation s’aligne sur les modifications récentes apportées à votre site. <strong>Nous constatons actuellement un retard de %1$d minute.</strong>"
+msgstr[1] "Jetpack a constaté un retard au cours de la synchronisation de mises à jour de certains contenus. Certaines fonctionnalités peuvent être plus lentes que prévues, mais il s’agit d’un inconvénient temporaire pendant que la synchronisation s’aligne sur les modifications récentes apportées à votre site. <strong>Nous constatons actuellement un retard de %1$d minutes.</strong>"
+
+#: _inc/lib/debugger/class-jetpack-cxn-tests.php:564
+msgid "Jetpack has detected an error while syncing your site. <strong>We recommend <a id=\"full_sync_request_link\" href=\"#\">a full sync</a> to align Jetpack with your site data.</strong>"
+msgstr "Jetpack a détecté une erreur pendant la synchronisation de votre site. <strong>Nous recommandons <a id=\"full_sync_request_link\" href=\"#\">une synchronisation complète</a> pour aligner Jetpack avec les données de votre site.</strong>"
 
 #: _inc/blocks/editor-beta.js:23 _inc/blocks/editor.js:23
 #: _inc/blocks/editor-experimental.js:23
