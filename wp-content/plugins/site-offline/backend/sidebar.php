@@ -2,8 +2,6 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 ?>
-
-
 <div class="panel panel-default" style="border:2px solid #525052;">
 	<div class="panel-heading" role="tab" id="headingOne">
 		<h4 class="panel-title">

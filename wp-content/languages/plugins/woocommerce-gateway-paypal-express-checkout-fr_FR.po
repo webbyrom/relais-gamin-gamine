@@ -2,14 +2,36 @@
 # This file is distributed under the same license as the Plugins - WooCommerce PayPal Checkout Payment Gateway - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-06 10:44:13+0000\n"
+"PO-Revision-Date: 2020-05-18 06:26:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - WooCommerce PayPal Checkout Payment Gateway - Stable (latest release)\n"
+
+#: includes/abstracts/abstract-wc-gateway-ppec.php:208
+msgid "expires on %s (%s)"
+msgstr "Expire le %s (%s)"
+
+#: includes/abstracts/abstract-wc-gateway-ppec.php:212
+msgid "expired on %s (%s)"
+msgstr "Expiré depuis le %s (%s)"
+
+#: includes/settings/settings-ppec.php:32
+#: includes/settings/settings-ppec.php:54
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#. Translators: Placeholders are opening an closing link HTML tags.
+#: includes/settings/settings-ppec.php:29
+msgid "To reset current credentials and use another account %1$sclick here%2$s. %3$sLearn more about your API Credentials%2$s."
+msgstr "Pour réinitialiser les actuelles informations d’identification et utiliser un autre compte %1$scliquez ici%2$s. %3$sEn savoir plus sur les identifiants de votre API%2$s."
+
+#: includes/abstracts/abstract-wc-gateway-ppec.php:619
+msgid "Remove"
+msgstr "Retirer"
 
 #: includes/class-wc-gateway-ppec-checkout-handler.php:1204
 msgid "You have cancelled Checkout with PayPal. The payment method was not updated."
@@ -393,6 +415,11 @@ msgstr "Payer via PayPal ; vous pouvez payer avec votre carte de crédit si vou
 #: includes/settings/settings-ppec.php:592
 msgid "Enable PayPal Credit"
 msgstr "Activer PayPal Credit"
+
+#. Translators: Placeholders are opening and closing link HTML tags.
+#: includes/settings/settings-ppec.php:51
+msgid "Your account setting is set to sandbox, no real charging takes place. To accept live payments, switch your environment to live and connect your PayPal account. To reset current credentials and use other sandbox account %1$sclick here%2$s. %3$sLearn more about your API Credentials%2$s."
+msgstr "Votre compte est réglé sur « sandbox », aucun frais réél ne sera facturé. Pour accepter les vrais paiements, basculez sur l’environnement « live » et connectez votre compte PayPal. Pour réinitialiser les autorisations actuelles et utilisez un autre compte « sandbox » %1$scliquez ici%2$s. %3$sEn savoir plus sur les autorisations API%2$s."
 
 #. Translators: Placeholders are opening an closing link HTML tags.
 #. Translators: Placeholders are opening and closing link HTML tags.
@@ -1084,6 +1111,10 @@ msgstr "Erreur : vous devez saisir un mot de passe API."
 #: includes/abstracts/abstract-wc-gateway-ppec.php:224
 msgid "The certificate on file is not valid."
 msgstr "Le certificat enregistré n’est pas valide."
+
+#: includes/abstracts/abstract-wc-gateway-ppec.php:222
+msgid "Certificate belongs to API username %1$s; %2$s."
+msgstr "Le certificat appartient au nom d’utilisateur API %1$s; %2$s."
 
 #: includes/abstracts/abstract-wc-gateway-ppec.php:199
 msgid "No API certificate on file."

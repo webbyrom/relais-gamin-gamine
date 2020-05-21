@@ -3,8 +3,8 @@ Contributors: chandrashekharsahu
 Donate link: http://www.freehtmldesigns.com
 Tags: admin, coming soon, coming soon page, coming soon wp, coming soon wordPress plugin, construction, countdown timer, email, gmail, landing page, launch, launch page, maintenance, maintenance mode, message, newsletter, notify, offline, offline mode, offline, page, preview, site offline, site is offline, website offline,  subscriber, ultimate coming soon page, ultimate landing page, unavailable, under construction, underconstruction,  under construction page, wordpress coming soon, wordpress landing page, wordpress maintenance mode, wordpress maintenance mode plugin, wordpress under construction, wordpress under construction page, coming soon countdown
 Requires at least: 4.0
-Tested up to: 5.3.2
-Stable tag: 1.4.1
+Tested up to: 5.4.1
+Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -136,6 +136,8 @@ Please use WordPress support forum to ask any query regarding any issue.
 
 
 == Changelog ==
+= 1.4.2 =
+*compatible with 5.4.1
 
 = 1.4.1 =
 *compatible with 5.3.2

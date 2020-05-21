@@ -29,6 +29,15 @@ Version: 		1.00
     display: inline-flex;
 }
 
+#page_body,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #6f6f71;
+}
+
 #page_body .kidsworld_sub_header_title {
     background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);
     -webkit-background-clip: text!important;
@@ -61,7 +70,7 @@ Version: 		1.00
     border: 2px solid pink!important;
     text-shadow: none !important;
     color: #0a0a0a!important;
-    background: #efd308!important;
+    background: #ffffff!important;
 }
 
 #page_body #bouton-team-accueil>a:hover {
@@ -80,6 +89,15 @@ Version: 		1.00
 }
 
 
+/****titre page accueil notre équipe***/
+
+.team-title,
+.chiffre-title {
+    color: white;
+    padding: 0!important;
+}
+
+
 /**** page accueil slider temoignage****/
 
 .swmsc_testimonials_wide_slide {
@@ -94,4 +112,133 @@ Version: 		1.00
     -moz-background-clip: text!important;
     background-clip: text!important;
     color: transparent!important;
+}
+
+
+/***** page contact ***/
+
+
+/*** color adresse title***/
+
+.page-id-1706 .adresse-h5-contact .swmsc_services_icon_content>h5 {
+    color: #6bce84!important;
+}
+
+
+/*** color titre e-mail***/
+
+.page-id-1706 .mail-h5-color-mail .swmsc_services_icon_content>h5 {
+    color: #78d0e4!important;
+}
+
+
+/**** color titre share contact***/
+
+.page-id-1706 .share-h5-contact .swmsc_services_icon_content>h5 {
+    color: #fbb44d!important;
+}
+
+
+/*** color titre telephone****/
+
+.page-id-1706 .tel-h5-color-contact .swmsc_services_icon_content>h5 {
+    color: #f47c7c!important;
+}
+
+
+/**** zoom tel hover sur page contact****/
+
+.tel-page-contact:hover {
+    /* transition-duration: 1s;*/
+    color: #f47c7c!important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/****zoom mail hover sur page contact***/
+
+.page-contact-mail:hover {
+    color: #78d0e4!important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/**** couleur icone facebook sur la page contact****/
+
+.swmsc_sm_icons_li>a {
+    color: white!important;
+}
+
+
+/** Zoom lettre F icone facebook sur la page contact***/
+
+.swmsc_sm_icons_li>a:hover {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+/**** box-shadow formulaire de contact de la page contact***/
+
+.wpcf7-form-control-wrap .wpcf7-form-control:focus {
+    /* border-color: purple;*/
+    box-shadow: inset 0 0, 0 0 1em #84bed6;
+}
+
+
+/*** espace bleu de la page contact*****/
+
+.page-id-1706 .swmsc_horizontal_line {
+    background: #84bed6!important;
+    /* padding-top: 30px!important;*/
+    margin: 15px 0 15px;
+    padding: 0!important;
+    height: 5px;
+}
+
+.swmsc_horizontal_line_h_line {
+    display: none!important;
+}
+
+
+/* *** Bouton envoyer page contact****/
+
+.page-id-1706 .wpcf7-submit {
+    background: #84bed6;
+}
+
+.page-id-1706 .wpcf7-submit:hover {
+    background: #ffffff;
+    color: #84bed6;
+    border: 2px solid #84bed6!important;
+}
+
+
+/**** éclairage photo team page accueil***/
+
+.swmsc_team_member_small_img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.swmsc_team_member_small_img:hover {
+    filter: none;
+    -webkit-filter: none;
+    /* box-shadow: 10px 10px 70px #ffffff;*/
+    box-shadow: inset 0 0, 0 0 1em #ffffff;
+}
+
+
+/***** button scroll top****/
+
+#kidsworld_go_top_scroll_btn {
+    background-color: purple!important;
+    color: black!important;
+}
+
+#kidsworld_go_top_scroll_btn:hover {
+    background: black!important;
+    color: white!important;
 }

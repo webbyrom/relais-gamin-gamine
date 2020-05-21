@@ -1,0 +1,78 @@
+h2 {
+    color: darkmagenta;
+    font-size: 35px;
+}
+
+.plugin-map {
+    overflow: hidden;
+    display: flex;
+}
+
+.map-image {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.map-image,
+a {
+    fill: rgb(198, 198, 209);
+    stroke: rgb(113, 43, 141);
+    stroke-width: 2px;
+    /*transition: fill 0.3s;*/
+}
+
+.map-image a.is-active {
+    fill: rgb(193, 16, 199);
+}
+
+
+/*#ville-map-2 :hover {
+    fill: blue;
+}
+
+#ville-map-1 :hover {
+    fill: blue;
+}
+
+#ville-map-7 :hover {
+    fill: blue;
+}
+
+#ville-map-8 :hover {
+    fill: blue;
+}
+
+#ville-map-9 :hover {
+    fill: blue;
+}
+
+#ville-map-10 :hover {
+    fill: blue;
+}
+
+#ville-map-11 :hover {
+    fill: blue;
+}*/
+
+.list-map {
+    width: 30%;
+    height: 50%;
+    /* float: right;*/
+    font-size: 18px;
+    color: darkslategrey;
+}
+
+.list-city {
+    list-style: none;
+}
+
+li a {
+    text-decoration-line: none;
+    color: rgb(90, 89, 90);
+    cursor: pointer;
+}
+
+li a.is-active {
+    color: rgb(248, 17, 210)!important;
+}

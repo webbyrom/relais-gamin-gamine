@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Site Offline
- * Version: 1.4.1
+ * Version: 1.4.2
  * Description: Site Offline plugin manage your WordPress website when it's under construction or maintenance mode or coming soon.
  * Author: Chandra Shekhar Sahu
  * Author URI: http://www.freehtmldesigns.com
@@ -17,7 +17,6 @@ add_action('plugins_loaded', 'sahu_so_language_translation');
 function sahu_so_language_translation() {
 	load_plugin_textdomain( SAHU_SO_TEXT_DOMAIN, FALSE, dirname( plugin_basename(__FILE__)).'/language/' );
 }
-
 ##	Default Data ##
 register_activation_hook( __FILE__, 'sahu_so_dd' );
 function sahu_so_dd()
