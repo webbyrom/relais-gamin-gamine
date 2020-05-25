@@ -1,0 +1,118 @@
+/*
+Theme Name:     KidsWorld Child Theme
+Theme URI:      http://themeforest.net/user/Softwebmedia/portfolio
+Description:    KidsWorld child theme for customization
+Author:         Soft Web Media
+Author URI:     http://themeforest.net/user/Softwebmedia
+Template:       kids-world                             
+Version: 		1.00
+*/
+
+
+
+/* Add your custom style below */
+
+/* Add your custom style below */
+
+
+/**** modification forme img testimonial*****/
+
+.swmsc_tws_img img {
+    /* max-width: 100%;*/
+    border-radius: 20%;
+    /* rond a l'origine 100%*/
+    /* border: 5px solid;*/
+    /*padding: 2px;*/
+    /* z-index: 11111;*/
+}
+
+.text-accueil {
+    width: 80%;
+    margin: auto;
+    display: inline-flex;
+}
+
+.Image-accueil {
+    /* padding-right: 50px;*/
+}
+
+#page_body .kidsworld_sub_header_title {
+    background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+.rs_splitted_chars{
+    background-image: linear-gradient(to left, violet,#80004d);
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+#page_body .kidsworld_sub_header .kidsworld_css_transition {
+    background-color: #0000002e;
+    border-radius: 20px;
+    width: max-content;
+    padding: 15px;
+}
+
+#page_body .swmsc_fancy_heading .swmsc_fancy_heading_text>h1 {
+    transition-duration: 5s;
+    transition-property: background-image;
+    background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    /* background-clip: text!important;*/
+    color: transparent!important;
+}
+
+
+/**** button voir plus page accueil notre equipe***/
+
+
+/*
+.swmsc_button {
+    border: 2px solid #fafafa!important;
+    text-shadow: none !important;
+    color: #ee21f2!important;
+    background: #efd308!important;
+}
+*/
+
+
+/*
+.swmsc_testimonials_wide_slide {
+    background: #ffffff05;
+}
+*/
+
+
+/*
+.title-color {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}*/
+
+/* ajout pwbr pour bouton a gauche nos services*/
+.services_tab .swmsc_button_div {
+
+    position: relative!important;
+    float: right!important;
+}
+/* ajout background color sur zone d'espace sur page public*/
+.separateur_public{
+    background-color: #e6ffcc;
+}
+
+.page-id-1887 .swmsc_horizontal_line{
+background: #ffccb3!important;
+padding-top:30px!important;
+}
+
+.swmsc_horizontal_line_h_line{
+    display: none!important;
+}
