@@ -37,7 +37,7 @@ class carte_relais
 
         print
             '<div class="title">
-                 <h2>Carte des Relais</h2>
+                 <h2 class="carte-title">Carte des Relais</h2>
              </div>
              <div class="plugin-map" id="map">
                  <div class="map-image">
