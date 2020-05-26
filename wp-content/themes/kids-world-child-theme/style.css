@@ -242,3 +242,25 @@ h6 {
     background: black!important;
     color: white!important;
 }
+
+
+/*********** page guichet uniqe et partenariat********/
+
+.link-guichet .ng-attr-widget a:hover {
+    color: #ff8484;
+}
+
+.price-table-guichet .swmsc_pt_price {
+    width: 150px;
+    height: 150px;
+    /* display: inline-flex;*/
+}
+
+.price-table-guichet .swmsc_pt_price_amount {
+    display: inline-flex;
+    align-items: center;
+}
+
+.price-table-guichet .swmsc_pt_top>img {
+    width: 575px;
+}
