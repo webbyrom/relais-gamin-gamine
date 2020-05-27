@@ -98,7 +98,7 @@ h6 {
 }
 
 
-/**** page accueil slider temoignage****/
+/******************* page accueil slider temoignage***********************/
 
 .swmsc_testimonials_wide_slide {
     background-color: #00000000;
@@ -115,13 +115,42 @@ h6 {
 }
 
 
-/***** page contact ***/
+/********************* page qui sommes-nous***********************/
+
+.page-id-1901 .uscaps-left {
+    background-color: #fcb54d!important;
+    border-color: #fcb54d!important;
+}
+
+.page-id-1901 .uscaps-right {
+    background-color: #ffe000!important;
+    border-color: #ffe000!important;
+}
+
+.page-id-1901 .kidsworld_site_content blockquote {
+    border-color: #fdab4c!important;
+}
+
+
+/************************ page contact **********************************/
+
+.page-id-1706 .button-plaquette-contact :hover {
+    color: #4aefea!important;
+    background: #6f6f7191!important;
+}
 
 
 /*** color adresse title***/
 
 .page-id-1706 .adresse-h5-contact .swmsc_services_icon_content>h5 {
     color: #6bce84!important;
+}
+
+
+/*** positon siuvez-nous****/
+
+.page-id-1706 .share-h5-contact {
+    padding-top: 20px;
 }
 
 
@@ -244,7 +273,25 @@ h6 {
 }
 
 
-/*********** page guichet uniqe et partenariat********/
+/*********** page Missions********/
+
+.page-id-2194 .mission-drop-caps-left,
+.mission-drop-caps-right {
+    border-radius: 50px 50px 0 50px!important;
+    background-color: #ff848e!important;
+    border-color: #ff848e!important;
+}
+
+.box-garde .swmsc_button_div .swmsc_button {
+    background: #716f70!important;
+    text-shadow: none!important;
+}
+
+.box-garde .swmsc_button_div .swmsc_button:hover {
+    background: #ffffff!important;
+    color: #716f70!important;
+    text-shadow: none!important;
+}
 
 .link-guichet .ng-attr-widget a:hover {
     color: #ff8484;
@@ -263,4 +310,19 @@ h6 {
 
 .price-table-guichet .swmsc_pt_top>img {
     width: 575px;
+}
+
+.page-id-2194 .price-table-guichet .swmsc_pt_bottom .swmsc_pt_button a:hover {
+    color: #ff8484!important;
+    background-color: #6f6f7170!important;
+    transition-duration: 0.3s;
+}
+
+.accordion-link {
+    color: #ff8484!important;
+}
+
+a.accordion-link:hover {
+    color: #3654fd!important;
+    transition-duration: 0.3s;
 }
