@@ -1,3 +1,8 @@
+.page-id-1901 .title {
+    position: relative!important;
+    text-align: center!important;
+}
+
 h2 .carte-title {
     color: darkmagenta;
     font-size: 35px;
@@ -14,46 +19,22 @@ h2 .carte-title {
     float: left;
 }
 
-.map-image,
-a {
+.map-image a {
     fill: rgb(198, 198, 209);
     stroke: rgb(113, 43, 141);
     stroke-width: 2px;
     /*transition: fill 0.3s;*/
 }
 
-.map-image a.is-active {
+.map-image a.is-active>.gamine-color {
     fill: rgb(193, 16, 199);
+    transition-duration: 0.3s;
 }
 
-
-/*#ville-map-2 :hover {
-    fill: blue;
+.map-image a.is-active>.gamin-color {
+    fill: rgb(25, 0, 255);
+    transition-duration: 0.3s;
 }
-
-#ville-map-1 :hover {
-    fill: blue;
-}
-
-#ville-map-7 :hover {
-    fill: blue;
-}
-
-#ville-map-8 :hover {
-    fill: blue;
-}
-
-#ville-map-9 :hover {
-    fill: blue;
-}
-
-#ville-map-10 :hover {
-    fill: blue;
-}
-
-#ville-map-11 :hover {
-    fill: blue;
-}*/
 
 .list-map {
     width: 30%;
@@ -73,6 +54,14 @@ li a {
     cursor: pointer;
 }
 
-li a.is-active {
-    color: rgb(248, 17, 210)!important;
+.list-gamine>a.is-active {
+    color: rgb(248, 17, 210);
+    transition-duration: 0.3s;
+    font-size: 20px!important;
+}
+
+.list-gamin>a.is-active {
+    color: rgb(25, 0, 255);
+    transition-duration: 0.3s;
+    font-size: 20px!important;
 }
