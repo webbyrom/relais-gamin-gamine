@@ -98,7 +98,7 @@ h6 {
 }
 
 
-/******************* page accueil slider temoignage***********************/
+/******** page accueil slider temoignage*******/
 
 .swmsc_testimonials_wide_slide {
     background-color: #00000000;
@@ -115,7 +115,10 @@ h6 {
 }
 
 
-/********************* page qui sommes-nous***********************/
+/************************** page qui sommes-nous*********************************/
+
+
+/****1er lettre paragraphes*****/
 
 .page-id-1901 .uscaps-left {
     background-color: #fcb54d!important;
@@ -127,12 +130,30 @@ h6 {
     border-color: #ffe000!important;
 }
 
+
+/********* barre vertical devant paragraphe****/
+
 .page-id-1901 .kidsworld_site_content blockquote {
     border-color: #fdab4c!important;
 }
 
+.button-team-us>a {
+    background-color: #fcb54d!important;
+    border-radius: 10px;
+    text-shadow: none!important;
+    border-color: #fcb54d!important;
+    transition-property: color background-color border-color;
+    transition-duration: 1s;
+}
 
-/************************ page contact **********************************/
+.button-team-us>a:hover {
+    background-color: #6b6b6b!important;
+    color: #fcb54d!important;
+    border-color: #6b6b6b!important;
+}
+
+
+/****************************** page contact **********************************/
 
 .page-id-1706 .button-plaquette-contact :hover {
     color: #4aefea!important;
@@ -147,7 +168,7 @@ h6 {
 }
 
 
-/*** positon siuvez-nous****/
+/*** positon suivez-nous****/
 
 .page-id-1706 .share-h5-contact {
     padding-top: 20px;
@@ -245,7 +266,7 @@ h6 {
 }
 
 
-/**** éclairage photo team page accueil***/
+/************************** éclairage photo team page accueil*********************/
 
 .swmsc_team_member_small_img {
     filter: grayscale(100%);
@@ -273,7 +294,7 @@ h6 {
 }
 
 
-/*********** page Missions********/
+/***************************** page Missions******************************/
 
 .page-id-2194 .mission-drop-caps-left,
 .mission-drop-caps-right {
@@ -325,4 +346,17 @@ h6 {
 a.accordion-link:hover {
     color: #3654fd!important;
     transition-duration: 0.3s;
+}
+
+
+/********************** Page Formation***********************/
+
+.page-id-2426 .tab-formation {
+    color: #f7a400!important;
+}
+
+.page-id-2426 .tab-formation:hover {
+    transition-duration: 0.3s;
+    color: #3654fd!important;
+    font-size: 19px;
 }
