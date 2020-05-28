@@ -351,9 +351,7 @@ class WC_Gateway_PPEC_Cart_Handler {
 		<div class="wcppec-checkout-buttons woo_pp_cart_buttons_div">
 
 			<?php if ( has_action( 'woocommerce_proceed_to_checkout', 'woocommerce_button_proceed_to_checkout' ) ) : ?>
-				<div class="wcppec-checkout-buttons__separator">
-					<?php _e( '&mdash; or &mdash;', 'woocommerce-gateway-paypal-express-checkout' ); ?>
-				</div>
+				<div class="wcppec-checkout-buttons__separator">&mdash; <?php esc_html_e( 'OR', 'woocommerce-gateway-paypal-express-checkout' ); ?> &mdash;</div>
 			<?php endif; ?>
 
 			<?php if ( 'yes' === $settings->use_spb ) :
@@ -537,6 +535,7 @@ class WC_Gateway_PPEC_Cart_Handler {
 				$script_args = array(
 					'client-id'   => $settings->get_active_rest_client_id(),
 					'merchant-id' => $client->get_payer_id(),
+					'intent'      => 'authorization' === $settings->get_paymentaction() ? 'authorize' : 'capture',
 					'locale'      => $settings->get_paypal_locale(),
 					'components'  => 'buttons,funding-eligibility',
 					'commit'      => 'checkout' === $page ? 'true' : 'false',
