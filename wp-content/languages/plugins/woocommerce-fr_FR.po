@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-21 18:16:28+0000\n"
+"PO-Revision-Date: 2020-06-01 12:21:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6158,13 +6158,13 @@ msgstr "Attapeu"
 #: includes/class-wc-checkout.php:733
 msgctxt "checkout-validation"
 msgid "Billing %s"
-msgstr "Facturation de %s"
+msgstr "%s de facturation"
 
 #. translators: %s: field name
 #: includes/class-wc-checkout.php:729
 msgctxt "checkout-validation"
 msgid "Shipping %s"
-msgstr "Livraison %s"
+msgstr "%s de livraison"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:471
 msgid "Thank you for your payment. Your transaction has been completed, and a receipt for your purchase has been emailed to you. Log into your PayPal account to view transaction details."
@@ -22933,7 +22933,7 @@ msgstr "%s de ventes brutes journalières moyennes"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:44
 msgid "Product permalinks"
-msgstr "Permalien produit"
+msgstr "Permaliens de produit"
 
 #: includes/admin/class-wc-admin-help.php:80
 msgid "If you need to access the setup wizard again, please click on the button below."
@@ -31378,7 +31378,7 @@ msgstr "produit"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:135
 msgid "Enter a custom base to use. A base must be set or WordPress will use default instead."
-msgstr "Saisissez une base personnalisée à utiliser. Une base doit être définie ou WordPress utilisera la valeur par défaut à la place."
+msgstr "Saisissez un préfixe personnalisé à utiliser. Un préfixe doit être défini ou WordPress utilisera la valeur par défaut à la place."
 
 #: includes/admin/class-wc-admin-permalink-settings.php:133
 msgid "Custom base"
@@ -31450,15 +31450,15 @@ msgstr "categorie-produit"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:62
 msgid "Product attribute base"
-msgstr "Base attribut produit"
+msgstr "Préfixe des attributs de produit"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:55
 msgid "Product tag base"
-msgstr "Base étiquette produit"
+msgstr "Préfixe des étiquettes de produit"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:48
 msgid "Product category base"
-msgstr "Base catégorie produit"
+msgstr "Préfixe des catégories de produit"
 
 #: templates/single-product-reviews.php:37
 #: includes/admin/settings/class-wc-settings-products.php:388

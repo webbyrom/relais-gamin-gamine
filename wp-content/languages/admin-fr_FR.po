@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.4.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-17 12:05:32+0000\n"
+"PO-Revision-Date: 2020-06-01 14:22:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -580,7 +580,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/plugins-editor-screen/\"
 
 #: wp-admin/theme-editor.php:54
 msgid "<a href=\"https://developer.wordpress.org/themes/basics/template-tags/\">Documentation on Template Tags</a>"
-msgstr "<a href=\"https://developer.wordpress.org/themes/basics/template-tags/\">Documentation sur les marqueurs de modèles</a>"
+msgstr "<a href=\"https://developer.wordpress.org/themes/basics/template-tags/\">Documentation sur les balises de modèles</a>"
 
 #: wp-admin/theme-editor.php:53
 msgid "<a href=\"https://wordpress.org/support/article/editing-files/\">Documentation on Editing Files</a>"
@@ -3811,7 +3811,7 @@ msgstr "Page d’accueil : %s"
 
 #: wp-admin/options-permalink.php:293
 msgid "Available tags:"
-msgstr "Étiquettes disponibles :"
+msgstr "Balises disponibles :"
 
 #. translators: %s: Permalink structure tag.
 #: wp-admin/options-permalink.php:289
@@ -5086,7 +5086,7 @@ msgstr "Simple"
 #. translators: %s: Documentation URL.
 #: wp-admin/options-permalink.php:198
 msgid "WordPress offers you the ability to create a custom URL structure for your permalinks and archives. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"%s\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "WordPress vous offre la possibilité de créer une structure personnalisée d’adresses web pour vos permaliens et archives. Ceci peut améliorer l’esthétique, l’utilisabilité et la pérennité de vos liens. De <a href=\"https://codex.wordpress.org/fr:Utilisation_des_permaliens\">nombreux marqueurs sont disponibles</a>, et nous vous donnons quelques exemples pour commencer."
+msgstr "WordPress vous offre la possibilité de créer une structure personnalisée d’adresses web pour vos permaliens et archives. Ceci peut améliorer l’esthétique, l’utilisabilité et la pérennité de vos liens. De <a href=\"https://codex.wordpress.org/fr:Utilisation_des_permaliens\">nombreuses balises sont disponibles</a>, et nous vous donnons quelques exemples pour commencer."
 
 #: wp-admin/options-permalink.php:33
 msgid "Permalinks can contain useful information, such as the post date, title, or other elements. You can choose from any of the suggested permalink formats, or you can craft your own if you select Custom Structure."
@@ -9938,7 +9938,7 @@ msgstr "De nombreux thèmes affichent par défaut quelques widgets dans la colon
 #. translators: %s: Percent sign (%).
 #: wp-admin/options-permalink.php:36
 msgid "If you pick an option other than Plain, your general URL path with structure tags (terms surrounded by %s) will also appear in the custom structure field and your path can be further modified there."
-msgstr "Si vous choisissez une option autre que « Simple », la structure générale de vos liens, avec les marqueurs de structure (encadrés par %s), apparaîtra dans le champ de « Structure personnalisée », d’où vous pourrez l’adapter à vos besoins précis."
+msgstr "Si vous choisissez une option autre que « Simple », la structure générale de vos liens, avec les balises de structure (encadrés par %s), apparaîtra dans le champ de « Structure personnalisée », d’où vous pourrez l’adapter à vos besoins précis."
 
 #. translators: 1: %category%, 2: %tag%
 #: wp-admin/options-permalink.php:41
@@ -11444,7 +11444,7 @@ msgstr "Si vous rendez le fichier %s accessible en écriture afin de générer a
 
 #: wp-admin/options-permalink.php:331
 msgid "Tag base"
-msgstr "Base des étiquettes"
+msgstr "Préfixe des étiquettes"
 
 #. translators: Prefix for category permalinks.
 #: wp-admin/options-permalink.php:327
