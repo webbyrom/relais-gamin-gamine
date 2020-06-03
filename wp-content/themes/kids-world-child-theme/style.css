@@ -12,6 +12,13 @@ Version: 		1.00
 /* Add your custom style below */
 
 
+/***************** menu navigation ******************************************/
+
+.kidsworld_nav {
+    width: max-content;
+}
+
+
 /**** modification forme img testimonial*****/
 
 .swmsc_tws_img img {
@@ -26,7 +33,7 @@ Version: 		1.00
 .text-accueil {
     width: 80%;
     margin: auto;
-    display: inline-flex;
+    /* display: inline-flex;*/
 }
 
 #page_body,
@@ -53,7 +60,75 @@ h6 {
     padding: 15px;
 }
 
-#page_body .swmsc_fancy_heading .swmsc_fancy_heading_text>h1 {
+
+/************************** page accueil************************/
+
+
+/**** lien  titre h4 post actu******/
+
+.page-id-1572 .actu-accueil .swmsc_recent_post_large_text h4>a {
+    color: #c538f4!important;
+    transition-property: color;
+}
+
+.page-id-1572 .actu-accueil .swmsc_recent_post_large_text h4>a:hover {
+    transition-duration: 0.8s;
+    color: #3654fd!important;
+}
+
+
+/***** lien voir plus page actu*****/
+
+.page-id-1572 .swmsc_recent_post_large_box .swmsc_recent_post_large_readmore {
+    color: #c538f4!important;
+    transition-property: color;
+}
+
+.page-id-1572 .swmsc_recent_post_large_box .swmsc_recent_post_large_readmore:hover {
+    color: #3654fd!important;
+}
+
+.page-id-1572 .swmsc_recent_post_large_date {
+    background: #8607b1;
+}
+
+
+/**** events a venir ****/
+
+.accueil-event-upcoming .swmsc_event_date {
+    background: rgb(212, 64, 188)!important;
+    color: white!important;
+}
+
+.accueil-event-upcoming .swmsc_event_time {
+    background: rgb(139, 34, 122)!important;
+    color: white!important;
+}
+
+
+/***** bouton voir plus events à venir*****/
+
+.button-event-accueil a:hover {
+    transition-duration: 0.8s;
+    color: rgb(228, 98, 206)!important;
+    background: #6f6f71!important;
+}
+
+
+/******* event passés****/
+
+.accueil-past-event .swmsc_event_date {
+    background: rgb(212, 64, 188)!important;
+    color: white!important;
+}
+
+.accueil-past-event .swmsc_event_time {
+    background: rgb(139, 34, 122)!important;
+    color: white!important;
+}
+
+
+/*#page_body .swmsc_fancy_heading .swmsc_fancy_heading_text>h1 {
     transition-duration: 5s;
     transition-property: background-image;
     background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);
@@ -61,23 +136,25 @@ h6 {
     -moz-background-clip: text!important;
     background-clip: text!important;
     color: transparent!important;
-}
+}*/
 
 
 /**** button voir plus page accueil notre equipe***/
 
 #page_body #bouton-team-accueil>a {
-    border: 2px solid pink!important;
+    border: 2px solid rgb(202, 117, 195)!important;
     text-shadow: none !important;
-    color: #0a0a0a!important;
+    color: #6f6f71!important;
     background: #ffffff!important;
+    transition-property: color background border;
 }
 
 #page_body #bouton-team-accueil>a:hover {
+    transition-duration: 0.8s;
     border: 2px solid #fafafa!important;
     text-shadow: none !important;
     color: #fdfdfd!important;
-    background: #0a0a0a!important;
+    background: #6f6f71!important;
 }
 
 
@@ -150,6 +227,54 @@ h6 {
     background-color: #6b6b6b!important;
     color: #fcb54d!important;
     border-color: #6b6b6b!important;
+}
+
+.mission-link {
+    color: #fcb54d!important;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.mission-link:hover {
+    color: #3654fd!important;
+}
+
+
+/******* dropcaps salariées******/
+
+.kim-dropcaps {
+    background-color: rgb(255, 196, 0)!important;
+    border-color: rgb(255, 196, 0)!important;
+}
+
+.michele-dropcaps {
+    background-color: #e9b406dc!important;
+    border-color: #e9b406dc!important;
+}
+
+.marine-dropcaps {
+    background-color: #fcb315ef!important;
+    border-color: #fcb315ef!important;
+}
+
+.marie-dropcaps {
+    background-color: #ecb92be1!important;
+    border-color: #ecb92be1!important;
+}
+
+
+/*** bouton dl plaquette*****/
+
+.button-page-us>a {
+    background-color: #fcb54d!important;
+    border-color: none!important;
+    transition-property: color background-color;
+    transition-duration: 0.8s;
+}
+
+.button-page-us>a:hover {
+    color: #fcb54d!important;
+    background-color: #6F6F71!important;
 }
 
 
@@ -284,8 +409,8 @@ h6 {
 /***** button scroll top****/
 
 #kidsworld_go_top_scroll_btn {
-    background-color: purple!important;
-    color: black!important;
+    background-color: rgb(197, 44, 197)!important;
+    color: rgb(49, 47, 47)!important;
 }
 
 #kidsworld_go_top_scroll_btn:hover {
@@ -295,6 +420,9 @@ h6 {
 
 
 /***************************** page Missions******************************/
+
+
+/*** lettre dropcaps paragraphe gauche et droite  ******/
 
 .page-id-2194 .mission-drop-caps-left,
 .mission-drop-caps-right {
@@ -306,6 +434,8 @@ h6 {
 .box-garde .swmsc_button_div .swmsc_button {
     background: #716f70!important;
     text-shadow: none!important;
+    transition-property: background color;
+    transition-duration: 1s;
 }
 
 .box-garde .swmsc_button_div .swmsc_button:hover {
@@ -336,7 +466,7 @@ h6 {
 .page-id-2194 .price-table-guichet .swmsc_pt_bottom .swmsc_pt_button a:hover {
     color: #ff8484!important;
     background-color: #6f6f7170!important;
-    transition-duration: 0.3s;
+    transition-duration: 1s;
 }
 
 .accordion-link {
@@ -345,18 +475,114 @@ h6 {
 
 a.accordion-link:hover {
     color: #3654fd!important;
-    transition-duration: 0.3s;
+    transition-duration: 1s;
 }
 
 
 /********************** Page Formation***********************/
 
+
+/**** barre verticale text*****/
+
+.formation-quote-text {
+    border-color: #04f32d!important;
+}
+
 .page-id-2426 .tab-formation {
-    color: #f7a400!important;
+    color: #20d800!important;
 }
 
 .page-id-2426 .tab-formation:hover {
-    transition-duration: 0.3s;
+    transition-duration: 1s;
     color: #3654fd!important;
-    font-size: 19px;
+}
+
+.button-formation-contact {
+    float: right!important;
+    transition-property: background color;
+}
+
+.button-formation-contact :hover {
+    transition-duration: 0.8s;
+    background-color: #6F6F71!important;
+    color: #37c665!important;
+}
+
+
+/******************** test remplacement background footer **************/
+
+.kidsworld_footer_border {
+    display: none;
+}
+
+.kidsworld_cotact_footer {
+    transition-property: background-image!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+
+
+/*** footer page missiosns***/
+
+.page-id-2194 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, pink, rgb(218, 61, 218), pink)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/***footer pageformation****/
+
+.page-id-2426 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, rgb(184, 253, 184), rgb(6, 158, 6), rgb(184, 253, 184))!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/***footer pagequi sommes nous****/
+
+.page-id-1901 .kidsworld_cotact_footer {
+    /* transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, rgb(252, 231, 193), orange, rgb(252, 231, 193))!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/***footer page contact****/
+
+.page-id-1706 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, rgb(86, 219, 252), rgb(47, 103, 255), rgb(86, 219, 252))!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/***footer page accueil****/
+
+.page-id-1572 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    /*-webkit-background-clip: text!important;*/
+    /*-moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
 }

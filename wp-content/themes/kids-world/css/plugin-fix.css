@@ -1,134 +1,531 @@
-
 /*School Shortcodes plugin*/
-.footer ul.swmsc_the_icons li { border:0; padding-top:4px; padding-bottom: 4px; }
 
-.sidebar .swmsc_wid_gal ul li,
-.footer .swmsc_wid_gal ul li { padding:0; display: inline-block; border:0; border-radius: 10px; width:75px; height:75px; margin:0 11px 11px 0; overflow: hidden; line-height: 0; font-size: 0; padding:0; word-spacing: normal; vertical-align: top; zoom: 1; float:left; }
-.footer .swmsc_wid_gal ul li { display: inline-block; float:none; }
-.footer .swmsc_wid_gal ul { margin:0 auto; clear:both; display: table; display: block; }
-
-.sidebar .swmsc_sidebar-advertise ul li,
-.footer .swmsc_sidebar-advertise ul li { width:125px; height:125px; border-radius: 0; margin:0 1px 1px 0; }
-
-.sidebar .swmsc_recent_posts_tiny_content p { font-size:85%; margin-top: 5px; display: block; color:#777; line-height: 20px;  }
-.sidebar .swmsc_recent_posts_tiny_content p a { font-size:100%; color:#777; }
-.sidebar .swmsc_recent_posts_tiny ul li { padding:20px 0 5px 0; border:0; }
-.sidebar .swmsc_recent_posts_tiny ul li:first-child, .footer .swmsc_recent_posts_tiny ul li:first-child { padding-top:0; } .sidebar .swmsc_recent_posts_tiny ul li:last-child { padding-bottom:0; }
-.sidebar .swmsc_recent_posts_tiny ul li .swmsc_recent_posts_tiny_content p { padding:0; }
-.sidebar .swmsc_recent_posts_tiny_content, .footer .swmsc_recent_posts_tiny_content { margin-top:0; } 
-.sidebar .swmsc_recent_posts_large_title a, #footer .swmsc_recent_posts_large_title a, .sidebar .swmsc_recent_posts_large_title a:hover, #footer .swmsc_recent_posts_large_title a:hover { color:#fff;  }
-.footer .swmsc_recent_posts_tiny ul li { padding:20px 0; }
-.footer .swmsc_recent_posts_tiny_content p { line-height: 20px;  margin-top: 5px;  }
-
-.footer .swmsc_ad_large_wid .swmsc_widget_content { text-align: center; }
-.footer .swmsc_sm_wid_icons ul li { float:none; }
-.footer .swmsc_twitter_widget ul li:before { top:16px; }
-.footer .swmsc_twitter_widget ul li:first-child:before { top: 4px; }
-.footer ul.swmsc_cat_widget_items li.cat-item small { margin-top: 1px; }
-
-.sidebar .swmsc_widget_tabs,
-.sidebar .kidsworld_fb_subscribe_wid { margin-bottom:25px; }
-
-.kidsworld_site_content .swmsc_image_lightbox .swmsc_image_lightbox_img a { width:50px; height:50px; color:#fff; border:2px solid rgba(255,255,255,0.2);  border-radius: 50%; left:50%; top:50%; position: absolute; margin-top:-25px; margin-left: -25px; display: block; text-align: center; line-height: 45px; font-size: 20px;}
-.kidsworld_site_content .swmsc_image_lightbox a:hover .swmsc_image_lightbox_img {  background: rgba(0,0,0,0.3); color:#fff; border-color: rgba(255,255,255,0.5);  }
-.kidsworld_site_content .swmsc_recent_post_large h4 { margin:0; padding:0; }
-.kidsworld_site_content .swmsc_recent_post_large h4 a { color:#8374cf; }
-.kidsworld_site_content .swmsc_testimonials_title h5 { padding-right: 20px; display: block; margin:0; }
-.kidsworld_site_content .swmsc_school_service_title h4 { margin:0; padding:0; line-height: 40px; }
-.kidsworld_site_content .swmsc_pt_button a { border-radius: 5px; line-height: 45px; display: inline-block; padding:0 40px; margin: 10px 0; color:#fff; font-weight: bold; }
-.kidsworld_site_content .swmsc_pt_button a:hover { color:#fff; }
-.kidsworld_site_content .swmsc_pt_middle h4 { margin-bottom: 10px; }
-.kidsworld_site_content .swmsc_team_title h5 { color:#cd9a67; margin:0; padding:0; line-height: 30px; }
-.kidsworld_site_content .swmsc_event_title h5  { margin:0 0 10px 0; line-height: normal; padding:0; display: block; }
-.kidsworld_site_content .swmsc_class_title h5  { margin:0; line-height: normal; padding:0; display: block; }
-.kidsworld_site_content .swmsc_class_cats { font-size: 80%; line-height: 20px; display: inline-block; }
-.kidsworld_site_content .swmsc_class_cats i { margin-right: 5px; }
-.kidsworld_site_content .swmsc_class_cats { color:#777; }
-.kidsworld_site_content .swmsc_class_cats i { color:#999; }
-.kidsworld_site_content .swmsc_class_title h5 a { color:#8374cf; }
-.kidsworld_site_content .swmsc_class_img a,.kidsworld_site_content .swmsc_class_img a:hover,
-.kidsworld_site_content .swmsc_event_img a,.kidsworld_site_content .swmsc_event_img a:hover { color:#fff; }
-.kidsworld_site_content .swmsc_event_title h5 a { color:#8374cf; }
-.kidsworld_site_content .swmsc_testimonials_title h5 { color:#555555; }
-
-.kidsworld-layout-sidebar-right #sidebar { float:right; }
-.kidsworld-layout-sidebar-left #sidebar { float:left; }
-
-.kidsworld-layout-full-width.swmsc_post_sidebar_page .swmsc_custom_two_third { width:100%; }
-
-.kidsworld-layout-sidebar-right .swmsc_custom_two_third { float:left; }
-.kidsworld-layout-sidebar-left .swmsc_custom_two_third { float:right; }
-.kidsworld-layout-full-width .swmsc_custom_two_third { margin:0; float:none; width:100%; }
-
-.kidsworld-layout-sidebar-left .swmsc_row .swmsc_column2,.kidsworld-layout-sidebar-left .swmsc_row .swmsc_column3,.kidsworld-layout-sidebar-left .swmsc_row .swmsc_column4,
-.kidsworld-layout-sidebar-right .swmsc_row .swmsc_column2,.kidsworld-layout-sidebar-right .swmsc_row .swmsc_column3,.kidsworld-layout-sidebar-right .swmsc_row .swmsc_column4 {
-    width:50%; }
-
-.swmsc_full_width_section .swmsc_testimonials_wide_slide { background:transparent; }
-
-/*contact form 7*/
-div.wpcf7 { margin:20px 0 30px 0; }
-div.wpcf7 input { width:100%; }
-div.wpcf7 input[type="submit"] { width:auto; height:auto; padding:2px 25px; }
-.wpcf7 input[type='range'],.wpcf7 input[type='date'] { margin-bottom:20px; }
-.wpcf7 input[type='date'] { padding:10px; }
-.wpcf7 select { background:url(../images/select.png) no-repeat right center; padding:10px; width:100%; }
-.wpcf7 select[multiple] { background:none;}
-.wpcf7 input[type="checkbox"],.wpcf7 input[type="radio"] { display: inline-block; width:auto; }
-.wpcf7 label span { margin-right: 5px; }
-.wpcf7 input[type='file'] { display: inline-block; width:auto; padding:10px; margin-bottom: 20px; }
-span.wpcf7-list-item { /*margin-left: 0;*/ }
-
-
-@media only screen and (max-width: 767px) {
-
-  .kidsworld_site_content .swmsc_testimonials_title h5 { padding-right:0; }
-
+.footer ul.swmsc_the_icons li {
+    border: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
+.sidebar .swmsc_wid_gal ul li,
+.footer .swmsc_wid_gal ul li {
+    padding: 0;
+    display: inline-block;
+    border: 0;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    margin: 0 11px 11px 0;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+    padding: 0;
+    word-spacing: normal;
+    vertical-align: top;
+    zoom: 1;
+    float: left;
+}
+
+.footer .swmsc_wid_gal ul li {
+    display: inline-block;
+    float: none;
+}
+
+.footer .swmsc_wid_gal ul {
+    margin: 0 auto;
+    clear: both;
+    display: table;
+    display: block;
+}
+
+.sidebar .swmsc_sidebar-advertise ul li,
+.footer .swmsc_sidebar-advertise ul li {
+    width: 125px;
+    height: 125px;
+    border-radius: 0;
+    margin: 0 1px 1px 0;
+}
+
+.sidebar .swmsc_recent_posts_tiny_content p {
+    font-size: 85%;
+    margin-top: 5px;
+    display: block;
+    color: #777;
+    line-height: 20px;
+}
+
+.sidebar .swmsc_recent_posts_tiny_content p a {
+    font-size: 100%;
+    color: #777;
+}
+
+.sidebar .swmsc_recent_posts_tiny ul li {
+    padding: 20px 0 5px 0;
+    border: 0;
+}
+
+.sidebar .swmsc_recent_posts_tiny ul li:first-child,
+.footer .swmsc_recent_posts_tiny ul li:first-child {
+    padding-top: 0;
+}
+
+.sidebar .swmsc_recent_posts_tiny ul li:last-child {
+    padding-bottom: 0;
+}
+
+.sidebar .swmsc_recent_posts_tiny ul li .swmsc_recent_posts_tiny_content p {
+    padding: 0;
+}
+
+.sidebar .swmsc_recent_posts_tiny_content,
+.footer .swmsc_recent_posts_tiny_content {
+    margin-top: 0;
+}
+
+.sidebar .swmsc_recent_posts_large_title a,
+#footer .swmsc_recent_posts_large_title a,
+.sidebar .swmsc_recent_posts_large_title a:hover,
+#footer .swmsc_recent_posts_large_title a:hover {
+    color: #fff;
+}
+
+.footer .swmsc_recent_posts_tiny ul li {
+    padding: 20px 0;
+}
+
+.footer .swmsc_recent_posts_tiny_content p {
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.footer .swmsc_ad_large_wid .swmsc_widget_content {
+    text-align: center;
+}
+
+.footer .swmsc_sm_wid_icons ul li {
+    float: none;
+}
+
+.footer .swmsc_twitter_widget ul li:before {
+    top: 16px;
+}
+
+.footer .swmsc_twitter_widget ul li:first-child:before {
+    top: 4px;
+}
+
+.footer ul.swmsc_cat_widget_items li.cat-item small {
+    margin-top: 1px;
+}
+
+.sidebar .swmsc_widget_tabs,
+.sidebar .kidsworld_fb_subscribe_wid {
+    margin-bottom: 25px;
+}
+
+.kidsworld_site_content .swmsc_image_lightbox .swmsc_image_lightbox_img a {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.kidsworld_site_content .swmsc_image_lightbox a:hover .swmsc_image_lightbox_img {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.kidsworld_site_content .swmsc_recent_post_large h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.kidsworld_site_content .swmsc_recent_post_large h4 a {
+    color: #8374cf;
+}
+
+.kidsworld_site_content .swmsc_testimonials_title h5 {
+    padding-right: 20px;
+    display: block;
+    margin: 0;
+}
+
+.kidsworld_site_content .swmsc_school_service_title h4 {
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+
+.kidsworld_site_content .swmsc_pt_button a {
+    border-radius: 5px;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 40px;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.kidsworld_site_content .swmsc_pt_button a:hover {
+    color: #fff;
+}
+
+.kidsworld_site_content .swmsc_pt_middle h4 {
+    margin-bottom: 10px;
+}
+
+.kidsworld_site_content .swmsc_team_title h5 {
+    color: #cd9a67;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.kidsworld_site_content .swmsc_event_title h5 {
+    margin: 0 0 10px 0;
+    line-height: normal;
+    padding: 0;
+    display: block;
+}
+
+.kidsworld_site_content .swmsc_class_title h5 {
+    margin: 0;
+    line-height: normal;
+    padding: 0;
+    display: block;
+}
+
+.kidsworld_site_content .swmsc_class_cats {
+    font-size: 80%;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.kidsworld_site_content .swmsc_class_cats i {
+    margin-right: 5px;
+}
+
+.kidsworld_site_content .swmsc_class_cats {
+    color: #777;
+}
+
+.kidsworld_site_content .swmsc_class_cats i {
+    color: #999;
+}
+
+.kidsworld_site_content .swmsc_class_title h5 a {
+    color: #8374cf;
+}
+
+.kidsworld_site_content .swmsc_class_img a,
+.kidsworld_site_content .swmsc_class_img a:hover,
+.kidsworld_site_content .swmsc_event_img a,
+.kidsworld_site_content .swmsc_event_img a:hover {
+    color: #fff;
+}
+
+.kidsworld_site_content .swmsc_event_title h5 a {
+    color: #8374cf;
+}
+
+.kidsworld_site_content .swmsc_testimonials_title h5 {
+    color: #555555;
+}
+
+.kidsworld-layout-sidebar-right #sidebar {
+    float: right;
+}
+
+.kidsworld-layout-sidebar-left #sidebar {
+    float: left;
+}
+
+.kidsworld-layout-full-width.swmsc_post_sidebar_page .swmsc_custom_two_third {
+    width: 100%;
+}
+
+.kidsworld-layout-sidebar-right .swmsc_custom_two_third {
+    float: left;
+}
+
+.kidsworld-layout-sidebar-left .swmsc_custom_two_third {
+    float: right;
+}
+
+.kidsworld-layout-full-width .swmsc_custom_two_third {
+    margin: 0;
+    float: none;
+    width: 100%;
+}
+
+.kidsworld-layout-sidebar-left .swmsc_row .swmsc_column2,
+.kidsworld-layout-sidebar-left .swmsc_row .swmsc_column3,
+.kidsworld-layout-sidebar-left .swmsc_row .swmsc_column4,
+.kidsworld-layout-sidebar-right .swmsc_row .swmsc_column2,
+.kidsworld-layout-sidebar-right .swmsc_row .swmsc_column3,
+.kidsworld-layout-sidebar-right .swmsc_row .swmsc_column4 {
+    width: 50%;
+}
+
+.swmsc_full_width_section .swmsc_testimonials_wide_slide {
+    background: transparent;
+}
+
+
+/*contact form 7*/
+
+div.wpcf7 {
+    margin: 20px 0 30px 0;
+}
+
+div.wpcf7 input {
+    width: 100%;
+}
+
+div.wpcf7 input[type="submit"] {
+    width: auto;
+    height: auto;
+    padding: 2px 25px;
+}
+
+.wpcf7 input[type='range'],
+.wpcf7 input[type='date'] {
+    margin-bottom: 20px;
+}
+
+.wpcf7 input[type='date'] {
+    padding: 10px;
+}
+
+.wpcf7 select {
+    background: url(../images/select.png) no-repeat right center;
+    padding: 10px;
+    width: 100%;
+}
+
+.wpcf7 select[multiple] {
+    background: none;
+}
+
+.wpcf7 input[type="checkbox"],
+.wpcf7 input[type="radio"] {
+    display: inline-block;
+    width: auto;
+}
+
+.wpcf7 label span {
+    margin-right: 5px;
+}
+
+.wpcf7 input[type='file'] {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+span.wpcf7-list-item {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .kidsworld_site_content .swmsc_testimonials_title h5 {
+        padding-right: 0;
+    }
+}
+
+
 /*Font Awesome*/
-.kidsworld_container ul.fa-ul { list-style: none; margin-left: 0; }
+
+.kidsworld_container ul.fa-ul {
+    list-style: none;
+    margin-left: 0;
+}
+
 
 /*Visual Composer*/
 
-.vc_row .swmsc_row { margin:0 -20px; }
-.page-template-100-width .kidsworld_main_container > .vc_row { margin-left: 0; margin-right: 0; }
-.wpb_content_element { margin-bottom: 0; }
-.page-template-100-width  .kidsworld_main_container > .vc_row > .vc_column_container > .vc_column_container > .vc_column-inner { padding-left:0; padding-right:0; }
+.vc_row .swmsc_row {
+    margin: 0 -20px;
+}
 
-.vc_row .swmsc_row.swmsc_counter_boxes { margin:0; padding:0 15px; }
+.page-template-100-width .kidsworld_main_container>.vc_row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wpb_content_element {
+    margin-bottom: 0;
+}
+
+.page-template-100-width .kidsworld_main_container>.vc_row>.vc_column_container>.vc_column_container>.vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vc_row .swmsc_row.swmsc_counter_boxes {
+    margin: 0;
+    padding: 0 15px;
+}
+
 
 /* Recent Tweets */
 
-.sidebar .tp_recent_tweets ul li,.footer .tp_recent_tweets ul li {  background: none; line-height: 22px; border:0; line-height:1.8em; padding-top:0; padding-bottom:10px; padding-left: 40px; }
-.sidebar .tp_recent_tweets ul li:last-child { margin-bottom:0; padding-bottom: 0; }
-
-.footer .tp_recent_tweets ul li:before,.sidebar .tp_recent_tweets ul li:before { content:"\f099"; font-size: 13px; font-family: fontAwesome; width:26px; height:26px; line-height: 26px; border-radius: 100px; float:left; margin:5px 0 0 -38px; display: inline-block; text-align: center; background:#84bed6; color:#fff;  }
-
-.footer .tp_recent_tweets ul li { border-bottom: 0; padding-bottom: 15px; }
-
-.sidebar .tp_recent_tweets ul li:before { margin-left: -40px; }
-
-.tp_recent_tweets ul li a.twitter_time { font-style: normal; }
-.tp_recent_tweets .twitter_time { font-size: 90%; opacity: 0.85; }
-.tp_recent_tweets .twitter_time:hover { opacity: 1; }
-
-@media only screen and (max-width: 979px) {
-.vc_col-sm-12, .vc_col-sm-11, .vc_col-sm-10, .vc_col-sm-9, .vc_col-sm-8, .vc_col-sm-7, .vc_col-sm-6, .vc_col-sm-5, .vc_col-sm-4, .vc_col-sm-3, .vc_col-sm-2, .vc_col-sm-1 { width:100%; }
+.sidebar .tp_recent_tweets ul li,
+.footer .tp_recent_tweets ul li {
+    background: none;
+    line-height: 22px;
+    border: 0;
+    line-height: 1.8em;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 40px;
 }
 
+.sidebar .tp_recent_tweets ul li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer .tp_recent_tweets ul li:before,
+.sidebar .tp_recent_tweets ul li:before {
+    content: "\f099";
+    font-size: 13px;
+    font-family: fontAwesome;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 100px;
+    float: left;
+    margin: 5px 0 0 -38px;
+    display: inline-block;
+    text-align: center;
+    background: #84bed6;
+    color: #fff;
+}
+
+.footer .tp_recent_tweets ul li {
+    border-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.sidebar .tp_recent_tweets ul li:before {
+    margin-left: -40px;
+}
+
+.tp_recent_tweets ul li a.twitter_time {
+    font-style: normal;
+}
+
+.tp_recent_tweets .twitter_time {
+    font-size: 90%;
+    opacity: 0.85;
+}
+
+.tp_recent_tweets .twitter_time:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 979px) {
+    .vc_col-sm-12,
+    .vc_col-sm-11,
+    .vc_col-sm-10,
+    .vc_col-sm-9,
+    .vc_col-sm-8,
+    .vc_col-sm-7,
+    .vc_col-sm-6,
+    .vc_col-sm-5,
+    .vc_col-sm-4,
+    .vc_col-sm-3,
+    .vc_col-sm-2,
+    .vc_col-sm-1 {
+        width: 100%;
+    }
+}
+
+
 /*Others*/
-iframe.twitter-tweet.twitter-tweet-rendered { width:100%; max-width: 100%; }
-abbr[title], acronym[title] { text-decoration:none;}
-input[type=checkbox] { -webkit-appearance: checkbox; -moz-appearance: checkbox; -ms-appearance: checkbox; -o-appearance: checkbox; appearance: checkbox;  }
-input[type=radio] { -webkit-appearance: radio; -moz-appearance: radio; -ms-appearance: radio; -o-appearance: radio; appearance: radio;  }
-label.checkbox span { font-size:95%; }
+
+iframe.twitter-tweet.twitter-tweet-rendered {
+    width: 100%;
+    max-width: 100%;
+}
+
+abbr[title],
+acronym[title] {
+    text-decoration: none;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearance: checkbox;
+    -o-appearance: checkbox;
+    appearance: checkbox;
+}
+
+input[type=radio] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    -ms-appearance: radio;
+    -o-appearance: radio;
+    appearance: radio;
+}
+
+label.checkbox span {
+    font-size: 95%;
+}
+
+
 /*Timetable*/
-a.sched-event,a:hover.sched-event,.sched-event .sched-event-tooltip,.sched-event-tooltip.sched-event-tooltip-first-child { z-index: 2; }
-.sched-event .sched-event-title { font-size: 17px; padding-top: 16px; }
-.sched-event .sched-event-description { font-size: 13px; line-height: 20px; font-weight: bold; }
-.sched-event .sched-event-subtitle { padding-top: 9px; padding-bottom: 0px; font-size: 12px; font-weight: bold; }
-.sched-sort .sched-sort-dropdown { padding:15px 0; }
-.sched-sort .sched-sort-current { padding:0 15px; }
-.sched-sort { margin:0 0 25px 0; }
-body .sched h2.sched-title { font-size:30px; }
+
+a.sched-event,
+a:hover.sched-event,
+.sched-event .sched-event-tooltip,
+.sched-event-tooltip.sched-event-tooltip-first-child {
+    z-index: 2;
+}
+
+.sched-event .sched-event-title {
+    font-size: 17px;
+    padding-top: 16px;
+}
+
+.sched-event .sched-event-description {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.sched-event .sched-event-subtitle {
+    padding-top: 9px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sched-sort .sched-sort-dropdown {
+    padding: 15px 0;
+}
+
+.sched-sort .sched-sort-current {
+    padding: 0 15px;
+}
+
+.sched-sort {
+    margin: 0 0 25px 0;
+}
+
+body .sched h2.sched-title {
+    font-size: 30px;
+}
