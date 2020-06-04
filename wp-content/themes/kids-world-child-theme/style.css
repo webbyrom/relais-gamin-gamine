@@ -64,6 +64,13 @@ h6 {
 /************************** page accueil************************/
 
 
+/***** titre image a droite ****/
+
+.page-id-1572 .wpb_singleimage_heading {
+    font-size: 26px;
+}
+
+
 /**** lien  titre h4 post actu******/
 
 .page-id-1572 .actu-accueil .swmsc_recent_post_large_text h4>a {
@@ -139,7 +146,19 @@ h6 {
 }*/
 
 
+/**** réseaux sociaux page accueil equipe******/
+
+
 /**** button voir plus page accueil notre equipe***/
+
+.page-id-1572 .swmsc_team_member_small_content li {
+    background-color: #d935d9;
+}
+
+.page-id-1572 .swmsc_team_member_small_content li:hover {
+    transition-duration: 0.8s;
+    background-color: #8373ce;
+}
 
 #page_body #bouton-team-accueil>a {
     border: 2px solid rgb(202, 117, 195)!important;
@@ -275,6 +294,88 @@ h6 {
 .button-page-us>a:hover {
     color: #fcb54d!important;
     background-color: #6F6F71!important;
+}
+
+
+/************************ page animation*************************/
+
+.page-id-2540 .button-animation a {
+    transition-property: color background;
+}
+
+.page-id-2540 .button-animation>a:hover {
+    transition-duration: 0.8s;
+    color: #6d7cf2!important;
+    background: #6f6f71!important;
+}
+
+.page-id-2540 .button-animation-parents {
+    transition-property: color background;
+}
+
+.page-id-2540 .button-animation-parents>a:hover {
+    transition-duration: 0.8s;
+    color: #31a8f7!important;
+    background: #6f6f71!important;
+}
+
+.page-id-2540 .event-sortie-futur .swmsc_recent_posts_square_d_year {
+    background: #2352dd;
+}
+
+.page-id-2540 .event-sortie-past .swmsc_recent_posts_square_d_year {
+    background: #4bcdf4;
+}
+
+.page-id-2540 .event-spectacle-futur .swmsc_recent_posts_square_d_year {
+    background: #43ccdb;
+}
+
+.page-id-2540 .event-spectacle-past .swmsc_recent_posts_square_d_year {
+    background: #6795e5;
+}
+
+.page-id-2540 .event-soiree-futur .swmsc_recent_posts_square_d_year {
+    background: #00f4dc;
+}
+
+.page-id-2540 .event-soiree-past .swmsc_recent_posts_square_d_year {
+    background: #5396fc;
+}
+
+
+/**** animation temps colectif***/
+
+.page-id-2544 .button-tempsco-charte>a:hover {
+    transition-duration: 0.8s;
+    color: #48bfea!important;
+    background: #6f6f71!important;
+}
+
+
+/**** animation activite recre parent******/
+
+.page-id-2536 .activite-parent-recre-futur .swmsc_recent_posts_square_d_year {
+    background: #2572ed;
+}
+
+.page-id-2536 .activite-prent-recre-past .swmsc_recent_posts_square_d_year {
+    background: #25c7e8;
+}
+
+
+/***animation activite atelier parent******/
+
+.page-id-2536 .activite-parent-atelier-futur .swmsc_recent_posts_square_d_year {
+    background: #5762b2;
+}
+
+.page-id-2536 .activite-parent-atelier-past .swmsc_recent_posts_square_d_year {
+    background: #6186e2;
+}
+
+.page-id-2536 .activite-link {
+    color: #1b2ef9;
 }
 
 
@@ -520,6 +621,58 @@ a.accordion-link:hover {
     -moz-background-clip: text!important;
     background-clip: text!important;
     color: transparent!important;
+}
+
+
+/****footer page notre public***/
+
+.page-id-2061 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, #ff9999, #ff0000, #ff9999)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/************* footer page animation******/
+
+.page-id-2540 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/********* footer activite parents*****/
+
+.page-id-2536 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/**** footer animation temps collectif*****/
+
+.page-id-2544 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
 }
 
 
