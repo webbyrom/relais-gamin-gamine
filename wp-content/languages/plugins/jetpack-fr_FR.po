@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-02 13:22:38+0000\n"
+"PO-Revision-Date: 2020-06-04 10:55:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,9 +11,887 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
 
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "After"
+msgstr "Après"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Before"
+msgstr "Avant"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Orientation"
+msgstr "Orientation"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Example image"
+msgstr "Exemple d’image"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgctxt "block search term"
+msgid "side by side"
+msgstr "côte à côte"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgctxt "block search term"
+msgid "juxtapose"
+msgstr "juxtaposer"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Compare two images with a slider. Works best with images of the same size."
+msgstr "Comparez deux images à l’aide d’un curseur. Fonctionne de manière optimale avec des images de taille identique."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Image Compare"
+msgstr "Comparer des images"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Write caption"
+msgstr "Rédiger une légende"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Image after"
+msgstr "Image après"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Image before"
+msgstr "Image avant"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Above and below"
+msgstr "Au-dessus et en dessous"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Side by side"
+msgstr "Côte à côte"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "1. Welcome to Example Podcast"
+msgstr "1. Bienvenue dans l’exemple de podcast"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "2. Interview with a special guest"
+msgstr "2. Entretien avec un invité spécial"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "3. Our third episode"
+msgstr "3. Notre troisième épisode"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-beta.js:18
+msgid "Jetpack Example Podcast"
+msgstr "Exemple de podcast Jetpack"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Congrats! Your site is now connected to Stripe. You can now start making money!"
+msgstr "Félicitations ! Votre site est désormais connecté à Stripe. Vous pouvez maintenant commencer à gagner de l’argent !"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Remove button margin"
+msgstr "Supprimer la marge contenant les boutons"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Place button on new line"
+msgstr "Placer le bouton sur une nouvelle ligne"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "This will remain hidden on your website until you have at least one subscriber."
+msgstr "Celui-ci restera masqué sur votre site Web jusqu’à ce que vous ayez au moins un abonné."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Sign Up"
+msgstr "S’inscrire"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Show subscriber count"
+msgstr "Afficher le nombre d’abonnés"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Space Between"
+msgstr "Espace entre"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Space Inside"
+msgstr "Espace à l’intérieur"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Spacing Settings"
+msgstr "Paramètres d’espacement"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Border Weight"
+msgstr "Épaisseur de la bordure"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Text Settings"
+msgstr "Paramètres du texte"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Button Text Color"
+msgstr "Bouton Couleur du texte"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Button Background Color"
+msgstr "Bouton Couleur d’arrière-plan"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Display an automatically updating list of the latest posts from your Instagram feed."
+msgstr "Affichez une liste automatiquement mise à jour des dernières publications de votre flux Instagram."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Stack on mobile"
+msgstr "Empiler sur mobile"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Display Settings"
+msgstr "Paramètres d’affichage"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Latest Instagram Posts placeholder"
+msgstr "Espace réservé pour les dernières publications Instagram"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Loading your connections…"
+msgstr "Chargement de vos connexions en cours..."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "If you are currently logged in to Instagram on this device, you might need to log out of it first."
+msgstr "Si vous êtes actuellement connecté à Instagram sur cet appareil, il se peut que vous deviez d’abord vous déconnecter."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Add a new account"
+msgstr "Ajouter un nouveau compte"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Latest Instagram Posts"
+msgstr "Dernières publications Instagram"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Checked by default"
+msgstr "Coché par défaut"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "A unique ID that can be used in CSS or as an anchor."
+msgstr "ID unique pouvant être utilisé dans CSS ou en tant qu’ancre."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Unique CSS ID"
+msgstr "ID CSS unique"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Does this field have to be completed for the form to be submitted?"
+msgstr "Ce champ doit-il obligatoirement être complété pour pouvoir envoyer le formulaire ?"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Field is required"
+msgstr "Ce champ est obligatoire."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Adjust the width of the field to include multiple fields on a single line."
+msgstr "Ajustez la largeur du champ pour inclure plusieurs champs sur une seule ligne."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Field Width"
+msgstr "Largeur de champ"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "A new message from your website"
+msgstr "Nouveau message de votre site Web"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Edit Form Settings"
+msgstr "Modifier les paramètres des formulaires"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Please select which type of form you'd like to add, or create your own using the skip option."
+msgstr "Sélectionnez le type de formulaire à ajouter ou créez le vôtre en sélectionnant l’option Ignorer."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Choose a subject line that you recognize as an email from your website."
+msgstr "Choisissez un objet que vous pourrez reconnaître comme étant associé à un e-mail envoyé par votre site Web."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Enter a subject"
+msgstr "Entrer un objet"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Email address to send to"
+msgstr "Adresse e-mail du destinataire"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "New feedback received from your website"
+msgstr "Nouveaux commentaires sur votre site Web"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Form Settings"
+msgstr "Paramètres du formulaire"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Send Feedback"
+msgstr "Envoyer un commentaire"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "How could we improve?"
+msgstr "Comment pouvons-nous nous améliorer ?"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "5 - Excellent"
+msgstr "5 - Excellent"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "4 - Good"
+msgstr "4 - Bien"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "3 - Average"
+msgstr "3 - Moyen"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "2 - Poor"
+msgstr "2 - Faible"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "1 - Very Bad"
+msgstr "1 - Médiocre"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Please rate our website"
+msgstr "Veuillez évaluer notre site Web."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Add a Feedback form to your page"
+msgstr "Ajouter un formulaire de commentaires sur votre page"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Feedback Form"
+msgstr "Formulaire de commentaires"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "A new appointment booked from your website"
+msgstr "Nouveau rendez-vous réservé sur votre site Web"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Book Appointment"
+msgstr "Prendre un rendez-vous"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Notes"
+msgstr "Commentaires"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Afternoon"
+msgstr "L’après-midi"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Morning"
+msgstr "Le matin"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Add an Appointment booking form to your page"
+msgstr "Ajouter un formulaire de prise de rendez-vous sur votre page"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Appointment Form"
+msgstr "Formulaire de rendez-vous"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "A new registration from your website"
+msgstr "Nouvelle inscription à votre site"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Friend or Family"
+msgstr "Ami ou famille"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "TV"
+msgstr "TV"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Social Media"
+msgstr "Réseaux sociaux"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Search Engine"
+msgstr "Moteur de recherche"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "How did you hear about us?"
+msgstr "Comment avez-vous appris notre existence ?"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Add a Registration form to your page"
+msgstr "Ajouter un formulaire d’inscription sur votre page"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Registration Form"
+msgstr "Formulaire d’inscription"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "A new RSVP from your website"
+msgstr "Nouvelle notification Réponse souhaitée avant le... sur votre site Web"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Other Details"
+msgstr "Autres détails"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Attending?"
+msgstr "Vous participez ?"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Add an RSVP form to your page"
+msgstr "Ajouter un formulaire Réponse souhaitée avant le... sur votre page"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "RSVP Form"
+msgstr "Formulaire Réponse souhaitée avant le..."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Add a contact form to your page."
+msgstr "Ajoutez un formulaire de contact sur votre page."
+
+#: _inc/blocks/editor.js:6 _inc/blocks/editor-experimental.js:6
+#: _inc/blocks/editor-no-post-editor.js:6 _inc/blocks/editor-beta.js:6
+msgid "Add label…"
+msgstr "Ajouter une étiquette…"
+
+#: views/admin/deactivation-dialog.php:51
+msgid "Are you sure you want to deactivate?"
+msgstr "Voulez-vous vraiment désactiver ?"
+
+#. translators: %d is the number of additional plugins using the jetpack
+#. connection.
+#: views/admin/deactivation-dialog.php:20
+msgid "The Jetpack Connection is also used by %d other plugin, and it will lose connection."
+msgid_plural "The Jetpack Connection is also used by %d other plugins, and they will lose connection."
+msgstr[0] "La connexion à Jetpack est également utilisée par %d autre extension, et celle-ci perdra la connexion."
+msgstr[1] "La connexion à Jetpack est également utilisée par %d autres extensions, et celles-ci perdront la connexion."
+
+#: _inc/jetpack-strings.php:892
+msgid "Will %(siteTitle)s have blog posts, news, or regular updates?"
+msgstr "%(siteTitle)s contiendra-t-il des articles de blog, des actualités ou des mises à jour régulières ?"
+
+#: _inc/jetpack-strings.php:891
+msgid "A jetpack site using publicize to share posts"
+msgstr "Site Jetpack utilisant Publicize pour partager des publications"
+
+#: _inc/jetpack-strings.php:890
+msgid "Explore more features"
+msgstr "Découvrir plus de fonctionnalités"
+
+#: _inc/jetpack-strings.php:889
+msgid "I’m done for now"
+msgstr "J’ai terminé pour l’instant."
+
+#: _inc/jetpack-strings.php:888
+msgid "You can change your feature settings at any time."
+msgstr "Vous pouvez modifier les paramètres de vos fonctionnalités à tout moment."
+
+#: _inc/jetpack-strings.php:887
+msgid "Jetpack has a lot of features so we’ve made a few recommendations for you below."
+msgstr "Jetpack compte de nombreuses fonctionnalités. Vous trouverez quelques recommandations ci-dessous."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:1406
+msgid "Could not retrieve Scan state."
+msgstr "Impossible d’obtenir l’état de l’analyse."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:1390
+msgid "Scan state correctly received."
+msgstr "État de l’analyse reçu."
+
+#. translators: Name of a parameter that must be an object
+#: _inc/lib/class.core-rest-api-endpoints.php:608
+msgid "%s must be an object."
+msgstr "%s doit être un objet."
+
+#: _inc/jetpack-strings.php:886
+msgid "Get started with Jetpack’s powerful features"
+msgstr "Commencez à utiliser les puissantes fonctionnalités de Jetpack"
+
 #: _inc/jetpack-strings.php:181
 msgid "Customize your homepage, blog posts, sidebars, and widgets — all without touching any code."
 msgstr "Personnalisez votre page d'accueil, vos articles de blogs, vos barres latérales et vos widgets sans aucune manipulation de code."
+
+#: _inc/jetpack-strings.php:885
+msgid "A rocketship using Jetpack to reach new heights"
+msgstr "Fusée utilisant Jetpack pour prendre de la hauteur"
+
+#: _inc/jetpack-strings.php:908
+msgid "None of these apply"
+msgstr "Aucun de ces propositions n’est pertinente."
+
+#: _inc/jetpack-strings.php:906
+msgid "You have a physical store or business and this website will help drive foot traffic to your location."
+msgstr "Vous possédez un magasin ou une entreprise physique, et ce site Web vous aidera à augmenter les visites sur place."
+
+#: _inc/jetpack-strings.php:905
+msgid "Physical location"
+msgstr "Emplacement physique"
+
+#: _inc/jetpack-strings.php:904
+msgid "Your services require booking appointments online, for example a hair salon or accountant."
+msgstr "Vos services nécessitent la réservation de rendez-vous en ligne, par exemple dans le cas d’un salon de coiffure ou d’un cabinet comptable."
+
+#: _inc/jetpack-strings.php:903
+msgid "Appointments / bookings"
+msgstr "Rendez-vous/réservations"
+
+#: _inc/jetpack-strings.php:902
+msgid "You're planning on selling physical goods, digital downloads, or services directly to your customers."
+msgstr "Vous envisagez de vendre des articles physiques, des téléchargements ou des services directement à vos clients."
+
+#: _inc/jetpack-strings.php:901
+msgid "Online store"
+msgstr "Boutique en ligne"
+
+#: _inc/jetpack-strings.php:900
+msgid "You're planning on putting ads and or affiliate links on your website."
+msgstr "Vous envisagez de publier des annonces ou des liens affiliés sur votre site Web."
+
+#: _inc/jetpack-strings.php:899
+msgid "Advertising or affiliate marketing"
+msgstr "Publicité ou marketing affilié"
+
+#: _inc/jetpack-strings.php:898
+msgid "Check all that apply"
+msgstr "Sélectionnez toutes les propositions qui s’appliquent"
+
+#: _inc/jetpack-strings.php:897
+msgid "Do you intend to make money directly from %(siteUrl)s?"
+msgstr "Avez-vous l’intention de gagner de l’argent directement à partir de %(siteUrl)s ?"
+
+#: _inc/jetpack-strings.php:896
+msgid "A jetpack site generating revenue"
+msgstr "Site Jetpack générant des revenus"
+
+#: _inc/jetpack-strings.php:884
+msgid "View options"
+msgstr "Afficher les options"
+
+#: _inc/jetpack-strings.php:882
+msgid "Upgrade now"
+msgstr "Mettre à niveau maintenant"
+
+#: _inc/jetpack-strings.php:775
+msgid "The Jetpack Connection is also used by another plugin, and it will lose connection."
+msgid_plural "The Jetpack Connection is also used by other plugins, and they will lose connection."
+msgstr[0] "La connexion à Jetpack est également utilisée par une autre extension, et celle-ci perdra la connexion."
+msgstr[1] "La connexion à Jetpack est également utilisée par d’autres extensions, et celles-ci perdront la connexion."
+
+#: _inc/jetpack-strings.php:444
+msgid "Threat"
+msgid_plural "Threats"
+msgstr[0] "Menace"
+msgstr[1] "Menaces"
+
+#: _inc/jetpack-strings.php:263
+msgid "Security threat found. Please {{a}}fix it{{/a}} as soon as possible."
+msgid_plural "Security threats found. Please {{a}}fix these{{/a}} as soon as possible."
+msgstr[0] "Une menace de sécurité a été détectée. {{a}}Éliminez-la{{/a}} le plus rapidement possible."
+msgstr[1] "Plusieurs menaces de sécurité ont été détectées. {{a}}Éliminez-les{{/a}} le plus rapidement possible."
+
+#: _inc/jetpack-strings.php:178
+msgid "Marketing"
+msgstr "Marketing"
+
+#: _inc/jetpack-strings.php:180
+msgid "Design & Publishing"
+msgstr "Design et publication"
+
+#: _inc/jetpack-strings.php:179
+msgid "Increase visitors with social integrations, keep them engaged with related content, and so much more."
+msgstr "Augmentez le nombre de visiteurs grâce aux interactions sociales, conservez leur engagement grâce à du contenu similaire et bien plus encore."
+
+#: _inc/jetpack-strings.php:177
+msgid "Load pages faster! Shorter load times can lead to happier readers, more page views, and — if you’re running a store — improved sales."
+msgstr "Accélérez le chargement des pages ! Un chargement plus rapide peut améliorer la satisfaction de vos lecteurs, vous apporter davantage de vues et, si vous avez une boutique, augmenter vos ventes."
+
+#: _inc/jetpack-strings.php:175
+msgid "Keep your site backed up, prevent unwanted intrusions, find issues with malware scanning, and stop spammers in their tracks."
+msgstr "Veillez à la continuité des sauvegardes de votre site, empêchez les intrusions indésirables, détectez les problèmes grâce à la recherche de programmes malveillants et empêchez les actions des spammeurs."
+
+#: _inc/jetpack-strings.php:144
+msgid "Control your widgets at the post or page level."
+msgstr "Contrôlez vos widgets au niveau de la publication ou de la page."
+
+#: _inc/jetpack-strings.php:143
+msgid "Widget Visibility"
+msgstr "Visibilité du widget"
+
+#: _inc/jetpack-strings.php:139
+msgid "Add testimonials to your website to attract new customers."
+msgstr "Ajoutez des témoignages sur votre site Web pour attirer de nouveaux clients."
+
+#: _inc/jetpack-strings.php:138
+msgid "Testimonial: Custom content types"
+msgstr "Témoignage : Types de contenu personnalisé"
+
+#: _inc/jetpack-strings.php:137
+msgid "Send post notifications to your visitors."
+msgstr "Envoyez des notifications de publications à vos visiteurs."
+
+#: _inc/jetpack-strings.php:136
+msgid "Subscriptions"
+msgstr "Abonnements"
+
+#: _inc/jetpack-strings.php:135
+msgid "Verify your site with Google, Bing, Yandex, and Pinterest."
+msgstr "Vérifiez votre site avec Google, Bing, Yandex et Pinterest."
+
+#: _inc/jetpack-strings.php:134
+msgid "Site verification"
+msgstr "Services de vérification de votre site"
+
+#: _inc/jetpack-strings.php:133
+msgid "Track your site visitors and learn about your most popular content."
+msgstr "Suivez les visiteurs de votre site et apprenez-en plus sur votre contenu le plus populaire."
+
+#: _inc/jetpack-strings.php:131
+msgid "Enable for faster images and a faster site."
+msgstr "Augmentez la rapidité de votre site et de l’affichage des images."
+
+#: _inc/jetpack-strings.php:130
+msgid "Site Accelerator"
+msgstr "Accélérateur de site"
+
+#: _inc/jetpack-strings.php:129
+msgid "A simple way to accept payments."
+msgstr "Un moyen simple d’accepter les paiements."
+
+#: _inc/jetpack-strings.php:128
+msgid "Simple Payments Block"
+msgstr "Bloc de paiements simplifiés"
+
+#: _inc/jetpack-strings.php:127
+msgid "Build quick links for sharing."
+msgstr "Créez des liens rapides pour le partage."
+
+#: _inc/jetpack-strings.php:125
+msgid "Embed YouTube videos, and other content easily."
+msgstr "Intégrez facilement des vidéos YouTube et d’autres contenus."
+
+#: _inc/jetpack-strings.php:123
+msgid "Increase sharing of your posts and pages. "
+msgstr "Augmentez le partage de vos publications et pages. "
+
+#: _inc/jetpack-strings.php:121
+msgid "Automatically generate sitemaps for all your content."
+msgstr "Générez automatiquement des sitemaps pour l’ensemble de votre contenu."
+
+#: _inc/jetpack-strings.php:119
+msgid "Take control of the way search engines represent your site."
+msgstr "Contrôlez le référencement de votre site par les moteurs de recherche."
+
+#: _inc/jetpack-strings.php:117
+msgid "Add an extra layer of security."
+msgstr "Ajoutez une couche de protection supplémentaire."
+
+#: _inc/jetpack-strings.php:113
+msgid "Stop threats to keep your website safe."
+msgstr "Arrêtez les menaces pour préserver la sécurité de votre site Web."
+
+#: _inc/jetpack-strings.php:111
+msgid "Keep your visitors engaged with related content at the bottom of each post."
+msgstr "Maintenez l’engagement de vos visiteurs en insérant du contenu similaire au bas de chaque publication."
+
+#: _inc/jetpack-strings.php:109
+msgid "Automaticaly share content on your favorite social media accounts."
+msgstr "Partagez automatiquement du contenu sur les réseaux sociaux de votre choix."
+
+#: _inc/jetpack-strings.php:107
+msgid "Post by email is a quick way to publish new posts without visiting your site."
+msgstr "Publier par e-mail permet de publier rapidement de nouveaux articles sans visiter votre site."
+
+#: _inc/jetpack-strings.php:106
+msgid "Post by email"
+msgstr "Publication par e-mail"
+
+#: _inc/jetpack-strings.php:105
+msgid "Use portfolios on your site to showcase your best work."
+msgstr "Utilisez des portfolios sur votre site pour présenter vos meilleurs produits et services."
+
+#: _inc/jetpack-strings.php:5
+msgctxt "Navigation item."
+msgid "Set up"
+msgstr "Configuration"
+
+#: class.jetpack.php:7478
+msgid "Daily Scan"
+msgstr "Analyse quotidienne"
+
+#: class.jetpack.php:7449
+msgid "Your data is being securely backed up daily."
+msgstr "Vos données sont sauvegardées quotidiennement de façon sécurisée."
+
+#: class.jetpack.php:4108 views/admin/deactivation-dialog.php:54
+msgid "Disconnect and Deactivate"
+msgstr "Déconnecter et désactiver"
+
+#. translators: %s is the site name
+#: class-jetpack-wizard-banner.php:188
+msgid "What will %s be used for?"
+msgstr "À quelles fins %s sera-t-il utilisé ?"
+
+#: extensions/blocks/instagram-gallery/instagram-gallery.php:75
+msgid "(Only administrators and the post author will see this message.)"
+msgstr "(Seuls les administrateurs et l'auteur de l'article verront ce message.)"
+
+#. translators: %s is the alert icon
+#: modules/scan/class-admin-bar-notice.php:102
+msgid "%s Threats found"
+msgstr "%s menaces détectées"
+
+#. translators: %s is the alert icon
+#: modules/scan/class-admin-bar-notice.php:100
+#: modules/scan/class-admin-bar-notice.php:157
+msgid "%s Threat found"
+msgid_plural "%s Threats found"
+msgstr[0] "%s menace détectée"
+msgstr[1] "%s menaces détectées"
+
+#: modules/scan/class-admin-sidebar-link.php:92
+msgid "Backup & Scan"
+msgstr "Sauvegarde et analyse"
+
+#. Translators: first variable is the full URL to the new dashboard
+#: 3rd-party/vaultpress.php:28
+msgid "You can access your backups at <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">this  dashboard</a>."
+msgstr "Vous pouvez accéder à vos sauvegardes sur <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">ce tableau de bord</a>."
+
+#: _inc/jetpack-strings.php:104
+msgid "Portfolio: Custom content types"
+msgstr "Portfolio : Types de contenu personnalisés"
+
+#: _inc/jetpack-strings.php:103
+msgid "Stay up-to-date with your site."
+msgstr "Gardez le contrôle de votre site."
+
+#: _inc/jetpack-strings.php:101
+msgid "Get an alert immediately if your site goes down."
+msgstr "Recevez immédiatement une alerte si votre site est indisponible."
+
+#: _inc/jetpack-strings.php:100
+msgid "Downtime Monitoring"
+msgstr "Surveillance des temps d’arrêt"
+
+#: _inc/jetpack-strings.php:97
+msgid "Write faster rich-text."
+msgstr "Écrivez du texte enrichi plus rapidement."
+
+#: _inc/jetpack-strings.php:95
+msgid "Add a like button to your posts."
+msgstr "Ajoutez un bouton J’aime à vos publications."
+
+#: _inc/jetpack-strings.php:93
+msgid "Further improve site speed and only load images visitors need."
+msgstr "Améliorez la vitesse de votre site et ne chargez que les images nécessaires pour vos visiteurs."
+
+#: _inc/jetpack-strings.php:92
+msgid "Lazy Loading Images"
+msgstr "Chargement paresseux des images"
+
+#: _inc/jetpack-strings.php:91
+msgid "JSON API access for developers."
+msgstr "Accès à l’API JSON pour les développeurs."
+
+#: _inc/jetpack-strings.php:90
+msgid "JSON API"
+msgstr "API JSON"
+
+#: _inc/jetpack-strings.php:88
+msgid "Infinite Scroll"
+msgstr "Défilement infini"
+
+#: _inc/jetpack-strings.php:87
+msgid "Give comments life."
+msgstr "Dynamisez les commentaires."
+
+#: _inc/jetpack-strings.php:85
+msgid "Add your Google Analytics account."
+msgstr "Ajoutez votre compte Google Analytics."
+
+#: _inc/jetpack-strings.php:83
+msgid "Add more widgets."
+msgstr "Ajoutez plus de widgets."
+
+#: _inc/jetpack-strings.php:82
+msgid "Extra Sidebar Widgets"
+msgstr "Widgets supplémentaires de la colonne latérale"
+
+#: _inc/jetpack-strings.php:81
+msgid "Increase reach and traffic."
+msgstr "Améliorez le trafic et la portée de votre site."
+
+#: _inc/jetpack-strings.php:80
+msgid "Enhanced Distribution"
+msgstr "Distribution améliorée"
+
+#: _inc/jetpack-strings.php:79
+msgid "Enable an enhanced CSS customization panel."
+msgstr "Optez pour un panneau de personnalisation des CSS amélioré."
+
+#: _inc/jetpack-strings.php:77
+msgid "Simply duplicate content."
+msgstr "Dupliquez aisément le contenu."
+
+#: _inc/jetpack-strings.php:76
+msgid "Copy Post"
+msgstr "Copier la publication"
+
+#: _inc/jetpack-strings.php:73
+msgid "An enhanced comments section with better verfiication."
+msgstr "Amélioration de la section des commentaires avec une meilleure vérification."
+
+#: _inc/jetpack-strings.php:69
+msgid "Create full-screen carousel slideshows for the images in your posts and pages."
+msgstr "Créez un diaporama en plein écran dans le carrousel avec les images de vos publications et pages."
+
+#: _inc/jetpack-strings.php:67
+msgid "Stop malicious login attempts."
+msgstr "Bloquez les tentatives de connexion malveillantes."
+
+#: _inc/jetpack-strings.php:65
+msgid "Display math and formulas beautifully."
+msgstr "Optimisez l’affichage des calculs et formules."
+
+#: _inc/jetpack-strings.php:64
+msgid "Beautiful math"
+msgstr "Belle présentation des calculs"
+
+#: _inc/jetpack-strings.php:63
+msgid "Get time travel for your site with Jetpack Backup."
+msgstr "Revenez à une situation antérieure pour votre site avec la sauvegarde Jetpack."
+
+#: _inc/jetpack-strings.php:62
+msgid "Daily or Real-time backups"
+msgstr "Sauvegardes quotidiennes ou en temps réel."
+
+#: _inc/jetpack-strings.php:61
+msgid "No more approving or vetting."
+msgstr "Plus d’approbation ni d’examen minutieux"
+
+#: _inc/jetpack-strings.php:57
+msgid "Included with %(productName)s"
+msgstr "Inclus avec %(productName)s"
+
+#: modules/carousel/jetpack-carousel.php:845 _inc/jetpack-strings.php:662
+#: _inc/lib/class.core-rest-api-endpoints.php:1979
+msgid "Show comments area in carousel"
+msgstr "Afficher la zone de commentaires dans le carrousel"
+
+#: _inc/jetpack-strings.php:71
+msgid "Increase engagement with liking on comments."
+msgstr "Augmentez l’engagement avec la possibilité de liker les commentaires."
+
+#: _inc/jetpack-strings.php:49
+msgid "Jetpack Scan {{em}}Daily{{/em}}"
+msgstr "Analyse Jetpack {{em}}quotidienne{{/em}}"
+
+#: _inc/jetpack-strings.php:99
+msgid "The WordPress.com toolbar replaces the default WordPress admin toolbar."
+msgstr "La barre d’outils WordPress.com remplace la barre d’outils administrateur  WordPress par défaut."
+
+#. translators: %1$s is awarded rating score, %2$s is the best possible rating.
+#: extensions/blocks/rating-star/rating-meta.php:126
+msgid "Rating: %1$s out of %2$s."
+msgstr "Note : %1$s sur %2$s."
+
+#: extensions/blocks/instagram-gallery/instagram-gallery.php:73
+msgid "An error occurred in the Latest Instagram Posts block. Please try again later."
+msgstr "Une erreur s'est produite dans le bloc des derniers articles Instagram. Veuillez réessayer ultérieurement."
 
 #: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
@@ -54,6 +932,11 @@ msgstr "Aucune image n’a été trouvée sur votre compte Instagram."
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
 msgid "With the OpenTable block you may encounter display issues if you use its \"wide\" style with anything other than \"wide\" or \"full\" alignment. The wide display style may also not work well on smaller screens."
 msgstr "Avec le bloc OpenTable, il se peut que vous rencontriez des problèmes d’affichage si vous utilisez son style « élargi » avec un alignement autre que « élargi » ou « complet ». Il se peut que le style d’affichage élargi ne fonctionne pas correctement sur de plus petits écrans."
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "There are currently no posts in your Instagram account."
+msgstr "Votre compte Instagram n’a aucune publication pour le moment."
 
 #: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
@@ -225,6 +1108,10 @@ msgstr "Décidez le moment où la superposition de recherche doit s’afficher."
 msgid "Overlay Trigger"
 msgstr "Déclenchement de la superposition"
 
+#: class-jetpack-wizard-banner.php:175 _inc/jetpack-strings.php:910
+msgid "Set up Jetpack for better site security, performance, and more."
+msgstr "Configurez Jetpack pour optimiser la sécurité et les performances de votre site, et bien plus encore."
+
 #: _inc/lib/debugger/class-jetpack-cxn-tests.php:701
 msgid "Jetpack Sync has been disabled on your site. Without it, certain Jetpack features will not work. <strong>We recommend enabling Sync.</strong>"
 msgstr "Jetpack Sync a été désactivé sur votre site. Par conséquent, certaines fonctionnalités de Jetpack ne fonctionneront pas. <strong>Nous recommandons l’activation de Sync.</strong>"
@@ -371,6 +1258,11 @@ msgstr "Sélectionner et diffuser des épisodes depuis un même podcast."
 msgctxt "block search term"
 msgid "audio"
 msgstr "audio"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Select your Instagram account:"
+msgstr "Sélectionnez votre compte Instagram :"
 
 #: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
@@ -2534,6 +3426,11 @@ msgstr "Activez l'option de copie de l'intégralité des articles et des pages, 
 msgctxt "admin bar menu group label"
 msgid "Manage"
 msgstr "Gérer"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Upgrade your plan"
+msgstr "Mettre à niveau votre plan"
 
 #: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
@@ -10192,6 +11089,11 @@ msgstr "Envoyer une notification par e-mail lorsque quelqu’un aime un article"
 msgid "%1$s must be one of %2$s"
 msgstr "%1$s doit faire partie de %2$s"
 
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Background Colors"
+msgstr "Couleurs d’arrière-plan"
+
 #: _inc/jetpack-strings.php:799
 msgid "Search for a Jetpack feature."
 msgstr "Recherchez une fonctionnalité Jetpack."
@@ -10447,6 +11349,10 @@ msgstr "{{button}}Accéder aux stats détaillées{{/button}}"
 #: _inc/blocks/editor-no-post-editor.js:14 _inc/blocks/editor-beta.js:14
 msgid "Upgrade"
 msgstr "Mettre à niveau"
+
+#: _inc/jetpack-strings.php:112
+msgid "Security scanning"
+msgstr "Analyse de sécurité"
 
 #: _inc/jetpack-strings.php:309
 msgid "View your security dashboard"
@@ -11934,6 +12840,10 @@ msgstr "Identifiant Twitter&nbsp;:"
 #: modules/calypsoify/class.jetpack-calypsoify.php:83
 msgid "Automatic Update"
 msgstr "Mise à jour automatique"
+
+#: _inc/jetpack-strings.php:98
+msgid "WordPress.com Toolbar"
+msgstr "Barre d’outils WordPress.com"
 
 #. Translators: Stats dashboard widget postviews list: "$post_title $views
 #. Views".
