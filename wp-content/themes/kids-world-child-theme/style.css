@@ -570,6 +570,22 @@ a.accordion-link:hover {
     color: rgba(248, 248, 2, 0.685);
 }
 
+.page-id-1757 .kidsworld-active-sort {
+    background: yellow!important;
+    color: #6F6F71!important;
+}
+
+.page-id-1757 .kidsworld_portfolio_menu>a:hover {
+    background: yellow!important;
+    color: #6F6F71!important;
+}
+
+
+/*.page-id-1757 .kidsworld-active-sort:hover {
+    background: yellow!important;
+    color
+}*/
+
 
 /****************************** page contact **********************************/
 
@@ -805,6 +821,19 @@ a.accordion-link:hover {
 /********footer location/ vente******/
 
 .page-id-1722 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/******footer bibliothéque*****/
+
+.page-id-1757 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
     background-image: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
