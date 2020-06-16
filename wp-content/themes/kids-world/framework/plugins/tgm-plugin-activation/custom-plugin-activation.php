@@ -70,7 +70,7 @@ function kidsworld_register_required_plugins() {
                 'slug'                  => 'js_composer',
                 'source'                => get_template_directory() . '/framework/plugins/tgm-plugin-activation/plugins/js_composer.zip',
                 'required'              => true,
-                'version'               => '6.1',
+                'version'               => '6.2.0',
                 'force_activation'      => false,
                 'force_deactivation'    => false,
                 'external_url'          => '',

@@ -12,7 +12,7 @@ define('KIDSWORLD_WOO', get_template_directory() . '/woocommerce/');
 define('KIDSWORLD_THEME_DIR', get_template_directory_uri());
 define('KIDSWORLD_THEME_CSS', KIDSWORLD_DIRECTORY . '/css');
 define('KIDSWORLD_THEME_NAME', 'kidsworld');
-define('KIDSWORLD_THEME_VERSION', '2.6.0');
+define('KIDSWORLD_THEME_VERSION', '2.6.1');
 
 define( 'KIDSWORLD_VISUAL_COMOPSER_IS_ACTIVE', defined( 'WPB_VC_VERSION' ) );
 define( 'KIDSWORLD_WPML_IS_ACTIVE', defined( 'ICL_SITEPRESS_VERSION' ) );

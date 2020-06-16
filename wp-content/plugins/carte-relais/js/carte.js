@@ -4,6 +4,10 @@ var paths = map.querySelectorAll('.map-image a')
 
 var links = map.querySelectorAll('.list-map a')
 
+var collectif = document.querySelector('#collectif')
+
+var mytext = collectif.querySelectorAll('.test-tempsco a')
+
 if (NodeList.prototype.forEach === undefined) {
 
     NodeList.prototype.forEach = function(callback) {
@@ -21,6 +25,8 @@ var activeArea = function(id) {
         document.querySelector('#list-' + id).classList.add('is-active')
 
         document.querySelector('#ville-map-' + id).classList.add('is-active')
+
+        document.querySelector('#tempsco-' + id).classList.add('is-active')
     }
 
 
@@ -41,6 +47,13 @@ paths.forEach(function(path) {
 links.forEach(function(link) {
     link.addEventListener('mouseenter', function() {
         var id = this.id.replace('list-', '')
+        activeArea(id)
+    })
+})
+
+mytext.forEach(function(link) {
+    link.addEventListener('mouseenter', function() {
+        var id = this.id.replace('tempsco-', '')
         activeArea(id)
     })
 })

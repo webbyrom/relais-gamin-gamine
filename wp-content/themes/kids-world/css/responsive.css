@@ -13,9 +13,9 @@
 * Mobile Portrait to Tablet Portrait *
 ****************************************************************/
 
-@media only screen and (max-width: 979px) { 
-	
-	.kidsworld_row .kidsworld_column2,.kidsworld_row .kidsworld_column3,.kidsworld_row .kidsworld_column4,.kidsworld_row .kidsworld_column5,.kidsworld_row .kidsworld_column6,.kidsworld_one_full,.kidsworld_one_half,.kidsworld_one_third,.kidsworld_one_fourth,.kidsworld_one_fifth,.kidsworld_one_sixth,.kidsworld_two_third,.kidsworld_three_fourth,.kidsworld_four_fifth,.kidsworld_five_sixth,.kidsworld_custom_two_third,.one_full,.one_half,.one_third,.one_fourth,.one_fifth,.one_sixth,.two_third,.three_fourth,.four_fifth,.five_sixth,#sidebar,.kidsworld-layout-sidebar-left .kidsworld_row .kidsworld_column2,.kidsworld-layout-sidebar-left .kidsworld_row .kidsworld_column3,.kidsworld-layout-sidebar-left .kidsworld_row .kidsworld_column4,.kidsworld-layout-sidebar-right .kidsworld_row .kidsworld_column2,.kidsworld-layout-sidebar-right .kidsworld_row .kidsworld_column3,.kidsworld-layout-sidebar-right .kidsworld_row .kidsworld_column4 { width: 100%; } 
+@media only screen and (max-width: 979px) {
+
+	.kidsworld_row .kidsworld_column2,.kidsworld_row .kidsworld_column3,.kidsworld_row .kidsworld_column4,.kidsworld_row .kidsworld_column5,.kidsworld_row .kidsworld_column6,.kidsworld_one_full,.kidsworld_one_half,.kidsworld_one_third,.kidsworld_one_fourth,.kidsworld_one_fifth,.kidsworld_one_sixth,.kidsworld_two_third,.kidsworld_three_fourth,.kidsworld_four_fifth,.kidsworld_five_sixth,.kidsworld_custom_two_third,.one_full,.one_half,.one_third,.one_fourth,.one_fifth,.one_sixth,.two_third,.three_fourth,.four_fifth,.five_sixth,#sidebar,.kidsworld-layout-sidebar-left .kidsworld_row .kidsworld_column2,.kidsworld-layout-sidebar-left .kidsworld_row .kidsworld_column3,.kidsworld-layout-sidebar-left .kidsworld_row .kidsworld_column4,.kidsworld-layout-sidebar-right .kidsworld_row .kidsworld_column2,.kidsworld-layout-sidebar-right .kidsworld_row .kidsworld_column3,.kidsworld-layout-sidebar-right .kidsworld_row .kidsworld_column4 { width: 100%; }
 
 	.kidsworld_column { float:none; clear:both; margin-left:0; margin-bottom: 30px;  }
 
@@ -35,19 +35,19 @@
 * Mobile *
 ****************************************************************/
 
-@media only screen and (max-width: 767px) {  
+@media only screen and (max-width: 767px) {
 
-	.kidsworld_topbar { text-align: center; } 
+	.kidsworld_topbar { text-align: center; }
 	.kidsworld_topbar_left,.kidsworld_topbar_right { float:none; }
 	.kidsworld_topbar ul, .kidsworld_topbar ul li { display: block; margin:7px;  }
 	.kidsworld_topbar ul li.kidsworld_sm_ic { display: inline-block; margin: 0 5px; }
-	
+
 	.kidsworld_logo { margin-right:30px; float:left; }
 	.kidsworld_logo_img img { width:100%; max-width:280px; height:auto; }
 
 	.kidsworld_logo_menu_holder { height:auto; }
 	.kidsworld_logo_img a { padding-top: 10px; padding-bottom: 10px; display: inline-block; }
-	
+
 	#kidsworld-item-entries .kidsworld_post_title h2, #kidsworld-item-entries .kidsworld_post_title h2 a, #kidsworld-item-entries .kidsworld_post_title h1 { font-size: 22px; line-height:normal; }
 	.kidsworld_breadcrumbs,.kidsworld_bc_bg { display: none; }
 	.kidsworld_search_container.right { float:none; }

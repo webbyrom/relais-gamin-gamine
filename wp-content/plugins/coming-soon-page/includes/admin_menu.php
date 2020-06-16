@@ -156,7 +156,8 @@ class coming_soon_admin_menu{
 							$this->generete_progressbar_section($this->generete_parametrs('coming_progressbar'));
 							$this->generete_subscribe_section($this->generete_parametrs('coming_subscribe'));
 							$this->generete_social_network_section($this->generete_parametrs('coming_social_networks'));	
-							$this->generete_link_to_tashboard_section($this->generete_parametrs('coming_link_to_dashboard'));						
+							$this->generete_link_to_tashboard_section($this->generete_parametrs('coming_link_to_dashboard'));
+							$this->generete_message_footer_section($this->generete_parametrs('coming_message_footer'));							
                        	?>
                      </div>
     				 <div class="right_sections">
@@ -1341,6 +1342,85 @@ class coming_soon_admin_menu{
 		</div>        
 		<?php	
 	}
+	/*#########################  MESSAGE FOOTER   #################################*/
+	public function generete_message_footer_section($page_parametrs){
+
+		?>
+		<div class="main_parametrs_group_div closed_params " >
+			<div class="head_panel_div" title="Click to toggle">
+            	<span class="title_parametrs_image"><img src="<?php echo $this->plugin_url.'images/message.png' ?>"></span>
+				<span class="title_parametrs_group">Footer Message</span>
+				<span class="enabled_or_disabled_parametr"></span>
+				<span class="open_or_closed"></span>         
+			</div>
+			<div class="inside_information_div">
+				<table class="wp-list-table widefat fixed posts section_parametrs_table">                            
+				<tbody> 
+               		<tr>
+						<td>
+							Show/Hide Footer Message <span title="Choose to show or hide Footer Message box from Coming soon page." class="desription_class">?</span>
+						</td>
+						<td>
+							<select id="coming_soon_page_message_footer_enable">
+                                <option <?php selected($page_parametrs['coming_soon_page_message_footer_enable'],'1') ?> value="1">Show</option>
+                                <option <?php selected($page_parametrs['coming_soon_page_message_footer_enable'],'0') ?> value="0">Hide</option>
+                        	</select>
+						</td>                
+					</tr>
+                	<tr>
+						<td colspan="2">
+							<b>Footer Message</b>
+                             <div style="width:100%"> <?php wp_editor( stripslashes($page_parametrs['coming_soon_page_page_message_footer']), 'coming_soon_page_page_message_footer', $settings = array('media_buttons'=>false,'textarea_rows'=>5) ); ?></div>
+						</td>
+						               
+					</tr>                            
+					<tr>
+						<td>
+							Footer Message position <span title="Choose position for Footer Message box(Left, Center, Right)." class="desription_class">?</span>
+						</td>
+						<td>
+                           <select id="coming_soon_page_message_footer_in_content_position">
+                                <option <?php selected($page_parametrs['coming_soon_page_message_footer_in_content_position'],'0') ?> value="0">Left</option>
+                                <option <?php selected($page_parametrs['coming_soon_page_message_footer_in_content_position'],'1') ?> value="1">Center</option>
+                                <option <?php selected($page_parametrs['coming_soon_page_message_footer_in_content_position'],'2') ?> value="2">Right</option>
+                        	</select>
+                         </td>                
+					</tr>
+                    <tr>
+						<td>
+							Distance from top <span title="Type here Footer Message box distance from top." class="desription_class">?</span>
+						</td>
+						<td>
+							<input type="text" name="coming_soon_page_message_footer_top_distance"  id="coming_soon_page_message_footer_top_distance" value="<?php echo $page_parametrs['coming_soon_page_message_footer_top_distance'] ?>">(Px)
+						</td>                
+					</tr>
+					<tr>
+						<td>
+							 Footer Message Animation type <span class="pro_feature"> (pro)</span> <span title="Choose animation type for Footer Message box." class="desription_class">?</span>
+						</td>
+						<td>
+							<?php $this->create_select_element_for_showing_effect('coming_soon_page_message_footer_animation_type','none'); ?>
+						</td>                
+					</tr>
+					<tr>
+						<td>
+							Animation waiting time <span class="pro_feature"> (pro)</span> <span title="Type here waiting time for Footer Message box animation(in milliseconds)." class="desription_class">?</span>
+						</td>
+						<td>
+							<input type="text" name="coming_soon_page_message_footer_animation_after_time"  id="coming_soon_page_message_footer_animation_after_time" value="0">(milliseconds)
+						</td>                
+					</tr>                   
+				</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="2" width="100%"><button type="button" id="coming_message_footer" class="save_section_parametrs button button-primary"><span class="save_button_span">Save Section</span> <span class="saving_in_progress"> </span><span class="sucsses_save"> </span><span class="error_in_saving"> </span></button><span class="error_massage"> </span></th>
+						</tr>
+					</tfoot>       
+				</table>
+			</div>     
+		</div>        
+		<?php	
+	}
 /*#########################  Search Engine   #################################*/
 	public function generete_search_engine_section($page_parametrs){
 
@@ -1614,7 +1694,8 @@ class coming_soon_admin_menu{
 								<li date-value="subscribe" class="ui-state-default">Subscribe<span class="ui-icon ui-icon-arrowthick-2-n-s"></span></li>
 								<li date-value="loading_animation" class="ui-state-default">Progress bar<span class="ui-icon ui-icon-arrowthick-2-n-s"></span></li>						
 								<li date-value="link_to_dashboard" class="ui-state-default">Link to Admin<span class="ui-icon ui-icon-arrowthick-2-n-s"></span></li>
-								<li date-value="share_buttons" class="ui-state-default">Social buttons<span class="ui-icon ui-icon-arrowthick-2-n-s"></span></li>                                
+								<li date-value="share_buttons" class="ui-state-default">Social buttons<span class="ui-icon ui-icon-arrowthick-2-n-s"></span></li>
+								<li date-value="message_footer" class="ui-state-default">Message footer<span class="ui-icon ui-icon-arrowthick-2-n-s"></span></li> 								
                              </ul>
                          </td>                
 					</tr>

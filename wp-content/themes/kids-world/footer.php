@@ -36,7 +36,7 @@
 									</div>
 								</div>
 								<p><a href="tel:<?php echo sanitize_text_field(kidsworld_get_option('kidsworld_cf_location_phone_one','+1 (409) 987- 5873')); ?>"><?php echo sanitize_text_field(kidsworld_get_option('kidsworld_cf_location_phone_one','+1 (409) 987- 5873')); ?></a></p>
-								<p><a href="tel:<?php echo sanitize_text_field(kidsworld_get_option('kidsworld_cf_location_phone_two','+1 (409) 987- 5873')); ?>"><?php echo sanitize_text_field(kidsworld_get_option('kidsworld_cf_location_phone_two','+1 (409) 987- 5873')); ?></a></p>
+                                <p><a href="tel:<?php echo sanitize_text_field(kidsworld_get_option('kidsworld_cf_location_phone_two','+1 (409) 987- 5873')); ?>"><?php echo sanitize_text_field(kidsworld_get_option('kidsworld_cf_location_phone_two','+1 (409) 987- 5873')); ?></a></p>
 							</div>						
 						</div>
 					

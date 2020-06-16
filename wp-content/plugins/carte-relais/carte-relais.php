@@ -383,6 +383,120 @@ class carte_relais
                 <li class="list-gamine"><a id="list-O">Montromant</a></li>
             </ul>
         </div>
+        <div class="test-tempsco" id="collectif">
+            <h5>Les temps collectifs</h5>
+
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-A">
+                    <span>Brussieu</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+
+            </p>
+
+
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-B">
+                    <span>Brullioles</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-C">
+                    <span>Montrottier</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-D">
+                    <span>Longessaigne</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-E">
+                    <span>Villecheneve</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-F">
+                    <span>Chambost-Longessaigne</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-G">
+                    <span>Saint Clément les Places</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-H">
+                    <span>Meys</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-I">
+                    <span>Hautes-Rivoires</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-J">
+                    <span>Les Halles</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-K">
+                    <span>Saint Laurent de Chamousset</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-L">
+                    <span>Souzy</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-M">
+                    <span>Sainte-Foy l\'Argentiere</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-N">
+                    <span>Saint genis l\'argentiere</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+            <p class="tempco-affiche show-txet">
+                <a id="tempsco-O">
+                    <span>Montromant</span><br>
+                    <span>Relais Le Gamin</span><br>
+                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                </a>
+            </p>
+        </div>
     </div>';
     wp_enqueue_script('carte.js', plugins_url('/js/carte.js', __FILE__), array(), '1.0', true);
     ob_start();

@@ -37,7 +37,7 @@ h2 .carte-title {
 }
 
 .list-map {
-    width: 30%;
+    width: 20%;
     height: 50%;
     /* float: right;*/
     font-size: 18px;
@@ -45,7 +45,7 @@ h2 .carte-title {
 }
 
 .list-city {
-    list-style: none;
+    list-style: none!important;
 }
 
 li a {
@@ -64,4 +64,16 @@ li a {
     color: rgb(25, 0, 255)!important;
     transition-duration: 0.5s;
     font-size: 20px!important;
+}
+
+.test-tempsco {
+    width: 45%;
+}
+
+.tempco-affiche>a {
+    display: none!important;
+}
+
+.tempco-affiche>a.is-active {
+    display: block!important;
 }

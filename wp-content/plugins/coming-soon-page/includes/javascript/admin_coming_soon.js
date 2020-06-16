@@ -380,6 +380,8 @@ jQuery(document).ready(function(e) {
 		generete_slider_images()
 		if(tinymce.get( 'coming_soon_page_page_message')!=null)
 			tinymce.get( 'coming_soon_page_page_message').save()
+		if(tinymce.get( 'coming_soon_page_page_message_footer')!=null)
+			tinymce.get( 'coming_soon_page_page_message_footer').save()
 			
 		var coming_soon_curent_section=jQuery(this).attr('id');
 		jQuery.each( comin_soon_all_parametrs[coming_soon_curent_section], function( key, value ) {

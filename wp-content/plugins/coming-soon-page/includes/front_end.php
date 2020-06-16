@@ -116,6 +116,7 @@ class coming_soon_front_end{
 				$this->generete_title_css();
 				$this->generete_message_css();
 				$this->generete_socialis_css();
+				$this->generete_message_footer_css();
 
 			?>
         </style>
@@ -182,6 +183,7 @@ class coming_soon_front_end{
 		$this->create_title_html();
 		$this->create_message_html();
 		$this->create_socialis_html();
+		$this->create_message_footer_html();
 		// Close the content conteiner
 		echo '</center></div></span></div> ';   	
 	}
@@ -261,7 +263,23 @@ class coming_soon_front_end{
 	private function generete_message_javascript(){		
 				
 	}
-	
+		/*################################################################################### Message Footer ###########################################################################*/
+	private function create_message_footer_html(){
+		if($this->params['coming_soon_page_message_footer_enable']=='2'){
+		?>
+        <div id="descrip_footer">
+        	<?php echo stripslashes($this->params['coming_soon_page_page_message_footer']) ?>
+        </div>
+              
+		<?php 
+		}
+	}
+	private function generete_message_footer_css(){
+		echo '#descrip_footer{margin-top:'.$this->params['coming_soon_page_message_footer_top_distance'].'px;text-align:'.$this->text_align($this->params['coming_soon_page_message_footer_in_content_position']).';}';
+      
+	}
+	private function generete_message_footer_javascript(){		
+	}
 	
 	
 

@@ -4,7 +4,7 @@
  * Plugin URI: https://wpdevart.com/wordpress-coming-soon-plugin/
  * Author URI: https://wpdevart.com
  * Description: Coming soon and Maintenance mode plugin is awesome tool to show your users that you are working on your website to make it better. Our coming soon plugin is the best way to create better coming soon page.  
- * Version: 3.1.7
+ * Version: 3.1.8
  * Author: wpdevart
  * License: GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */

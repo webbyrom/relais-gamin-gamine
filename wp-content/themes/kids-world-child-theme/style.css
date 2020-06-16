@@ -726,6 +726,26 @@ a.accordion-link:hover {
     color: transparent!important;*/
 }
 
+.postid-1934 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    /*-webkit-background-clip: text!important;*/
+    /*-moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+.single-post .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    /*-webkit-background-clip: text!important;*/
+    /*-moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
 
 /***footer page qui sommes nous****/
 

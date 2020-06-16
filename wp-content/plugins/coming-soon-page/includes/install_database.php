@@ -65,6 +65,12 @@ class install_database{
 			),
 			"coming_link_to_dashboard"=>array(
 			),
+			"coming_message_footer"=>array(
+				"coming_soon_page_message_footer_enable"				=> "0",
+				"coming_soon_page_page_message_footer" 				=> "Footer text!",
+				"coming_soon_page_message_footer_in_content_position" 	=>'1',
+				"coming_soon_page_message_footer_top_distance"			=> "10",				
+			),
 			"coming_background"=>array(
 				"coming_soon_page_radio_backroun" 			=> "back_imge",
 				"coming_soon_page_background_color" 		=> "#cacaca",
