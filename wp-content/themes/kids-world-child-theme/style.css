@@ -581,6 +581,13 @@ a.accordion-link:hover {
 }
 
 
+/************* page location/vente ******/
+
+.post-type-archive-product .page-numbers .current>a:hover {
+    background: yellow!important;
+}
+
+
 /*.page-id-1757 .kidsworld-active-sort:hover {
     background: yellow!important;
     color
@@ -854,6 +861,16 @@ a.accordion-link:hover {
 /******footer bibliothéque*****/
 
 .page-id-1757 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+.post-type-archive-product .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
     background-image: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;

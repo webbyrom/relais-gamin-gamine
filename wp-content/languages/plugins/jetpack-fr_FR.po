@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-10 16:54:12+0000\n"
+"PO-Revision-Date: 2020-06-16 10:23:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -709,6 +709,10 @@ msgstr "Publication par e-mail"
 #: _inc/jetpack-strings.php:105
 msgid "Use portfolios on your site to showcase your best work."
 msgstr "Utilisez des portfolios sur votre site pour présenter vos meilleurs produits et services."
+
+#: _inc/jetpack-strings.php:118
+msgid "SEO"
+msgstr "SEO"
 
 #: _inc/jetpack-strings.php:5
 msgctxt "Navigation item."
@@ -2604,6 +2608,26 @@ msgstr "Convertir le bloc en lien"
 
 #: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "website"
+msgstr "site web"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Pinterest URL"
+msgstr "URL Pinterest"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Edit URL"
+msgstr "Modifier l’URL"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Color"
+msgstr "Couleur"
+
+#: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
 msgid "Good for collecting donations or payments for products and services."
 msgstr "Excellent pour collecter des dons ou récupérer les paiements des produits et services."
 
@@ -2677,6 +2701,26 @@ msgstr "Vos données sont sauvegardées de manière sécurisée pendant que vous
 #: _inc/jetpack-strings.php:20 _inc/jetpack-strings.php:43
 msgid "Jetpack Backup {{em}}Daily{{/em}}"
 msgstr "Sauvegarde Jetpack {{em}}quotidienne{{/em}}"
+
+#: _inc/jetpack-strings.php:41
+msgid "Jetpack Professional"
+msgstr "Jetpack Professionnel"
+
+#: _inc/jetpack-strings.php:39
+msgid "Jetpack Premium"
+msgstr "Jetpack Premium"
+
+#: _inc/jetpack-strings.php:37
+msgid "Jetpack Personal"
+msgstr "Jetpack Personnel"
+
+#: _inc/jetpack-strings.php:34
+msgid "Jetpack Free"
+msgstr "Jetpack gratuit"
+
+#: _inc/jetpack-strings.php:809
+msgid "Expired on %s."
+msgstr "Expiré le %s."
 
 #: _inc/blocks/editor.js:18 _inc/blocks/editor-experimental.js:18
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
@@ -9939,13 +9983,13 @@ msgstr "Publicités"
 msgid "Video Hosting"
 msgstr "Hébergement vidéo"
 
-#: _inc/jetpack-strings.php:543
-msgid "By activating ads, you agree to the Automattic Ads {{link}}Terms of Service{{/link}}."
-msgstr "En activant la publicité, vous acceptez les {{link}}conditions d&rsquo;utilisation{{/link}} de la publicité d&rsquo;Automattic."
-
 #: _inc/jetpack-strings.php:340 _inc/jetpack-strings.php:557
 msgid "View your earnings"
 msgstr "Voir vos revenus"
+
+#: _inc/jetpack-strings.php:543
+msgid "By activating ads, you agree to the Automattic Ads {{link}}Terms of Service{{/link}}."
+msgstr "En activant la publicité, vous acceptez les {{link}}conditions d’utilisation{{/link}} de la publicité d’Automattic."
 
 #: modules/custom-css.php:31
 msgid "Option deleted, re-migrate via `wp jetpack custom-css migrate`."
@@ -12981,11 +13025,6 @@ msgstr "S&rsquo;abonner aux commentaires"
 msgid "Follower Settings"
 msgstr "Paramètres des abonnements"
 
-#: modules/widget-visibility/widget-conditions.php:109
-#: _inc/jetpack-strings.php:546
-msgid "Front page"
-msgstr "Page d&rsquo;accueil"
-
 #: _inc/lib/class.core-rest-api-endpoints.php:2474
 msgid "Hide the stats smiley face image."
 msgstr "Cacher l&#8217;image de Smiley ajoutée par les stats."
@@ -13368,6 +13407,11 @@ msgstr "Vous n&rsquo;avez pas suffisamment de <a rel=\"nofollow noopener norefer
 #: _inc/jetpack-strings.php:331
 msgid "Upload videos"
 msgstr "Ajout des vidéos"
+
+#: modules/widget-visibility/widget-conditions.php:109
+#: _inc/jetpack-strings.php:546
+msgid "Front page"
+msgstr "Page d’accueil"
 
 #: modules/sharedaddy/sharing-sources.php:99
 msgid " (Opens in new window)"

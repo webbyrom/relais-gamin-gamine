@@ -389,111 +389,110 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-A">
                     <span>Brussieu</span><br>
+                    <span>de 8h30 à 11h30</span><br>
                     <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Maison de la Nature</span><br>
                 </a>
-
             </p>
-
-
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-B">
                     <span>Brullioles</span><br>
+                    <span>de 8h30 à 11h30</span><br>
                     <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Multi Accueil "Les lutins du Pothu"</span><br>
                 </a>
             </p>
 
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-C">
                     <span>Montrottier</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>de 8h30 à 11h30</span><br>
+                    <span>Relais La Gamine</span><br>
+                    <span>Multi Accueil "La Farandole"</span><br>
                 </a>
 
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-D">
                     <span>Longessaigne</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>de 8h30 à 11h30</span><br>
+                    <span>Relais La Gamine</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-E">
                     <span>Villecheneve</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>de 8h30 à 11h30</span><br>
+                    <span>Relais La Gamine</span><br>
+                    <span>Salle de la Poste</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-F">
                     <span>Chambost-Longessaigne</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Pas de Temps Collectifs</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-G">
                     <span>Saint Clément les Places</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
-                </a>
+                    <span>Pas de Temps Collectifs </span><br>
+               </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-H">
                     <span>Meys</span><br>
+                    <span>de 8h30 à 11h30</span><br>
                     <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>7 Place Mangini</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-I">
                     <span>Hautes-Rivoires</span><br>
+                    <span>de 8h30 à 11h30</span><br>
                     <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Garderie Périscolaire</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-J">
                     <span>Les Halles</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Pas de Temps Collectifs</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-K">
                     <span>Saint Laurent de Chamousset</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>de 8h30 à 11h30</span><br>
+                    <span>Relais Le Gamin & La Gamine</span><br>
+                    <span>Espace Juge Pascal</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-L">
                     <span>Souzy</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Pas de Temps Collectifs</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-M">
                     <span>Sainte-Foy l\'Argentiere</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>de 8h30 à 11h30</span><br>
+                    <span>Relais La Gamine</span><br>
+                    <span>Maison au-dessus de l\'école public</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-N">
                     <span>Saint genis l\'argentiere</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Pas de Temps Collectifs</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-O">
                     <span>Montromant</span><br>
-                    <span>Relais Le Gamin</span><br>
-                    <span>Les lundi et jeudi de 8h à 10h</span><br>
+                    <span>Pas de Temps Collectifs</span><br>
                 </a>
             </p>
         </div>
