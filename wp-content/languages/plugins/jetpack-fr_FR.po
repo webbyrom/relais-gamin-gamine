@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-16 10:23:39+0000\n"
+"PO-Revision-Date: 2020-06-16 17:29:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17199,10 +17199,6 @@ msgctxt "the value that they want to update the option to"
 msgid "value"
 msgstr "valeur"
 
-#: _inc/lib/admin-pages/class.jetpack-settings-page.php:102
-msgid "Newest"
-msgstr "Les plus récents"
-
 #: class.jetpack-cli.php:522 modules/vaultpress.php:27
 #: _inc/jetpack-strings.php:465 _inc/jetpack-strings.php:492
 #: _inc/jetpack-strings.php:704
@@ -17253,3 +17249,7 @@ msgstr "%1$s n'est pas actif. Vous pouvez l'activer à l'aide de la commande «�
 msgctxt "Updating an option from \"this\" to \"that\"."
 msgid "Updated option: %1$s to \"%2$s\""
 msgstr "Option mise à jour : %1$s vers « %2$s »"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:102
+msgid "Newest"
+msgstr "Plus récents"
