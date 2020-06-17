@@ -225,7 +225,7 @@ class carte_relais
                             272.4,677.1 270.9,680.5 271.8,682.2 269.9,686.3 266.8,688.7 265,689.3 260.5,691.4 251.7,689.7 249.8,691 238.4,687.6 234,688.8 
                             231.9,687.6 229.4,688.1 227.3,686.6 221.4,685.9 218.3,686.6 216.3,686.4 214.4,688.5 211.5,689.7 207.3,691 " />
                     </a>
-                    <a id="ville-map-I" xlink:title="Hautes-Rivoires">
+                    <a id="ville-map-I" xlink:title="Haute-Rivoire">
                         <path class="gamin-color" d="M203.6,627 202,621.9 203.6,621.2 202,618.6 202,615.4 203.6,613.8 202.8,612.4 
                             203.6,611.6 202.8,609.3 203.6,607.5 203.6,603.9 205.8,601.5 204.9,600.6 204.8,595.9 204.8,593.7 205,591.3 209.5,584.1 
                             210.3,582.7 212.7,581.7 212.7,580.3 214.1,580.3 215.6,578.4 216.3,578.9 221.8,577.3 222.4,576.5 224.8,576.5 226.6,575.7 
@@ -374,7 +374,7 @@ class carte_relais
                 <li class="list-gamine"><a id="list-F">Chambost-Longessaigne</a></li>
                 <li class="list-gamin"><a id="list-G">Saint Clément les Places</a></li>
                 <li class="list-gamin"><a id="list-H">Meys</a></li>
-                <li class="list-gamin"><a id="list-I">Hautes-Rivoires</a></li>
+                <li class="list-gamin"><a id="list-I">Haute-Rivoire</a></li>
                 <li class="list-gamin"><a id="list-J">Les Halles</a></li>
                 <li class="list-gamin"><a id="list-K">Saint Laurent de Chamousset</a></li>
                 <li class="list-gamine"><a id="list-L">Souzy</a></li>
@@ -390,15 +390,16 @@ class carte_relais
                 <a id="tempsco-A">
                     <span>Brussieu</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais Le Gamin</span><br>
+                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
                     <span>Maison de la Nature</span><br>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/04/GAMINGAMINE-sf-e1590483952736.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-B">
                     <span>Brullioles</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais Le Gamin</span><br>
+                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
                     <span>Multi Accueil "Les lutins du Pothu"</span><br>
                 </a>
             </p>
@@ -407,7 +408,7 @@ class carte_relais
                 <a id="tempsco-C">
                     <span>Montrottier</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais La Gamine</span><br>
+                    <span class="tempco-gamine">Relais La Gamine</span><br>
                     <span>Multi Accueil "La Farandole"</span><br>
                 </a>
 
@@ -416,14 +417,14 @@ class carte_relais
                 <a id="tempsco-D">
                     <span>Longessaigne</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais La Gamine</span><br>
+                    <span class="tempco-gamine">Relais La Gamine</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-E">
                     <span>Villecheneve</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais La Gamine</span><br>
+                    <span class="tempco-gamine">Relais La Gamine</span><br>
                     <span>Salle de la Poste</span><br>
                 </a>
             </p>
@@ -443,15 +444,15 @@ class carte_relais
                 <a id="tempsco-H">
                     <span>Meys</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais Le Gamin</span><br>
+                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
                     <span>7 Place Mangini</span><br>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-I">
-                    <span>Hautes-Rivoires</span><br>
+                    <span>Haute-Rivoire</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais Le Gamin</span><br>
+                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
                     <span>Garderie Périscolaire</span><br>
                 </a>
             </p>
@@ -465,7 +466,7 @@ class carte_relais
                 <a id="tempsco-K">
                     <span>Saint Laurent de Chamousset</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais Le Gamin & La Gamine</span><br>
+                    <span class="tempco-gamin">Relais Le Gamin</span><span> &</span><span class="tempco-gamine"> La Gamine</span><br>
                     <span>Espace Juge Pascal</span><br>
                 </a>
             </p>
@@ -479,7 +480,7 @@ class carte_relais
                 <a id="tempsco-M">
                     <span>Sainte-Foy l\'Argentiere</span><br>
                     <span>de 8h30 à 11h30</span><br>
-                    <span>Relais La Gamine</span><br>
+                    <span class="tempco-gamine">Relaiss La Gamine</span><br>
                     <span>Maison au-dessus de l\'école public</span><br>
                 </a>
             </p>

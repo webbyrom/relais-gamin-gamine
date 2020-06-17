@@ -47,6 +47,7 @@ h2 .carte-title {
 
 .list-city {
     list-style: none!important;
+    text-align: center;
 }
 
 li a {
@@ -85,4 +86,12 @@ li a {
 
 .tempco-affiche>a.is-active {
     display: block!important;
+}
+
+.tempco-gamin {
+    color: rgb(25, 0, 255)!important;
+}
+
+.tempco-gamine {
+    color: rgb(248, 17, 210)!important;
 }
