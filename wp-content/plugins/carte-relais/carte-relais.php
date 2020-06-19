@@ -388,112 +388,112 @@ class carte_relais
 
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-A">
-                    <span>Brussieu</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
-                    <span>Maison de la Nature</span><br>
+                    <span>Brussieu</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamin" >Relais Le Gamin</span>
+                    <span>Maison de la Nature</span>
                     <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/04/GAMINGAMINE-sf-e1590483952736.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-B">
-                    <span>Brullioles</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
-                    <span>Multi Accueil "Les lutins du Pothu"</span><br>
+                    <span>Brullioles</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamin" >Relais Le Gamin</span>
+                    <span>Multi Accueil "Les lutins du Pothu"</span>
                 </a>
             </p>
 
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-C">
-                    <span>Montrottier</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamine">Relais La Gamine</span><br>
-                    <span>Multi Accueil "La Farandole"</span><br>
+                    <span>Montrottier</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamine">Relais La Gamine</span>
+                    <span>Multi Accueil "La Farandole"</span>
                 </a>
 
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-D">
-                    <span>Longessaigne</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamine">Relais La Gamine</span><br>
+                    <span>Longessaigne</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamine">Relais La Gamine</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-E">
-                    <span>Villecheneve</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamine">Relais La Gamine</span><br>
-                    <span>Salle de la Poste</span><br>
+                    <span>Villecheneve</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamine">Relais La Gamine</span>
+                    <span>Salle de la Poste</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-F">
-                    <span>Chambost-Longessaigne</span><br>
-                    <span>Pas de Temps Collectifs</span><br>
+                    <span>Chambost-Longessaigne</span>
+                    <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-G">
-                    <span>Saint Clément les Places</span><br>
-                    <span>Pas de Temps Collectifs </span><br>
+                    <span>Saint Clément les Places</span>
+                    <span>Pas de Temps Collectifs </span>
                </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-H">
-                    <span>Meys</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
-                    <span>7 Place Mangini</span><br>
+                    <span>Meys</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamin" >Relais Le Gamin</span>
+                    <span>7 Place Mangini</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-I">
-                    <span>Haute-Rivoire</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamin" >Relais Le Gamin</span><br>
-                    <span>Garderie Périscolaire</span><br>
+                    <span>Haute-Rivoire</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamin" >Relais Le Gamin</span>
+                    <span>Garderie Périscolaire</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-J">
-                    <span>Les Halles</span><br>
-                    <span>Pas de Temps Collectifs</span><br>
+                    <span>Les Halles</span>
+                    <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-K">
-                    <span>Saint Laurent de Chamousset</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamin">Relais Le Gamin</span><span> &</span><span class="tempco-gamine"> La Gamine</span><br>
-                    <span>Espace Juge Pascal</span><br>
+                    <span>Saint Laurent de Chamousset</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamin">Relais Le Gamin</span><span> &</span><span class="tempco-gamine"> La Gamine</span>
+                    <span>Espace Juge Pascal</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-L">
-                    <span>Souzy</span><br>
-                    <span>Pas de Temps Collectifs</span><br>
+                    <span>Souzy</span>
+                    <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-M">
-                    <span>Sainte-Foy l\'Argentiere</span><br>
-                    <span>de 8h30 à 11h30</span><br>
-                    <span class="tempco-gamine">Relaiss La Gamine</span><br>
-                    <span>Maison au-dessus de l\'école public</span><br>
+                    <span>Sainte-Foy l\'Argentiere</span>
+                    <span>de 8h30 à 11h30</span>
+                    <span class="tempco-gamine">Relaiss La Gamine</span>
+                    <span>Maison au-dessus de l\'école public</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-N">
-                    <span>Saint genis l\'argentiere</span><br>
-                    <span>Pas de Temps Collectifs</span><br>
+                    <span>Saint genis l\'argentiere</span>
+                    <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-O">
-                    <span>Montromant</span><br>
-                    <span>Pas de Temps Collectifs</span><br>
+                    <span>Montromant</span>
+                    <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
         </div>

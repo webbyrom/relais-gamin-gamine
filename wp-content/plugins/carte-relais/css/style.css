@@ -42,7 +42,7 @@ h2 .carte-title {
     line-height: 18px;
     /* float: right;*/
     font-size: 16px;
-    color: darkslategrey;
+    /* color: darkslategrey!important;*/
 }
 
 .list-city {
@@ -52,7 +52,7 @@ h2 .carte-title {
 
 li a {
     text-decoration-line: none;
-    color: rgb(90, 89, 90);
+    color: #6F6F71!important;
     cursor: pointer;
 }
 
@@ -72,6 +72,10 @@ li a {
     width: 45%;
 }
 
+.test-tempsco a {
+    color: #6F6F71!important;
+}
+
 .test-tempsco>h5 {
     text-align: center;
 }
@@ -85,7 +89,10 @@ li a {
 }
 
 .tempco-affiche>a.is-active {
-    display: block!important;
+    display: flex!important;
+    justify-content: center!important;
+    line-height: 25px;
+    flex-direction: column!important;
 }
 
 .tempco-gamin {
