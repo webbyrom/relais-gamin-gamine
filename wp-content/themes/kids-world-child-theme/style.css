@@ -276,7 +276,18 @@ h6 {
     border-color: #6b6b6b!important;
 }
 
-.mission-link {
+.page-id-1901 .wpb_content_element .paragraph a {
+    color: #fcb54d!important;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.page-id-1901 .wpb_content_element .paragraph a:hover {
+    color: #3654fd!important;
+}
+
+
+/*.mission-link {
     color: #fcb54d!important;
     transition-property: color;
     transition-duration: 1s;
@@ -285,6 +296,7 @@ h6 {
 .mission-link:hover {
     color: #3654fd!important;
 }
+*/
 
 
 /******* dropcaps salariées******/
@@ -325,7 +337,16 @@ h6 {
 }
 
 
-/***************************** page Missions******************************/
+/**************************page Notre équipe***********************************/
+
+.page-id-2031 .swmsc_dropcap.dark {
+    background-color: yellow;
+    border-color: rgb(255, 153, 0);
+    color: #71706f;
+}
+
+
+/***************************** page Nos Missions******************************/
 
 
 /*** lettre dropcaps paragraphe gauche et droite  ******/
@@ -375,6 +396,26 @@ h6 {
     transition-duration: 1s;
 }
 
+.page-id-2194 .swmsc_toggle_accordion_container a {
+    color: #ff8484!important;
+}
+
+.page-id-2194 .swmsc_toggle_accordion_container a:hover {
+    color: #3654fd!important;
+    transition-duration: 1s;
+}
+
+.page-id-2194 .ui-accordion a {
+    color: #ff8484!important;
+}
+
+.page-id-2194 .ui-accordion a:hover {
+    color: #3654fd!important;
+    transition-duration: 1s;
+}
+
+
+/*
 .accordion-link {
     color: #ff8484!important;
 }
@@ -383,6 +424,40 @@ a.accordion-link:hover {
     color: #3654fd!important;
     transition-duration: 1s;
 }
+*/
+
+
+/****************************Page Notre Public**************************************/
+
+.page-id-2061 .kidsworld_main_container>.vc_row a {
+    color: #0cff00!important;
+}
+
+.page-id-2061 .kidsworld_main_container>.vc_row a:hover {
+    color: #3654fd!important;
+    transition-duration: 1s;
+}
+
+
+/*
+.page-id-2061 .swmsc_toggle_box a {
+    color: #0cff00!important;
+}
+
+.page-id-2061 .swmsc_toggle_box a:hover {
+    color: #3654fd!important;
+    transition-duration: 1s;
+}
+
+.page-id-2061 .ui-accordion-content a {
+    color: #0cff00!important;
+}
+
+.page-id-2061 .ui-accordion-content a:hover {
+    color: #3654fd!important;
+    transition-duration: 1s;
+}
+*/
 
 
 /**************************** page animation****************************************/
@@ -757,6 +832,19 @@ a.accordion-link:hover {
 /***footer page qui sommes nous****/
 
 .page-id-1901 .kidsworld_cotact_footer {
+    /* transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background-image: linear-gradient(to left, rgb(252, 231, 193), orange, rgb(252, 231, 193))!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/**** footer page Notre équipe*****/
+
+.page-id-2031 .kidsworld_cotact_footer {
     /* transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
     background-image: linear-gradient(to left, rgb(252, 231, 193), orange, rgb(252, 231, 193))!important;
