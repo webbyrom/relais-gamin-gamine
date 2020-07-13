@@ -40,13 +40,22 @@ class coming_soon_admin_menu{
 /*############  Menu function  ################*/
 	
 	public function create_menu(){
+		global $submenu;
+		$sub_men_cap=str_replace( ' ', '-', $this->menu_name);
 		$main_page 	 		 = add_menu_page( $this->menu_name, $this->menu_name, 'manage_options', str_replace( ' ', '-', $this->menu_name), array($this, 'main_menu_function'),$this->plugin_url.'images/menu_icon.png');
 		$page_coming_soon	  =	add_submenu_page($this->menu_name,  $this->menu_name,  $this->menu_name, 'manage_options', str_replace( ' ', '-', $this->menu_name), array($this, 'main_menu_function'));
 		$page_coming_soon	  = add_submenu_page( str_replace( ' ', '-', $this->menu_name), 'Subscribers', 'Subscribers', 'manage_options', 'mailing-list-subscribers', array($this, 'mailing_list'));
 		$page_featured	 	  = add_submenu_page( str_replace( ' ', '-', $this->menu_name), 'Featured Plugins', 'Featured Plugins', 'manage_options', 'coming-soon-featured-plugins', array($this, 'featured_plugins'));
 		add_action('admin_print_styles-' .$main_page, array($this,'menu_requeried_scripts'));
 		add_action('admin_print_styles-' .$page_coming_soon, array($this,'menu_requeried_scripts'));	
-		add_action('admin_print_styles-' .$page_featured, array($this,'menu_requeried_scripts'));	
+		add_action('admin_print_styles-' .$page_featured, array($this,'menu_requeried_scripts'));
+		if(isset($submenu[$sub_men_cap]))
+			add_submenu_page( $sub_men_cap, "Support or Any Ideas?", "<span style='color:#00ff66' >Support or Any Ideas?</span>", 'manage_options',"wpdevart_comingsoon_any_ideas",array($this, 'any_ideas'),155);
+		if(isset($submenu[$sub_men_cap]))
+			$submenu[$sub_men_cap][3][2]=wpdevart_comingsoon_support_url;		
+	}
+	public function any_ideas(){
+		
 	}
 
 /*############  Menu required scripts function  ################*/

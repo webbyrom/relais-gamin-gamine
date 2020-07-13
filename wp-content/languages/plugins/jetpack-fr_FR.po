@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-16 17:29:16+0000\n"
+"PO-Revision-Date: 2020-07-10 18:05:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
 
@@ -9409,10 +9409,6 @@ msgstr "Vous devez spécifier un ID d&rsquo;article"
 msgid "Post not found"
 msgstr "Article non trouvé"
 
-#: _inc/jetpack-strings.php:560
-msgid "Google Analytics is a free service that complements our {{a}}built-in stats{{/a}} with different insights into your traffic. WordPress.com stats and Google Analytics use different methods to identify and track activity on your site, so they will normally show slightly different totals for your visits, views, etc."
-msgstr "Google Analytics est un service gratuit qui complémente nos {{a}stats intégrées à Jetpack{{/a}} en vous offrant des informations différentes sur votre trafic. Les stats de WordPress.com et Google Analytics utilisent différentes méthodes pour identifier et suivre vos visiteurs sur votre site, et peuvent donc afficher des stats quelque peu différentes."
-
 #: modules/module-headings.php:56
 msgctxt "Module Name"
 msgid "Google Analytics"
@@ -9434,6 +9430,10 @@ msgstr "Publicités"
 msgctxt "Module Description"
 msgid "Set up Google Analytics without touching a line of code."
 msgstr "Installez Google Analytics sans toucher à une seule ligne de code."
+
+#: _inc/jetpack-strings.php:560
+msgid "Google Analytics is a free service that complements our {{a}}built-in stats{{/a}} with different insights into your traffic. WordPress.com stats and Google Analytics use different methods to identify and track activity on your site, so they will normally show slightly different totals for your visits, views, etc."
+msgstr "Google Analytics est un service gratuit qui complémente nos {{a}stats intégrées à Jetpack{{/a}} en vous offrant des informations différentes sur votre trafic. Les stats de WordPress.com et Google Analytics utilisent différentes méthodes pour identifier et suivre vos visiteurs sur votre site, et peuvent donc afficher des stats quelque peu différentes."
 
 #. translators: %s is the name of the queue, either 'incremental' or 'full'
 #: class.jetpack-cli.php:1048
@@ -10476,6 +10476,14 @@ msgstr "Il y a des réglages non sauvegardés dans cet onglet; ils seront seront
 msgid "Invalid parameter \"dismissed\"."
 msgstr "Paramètre non valide \"dismissed\"."
 
+#: modules/module-info.php:739
+msgid ""
+"Automatically create two sitemap files that list the URLs of posts and pages in your site.\n"
+"\t\tThis makes it easier for search engines (like Google) to include your site in relevant search results."
+msgstr ""
+"Créez automatiquement deux fichiers sitemap répertoriant les URL des articles et des pages de votre site.\n"
+"\t\tCela permet aux moteurs de recherche (comme Google) d'inclure plus facilement votre site aux résultats de recherche pertinents."
+
 #: modules/module-info.php:717
 msgid ""
 "Manage and update this and other WordPress sites from one simple dashboard on WordPress.com. You can update\n"
@@ -10487,14 +10495,6 @@ msgstr ""
 "\t\tdes extensions, configurer leur mise à jour automatique et les activer / désactiver en fonction de chaque site ou systématiquement à partir de\n"
 "\t\twordpress.com/plugins. Vous pouvez également utiliser le tout nouvel éditeur d'articles adapté aux appareils mobiles sur WordPress.com\n"
 "\t\t, afficher et activer les thèmes installés et créer ou modifier les menus du site."
-
-#: modules/module-info.php:739
-msgid ""
-"Automatically create two sitemap files that list the URLs of posts and pages in your site.\n"
-"\t\tThis makes it easier for search engines (like Google) to include your site in relevant search results."
-msgstr ""
-"Créez automatiquement deux fichiers sitemap répertoriant les URL des articles et des pages de votre site.\n"
-"\t\tCela permet aux moteurs de recherche (comme Google) d'inclure plus facilement votre site aux résultats de recherche pertinents."
 
 #: modules/module-info.php:697
 msgid ""
@@ -10712,6 +10712,14 @@ msgstr ""
 "\t\tGoogle Maps, SlideShare, Vine, SoundCloud, etc. Saisissez le code abrégé approprié directement dans\n"
 "\t\tl'éditeur et cliquez sur \"Publier\"."
 
+#: modules/module-info.php:50
+msgid ""
+"Enhance plain Gravatar images with information about a person (including a name,\n"
+"\t\tbio, pictures, and contact info) when they leave a comment on one of your posts."
+msgstr ""
+"Améliorez les simples images Gravatar grâce aux informations relatives à une personne (notamment son nom,\n"
+"\t\tsa biographie, ses photos et ses coordonnées) lorsqu'elle laisse un commentaire sur l'un de vos articles."
+
 #: modules/module-info.php:28
 msgid ""
 "We keep a daily or real-time backup of your site so that when mistakes or accidents occur, restoring your\n"
@@ -10723,14 +10731,6 @@ msgstr ""
 "\t\tvotre site vers n'importe quel emplacement ne prenne que quelques minutes en cas d'erreur ou d'accident. Les fichiers de votre site sont régulièrement scannés afin de contrôler les\n"
 "\t\tmodifications non autorisées ou suspectes susceptibles de compromettre votre sécurité et vos données. Dans de nombreux cas, nous pouvons résoudre ces problèmes\n"
 "\t\tautomatiquement (et nous vous en informerons). Lorsque cela nous est impossible, nous vous offrons une assistance assurée par des experts."
-
-#: modules/module-info.php:50
-msgid ""
-"Enhance plain Gravatar images with information about a person (including a name,\n"
-"\t\tbio, pictures, and contact info) when they leave a comment on one of your posts."
-msgstr ""
-"Améliorez les simples images Gravatar grâce aux informations relatives à une personne (notamment son nom,\n"
-"\t\tsa biographie, ses photos et ses coordonnées) lorsqu'elle laisse un commentaire sur l'un de vos articles."
 
 #: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:144
 msgid "The requested Jetpack module was deactivated."
@@ -12242,14 +12242,6 @@ msgstr "Les réglages de Jetpack sur votre réseau ont été mis à jour&nbsp;!"
 msgid "Jetpack is network activated and notices can not be dismissed."
 msgstr "Jetpack est activé pour le réseau de sites, et les notifications ne peuvent être cachées."
 
-#: modules/plugin-search.php:529 _inc/jetpack-strings.php:652
-#: _inc/jetpack-strings.php:854 _inc/jetpack-strings.php:855
-#: _inc/jetpack-strings.php:863 _inc/blocks/editor.js:18
-#: _inc/blocks/editor-experimental.js:18
-#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
-msgid "Learn more"
-msgstr "Plus d&rsquo;info."
-
 #: views/admin/network-settings.php:12
 msgid "Network Settings"
 msgstr "Réglages du réseau "
@@ -12275,6 +12267,14 @@ msgstr "https://jetpack.com"
 #: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
 msgid "Disconnect your account"
 msgstr "Déconnecter votre compte"
+
+#: modules/plugin-search.php:529 _inc/jetpack-strings.php:652
+#: _inc/jetpack-strings.php:854 _inc/jetpack-strings.php:855
+#: _inc/jetpack-strings.php:863 _inc/blocks/editor.js:18
+#: _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Learn more"
+msgstr "Plus d’info."
 
 #. Translators: Placeholder is the name of a widget.
 #: modules/module-extras.php:85
@@ -12632,10 +12632,6 @@ msgstr "Violet"
 msgid "RSS Links"
 msgstr "Liens RSS"
 
-#: modules/widgets/gallery/templates/form.php:58
-msgid "Random Order:"
-msgstr "Ordre Al&eacute;atoire:"
-
 #: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:202
 msgid "Recent Posts"
 msgstr "Articles récents"
@@ -12799,12 +12795,6 @@ msgstr "Voir le profil de %1$s sur %2$s"
 msgid "View Full Profile &rarr;"
 msgstr "Afficher le Profil Complet &rarr;"
 
-#: modules/widget-visibility/widget-conditions.php:267 _inc/blocks/editor.js:18
-#: _inc/blocks/editor-experimental.js:18
-#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
-msgid "Visibility"
-msgstr "Visibilit&eacute;"
-
 #: modules/widgets/gravatar-profile.php:324
 msgid "What's a Gravatar?"
 msgstr "Qu&rsquo;est-ce qu&rsquo;un Gravatar ?"
@@ -12841,10 +12831,6 @@ msgstr "Afficher une carte avec vos horaires, coordonnées, et localisation."
 #: modules/widgets/twitter-timeline.php:97
 msgid "Twitter Timeline"
 msgstr "Timeline Twitter"
-
-#: modules/widgets/twitter-timeline.php:34
-msgid "Display an official Twitter Embedded Timeline widget."
-msgstr "Afficher le widget officiel d'int&eacute;gration de la Timeline Twitter."
 
 #: modules/widgets/twitter-timeline.php:483
 msgid "Timeline Theme:"
@@ -12900,6 +12886,20 @@ msgstr "Mise à jour automatique"
 msgid "WordPress.com Toolbar"
 msgstr "Barre d’outils WordPress.com"
 
+#: modules/widget-visibility/widget-conditions.php:267 _inc/blocks/editor.js:18
+#: _inc/blocks/editor-experimental.js:18
+#: _inc/blocks/editor-no-post-editor.js:18 _inc/blocks/editor-beta.js:18
+msgid "Visibility"
+msgstr "Visibilité"
+
+#: modules/widgets/gallery/templates/form.php:58
+msgid "Random Order:"
+msgstr "Ordre aléatoire :"
+
+#: modules/widgets/twitter-timeline.php:34
+msgid "Display an official Twitter Embedded Timeline widget."
+msgstr "Afficher le widget officiel d'intégration de la Timeline Twitter."
+
 #. Translators: Stats dashboard widget postviews list: "$post_title $views
 #. Views".
 #: modules/stats.php:1328
@@ -12937,10 +12937,6 @@ msgstr "Toutes les pages d&rsquo;auteurs"
 #: modules/widget-visibility/widget-conditions.php:44
 msgid "All category pages"
 msgstr "Toutes les pages de catégories"
-
-#: modules/widget-visibility/widget-conditions.php:103
-msgid "All date archives"
-msgstr "Toutes les donn&eacute;es d&rsquo;archives"
 
 #: modules/widget-visibility/widget-conditions.php:142
 msgid "All taxonomy pages"
@@ -13072,10 +13068,6 @@ msgstr "Réglages des abonnements Jetpack"
 #: modules/subscriptions.php:147
 msgid "Jetpack Subscriptions:"
 msgstr "Abonnements Jetpack&nbsp;:"
-
-#: modules/videopress/class.videopress-player.php:859
-msgid "Loading video..."
-msgstr "chargement vid&eacute;o&hellip;"
 
 #: modules/stats.php:585
 msgid "Loading&hellip;"
@@ -13413,6 +13405,14 @@ msgstr "Ajout des vidéos"
 msgid "Front page"
 msgstr "Page d’accueil"
 
+#: modules/videopress/class.videopress-player.php:859
+msgid "Loading video..."
+msgstr "Chargement vidéo..."
+
+#: modules/widget-visibility/widget-conditions.php:103
+msgid "All date archives"
+msgstr "Toutes les données d’archives"
+
 #: modules/sharedaddy/sharing-sources.php:99
 msgid " (Opens in new window)"
 msgstr "(ouvre dans une nouvelle fenêtre)"
@@ -13652,10 +13652,6 @@ msgstr "URL de Partage"
 msgid "Sharing is off. Add services above to enable."
 msgstr "Le partage est désactivé. Ajoutez des services ci-dessus pour activer."
 
-#: modules/sharedaddy/sharing.php:398
-msgid "Sharing label"
-msgstr "Libell&eacute; du bouton"
-
 #: modules/related-posts/jetpack-related-posts.php:619
 #: _inc/jetpack-strings.php:566
 msgid "Show related content after posts"
@@ -13700,10 +13696,6 @@ msgstr "Le paramètre secret est non valide ou mal formé"
 #: modules/sharedaddy/recaptcha.php:58
 msgid "The secret parameter is missing"
 msgstr "Le paramètre secret est manquant"
-
-#: modules/sharedaddy/sharing-sources.php:539
-msgid "This post has been shared!"
-msgstr "Cet article a &eacute;t&eacute; partag&eacute."
 
 #: modules/shortcodes/presentations.php:250
 msgid "This slideshow could not be started. Try refreshing the page or viewing it in another browser."
@@ -13770,10 +13762,6 @@ msgstr "Votre adresse e-mail"
 #: modules/sharedaddy/sharing-sources.php:585
 msgid "Your Name"
 msgstr "Votre nom"
-
-#: modules/shortcodes/archives.php:74
-msgid "Your blog does not currently have any published posts."
-msgstr "Votre blog ne contient actuellement aucun article publi&eacute;."
 
 #: modules/sharedaddy/sharing-sources.php:459
 msgctxt "as sharing source"
@@ -13844,10 +13832,6 @@ msgstr "Cliquez pour partager sur Reddit"
 msgid "Click to share on Twitter"
 msgstr "Cliquez pour partager sur Twitter"
 
-#: modules/sharedaddy/sharing.php:530
-msgid "An error occurred creating your new sharing service - please check you gave valid details."
-msgstr "Une erreur s&rsquo;est produite lors de la création de votre nouveau service de partage. Veuillez v&eacute;rifier la validit&eacute; des d&eacute;tails renseign&eacute;s."
-
 #: modules/sharedaddy/sharing-sources.php:1425
 msgid "Click to share on Tumblr"
 msgstr "Cliquez pour partager sur Tumblr"
@@ -13863,6 +13847,22 @@ msgstr "Créer un bouton de partage"
 #: modules/sharedaddy/sharing.php:218
 msgid "This plugin will work without it, but multibyte support is used <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">if available</a>. You may see minor problems with Tweets and other sharing services."
 msgstr "Le support multibyte est utilisé <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">si disponible</a>, mais cette extension fonctionnera sans. Vous pourriez rencontrer des problèmes mineurs avec Twitter et d&rsquo;autres services de partage."
+
+#: modules/shortcodes/archives.php:74
+msgid "Your blog does not currently have any published posts."
+msgstr "Votre blog ne contient actuellement aucun article publié."
+
+#: modules/sharedaddy/sharing.php:530
+msgid "An error occurred creating your new sharing service - please check you gave valid details."
+msgstr "Une erreur s’est produite lors de la création de votre nouveau service de partage. Veuillez vérifier la validité des détails renseignés."
+
+#: modules/sharedaddy/sharing.php:398
+msgid "Sharing label"
+msgstr "Libellé du bouton"
+
+#: modules/sharedaddy/sharing-sources.php:539
+msgid "This post has been shared!"
+msgstr "Cet article a été partagé."
 
 #: modules/protect/math-fallback.php:60
 msgid "<strong>You failed to correctly answer the math problem.</strong>  This is used to combat spam when the Protect API is unavailable.  Please use your browser's back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
@@ -13903,11 +13903,6 @@ msgstr "CSS Personnalisé"
 #: modules/post-by-email/class-jetpack-post-by-email.php:121
 msgid "Disable Post By Email"
 msgstr "Désactiver la Publication par e-mail"
-
-#: class.jetpack-network-sites-list-table.php:105
-#: class.jetpack-network-sites-list-table.php:122 _inc/jetpack-strings.php:761
-msgid "Disconnect"
-msgstr "D&eacute;connecter"
 
 #: modules/post-by-email/class-jetpack-post-by-email.php:101
 #: modules/subscriptions/views.php:639
@@ -14092,10 +14087,6 @@ msgstr "Impossible de désactiver votre adresse de Publication par e-mail. Merci
 msgid "Unable to regenerate your Post By Email address. Please try again later."
 msgstr "Impossible de générer une nouvelle adresse de Publication par e-mail. Merci d&rsquo;essayer à nouveau plus tard."
 
-#: modules/publicize/enhanced-open-graph.php:118
-msgid "Video on %s"
-msgstr "Vid&eacute;o sur %s"
-
 #: modules/protect.php:186
 msgid "View Network Admin"
 msgstr "Passer sur l'administration du réseau"
@@ -14149,10 +14140,6 @@ msgstr "Publicize&nbsp;:"
 msgid "Custom Message:"
 msgstr "Message personnalisé&nbsp;:"
 
-#: modules/publicize/ui.php:524
-msgid "Not Connected"
-msgstr "Non connect&eacute;"
-
 #: modules/related-posts/class.related-posts-customize.php:178
 #: modules/related-posts/jetpack-related-posts.php:476
 #: modules/related-posts/jetpack-related-posts.php:536
@@ -14168,6 +14155,19 @@ msgstr "Prouvez que vous n’êtes pas une machine"
 #: modules/widgets/contact-info.php:375
 msgid "Loading map&hellip;"
 msgstr "Chargement de la carte&hellip;"
+
+#: modules/publicize/ui.php:524
+msgid "Not Connected"
+msgstr "Non connecté"
+
+#: class.jetpack-network-sites-list-table.php:105
+#: class.jetpack-network-sites-list-table.php:122 _inc/jetpack-strings.php:761
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+#: modules/publicize/enhanced-open-graph.php:118
+msgid "Video on %s"
+msgstr "Vidéo sur %s"
 
 #: modules/module-headings.php:187
 msgctxt "Module Description"
@@ -14530,18 +14530,9 @@ msgstr "Carrousel"
 msgid "No"
 msgstr "Non"
 
-#: modules/infinite-scroll/infinity.php:815
-msgid "Older posts"
-msgstr "Articles Pr&eacute;c&eacute;dents"
-
 #: modules/likes/jetpack-likes-settings.php:539
 msgid "On for all comments"
 msgstr "activés pour tous les commentaires"
-
-#: modules/likes/jetpack-likes-settings.php:498
-#: _inc/lib/class.core-rest-api-endpoints.php:2094
-msgid "On for all posts"
-msgstr "activ&eacute;s sur tous les articles"
 
 #: modules/infinite-scroll/infinity.php:1597
 msgid "Proudly powered by WordPress"
@@ -14668,6 +14659,15 @@ msgid "Shows %s post on each load."
 msgid_plural "Shows %s posts on each load."
 msgstr[0] "Affiche %s article à chaque chargement."
 msgstr[1] "Affiche %s articles à chaque chargement."
+
+#: modules/likes/jetpack-likes-settings.php:498
+#: _inc/lib/class.core-rest-api-endpoints.php:2094
+msgid "On for all posts"
+msgstr "activés sur tous les articles"
+
+#: modules/infinite-scroll/infinity.php:815
+msgid "Older posts"
+msgstr "Articles précédents"
 
 #: modules/custom-post-types/nova.php:330
 #: modules/custom-post-types/nova.php:335
@@ -16674,11 +16674,6 @@ msgstr "Erreur lors de la désactivation du module."
 msgid "There was an error while getting the update data for this site."
 msgstr "Erreur lors de l&rsquo;obtention des données de mises à jour pour ce site."
 
-#: json-endpoints/class.wpcom-json-api-post-endpoint.php:69
-#: sal/class.json-api-post-base.php:400
-msgid "This post is password protected."
-msgstr "Article prot&eacute;g&eacute; par mot de passe."
-
 #: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:116
 #: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:121
 msgid "This user is not authorized to %s on this blog."
@@ -16791,6 +16786,11 @@ msgstr "Identifiant Twitter du propriétaire de ce site."
 #: class.jetpack.php:7104
 msgid "Anti-spam can help to keep your blog safe from spam!"
 msgstr "Anti-spam vous aidera à protéger votre blog contre les indésirables !"
+
+#: json-endpoints/class.wpcom-json-api-post-endpoint.php:69
+#: sal/class.json-api-post-base.php:400
+msgid "This post is password protected."
+msgstr "Article protégé par mot de passe."
 
 #: class.jetpack-cli.php:114
 msgctxt "\"wp jetpack status full\" is a command - do not translate"
@@ -16997,14 +16997,6 @@ msgstr "Jetpack est connecté à WordPress.com"
 msgid "Jetpack is not currently connected to WordPress.com"
 msgstr "Jetpack n&rsquo;est pas connecté à WordPress.com"
 
-#: modules/custom-content-types.php:44 modules/sso.php:1187
-#: modules/custom-post-types/testimonial.php:155
-#: modules/custom-post-types/portfolios.php:140 modules/protect.php:189
-#: class.jetpack.php:7469 class.jetpack.php:7490 _inc/jetpack-strings.php:736
-#: _inc/jetpack-strings.php:759
-msgid "Learn More"
-msgstr "Plus d&rsquo;info."
-
 #. translators: The URL to the site's xmlrpc.php file.
 #: _inc/lib/debugger/class-jetpack-debugger.php:141
 msgid "Load your <a href=\"%s\">XMLRPC file</a>. It should say “XML-RPC server accepts POST requests only.” on a line by itself."
@@ -17159,11 +17151,6 @@ msgstr "Valeur"
 
 #. translators: %s is the post author
 #: class.jetpack-twitter-cards.php:156
-msgid "Video post by %s."
-msgstr "Article vid&eacute;o par %s."
-
-#. translators: %s is the post author
-#: class.jetpack-twitter-cards.php:156
 msgid "Video post."
 msgstr "Vidéo."
 
@@ -17253,3 +17240,16 @@ msgstr "Option mise à jour : %1$s vers « %2$s »"
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:102
 msgid "Newest"
 msgstr "Plus récents"
+
+#: modules/custom-content-types.php:44 modules/sso.php:1187
+#: modules/custom-post-types/testimonial.php:155
+#: modules/custom-post-types/portfolios.php:140 modules/protect.php:189
+#: class.jetpack.php:7469 class.jetpack.php:7490 _inc/jetpack-strings.php:736
+#: _inc/jetpack-strings.php:759
+msgid "Learn More"
+msgstr "Plus d’info."
+
+#. translators: %s is the post author
+#: class.jetpack-twitter-cards.php:156
+msgid "Video post by %s."
+msgstr "Article vidéo par %s."

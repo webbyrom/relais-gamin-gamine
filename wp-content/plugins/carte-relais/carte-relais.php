@@ -392,7 +392,7 @@ class carte_relais
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>Maison de la Nature</span>
-                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/04/GAMINGAMINE-sf-e1590483952736.png"</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMIN-sf-e1592734312793.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
@@ -401,6 +401,7 @@ class carte_relais
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>Multi Accueil "Les lutins du Pothu"</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMIN-sf-e1592734312793.png"</span>
                 </a>
             </p>
 
@@ -410,6 +411,7 @@ class carte_relais
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Multi Accueil "La Farandole"</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMINE-sf-e1592734332339.png"</span>
                 </a>
 
             </p>
@@ -418,6 +420,7 @@ class carte_relais
                     <span>Longessaigne</span>
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMINE-sf-e1592734332339.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
@@ -426,6 +429,7 @@ class carte_relais
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Salle de la Poste</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMINE-sf-e1592734332339.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
@@ -446,6 +450,7 @@ class carte_relais
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>7 Place Mangini</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMIN-sf-e1592734312793.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
@@ -454,6 +459,7 @@ class carte_relais
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>Garderie Périscolaire</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMIN-sf-e1592734312793.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
@@ -468,6 +474,7 @@ class carte_relais
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamin">Relais Le Gamin</span><span> &</span><span class="tempco-gamine"> La Gamine</span>
                     <span>Espace Juge Pascal</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/04/GAMINGAMINE-sf-e1590483952736.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
@@ -480,8 +487,9 @@ class carte_relais
                 <a id="tempsco-M">
                     <span>Sainte-Foy l\'Argentiere</span>
                     <span>de 8h30 à 11h30</span>
-                    <span class="tempco-gamine">Relaiss La Gamine</span>
+                    <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Maison au-dessus de l\'école public</span>
+                    <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMINE-sf-e1592734332339.png"</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">

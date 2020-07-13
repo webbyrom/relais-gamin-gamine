@@ -36,13 +36,49 @@ Version: 		1.00
     /* display: inline-flex;*/
 }
 
-#page_body,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #6f6f71;
+.page-id-1572 .rs_splitted_words>div:nth-child(0n+1) {
+    background-image: linear-gradient(to left, orange, red)!important;
+    /* background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red)!important;*/
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+
+.page-id-1572 .rs_splitted_words>div:nth-child(0n+2) {
+    background-image: linear-gradient(to left, yellow, green)!important;
+    /* background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red)!important;*/
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+
+.page-id-1572 .rs_splitted_words>div:nth-child(0n+3) {
+    /* background-image: linear-gradient(to left, rgb(172, 43, 172), pink, rgb(33, 212, 236), rgb(37, 37, 204))!important;*/
+    background-image: linear-gradient(to left, violet, blue)!important;
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+
+.page-id-1572 .rs_splitted_words>div:nth-child(0n+5) {
+    /* background-image: linear-gradient(to left, rgb(172, 43, 172), pink, rgb(33, 212, 236), rgb(37, 37, 204))!important;*/
+    background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red)!important;
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+
+.page-id-1572 .rs_splitted_words>div:nth-child(0n+7) {
+    /* background-image: linear-gradient(to left, rgb(172, 43, 172), pink, rgb(33, 212, 236), rgb(37, 37, 204))!important;*/
+    background-image: linear-gradient(to left, yellow, orange, red)!important;
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
 }
 
 #page_body .kidsworld_sub_header_title {
@@ -60,6 +96,26 @@ h6 {
     padding: 15px;
 }
 
+#page_body,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #6f6f71;
+}
+
+.swmsc_fancy_heading_text h1 {
+    text-transform: uppercase;
+    font-size: 64px!important;
+    background-image: linear-gradient(to right, violet, indigo, blue, #80004d, yellow, orange, red);
+    /*  background-image: linear-gradient(to left, violet, indigo, blue, #80004d, yellow, orange, red);*/
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;
+}
+
 
 /************************** page accueil************************/
 
@@ -74,13 +130,13 @@ h6 {
 /**** lien  titre h4 post actu******/
 
 .page-id-1572 .actu-accueil .swmsc_recent_post_large_text h4>a {
-    color: #c538f4!important;
+    color: #6F6F71!important;
     transition-property: color;
 }
 
 .page-id-1572 .actu-accueil .swmsc_recent_post_large_text h4>a:hover {
     transition-duration: 0.8s;
-    color: #3654fd!important;
+    color: #c536fd!important;
 }
 
 
@@ -112,8 +168,12 @@ h6 {
     color: white!important;
 }
 
+.page-id-1572 .swmsc_events_box .swmsc_event_title a:hover {
+    color: #c536fd;
+}
 
-/***** bouton voir plus events à venir*****/
+
+/***** bouton voir plus events Ã  venir*****/
 
 .button-event-accueil a:hover {
     transition-duration: 0.8s;
@@ -122,7 +182,7 @@ h6 {
 }
 
 
-/******* event passés****/
+/******* event passÃ©s****/
 
 .accueil-past-event .swmsc_event_date {
     background: rgb(212, 64, 188)!important;
@@ -146,7 +206,7 @@ h6 {
 }*/
 
 
-/**** réseaux sociaux page accueil equipe******/
+/**** rÃ©seaux sociaux page accueil equipe******/
 
 
 /**** button voir plus page accueil notre equipe***/
@@ -185,7 +245,7 @@ h6 {
 }
 
 
-/****titre page accueil notre équipe***/
+/****titre page accueil notre Ã©quipe***/
 
 .team-title,
 .chiffre-title {
@@ -200,7 +260,8 @@ h6 {
     background-color: #00000000;
 }
 
-.rs_splitted_chars {
+
+/*.rs_splitted_chars {
     transition-duration: 5s;
     transition-property: background-image;
     background-image: linear-gradient(to left, violet, indigo, #80004d);
@@ -208,10 +269,10 @@ h6 {
     -moz-background-clip: text!important;
     background-clip: text!important;
     color: transparent!important;
-}
+}*/
 
 
-/******** éclairage photo team page accueil*********************/
+/******** Ã©clairage photo team page accueil*********************/
 
 .swmsc_team_member_small_img {
     filter: grayscale(100%);
@@ -244,12 +305,12 @@ h6 {
 
 /****1er lettre paragraphes*****/
 
-.page-id-1901 .uscaps-left {
+.page-id-3133 .uscaps-left {
     background-color: #fcb54d!important;
     border-color: #fcb54d!important;
 }
 
-.page-id-1901 .uscaps-right {
+.page-id-3133 .uscaps-right {
     background-color: #ffe000!important;
     border-color: #ffe000!important;
 }
@@ -257,10 +318,30 @@ h6 {
 
 /********* barre vertical devant paragraphe****/
 
-.page-id-1901 .kidsworld_site_content blockquote {
+.page-id-3133 .kidsworld_site_content blockquote {
     border-color: #fdab4c!important;
 }
 
+.page-id-3133 .swmsc_button_div>a {
+    background-color: #fcb54d!important;
+    border-radius: 10px;
+    text-shadow: none!important;
+    border-color: #fcb54d!important;
+    transition-property: color background-color border-color;
+    transition-duration: 1s;
+}
+
+.page-id-3133 .swmsc_button_div>a:hover {
+    background-color: #6b6b6b!important;
+    color: #fcb54d!important;
+    border-color: #6b6b6b!important;
+}
+
+
+/******************** bouton voir C.a ancienne page***********/
+
+
+/*
 .button-team-us>a {
     background-color: #fcb54d!important;
     border-radius: 10px;
@@ -274,15 +355,15 @@ h6 {
     background-color: #6b6b6b!important;
     color: #fcb54d!important;
     border-color: #6b6b6b!important;
-}
+}*/
 
-.page-id-1901 .wpb_content_element .paragraph a {
+.page-id-3133 .wpb_content_element .paragraph a {
     color: #fcb54d!important;
     transition-property: color;
     transition-duration: 1s;
 }
 
-.page-id-1901 .wpb_content_element .paragraph a:hover {
+.page-id-3133 .wpb_content_element .paragraph a:hover {
     color: #3654fd!important;
 }
 
@@ -299,7 +380,7 @@ h6 {
 */
 
 
-/******* dropcaps salariées******/
+/******* dropcaps salariÃ©es******/
 
 .kim-dropcaps {
     background-color: rgb(255, 196, 0)!important;
@@ -358,6 +439,16 @@ h6 {
     border-color: #ff848e!important;
 }
 
+.page-id-2194 .swmsc_container .wpb_text_column a {
+    color: #ff8484;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+
+.page-id-2194 .swmsc_container .wpb_text_column a:hover {
+    color: #3654fd;
+}
+
 .box-garde .swmsc_button_div .swmsc_button {
     background: #716f70!important;
     text-shadow: none!important;
@@ -371,9 +462,22 @@ h6 {
     text-shadow: none!important;
 }
 
+.page-id-2194 .swmsc_text_block a {
+    color: #6F6F71;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+
+.page-id-2194 .swmsc_text_block a:hover {
+    color: #ff8484;
+}
+
+
+/*
 .link-guichet .ng-attr-widget a:hover {
     color: #ff8484;
 }
+*/
 
 .price-table-guichet .swmsc_pt_price {
     width: 150px;
@@ -551,6 +655,18 @@ a.accordion-link:hover {
     border-color: #fc0707!important;
 }
 
+.page-id-2426 .swmsc_tabs a {
+    color: #fd4e4e;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+
+.page-id-2426 .swmsc_tabs a:hover {
+    color: #3654fd;
+}
+
+
+/*
 .page-id-2426 .tab-formation {
     color: #fd4e4e!important;
 }
@@ -558,7 +674,7 @@ a.accordion-link:hover {
 .page-id-2426 .tab-formation:hover {
     transition-duration: 1s;
     color: #3654fd!important;
-}
+}*/
 
 
 /*** event upcoming-formation****/
@@ -581,6 +697,20 @@ a.accordion-link:hover {
 .page-id-2426 .event-past-formation .swmsc_event_time {
     background: rgb(177, 45, 45);
     color: white;
+}
+
+.page-id-2426 .swmsc_events_box .swmsc_event_title a:hover {
+    color: #fd3636;
+}
+
+.page-id-2426 .vc_column-inner .swmsc_text_block a {
+    color: #fd4e4e;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+
+.page-id-2426 .vc_column-inner .swmsc_text_block a:hover {
+    color: #3654fd;
 }
 
 .button-formation-contact {
@@ -623,7 +753,7 @@ a.accordion-link:hover {
 }
 
 
-/****formulaire contact page bibliothéque****/
+/****formulaire contact page bibliothÃ©que****/
 
 .page-id-1757 .wpcf7-form-control-wrap .wpcf7-form-control:focus {
     /* border-color: purple;*/
@@ -631,7 +761,7 @@ a.accordion-link:hover {
 }
 
 
-/*** bouton envoyer form bibliothéque***/
+/*** bouton envoyer form bibliothÃ©que***/
 
 .page-id-1757 .wpcf7-submit {
     background: rgba(248, 248, 2, 0.685);
@@ -660,6 +790,33 @@ a.accordion-link:hover {
 
 .post-type-archive-product .page-numbers .current>a:hover {
     background: yellow!important;
+}
+
+.page-id-1757 .swmsc_text_block a {
+    transition-duration: 0.8s;
+    color: rgba(235, 203, 21, 0.829);
+}
+
+.page-id-1757 .swmsc_text_block a:hover {
+    transition-duration: 0.8s;
+    color: #3654fd;
+}
+
+.page-id-1757 #sidebar {
+    height: 100vh;
+    margin-top: 40px;
+}
+
+.page-id-1757 #custom_html-2 {
+    position: sticky!important;
+    top: 24%;
+}
+
+
+/********** modifiaction taille pour reglage forn contact sibe bar***/
+
+.page-id-1757 .kidsworld_portfolio_thumb_img {
+    width: 50%;
 }
 
 
@@ -788,20 +945,23 @@ a.accordion-link:hover {
     display: none;
 }
 
-.kidsworld_cotact_footer {
+
+/*.kidsworld_cotact_footer {
     transition-property: background-image!important;
     -moz-background-clip: text!important;
     background-clip: text!important;
     color: transparent!important;
 }
+*/
 
 
 /***footer page accueil****/
 
 .page-id-1572 .kidsworld_cotact_footer {
+    /* background: linear-gradient(to left, blue 10%, blue 90%);*/
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    background: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
     /*-webkit-background-clip: text!important;*/
     /*-moz-background-clip: text!important;
     background-clip: text!important;
@@ -811,7 +971,7 @@ a.accordion-link:hover {
 .postid-1934 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    background: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
     /*-webkit-background-clip: text!important;*/
     /*-moz-background-clip: text!important;
     background-clip: text!important;
@@ -821,7 +981,7 @@ a.accordion-link:hover {
 .single-post .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    background: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
     /*-webkit-background-clip: text!important;*/
     /*-moz-background-clip: text!important;
     background-clip: text!important;
@@ -831,10 +991,10 @@ a.accordion-link:hover {
 
 /***footer page qui sommes nous****/
 
-.page-id-1901 .kidsworld_cotact_footer {
+.page-id-3133 .kidsworld_cotact_footer {
     /* transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, rgb(252, 231, 193), orange, rgb(252, 231, 193))!important;
+    background: linear-gradient(to left, rgb(252, 231, 193), orange, rgb(252, 231, 193))!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -842,12 +1002,12 @@ a.accordion-link:hover {
 }
 
 
-/**** footer page Notre équipe*****/
+/**** footer page Notre Ã©quipe*****/
 
 .page-id-2031 .kidsworld_cotact_footer {
     /* transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, rgb(252, 231, 193), orange, rgb(252, 231, 193))!important;
+    background: linear-gradient(to left, rgb(252, 231, 193), orange, rgb(252, 231, 193))!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -860,7 +1020,7 @@ a.accordion-link:hover {
 .page-id-2194 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, pink, rgb(218, 61, 218), pink)!important;
+    background: linear-gradient(to left, pink, rgb(218, 61, 218), pink)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -873,7 +1033,7 @@ a.accordion-link:hover {
 .page-id-2061 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #b6ffb3, #0acc00, #b6ffb3)!important;
+    background: linear-gradient(to left, #b6ffb3, #0acc00, #b6ffb3)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -881,12 +1041,12 @@ a.accordion-link:hover {
 }
 
 
-/************* footer page animation*****temps collectif***activité parents*******/
+/************* footer page animation*****temps collectif***activitÃ© parents*******/
 
 .page-id-2540 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
+    background: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -899,7 +1059,7 @@ a.accordion-link:hover {
 .page-id-2544 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
+    background: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -912,7 +1072,7 @@ a.accordion-link:hover {
 .page-id-1722 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
+    background: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -925,7 +1085,7 @@ a.accordion-link:hover {
 .page-id-2426 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #fe8181, #fc0707, #fe8181)!important;
+    background: linear-gradient(to left, #fe8181, #fc0707, #fe8181)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -938,7 +1098,7 @@ a.accordion-link:hover {
 .page-id-1722 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
+    background: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -946,12 +1106,12 @@ a.accordion-link:hover {
 }
 
 
-/******footer bibliothéque*****/
+/******footer bibliothÃ©que*****/
 
 .page-id-1757 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
-    /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
+    /* transition-property: background!important;*/
+    background: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -960,8 +1120,8 @@ a.accordion-link:hover {
 
 .post-type-archive-product .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
-    /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
+    /* transition-property: background!important;*/
+    background: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;
@@ -973,8 +1133,8 @@ a.accordion-link:hover {
 
 .page-id-1706 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
-    /* transition-property: background-image!important;*/
-    background-image: linear-gradient(to left, rgb(86, 219, 252), rgb(47, 103, 255), rgb(86, 219, 252))!important;
+    /* transition-property: background!important;*/
+    background: linear-gradient(to left, rgb(86, 219, 252), rgb(47, 103, 255), rgb(86, 219, 252))!important;
     /*-webkit-background-clip: text!important;*/
     /* -moz-background-clip: text!important;
     background-clip: text!important;

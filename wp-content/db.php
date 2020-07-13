@@ -1,0 +1,1 @@
+C:/wamp64/www/relais-gamin-gamine/wp-content/plugins/query-monitor/wp-content/db.php

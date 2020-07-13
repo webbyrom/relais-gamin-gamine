@@ -1,104 +1,126 @@
-.page-id-1901 .title {
-    position: relative!important;
-    text-align: center!important;
-}
-
-h2 .carte-title {
-    color: darkmagenta;
-    font-size: 35px;
-}
-
-.plugin-map {
-    overflow: hidden;
-    display: flex;
-}
-
-.map-image {
-    width: 35%;
-    height: 100%;
-    float: left;
-}
-
-.map-image a {
-    fill: rgb(198, 198, 209);
-    stroke: rgb(113, 43, 141);
-    stroke-width: 2px;
-    /*transition: fill 0.3s;*/
-}
-
-.map-image a.is-active>.gamine-color {
-    fill: rgb(193, 16, 199);
-    transition-duration: 0.3s;
-}
-
-.map-image a.is-active>.gamin-color {
-    fill: rgb(25, 0, 255);
-    transition-duration: 0.3s;
-}
-
-.list-map {
-    width: 20%;
-    height: 50%;
-    line-height: 18px;
-    /* float: right;*/
-    font-size: 16px;
-    /* color: darkslategrey!important;*/
-}
-
-.list-city {
-    list-style: none!important;
-    text-align: center;
-}
-
-li a {
-    text-decoration-line: none;
-    color: #6F6F71!important;
-    cursor: pointer;
-}
-
-.list-gamine>a.is-active {
-    color: rgb(248, 17, 210)!important;
-    transition-duration: 0.5s;
-    font-size: 20px!important;
-}
-
-.list-gamin>a.is-active {
-    color: rgb(25, 0, 255)!important;
-    transition-duration: 0.5s;
-    font-size: 20px!important;
-}
-
-.test-tempsco {
-    width: 45%;
-}
-
-.test-tempsco a {
-    color: #6F6F71!important;
-}
-
-.test-tempsco>h5 {
-    text-align: center;
-}
-
-.tempco-affiche {
-    text-align: center;
-}
-
-.tempco-affiche>a {
-    display: none!important;
-}
-
-.tempco-affiche>a.is-active {
-    display: flex!important;
-    justify-content: center!important;
-    line-height: 25px;
-    flex-direction: column!important;
-}
-
-.tempco-gamin {
-    color: rgb(25, 0, 255)!important;
-}
-
-.tempco-gamine {
-    color: rgb(248, 17, 210)!important;
-}
+    .page-id-3133 .title {
+        position: relative!important;
+        text-align: center!important;
+    }
+    
+    h2 .carte-title {
+        color: darkmagenta;
+        font-size: 35px;
+    }
+    
+    .plugin-map {
+        overflow: hidden;
+        display: flex;
+    }
+    
+    .map-image {
+        width: 35%;
+        height: 100%;
+        float: left;
+    }
+    
+    .map-image a {
+        fill: rgb(198, 198, 209);
+        stroke: rgb(113, 43, 141);
+        stroke-width: 2px;
+        /*transition: fill 0.3s;*/
+    }
+    
+    .map-image a.is-active>.gamine-color {
+        fill: rgb(193, 16, 199);
+        transition-duration: 0.3s;
+    }
+    
+    .map-image a.is-active>.gamin-color {
+        fill: rgb(25, 0, 255);
+        transition-duration: 0.3s;
+    }
+    
+    .list-map {
+        width: 20%;
+        height: 50%;
+        line-height: 18px;
+        /* float: right;*/
+        font-size: 16px;
+        /* color: darkslategrey!important;*/
+    }
+    
+    .list-city {
+        list-style: none!important;
+        text-align: center;
+    }
+    
+    .page-id-1901 li a {
+        text-decoration-line: none;
+        color: #6F6F71;
+        cursor: pointer;
+    }
+    
+    .list-gamine>a.is-active {
+        color: rgb(248, 17, 210)!important;
+        transition-duration: 0.5s;
+        font-size: 20px!important;
+    }
+    
+    .list-gamin>a.is-active {
+        color: rgb(25, 0, 255)!important;
+        transition-duration: 0.5s;
+        font-size: 20px!important;
+    }
+    
+    .test-tempsco {
+        width: 45%;
+    }
+    
+    .test-tempsco a {
+        color: #6F6F71!important;
+    }
+    
+    .test-tempsco>h5 {
+        text-align: center;
+    }
+    
+    .tempco-affiche {
+        text-align: center;
+    }
+    
+    .tempco-affiche>a {
+        display: none!important;
+    }
+    
+    .tempco-affiche>a.is-active {
+        display: flex!important;
+        justify-content: center!important;
+        line-height: 25px;
+        flex-direction: column!important;
+    }
+    
+    .tempco-gamin {
+        color: rgb(25, 0, 255)!important;
+    }
+    
+    .tempco-gamine {
+        color: rgb(248, 17, 210)!important;
+    }
+    /*****************Responsive carte****************/
+    /*************** breakpoint  1280px************/
+    
+    @media screen and (max-width:960px) {
+        .plugin-map {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .map-image {
+            width: 100%;
+        }
+        .list-map {
+            width: 100%;
+        }
+        .list-city {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .test-tempsco {
+            width: 100%;
+        }
+    }
