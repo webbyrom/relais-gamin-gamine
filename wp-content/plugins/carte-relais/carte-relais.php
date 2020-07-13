@@ -389,6 +389,7 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-A">
                     <span>Brussieu</span>
+                    <span>19 assistants maternels.</span>
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>Maison de la Nature</span>
@@ -398,6 +399,7 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-B">
                     <span>Brullioles</span>
+                    <span>11 assistants maternels.</span>
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>Multi Accueil "Les lutins du Pothu"</span>
@@ -408,6 +410,7 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-C">
                     <span>Montrottier</span>
+                    <span>3 assistants maternels</span>
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Multi Accueil "La Farandole"</span>
@@ -418,7 +421,9 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-D">
                     <span>Longessaigne</span>
+                    <span>6 assistants maternels.</span>
                     <span>de 8h30 à 11h30</span>
+                    <span>Selon planning</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMINE-sf-e1592734332339.png"</span>
                 </a>
@@ -426,7 +431,9 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-E">
                     <span>Villecheneve</span>
+                    <span>11 asistants maternels.</span>
                     <span>de 8h30 à 11h30</span>
+                    <span> Selon Planning
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Salle de la Poste</span>
                     <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMINE-sf-e1592734332339.png"</span>
@@ -435,19 +442,23 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-F">
                     <span>Chambost-Longessaigne</span>
-                    <span>Pas de Temps Collectifs</span>
+                    <span>8 assistants maternels.</span>
+                    <span>Prochainement un temps collectif!!</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-G">
                     <span>Saint Clément les Places</span>
+                    <span>6 assistants maternels.</span>
                     <span>Pas de Temps Collectifs </span>
                </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-H">
                     <span>Meys</span>
+                    <span>9 assistants maternels.</span>
                     <span>de 8h30 à 11h30</span>
+                    <span> Selon Planning</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>7 Place Mangini</span>
                     <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMIN-sf-e1592734312793.png"</span>
@@ -456,7 +467,8 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-I">
                     <span>Haute-Rivoire</span>
-                    <span>de 8h30 à 11h30</span>
+                    <span>15 assistants maternels.</span>
+                    <span>de 8h45 à 11h45</span>
                     <span class="tempco-gamin" >Relais Le Gamin</span>
                     <span>Garderie Périscolaire</span>
                     <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMIN-sf-e1592734312793.png"</span>
@@ -465,13 +477,17 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-J">
                     <span>Les Halles</span>
+                    <span>4 assistants maternels.</span>
                     <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-K">
                     <span>Saint Laurent de Chamousset</span>
+                    <span>23 assistants maternels.</span>
+                    <span> Les Mardis et Jeudis</span>
                     <span>de 8h30 à 11h30</span>
+                    <span> Selon Planning</span>
                     <span class="tempco-gamin">Relais Le Gamin</span><span> &</span><span class="tempco-gamine"> La Gamine</span>
                     <span>Espace Juge Pascal</span>
                     <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/04/GAMINGAMINE-sf-e1590483952736.png"</span>
@@ -480,12 +496,14 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-L">
                     <span>Souzy</span>
+                    <span>6 assistants maternels</span>
                     <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-M">
                     <span>Sainte-Foy l\'Argentiere</span>
+                    <span>12 assistants maternels.</span>
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Maison au-dessus de l\'école public</span>
@@ -495,12 +513,14 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-N">
                     <span>Saint genis l\'argentiere</span>
+                    <span>6 assistants maternels.</span>
                     <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-O">
                     <span>Montromant</span>
+                    <span>3 assistants maternels</span>
                     <span>Pas de Temps Collectifs</span>
                 </a>
             </p>
