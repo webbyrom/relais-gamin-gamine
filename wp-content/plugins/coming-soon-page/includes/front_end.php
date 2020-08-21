@@ -127,10 +127,17 @@ class coming_soon_front_end{
 	/*############################################# Except Pages/Posts and Ips Function #################################################*/	
 
 	private function is_in_except(){
+		$only_for_home=false;
 		$ips=json_decode(stripslashes($this->params['coming_soon_page_showed_ips']), true);
 		if(!$ips)
 			$ips=array();
-		$in_list = in_array($this->get_real_ip(), $ips) && 1;	
+		
+		if($this->params['coming_soon_enable_only_for_home']=='1'){
+			if(is_front_page() || is_home()){
+				$only_for_home=true;
+			}
+		}
+		$in_list = in_array($this->get_real_ip(), $ips) || $only_for_home;	
 		if($in_list)
 			return true;
 		return false;

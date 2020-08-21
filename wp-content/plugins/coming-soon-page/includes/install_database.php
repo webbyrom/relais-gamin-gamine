@@ -29,6 +29,7 @@ class install_database{
 			),
 			"except_page"=>array(
 				"coming_soon_page_showed_ips"			 => "",
+				"coming_soon_enable_only_for_home"		 => "0",
 			),
 			"coming_logo"=>array(
 				"coming_soon_page_page_logo" 				=> $this->plugin_url.'images/template1/logo.png',

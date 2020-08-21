@@ -1528,7 +1528,18 @@ class coming_soon_admin_menu{
 						<td>
 							 <input type="hidden" value="" id="coming_soon_page_showed_urls" name="coming_soon_page_showed_urls"> <div class="emelent_coming_soon_page_showed_urls"> <input class="pro_input" type="text" placeholder="Type Url Here" value=""><span class="remove_element remove_element_coming_soon_page_showed_urls"></span>  </div>
 						</td>                
-					</tr>                           
+					</tr> 
+					<tr>
+						<td>
+							Enable only for Homepage <span title="Disable coming soon for all pages except Homepage" class="desription_class">?</span>
+						</td>
+						<td>
+							 <select id="coming_soon_enable_only_for_home">
+                                <option <?php selected($page_parametrs['coming_soon_enable_only_for_home'],'1') ?> value="1">Enable</option>
+                                <option <?php selected($page_parametrs['coming_soon_enable_only_for_home'],'0') ?> value="0">Disable</option>
+                        	</select>
+						</td>                
+					</tr>
 				</tbody>
 					<tfoot>
 						<tr>

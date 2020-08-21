@@ -410,7 +410,7 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-C">
                     <span>Montrottier</span>
-                    <span>3 assistants maternels</span>
+                    <span>9 assistants maternels</span>
                     <span>de 8h30 à 11h30</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Multi Accueil "La Farandole"</span>
@@ -431,9 +431,9 @@ class carte_relais
             <p class="tempco-affiche show-txet">
                 <a id="tempsco-E">
                     <span>Villecheneve</span>
-                    <span>11 asistants maternels.</span>
+                    <span>11 assistants maternels.</span>
                     <span>de 8h30 à 11h30</span>
-                    <span> Selon Planning
+                    <span> Selon Planning</span>
                     <span class="tempco-gamine">Relais La Gamine</span>
                     <span>Salle de la Poste</span>
                     <span><img src="http://www.prodsite.ovh.web-byrom.com/wp-content/uploads/2020/06/GAMINE-sf-e1592734332339.png"</span>

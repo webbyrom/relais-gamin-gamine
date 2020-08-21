@@ -89,12 +89,15 @@ Version: 		1.00
     color: transparent!important;
 }
 
-#page_body .kidsworld_sub_header .kidsworld_css_transition {
+
+/*#page_body .kidsworld_sub_header .kidsworld_css_transition {
     background-color: #0000002e;
     border-radius: 20px;
     width: max-content;
     padding: 15px;
 }
+// rond gris sur img background a remettre si titre sur image
+*/
 
 #page_body,
 h2,
@@ -114,6 +117,14 @@ h6 {
     -moz-background-clip: text!important;
     background-clip: text!important;
     color: transparent!important;
+}
+
+
+/**** suppression d'ajout au panier sur toutes les pages**********/
+
+#page_body .kidsworld_woo_add_to_cart,
+.cart>.single_add_to_cart_button {
+    display: none;
 }
 
 
@@ -297,6 +308,68 @@ h6 {
 #kidsworld_go_top_scroll_btn:hover {
     background: black!important;
     color: white!important;
+}
+
+
+/********* events liés a la page accueil******/
+
+.postid-1422 .kidsworld_event_dt_title {
+    color: #a4a4a7;
+}
+
+.postid-1422 .kidsworld_event_orgbox_title {
+    background: #80004d;
+    color: #a4a4a7;
+}
+
+.postid-1422 .kidsworld_event_orgbox_meta_text li::before {
+    color: #80004d;
+}
+
+.postid-1422 .kidsworld_event_orgbox_meta_text a {
+    color: #b272decc!important;
+}
+
+.postid-1422 .kidsworld_event_orgbox_meta_text a:hover {
+    color: blue!important;
+    transition-duration: color 0.3s;
+}
+
+.postid-1422 .kidsworld_event_register_button a {
+    background: #8607b1;
+    color: #a4a4a7!important;
+}
+
+
+/********************** page evenement à venir ( lié a la page d'accueil*********/
+
+.page-id-2585 .kidsworld_column_gap .kidsworld_event_grid_content_wrap .kidsworld_event_date {
+    background: #d8008c80;
+}
+
+.page-id-2585 .kidsworld_column_gap .kidsworld_event_grid_content_wrap .kidsworld_event_time {
+    background: #fc28ff85;
+}
+
+
+/************************* page évenement passés ( lié a la page d'accueil*********/
+
+.page-id-2589 .kidsworld_column_gap .kidsworld_event_grid_content_wrap .kidsworld_event_date {
+    background: #d8008c80;
+}
+
+.page-id-2589 .kidsworld_column_gap .kidsworld_event_grid_content_wrap .kidsworld_event_time {
+    background: #fc28ff85;
+}
+
+.page-id-2589 .kidsworld_event_grid_content_wrap a {
+    transition-property: color;
+    transition-duration: 0.3s;
+    color: #c538f4!important;
+}
+
+.page-id-2589 .kidsworld_event_grid_content_wrap a:hover {
+    color: #3654fd!important;
 }
 
 
@@ -541,6 +614,22 @@ a.accordion-link:hover {
     color: #3654fd!important;
     transition-duration: 1s;
 }
+
+.page-id-3212 .kidsworld_main_container>.vc_row a {
+    color: #0cff00!important;
+}
+
+.page-id-3212 .kidsworld_main_container>.vc_row a:hover {
+    color: #3654fd!important;
+    transition-duration: 1s;
+}
+
+
+/*
+.page-id-3212 .kidsworld_main_container>.vc_row a {
+    color: #0cff00!important;
+}
+*/
 
 
 /*
@@ -813,7 +902,15 @@ a.accordion-link:hover {
 }
 
 
-/********** modifiaction taille pour reglage forn contact sibe bar***/
+/************************************** page shop************************************************/
+
+.post-type-archive-product .kidsworld_widget_box {
+    position: sticky!important;
+    top: 24%;
+}
+
+
+/********** modifiaction taille pour reglage form contact sibe bar***/
 
 .page-id-1757 .kidsworld_portfolio_thumb_img {
     width: 50%;
@@ -968,6 +1065,32 @@ a.accordion-link:hover {
     color: transparent!important;*/
 }
 
+
+/******** footer evenement à venir****/
+
+.page-id-2585 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    /*-webkit-background-clip: text!important;*/
+    /*-moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
+/****** footer evénement passés*******************/
+
+.page-id-2589 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    /*-webkit-background-clip: text!important;*/
+    /*-moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
 .postid-1934 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
@@ -979,6 +1102,16 @@ a.accordion-link:hover {
 }
 
 .single-post .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
+    /*-webkit-background-clip: text!important;*/
+    /*-moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+.postid-1422 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
     background: linear-gradient(to left, rgb(228, 135, 228), rgb(105, 53, 168), rgb(228, 135, 228))!important;
@@ -1041,6 +1174,19 @@ a.accordion-link:hover {
 }
 
 
+/***** footer page MAM ******/
+
+.page-id-3212 .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background-image!important;*/
+    background: linear-gradient(to left, #b6ffb3, #0acc00, #b6ffb3)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+
 /************* footer page animation*****temps collectif***activitÃ© parents*******/
 
 .page-id-2540 .kidsworld_cotact_footer {
@@ -1069,7 +1215,7 @@ a.accordion-link:hover {
 
 /********* footer activite parents*****/
 
-.page-id-1722 .kidsworld_cotact_footer {
+.page-id-2536 .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background-image!important;*/
     background: linear-gradient(to left, #b4bafd, #1b2ef9, #b4bafd)!important;
@@ -1119,6 +1265,16 @@ a.accordion-link:hover {
 }
 
 .post-type-archive-product .kidsworld_cotact_footer {
+    /*transition-duration: 5s;*/
+    /* transition-property: background!important;*/
+    background: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
+    /*-webkit-background-clip: text!important;*/
+    /* -moz-background-clip: text!important;
+    background-clip: text!important;
+    color: transparent!important;*/
+}
+
+.single-product .kidsworld_cotact_footer {
     /*transition-duration: 5s;*/
     /* transition-property: background!important;*/
     background: linear-gradient(to left, #fff799, #f4e000, #fff799)!important;
